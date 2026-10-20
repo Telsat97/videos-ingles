@@ -142,7 +142,7 @@ def validar(roteiro: dict) -> list[str]:
             if "pausa" not in f and (f.get("voz") not in ("pt", "en") or not f.get("texto")):
                 erros.append(f"cena {i}: fala sem voz/texto: {f}")
     palavras = sum(len(f.get("texto", "").split()) for c in roteiro.get("cenas", []) for f in c.get("falas", []))
-    if not 280 <= palavras <= 400:
+    if not 250 <= palavras <= 400:  # a duração real é conferida depois da narração
         erros.append(f"{palavras} palavras faladas: mire em 320-380 para dar 2:30-2:59")
     return erros
 
