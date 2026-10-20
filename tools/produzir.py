@@ -101,7 +101,7 @@ def main() -> None:
     if "--sem-render" not in sys.argv:
         subprocess.run(
             [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}", str(mp4),
-             "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error"],
+             "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", "--concurrency=4"],
             cwd=RAIZ, check=True,
         )
         dur = float(subprocess.run(
@@ -112,7 +112,7 @@ def main() -> None:
         if "--horizontal" in sys.argv:  # versão 16:9 para o YouTube tradicional
             subprocess.run(
                 [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}-h", str(saida / f"{roteiro['slug']}-16x9.mp4"),
-                 "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error"],
+                 "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", "--concurrency=4"],
                 cwd=RAIZ, check=True,
             )
     print(mp4.relative_to(RAIZ).as_posix())
