@@ -13,3 +13,6 @@ projetos/000. exemplo/**/*.mov
 .claude/skills/
 .claude/settings.local.json
 skills-lock.json
+
+# Gravações originais do apresentador (grandes, ficam só no PC)
+serie-ingles/gravacoes/originais/
