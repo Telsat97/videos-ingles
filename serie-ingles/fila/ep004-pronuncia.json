@@ -1,0 +1,388 @@
+{
+  "slug": "ep004-pronuncia",
+  "episodio": 4,
+  "titulo": "5 palavras que o brasileiro pronuncia errado em inglês",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "Você fala ERRADO essas 5 palavras em inglês 😬 (comfortable?)",
+    "descricao": "Aprenda a pronunciar comfortable, vegetable, clothes, chocolate e recipe do jeito dos americanos, com o som escrito em português. Tem desafio no final! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#pronuncia",
+      "#dicasdeingles",
+      "#inglesfacil",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "PRONÚNCIA",
+        "5 palavras que você",
+        "fala ERRADO"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Você sabe falar “confortável” em inglês? Quase todo brasileiro erra!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu te ensino a falar cinco palavras do jeito do americano, sem passar vergonha. O som aparece escrito na tela, em português."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio, e é bem fácil!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "com-for-tá-bou",
+      "dica": "são só 3 sílabas: câmf-ter-bou",
+      "rotulo": "PRONÚNCIA",
+      "pronuncia": "câmf-ter-bou",
+      "certo": "comfortable",
+      "exemplo": {
+        "en": "This bed is very comfortable.",
+        "pt": "Esta cama é muito confortável."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número um. Confortável. O brasileiro costuma falar assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Só que em inglês a palavra é bem mais curta. As letras o e r quase somem, e o som aparece na tela.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta a nativa:"
+        },
+        {
+          "voz": "en",
+          "texto": "Comfortable.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora numa frase:"
+        },
+        {
+          "voz": "en",
+          "texto": "This bed is very comfortable.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Esta cama é muito confortável. Repete mais uma vez, devagarinho!"
+        }
+      ],
+      "imagem": "🛋️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "ve-ge-tá-bou",
+      "dica": "são só 3 sílabas: védj-tê-bou",
+      "rotulo": "PRONÚNCIA",
+      "pronuncia": "VÉDJ-tê-bou",
+      "certo": "vegetable",
+      "exemplo": {
+        "en": "I eat vegetables every day.",
+        "pt": "Eu como legumes e verduras todo dia."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número dois. Legume ou verdura. Quase todo mundo fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas o americano engole uma sílaba e a palavra fica curtinha. Olha o som na tela.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta:"
+        },
+        {
+          "voz": "en",
+          "texto": "Vegetable.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E numa frase:"
+        },
+        {
+          "voz": "en",
+          "texto": "I eat vegetables every day.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu como legumes e verduras todo dia. Repete mais uma vez, devagarinho!"
+        }
+      ],
+      "imagem": "🥦"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "clô-tes",
+      "dica": "o th é suave e o final soa como z",
+      "rotulo": "PRONÚNCIA",
+      "pronuncia": "clôuz",
+      "certo": "clothes",
+      "exemplo": {
+        "en": "I need new clothes.",
+        "pt": "Eu preciso de roupas novas."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número três. Roupas. Essa é a pegadinha do th. Muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é mais simples: o th quase não aparece, e o final soa como z.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta:"
+        },
+        {
+          "voz": "en",
+          "texto": "Clothes.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora na frase:"
+        },
+        {
+          "voz": "en",
+          "texto": "I need new clothes.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu preciso de roupas novas. Repete mais uma vez, devagarinho!"
+        }
+      ],
+      "imagem": "👕"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "xo-co-lá-te",
+      "dica": "são só 2 sílabas: tchók-let",
+      "rotulo": "PRONÚNCIA",
+      "pronuncia": "TCHÓK-let",
+      "certo": "chocolate",
+      "exemplo": {
+        "en": "I love hot chocolate.",
+        "pt": "Eu adoro chocolate quente."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número quatro. Chocolate, uma palavra que todo mundo ama! Mas em inglês não se fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Lá são só duas sílabas, com força no começo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta:"
+        },
+        {
+          "voz": "en",
+          "texto": "Chocolate.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E agora a frase:"
+        },
+        {
+          "voz": "en",
+          "texto": "I love hot chocolate.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu adoro chocolate quente. Repete mais uma vez, devagarinho!"
+        }
+      ],
+      "imagem": "🍫"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "re-cai-pi",
+      "dica": "a força está no começo: ré-sa-pi",
+      "rotulo": "PRONÚNCIA",
+      "pronuncia": "RÉ-sa-pi",
+      "certo": "recipe",
+      "exemplo": {
+        "en": "Can I have the recipe?",
+        "pt": "Posso ficar com a receita?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número cinco. Receita. O brasileiro olha aquele i e e no final e fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas o som termina em pi, com força no começo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta:"
+        },
+        {
+          "voz": "en",
+          "texto": "Recipe.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora a frase:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I have the recipe?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Posso ficar com a receita? Repete mais uma vez, devagarinho!"
+        }
+      ],
+      "imagem": "📖"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Quantas sílabas tem “vegetable” na fala do americano?",
+      "opcoes": [
+        "Quatro",
+        "Três",
+        "Cinco"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Quantas sílabas tem a palavra vegetable na fala do americano?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B, três sílabas!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Vegetable. Three syllables."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual dessas palavras você falava errado?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "🔊",
+    "👄",
+    "🗣️",
+    "🎧"
+  ]
+}

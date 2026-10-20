@@ -1,0 +1,392 @@
+{
+  "slug": "ep002-falsos-amigos",
+  "episodio": 2,
+  "titulo": "5 falsos amigos do inglês que enganam todo brasileiro",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "Parents NÃO é parentes! 😱 5 falsos amigos do inglês",
+    "descricao": "Cinco palavras que parecem português mas têm outro significado: parents, push, library, college e exquisite. No final tem um desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#falsosamigos",
+      "#dicasdeingles",
+      "#inglesfacil",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "FALSOS",
+        "AMIGOS do inglês",
+        "que enganam você"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Parents não é parentes! Calma, você não está sozinho.",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu mostro cinco falsos amigos: palavras em inglês que parecem português, mas enganam."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "parents = parentes",
+      "dica": "parents = pais 👨‍👩‍👧 · parente = relative",
+      "rotulo": "FALSO AMIGO",
+      "certo": "Parents = pais",
+      "exemplo": {
+        "en": "My parents live in Chicago.",
+        "pt": "Meus pais moram em Chicago."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente lê a palavra parents assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas parents quer dizer pai e mãe, os dois juntos. Parente de família é relative.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Parents. Mom and dad.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "My parents live in Chicago.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Meus pais moram em Chicago. Bem fácil, né?"
+        }
+      ],
+      "imagem": "👨‍👩‍👧"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "push = puxar",
+      "dica": "push = empurrar · puxar = pull",
+      "rotulo": "FALSO AMIGO",
+      "certo": "Push = empurrar",
+      "exemplo": {
+        "en": "Please push the door.",
+        "pt": "Por favor, empurre a porta."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número dois. Já viu a palavra push numa porta?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Parece puxe, né? Quem entende assim acaba puxando quando era pra empurrar!",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Push quer dizer empurrar. Puxar é pull.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Push.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Olha o exemplo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Please push the door.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Por favor, empurre a porta."
+        }
+      ],
+      "imagem": "🚪"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "library = livraria",
+      "dica": "library = biblioteca 📚 · livraria = bookstore",
+      "rotulo": "FALSO AMIGO",
+      "certo": "Library = biblioteca",
+      "exemplo": {
+        "en": "I borrow books from the library.",
+        "pt": "Eu pego livros emprestados na biblioteca."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número três. Esse é clássico!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Library parece livraria, e muita gente entende assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas library é biblioteca, onde a gente empresta livros. Livraria, onde se compra, é bookstore.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Library.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I borrow books from the library.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu pego livros emprestados na biblioteca."
+        }
+      ],
+      "imagem": "📚"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "college = colégio",
+      "dica": "college = faculdade 🎓 · colégio = school",
+      "rotulo": "FALSO AMIGO",
+      "certo": "College = faculdade",
+      "exemplo": {
+        "en": "My sister is in college.",
+        "pt": "Minha irmã está na faculdade."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número quatro. Quem estuda inglês cai nessa direto!"
+        },
+        {
+          "voz": "pt",
+          "texto": "College parece colégio, e o brasileiro entende assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Só que college é faculdade. Colégio, a escola dos mais novos, é school.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "College.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora fala:"
+        },
+        {
+          "voz": "en",
+          "texto": "My sister is in college.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Minha irmã está na faculdade."
+        }
+      ],
+      "imagem": "🎓"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "exquisite = esquisito",
+      "dica": "exquisite = requintado ✨ (é elogio!)",
+      "rotulo": "FALSO AMIGO",
+      "certo": "Exquisite = requintado",
+      "exemplo": {
+        "en": "This cake is exquisite.",
+        "pt": "Este bolo é requintado."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número cinco, o mais engraçado!"
+        },
+        {
+          "voz": "en",
+          "texto": "Exquisite."
+        },
+        {
+          "voz": "pt",
+          "texto": "Parece esquisito, né? E olha o perigo de entender assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Se você diz que o bolo da sua tia é esquisito, ops! Mas aqui é elogio: quer dizer requintado, lindo, delicioso.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Exquisite.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Veja:"
+        },
+        {
+          "voz": "en",
+          "texto": "This cake is exquisite.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Este bolo é requintado. Um elogio e tanto, pode usar sem medo!"
+        }
+      ],
+      "imagem": "🍰"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "A porta diz “PUSH”. O que você faz?",
+      "opcoes": [
+        "Puxa",
+        "Empurra",
+        "Bate"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! A porta diz push. O que você faz?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B, empurra!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Push the door!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual falso amigo já te enganou?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "📚",
+    "🚪",
+    "🎓",
+    "👨‍👩‍👧",
+    "✨"
+  ]
+}

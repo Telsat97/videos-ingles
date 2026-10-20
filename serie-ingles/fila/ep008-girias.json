@@ -1,0 +1,353 @@
+{
+  "slug": "ep008-girias",
+  "episodio": 8,
+  "titulo": "5 gírias que os jovens americanos usam",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "5 GÍRIAS em inglês que os jovens americanos usam o tempo todo 😎",
+    "descricao": "Descubra o que significam no cap, lowkey, vibe, slay e bet, as gírias mais usadas pelos jovens nos Estados Unidos. No final tem um desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#girias",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#englishslang",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "GÍRIAS",
+        "que os jovens",
+        "americanos usam"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Seu filho ou seu neto fala “no cap” e você ficou boiando? Calma!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu explico cinco gírias que os jovens americanos usam todo dia, e todas servem pra qualquer idade."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final, porque tem um desafio pra você testar o que aprendeu!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "no cap = sem mentira, de verdade 🧢",
+      "rotulo": "GÍRIA",
+      "certo": "No cap, this pizza is amazing.",
+      "pronuncia": "NÔU kép",
+      "exemplo": {
+        "en": "No cap, that movie was great.",
+        "pt": "Sem mentira, aquele filme foi ótimo."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Primeira gíria: no cap."
+        },
+        {
+          "voz": "pt",
+          "texto": "Cap quer dizer mentira. Então no cap é sem mentira, é de verdade, pode acreditar.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "No cap, this pizza is amazing.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Os jovens falam isso o tempo todo, nas redes e na escola. Mais um exemplo:"
+        },
+        {
+          "voz": "en",
+          "texto": "No cap, that movie was great.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sem mentira, aquele filme foi ótimo."
+        }
+      ],
+      "imagem": "🧢"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "dica": "lowkey = meio que, no fundo 🤫",
+      "rotulo": "GÍRIA",
+      "certo": "I'm lowkey tired today.",
+      "pronuncia": "LÔU-ki",
+      "exemplo": {
+        "en": "I lowkey love this song.",
+        "pt": "No fundo, eu amo essa música."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Segunda gíria: lowkey."
+        },
+        {
+          "voz": "pt",
+          "texto": "Lowkey é um jeitinho de dizer um pouco, mais ou menos, ou no fundo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm lowkey tired today.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Dá pra usar em quase toda frase. Olha outro exemplo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I lowkey love this song.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "No fundo, eu amo essa música."
+        }
+      ],
+      "imagem": "🤫"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "vibe = clima, energia ✨",
+      "rotulo": "GÍRIA",
+      "certo": "I like the vibe here.",
+      "pronuncia": "vaib",
+      "exemplo": {
+        "en": "This place has a great vibe.",
+        "pt": "Esse lugar tem uma ótima vibe."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Terceira gíria: vibe. Essa você já deve conhecer!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Vibe é o clima, a energia de um lugar ou de uma pessoa.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "I like the vibe here.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Você vai ouvir muito essa por aí. Outro exemplo:"
+        },
+        {
+          "voz": "en",
+          "texto": "This place has a great vibe.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Esse lugar tem uma ótima vibe."
+        }
+      ],
+      "imagem": "✨"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "dica": "slay = arrasar 💅",
+      "rotulo": "GÍRIA",
+      "certo": "You did great today. Slay!",
+      "pronuncia": "sleî",
+      "exemplo": {
+        "en": "Her dress is amazing. She slayed!",
+        "pt": "O vestido dela é incrível. Ela arrasou!"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quarta gíria: slay."
+        },
+        {
+          "voz": "pt",
+          "texto": "Slay é arrasar. Você faz algo muito bem, e alguém te elogia assim.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "You did great today. Slay!",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "É a gíria mais animada de todas! No passado, vira slayed:"
+        },
+        {
+          "voz": "en",
+          "texto": "Her dress is amazing. She slayed!",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O vestido dela é incrível. Ela arrasou!"
+        }
+      ],
+      "imagem": "💅"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "bet = fechado, combinado 🤝",
+      "rotulo": "GÍRIA",
+      "certo": "Bet! See you at six.",
+      "pronuncia": "bét",
+      "exemplo": {
+        "en": "Dinner at seven? Bet.",
+        "pt": "Jantar às sete? Fechado."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quinta e última gíria: bet."
+        },
+        {
+          "voz": "pt",
+          "texto": "Bet é um fechado, combinado, pode deixar. É resposta curtinha pra aceitar um convite.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Bet! See you at six.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "É uma resposta rápida, bem de amigo. Olha numa conversa:"
+        },
+        {
+          "voz": "en",
+          "texto": "Dinner at seven? Bet.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Jantar às sete? Fechado."
+        }
+      ],
+      "imagem": "🤝"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "O que significa “no cap”?",
+      "opcoes": [
+        "Sem boné",
+        "Sem mentira",
+        "Sem tempo"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! O que significa no cap?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B! Sem mentira.",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "No cap. It means no lie."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual gíria você vai usar hoje?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "😎",
+    "🎧",
+    "📱",
+    "✨"
+  ]
+}

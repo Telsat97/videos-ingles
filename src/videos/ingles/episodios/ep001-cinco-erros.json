@@ -1,0 +1,2095 @@
+{
+ "slug": "ep001-cinco-erros",
+ "episodio": 1,
+ "titulo": "5 erros de inglês que todo brasileiro comete",
+ "duracao": 173.724,
+ "audio": "002. ingles-ep001-cinco-erros/audio/narracao.wav",
+ "fotos": [],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "5 ERROS",
+    "de inglês que todo",
+    "brasileiro comete"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Se você fala “I am agree”... calma, você não está sozinho!",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Se",
+       "s": 0.445,
+       "e": 0.627
+      },
+      {
+       "w": "você",
+       "s": 0.639,
+       "e": 0.889
+      },
+      {
+       "w": "fala",
+       "s": 0.9,
+       "e": 1.241
+      },
+      {
+       "w": "I",
+       "s": 1.252,
+       "e": 1.355
+      },
+      {
+       "w": "am",
+       "s": 1.366,
+       "e": 1.411
+      },
+      {
+       "w": "agree",
+       "s": 1.423,
+       "e": 1.832
+      },
+      {
+       "w": "calma",
+       "s": 1.991,
+       "e": 2.332
+      },
+      {
+       "w": "você",
+       "s": 2.593,
+       "e": 2.843
+      },
+      {
+       "w": "não",
+       "s": 2.855,
+       "e": 2.98
+      },
+      {
+       "w": "está",
+       "s": 2.991,
+       "e": 3.195
+      },
+      {
+       "w": "sozinho",
+       "s": 3.207,
+       "e": 3.786
+      }
+     ],
+     "fim": 4.794
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje eu vou te mostrar cinco erros que quase todo brasileiro comete, e como falar do jeito certo.",
+     "inicio": 4.794,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 4.889,
+       "e": 5.151
+      },
+      {
+       "w": "eu",
+       "s": 5.162,
+       "e": 5.23
+      },
+      {
+       "w": "vou",
+       "s": 5.242,
+       "e": 5.401
+      },
+      {
+       "w": "te",
+       "s": 5.412,
+       "e": 5.492
+      },
+      {
+       "w": "mostrar",
+       "s": 5.503,
+       "e": 5.878
+      },
+      {
+       "w": "cinco",
+       "s": 5.889,
+       "e": 6.253
+      },
+      {
+       "w": "erros",
+       "s": 6.264,
+       "e": 6.526
+      },
+      {
+       "w": "que",
+       "s": 6.537,
+       "e": 6.651
+      },
+      {
+       "w": "quase",
+       "s": 6.662,
+       "e": 7.037
+      },
+      {
+       "w": "todo",
+       "s": 7.049,
+       "e": 7.299
+      },
+      {
+       "w": "brasileiro",
+       "s": 7.31,
+       "e": 7.764
+      },
+      {
+       "w": "comete",
+       "s": 7.776,
+       "e": 8.253
+      },
+      {
+       "w": "e",
+       "s": 8.514,
+       "e": 8.594
+      },
+      {
+       "w": "como",
+       "s": 8.605,
+       "e": 8.867
+      },
+      {
+       "w": "falar",
+       "s": 8.878,
+       "e": 9.23
+      },
+      {
+       "w": "do",
+       "s": 9.242,
+       "e": 9.355
+      },
+      {
+       "w": "jeito",
+       "s": 9.367,
+       "e": 9.674
+      },
+      {
+       "w": "certo",
+       "s": 9.685,
+       "e": 10.105
+      }
+     ],
+     "fim": 11.11
+    },
+    {
+     "voz": "pt",
+     "texto": "E fica até o final: tem um desafio pra você!",
+     "inicio": 11.11,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 11.205,
+       "e": 11.319
+      },
+      {
+       "w": "fica",
+       "s": 11.33,
+       "e": 11.603
+      },
+      {
+       "w": "até",
+       "s": 11.615,
+       "e": 11.808
+      },
+      {
+       "w": "o",
+       "s": 11.819,
+       "e": 11.853
+      },
+      {
+       "w": "final",
+       "s": 11.865,
+       "e": 12.274
+      },
+      {
+       "w": "tem",
+       "s": 12.501,
+       "e": 12.637
+      },
+      {
+       "w": "um",
+       "s": 12.649,
+       "e": 12.74
+      },
+      {
+       "w": "desafio",
+       "s": 12.751,
+       "e": 13.228
+      },
+      {
+       "w": "pra",
+       "s": 13.24,
+       "e": 13.376
+      },
+      {
+       "w": "você",
+       "s": 13.387,
+       "e": 13.808
+      }
+     ],
+     "fim": 14.81
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 15.26
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "errado": "I am agree",
+   "dica": "agree já é verbo: não precisa do “am”",
+   "certo": "I agree",
+   "exemplo": {
+    "en": "I agree with you.",
+    "pt": "Eu concordo com você."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Erro número um.",
+     "inicio": 15.26,
+     "palavras": [
+      {
+       "w": "Erro",
+       "s": 15.355,
+       "e": 15.617
+      },
+      {
+       "w": "número",
+       "s": 15.628,
+       "e": 15.946
+      },
+      {
+       "w": "um",
+       "s": 15.958,
+       "e": 16.174
+      }
+     ],
+     "fim": 17.352
+    },
+    {
+     "voz": "pt",
+     "texto": "Muita gente fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 17.352,
+     "palavras": [
+      {
+       "w": "Muita",
+       "s": 17.447,
+       "e": 17.788
+      },
+      {
+       "w": "gente",
+       "s": 17.8,
+       "e": 18.095
+      },
+      {
+       "w": "fala",
+       "s": 18.107,
+       "e": 18.311
+      },
+      {
+       "w": "assim",
+       "s": 18.322,
+       "e": 18.652
+      }
+     ],
+     "fim": 19.66
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas agree já é verbo. Não precisa do am.",
+     "mostra": "dica",
+     "inicio": 19.66,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 19.755,
+       "e": 19.926
+      },
+      {
+       "w": "agree",
+       "s": 19.937,
+       "e": 20.403
+      },
+      {
+       "w": "já",
+       "s": 20.415,
+       "e": 20.585
+      },
+      {
+       "w": "é",
+       "s": 20.596,
+       "e": 20.665
+      },
+      {
+       "w": "verbo",
+       "s": 20.676,
+       "e": 21.062
+      },
+      {
+       "w": "Não",
+       "s": 21.842,
+       "e": 22.115
+      },
+      {
+       "w": "precisa",
+       "s": 22.126,
+       "e": 22.569
+      },
+      {
+       "w": "do",
+       "s": 22.58,
+       "e": 22.728
+      },
+      {
+       "w": "am",
+       "s": 22.74,
+       "e": 22.921
+      }
+     ],
+     "fim": 23.936
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é:",
+     "inicio": 23.936,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 24.031,
+       "e": 24.145
+      },
+      {
+       "w": "certo",
+       "s": 24.156,
+       "e": 24.656
+      },
+      {
+       "w": "é",
+       "s": 24.668,
+       "e": 24.872
+      }
+     ],
+     "fim": 26.028
+    },
+    {
+     "voz": "en",
+     "texto": "I agree.",
+     "mostra": "certo",
+     "inicio": 26.028,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 26.128,
+       "e": 26.384
+      },
+      {
+       "w": "agree",
+       "s": 26.398,
+       "e": 26.952
+      }
+     ],
+     "fim": 28.12
+    },
+    {
+     "voz": "pt",
+     "texto": "Repete comigo:",
+     "inicio": 28.12,
+     "palavras": [
+      {
+       "w": "Repete",
+       "s": 28.215,
+       "e": 28.727
+      },
+      {
+       "w": "comigo",
+       "s": 28.738,
+       "e": 29.147
+      }
+     ],
+     "fim": 30.212
+    },
+    {
+     "voz": "en",
+     "texto": "I agree with you.",
+     "mostra": "exemplo",
+     "inicio": 30.212,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 30.312,
+       "e": 30.582
+      },
+      {
+       "w": "agree",
+       "s": 30.596,
+       "e": 30.909
+      },
+      {
+       "w": "with",
+       "s": 30.923,
+       "e": 31.107
+      },
+      {
+       "w": "you",
+       "s": 31.122,
+       "e": 31.463
+      }
+     ],
+     "fim": 32.304
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 32.304,
+     "fim": 33.804
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu concordo com você. Fácil, né?",
+     "inicio": 33.804,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 33.899,
+       "e": 34.07
+      },
+      {
+       "w": "concordo",
+       "s": 34.081,
+       "e": 34.581
+      },
+      {
+       "w": "com",
+       "s": 34.593,
+       "e": 34.718
+      },
+      {
+       "w": "você",
+       "s": 34.729,
+       "e": 35.115
+      },
+      {
+       "w": "Fácil",
+       "s": 35.895,
+       "e": 36.429
+      },
+      {
+       "w": "né",
+       "s": 36.611,
+       "e": 36.918
+      }
+     ],
+     "fim": 37.936
+    }
+   ],
+   "inicio": 15.26,
+   "fim": 38.386
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "errado": "I have 20 years",
+   "dica": "Em inglês você não TEM idade: você É a idade",
+   "certo": "I am 20 years old",
+   "exemplo": {
+    "en": "I'm twenty.",
+    "pt": "Eu tenho vinte anos."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Erro número dois. Pra falar a idade, o brasileiro diz assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 38.386,
+     "palavras": [
+      {
+       "w": "Erro",
+       "s": 38.481,
+       "e": 38.754
+      },
+      {
+       "w": "número",
+       "s": 38.766,
+       "e": 39.118
+      },
+      {
+       "w": "dois",
+       "s": 39.129,
+       "e": 39.561
+      },
+      {
+       "w": "Pra",
+       "s": 40.341,
+       "e": 40.511
+      },
+      {
+       "w": "falar",
+       "s": 40.522,
+       "e": 40.806
+      },
+      {
+       "w": "a",
+       "s": 40.818,
+       "e": 40.863
+      },
+      {
+       "w": "idade",
+       "s": 40.875,
+       "e": 41.261
+      },
+      {
+       "w": "o",
+       "s": 41.409,
+       "e": 41.454
+      },
+      {
+       "w": "brasileiro",
+       "s": 41.466,
+       "e": 41.988
+      },
+      {
+       "w": "diz",
+       "s": 42.0,
+       "e": 42.136
+      },
+      {
+       "w": "assim",
+       "s": 42.147,
+       "e": 42.522
+      }
+     ],
+     "fim": 43.55
+    },
+    {
+     "voz": "pt",
+     "texto": "Só que em inglês a gente não tem idade: a gente é a idade! Usa o verbo to be.",
+     "mostra": "dica",
+     "inicio": 43.55,
+     "palavras": [
+      {
+       "w": "Só",
+       "s": 43.645,
+       "e": 43.93
+      },
+      {
+       "w": "que",
+       "s": 43.941,
+       "e": 44.032
+      },
+      {
+       "w": "em",
+       "s": 44.043,
+       "e": 44.1
+      },
+      {
+       "w": "inglês",
+       "s": 44.111,
+       "e": 44.373
+      },
+      {
+       "w": "a",
+       "s": 44.384,
+       "e": 44.486
+      },
+      {
+       "w": "gente",
+       "s": 44.498,
+       "e": 44.77
+      },
+      {
+       "w": "não",
+       "s": 44.782,
+       "e": 44.941
+      },
+      {
+       "w": "tem",
+       "s": 44.952,
+       "e": 45.1
+      },
+      {
+       "w": "idade",
+       "s": 45.111,
+       "e": 45.498
+      },
+      {
+       "w": "a",
+       "s": 45.725,
+       "e": 45.805
+      },
+      {
+       "w": "gente",
+       "s": 45.816,
+       "e": 46.123
+      },
+      {
+       "w": "é",
+       "s": 46.134,
+       "e": 46.168
+      },
+      {
+       "w": "a",
+       "s": 46.18,
+       "e": 46.259
+      },
+      {
+       "w": "idade",
+       "s": 46.27,
+       "e": 46.68
+      },
+      {
+       "w": "Usa",
+       "s": 47.459,
+       "e": 47.766
+      },
+      {
+       "w": "o",
+       "s": 47.777,
+       "e": 47.811
+      },
+      {
+       "w": "verbo",
+       "s": 47.823,
+       "e": 48.164
+      },
+      {
+       "w": "to",
+       "s": 48.175,
+       "e": 48.277
+      },
+      {
+       "w": "be",
+       "s": 48.289,
+       "e": 48.573
+      }
+     ],
+     "fim": 49.578
+    },
+    {
+     "voz": "en",
+     "texto": "I am twenty years old.",
+     "mostra": "certo",
+     "inicio": 49.578,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 49.678,
+       "e": 49.948
+      },
+      {
+       "w": "am",
+       "s": 49.962,
+       "e": 50.118
+      },
+      {
+       "w": "twenty",
+       "s": 50.133,
+       "e": 50.516
+      },
+      {
+       "w": "years",
+       "s": 50.53,
+       "e": 50.843
+      },
+      {
+       "w": "old",
+       "s": 50.857,
+       "e": 51.269
+      }
+     ],
+     "fim": 51.91
+    },
+    {
+     "voz": "pt",
+     "texto": "Ou de um jeito mais curtinho:",
+     "inicio": 51.91,
+     "palavras": [
+      {
+       "w": "Ou",
+       "s": 52.005,
+       "e": 52.187
+      },
+      {
+       "w": "de",
+       "s": 52.199,
+       "e": 52.267
+      },
+      {
+       "w": "um",
+       "s": 52.278,
+       "e": 52.369
+      },
+      {
+       "w": "jeito",
+       "s": 52.38,
+       "e": 52.687
+      },
+      {
+       "w": "mais",
+       "s": 52.699,
+       "e": 52.937
+      },
+      {
+       "w": "curtinho",
+       "s": 52.949,
+       "e": 53.483
+      }
+     ],
+     "fim": 54.506
+    },
+    {
+     "voz": "en",
+     "texto": "I'm twenty.",
+     "mostra": "exemplo",
+     "inicio": 54.506,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 54.606,
+       "e": 54.933
+      },
+      {
+       "w": "twenty",
+       "s": 54.947,
+       "e": 55.458
+      }
+     ],
+     "fim": 56.598
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 56.598,
+     "fim": 58.098
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora fala a sua idade em voz alta!",
+     "inicio": 58.098,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 58.193,
+       "e": 58.659
+      },
+      {
+       "w": "fala",
+       "s": 58.671,
+       "e": 58.921
+      },
+      {
+       "w": "a",
+       "s": 58.932,
+       "e": 58.966
+      },
+      {
+       "w": "sua",
+       "s": 58.978,
+       "e": 59.228
+      },
+      {
+       "w": "idade",
+       "s": 59.239,
+       "e": 59.603
+      },
+      {
+       "w": "em",
+       "s": 59.614,
+       "e": 59.682
+      },
+      {
+       "w": "voz",
+       "s": 59.693,
+       "e": 59.864
+      },
+      {
+       "w": "alta",
+       "s": 59.875,
+       "e": 60.307
+      }
+     ],
+     "fim": 61.318
+    }
+   ],
+   "inicio": 38.386,
+   "fim": 61.768
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "errado": "I pretend to travel",
+   "dica": "pretend = fingir 🎭",
+   "certo": "I plan to travel",
+   "exemplo": {
+    "en": "I plan to travel next year.",
+    "pt": "Eu pretendo viajar ano que vem."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Erro número três. Esse é uma pegadinha!",
+     "inicio": 61.768,
+     "palavras": [
+      {
+       "w": "Erro",
+       "s": 61.863,
+       "e": 62.136
+      },
+      {
+       "w": "número",
+       "s": 62.148,
+       "e": 62.523
+      },
+      {
+       "w": "três",
+       "s": 62.534,
+       "e": 62.966
+      },
+      {
+       "w": "Esse",
+       "s": 63.745,
+       "e": 64.063
+      },
+      {
+       "w": "é",
+       "s": 64.075,
+       "e": 64.109
+      },
+      {
+       "w": "uma",
+       "s": 64.12,
+       "e": 64.291
+      },
+      {
+       "w": "pegadinha",
+       "s": 64.302,
+       "e": 64.95
+      }
+     ],
+     "fim": 65.972
+    },
+    {
+     "voz": "pt",
+     "texto": "Pretend parece pretender, né? Mas não é. Pretend quer dizer fingir.",
+     "mostra": "dica",
+     "inicio": 65.972,
+     "palavras": [
+      {
+       "w": "Pretend",
+       "s": 66.067,
+       "e": 66.363
+      },
+      {
+       "w": "parece",
+       "s": 66.374,
+       "e": 66.738
+      },
+      {
+       "w": "pretender",
+       "s": 66.749,
+       "e": 67.272
+      },
+      {
+       "w": "né",
+       "s": 67.42,
+       "e": 67.681
+      },
+      {
+       "w": "Mas",
+       "s": 68.461,
+       "e": 68.722
+      },
+      {
+       "w": "não",
+       "s": 68.733,
+       "e": 68.915
+      },
+      {
+       "w": "é",
+       "s": 68.927,
+       "e": 69.017
+      },
+      {
+       "w": "Pretend",
+       "s": 69.097,
+       "e": 69.404
+      },
+      {
+       "w": "quer",
+       "s": 69.415,
+       "e": 69.574
+      },
+      {
+       "w": "dizer",
+       "s": 69.586,
+       "e": 69.87
+      },
+      {
+       "w": "fingir",
+       "s": 69.881,
+       "e": 70.279
+      }
+     ],
+     "fim": 71.304
+    },
+    {
+     "voz": "pt",
+     "texto": "Se você fala assim, está dizendo que finge que vai viajar!",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 71.304,
+     "palavras": [
+      {
+       "w": "Se",
+       "s": 71.399,
+       "e": 71.581
+      },
+      {
+       "w": "você",
+       "s": 71.593,
+       "e": 71.831
+      },
+      {
+       "w": "fala",
+       "s": 71.843,
+       "e": 72.07
+      },
+      {
+       "w": "assim",
+       "s": 72.081,
+       "e": 72.399
+      },
+      {
+       "w": "está",
+       "s": 72.672,
+       "e": 72.877
+      },
+      {
+       "w": "dizendo",
+       "s": 72.888,
+       "e": 73.297
+      },
+      {
+       "w": "que",
+       "s": 73.309,
+       "e": 73.422
+      },
+      {
+       "w": "finge",
+       "s": 73.434,
+       "e": 73.797
+      },
+      {
+       "w": "que",
+       "s": 73.809,
+       "e": 73.899
+      },
+      {
+       "w": "vai",
+       "s": 73.911,
+       "e": 74.07
+      },
+      {
+       "w": "viajar",
+       "s": 74.081,
+       "e": 74.547
+      }
+     ],
+     "fim": 75.556
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é usar plan:",
+     "inicio": 75.556,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 75.651,
+       "e": 75.776
+      },
+      {
+       "w": "certo",
+       "s": 75.788,
+       "e": 76.242
+      },
+      {
+       "w": "é",
+       "s": 76.254,
+       "e": 76.322
+      },
+      {
+       "w": "usar",
+       "s": 76.333,
+       "e": 76.629
+      },
+      {
+       "w": "plan",
+       "s": 76.64,
+       "e": 76.913
+      }
+     ],
+     "fim": 77.936
+    },
+    {
+     "voz": "en",
+     "texto": "I plan to travel.",
+     "mostra": "certo",
+     "inicio": 77.936,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 78.036,
+       "e": 78.306
+      },
+      {
+       "w": "plan",
+       "s": 78.32,
+       "e": 78.718
+      },
+      {
+       "w": "to",
+       "s": 78.732,
+       "e": 78.803
+      },
+      {
+       "w": "travel",
+       "s": 78.817,
+       "e": 79.414
+      }
+     ],
+     "fim": 80.052
+    },
+    {
+     "voz": "pt",
+     "texto": "Por exemplo:",
+     "inicio": 80.052,
+     "palavras": [
+      {
+       "w": "Por",
+       "s": 80.147,
+       "e": 80.284
+      },
+      {
+       "w": "exemplo",
+       "s": 80.295,
+       "e": 80.761
+      }
+     ],
+     "fim": 82.144
+    },
+    {
+     "voz": "en",
+     "texto": "I plan to travel next year.",
+     "mostra": "exemplo",
+     "inicio": 82.144,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 82.244,
+       "e": 82.514
+      },
+      {
+       "w": "plan",
+       "s": 82.528,
+       "e": 82.869
+      },
+      {
+       "w": "to",
+       "s": 82.883,
+       "e": 82.954
+      },
+      {
+       "w": "travel",
+       "s": 82.968,
+       "e": 83.352
+      },
+      {
+       "w": "next",
+       "s": 83.366,
+       "e": 83.65
+      },
+      {
+       "w": "year",
+       "s": 83.664,
+       "e": 84.048
+      }
+     ],
+     "fim": 84.692
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 84.692,
+     "fim": 86.192
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu pretendo viajar ano que vem.",
+     "inicio": 86.192,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 86.287,
+       "e": 86.447
+      },
+      {
+       "w": "pretendo",
+       "s": 86.458,
+       "e": 86.901
+      },
+      {
+       "w": "viajar",
+       "s": 86.912,
+       "e": 87.322
+      },
+      {
+       "w": "ano",
+       "s": 87.333,
+       "e": 87.572
+      },
+      {
+       "w": "que",
+       "s": 87.583,
+       "e": 87.697
+      },
+      {
+       "w": "vem",
+       "s": 87.708,
+       "e": 87.958
+      }
+     ],
+     "fim": 88.98
+    }
+   ],
+   "inicio": 61.768,
+   "fim": 89.43
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "errado": "Actually = atualmente",
+   "dica": "actually = na verdade",
+   "certo": "Currently · Nowadays",
+   "exemplo": {
+    "en": "Nowadays, I work from home.",
+    "pt": "Atualmente, eu trabalho de casa."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Erro número quatro. Outro falso amigo:",
+     "inicio": 89.43,
+     "palavras": [
+      {
+       "w": "Erro",
+       "s": 89.525,
+       "e": 89.775
+      },
+      {
+       "w": "número",
+       "s": 89.787,
+       "e": 90.105
+      },
+      {
+       "w": "quatro",
+       "s": 90.116,
+       "e": 90.525
+      },
+      {
+       "w": "Outro",
+       "s": 91.305,
+       "e": 91.635
+      },
+      {
+       "w": "falso",
+       "s": 91.646,
+       "e": 91.975
+      },
+      {
+       "w": "amigo",
+       "s": 91.987,
+       "e": 92.35
+      }
+     ],
+     "fim": 93.37
+    },
+    {
+     "voz": "en",
+     "texto": "Actually.",
+     "mostra": "errado",
+     "inicio": 93.37,
+     "palavras": [
+      {
+       "w": "Actually",
+       "s": 93.47,
+       "e": 94.251
+      }
+     ],
+     "fim": 95.462
+    },
+    {
+     "voz": "pt",
+     "texto": "Parece atualmente, mas significa na verdade.",
+     "mostra": "dica",
+     "inicio": 95.462,
+     "palavras": [
+      {
+       "w": "Parece",
+       "s": 95.557,
+       "e": 95.932
+      },
+      {
+       "w": "atualmente",
+       "s": 95.944,
+       "e": 96.478
+      },
+      {
+       "w": "mas",
+       "s": 96.717,
+       "e": 96.91
+      },
+      {
+       "w": "significa",
+       "s": 96.921,
+       "e": 97.455
+      },
+      {
+       "w": "na",
+       "s": 97.467,
+       "e": 97.557
+      },
+      {
+       "w": "verdade",
+       "s": 97.569,
+       "e": 98.114
+      }
+     ],
+     "fim": 99.138
+    },
+    {
+     "voz": "pt",
+     "texto": "Pra dizer atualmente, use:",
+     "inicio": 99.138,
+     "palavras": [
+      {
+       "w": "Pra",
+       "s": 99.233,
+       "e": 99.415
+      },
+      {
+       "w": "dizer",
+       "s": 99.427,
+       "e": 99.699
+      },
+      {
+       "w": "atualmente",
+       "s": 99.711,
+       "e": 100.358
+      },
+      {
+       "w": "use",
+       "s": 100.54,
+       "e": 100.87
+      }
+     ],
+     "fim": 101.878
+    },
+    {
+     "voz": "en",
+     "texto": "Currently. Or: nowadays.",
+     "mostra": "certo",
+     "inicio": 101.878,
+     "palavras": [
+      {
+       "w": "Currently",
+       "s": 101.978,
+       "e": 102.66
+      },
+      {
+       "w": "Or",
+       "s": 103.079,
+       "e": 103.661
+      },
+      {
+       "w": "nowadays",
+       "s": 103.973,
+       "e": 104.812
+      }
+     ],
+     "fim": 105.458
+    },
+    {
+     "voz": "pt",
+     "texto": "Olha só:",
+     "inicio": 105.458,
+     "palavras": [
+      {
+       "w": "Olha",
+       "s": 105.553,
+       "e": 105.86
+      },
+      {
+       "w": "só",
+       "s": 105.872,
+       "e": 106.213
+      }
+     ],
+     "fim": 107.55
+    },
+    {
+     "voz": "en",
+     "texto": "Nowadays, I work from home.",
+     "mostra": "exemplo",
+     "inicio": 107.55,
+     "palavras": [
+      {
+       "w": "Nowadays",
+       "s": 107.65,
+       "e": 108.573
+      },
+      {
+       "w": "I",
+       "s": 108.659,
+       "e": 108.744
+      },
+      {
+       "w": "work",
+       "s": 108.758,
+       "e": 109.042
+      },
+      {
+       "w": "from",
+       "s": 109.056,
+       "e": 109.255
+      },
+      {
+       "w": "home",
+       "s": 109.269,
+       "e": 109.738
+      }
+     ],
+     "fim": 110.386
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 110.386,
+     "fim": 111.886
+    },
+    {
+     "voz": "pt",
+     "texto": "Atualmente, eu trabalho de casa.",
+     "inicio": 111.886,
+     "palavras": [
+      {
+       "w": "Atualmente",
+       "s": 111.981,
+       "e": 112.663
+      },
+      {
+       "w": "eu",
+       "s": 112.811,
+       "e": 112.902
+      },
+      {
+       "w": "trabalho",
+       "s": 112.913,
+       "e": 113.3
+      },
+      {
+       "w": "de",
+       "s": 113.311,
+       "e": 113.413
+      },
+      {
+       "w": "casa",
+       "s": 113.425,
+       "e": 113.788
+      }
+     ],
+     "fim": 114.794
+    }
+   ],
+   "inicio": 89.43,
+   "fim": 115.244
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "errado": "Can I make a question?",
+   "dica": "pergunta a gente PEDE: ask = perguntar",
+   "certo": "Can I ask a question?",
+   "exemplo": {
+    "en": "Can I ask you something?",
+    "pt": "Posso te perguntar uma coisa?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Erro número cinco. A gente faz uma pergunta, aí sai assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 115.244,
+     "palavras": [
+      {
+       "w": "Erro",
+       "s": 115.339,
+       "e": 115.601
+      },
+      {
+       "w": "número",
+       "s": 115.612,
+       "e": 115.964
+      },
+      {
+       "w": "cinco",
+       "s": 115.976,
+       "e": 116.374
+      },
+      {
+       "w": "A",
+       "s": 117.153,
+       "e": 117.244
+      },
+      {
+       "w": "gente",
+       "s": 117.255,
+       "e": 117.539
+      },
+      {
+       "w": "faz",
+       "s": 117.551,
+       "e": 117.699
+      },
+      {
+       "w": "uma",
+       "s": 117.71,
+       "e": 117.892
+      },
+      {
+       "w": "pergunta",
+       "s": 117.903,
+       "e": 118.403
+      },
+      {
+       "w": "aí",
+       "s": 118.619,
+       "e": 118.835
+      },
+      {
+       "w": "sai",
+       "s": 118.846,
+       "e": 119.096
+      },
+      {
+       "w": "assim",
+       "s": 119.108,
+       "e": 119.471
+      }
+     ],
+     "fim": 120.48
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas em inglês, pergunta a gente pede! Use o verbo ask.",
+     "mostra": "dica",
+     "inicio": 120.48,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 120.575,
+       "e": 120.757
+      },
+      {
+       "w": "em",
+       "s": 120.769,
+       "e": 120.916
+      },
+      {
+       "w": "inglês",
+       "s": 120.928,
+       "e": 121.325
+      },
+      {
+       "w": "pergunta",
+       "s": 121.53,
+       "e": 122.041
+      },
+      {
+       "w": "a",
+       "s": 122.053,
+       "e": 122.087
+      },
+      {
+       "w": "gente",
+       "s": 122.098,
+       "e": 122.405
+      },
+      {
+       "w": "pede",
+       "s": 122.416,
+       "e": 122.803
+      },
+      {
+       "w": "Use",
+       "s": 123.582,
+       "e": 123.889
+      },
+      {
+       "w": "o",
+       "s": 123.9,
+       "e": 123.957
+      },
+      {
+       "w": "verbo",
+       "s": 123.969,
+       "e": 124.355
+      },
+      {
+       "w": "ask",
+       "s": 124.366,
+       "e": 124.741
+      }
+     ],
+     "fim": 125.764
+    },
+    {
+     "voz": "en",
+     "texto": "Can I ask a question?",
+     "mostra": "certo",
+     "inicio": 125.764,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 125.864,
+       "e": 126.077
+      },
+      {
+       "w": "I",
+       "s": 126.091,
+       "e": 126.219
+      },
+      {
+       "w": "ask",
+       "s": 126.233,
+       "e": 126.503
+      },
+      {
+       "w": "a",
+       "s": 126.517,
+       "e": 126.574
+      },
+      {
+       "w": "question",
+       "s": 126.588,
+       "e": 127.114
+      }
+     ],
+     "fim": 127.856
+    },
+    {
+     "voz": "pt",
+     "texto": "Repete comigo:",
+     "inicio": 127.856,
+     "palavras": [
+      {
+       "w": "Repete",
+       "s": 127.951,
+       "e": 128.463
+      },
+      {
+       "w": "comigo",
+       "s": 128.474,
+       "e": 128.883
+      }
+     ],
+     "fim": 129.948
+    },
+    {
+     "voz": "en",
+     "texto": "Can I ask you something?",
+     "mostra": "exemplo",
+     "inicio": 129.948,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 130.048,
+       "e": 130.261
+      },
+      {
+       "w": "I",
+       "s": 130.275,
+       "e": 130.389
+      },
+      {
+       "w": "ask",
+       "s": 130.403,
+       "e": 130.716
+      },
+      {
+       "w": "you",
+       "s": 130.73,
+       "e": 130.829
+      },
+      {
+       "w": "something",
+       "s": 130.843,
+       "e": 131.369
+      }
+     ],
+     "fim": 132.04
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 132.04,
+     "fim": 133.54
+    },
+    {
+     "voz": "pt",
+     "texto": "Posso te perguntar uma coisa?",
+     "inicio": 133.54,
+     "palavras": [
+      {
+       "w": "Posso",
+       "s": 133.635,
+       "e": 133.908
+      },
+      {
+       "w": "te",
+       "s": 133.92,
+       "e": 133.988
+      },
+      {
+       "w": "perguntar",
+       "s": 133.999,
+       "e": 134.476
+      },
+      {
+       "w": "uma",
+       "s": 134.488,
+       "e": 134.658
+      },
+      {
+       "w": "coisa",
+       "s": 134.67,
+       "e": 135.045
+      }
+     ],
+     "fim": 136.064
+    }
+   ],
+   "inicio": 115.244,
+   "fim": 136.514
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "Como se diz “Eu tenho 30 anos”?",
+   "opcoes": [
+    "I have 30 years",
+    "I am 30 years old",
+    "I make 30 years"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Agora, o desafio! Como se diz: eu tenho trinta anos?",
+     "mostra": "pergunta",
+     "inicio": 136.514,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 136.609,
+       "e": 137.098
+      },
+      {
+       "w": "o",
+       "s": 137.28,
+       "e": 137.359
+      },
+      {
+       "w": "desafio",
+       "s": 137.371,
+       "e": 137.984
+      },
+      {
+       "w": "Como",
+       "s": 138.764,
+       "e": 139.071
+      },
+      {
+       "w": "se",
+       "s": 139.082,
+       "e": 139.196
+      },
+      {
+       "w": "diz",
+       "s": 139.207,
+       "e": 139.537
+      },
+      {
+       "w": "eu",
+       "s": 139.775,
+       "e": 139.9
+      },
+      {
+       "w": "tenho",
+       "s": 139.912,
+       "e": 140.15
+      },
+      {
+       "w": "trinta",
+       "s": 140.162,
+       "e": 140.491
+      },
+      {
+       "w": "anos",
+       "s": 140.503,
+       "e": 140.912
+      }
+     ],
+     "fim": 141.918
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 141.918,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 142.013,
+       "e": 142.366
+      },
+      {
+       "w": "A",
+       "s": 142.377,
+       "e": 142.627
+      },
+      {
+       "w": "letra",
+       "s": 142.911,
+       "e": 143.229
+      },
+      {
+       "w": "B",
+       "s": 143.241,
+       "e": 143.434
+      },
+      {
+       "w": "ou",
+       "s": 143.445,
+       "e": 143.548
+      },
+      {
+       "w": "letra",
+       "s": 143.559,
+       "e": 143.888
+      },
+      {
+       "w": "C",
+       "s": 143.9,
+       "e": 144.218
+      },
+      {
+       "w": "Pensa",
+       "s": 144.998,
+       "e": 145.373
+      },
+      {
+       "w": "rápido",
+       "s": 145.384,
+       "e": 145.873
+      }
+     ],
+     "fim": 146.89
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "contagem",
+     "inicio": 146.89,
+     "fim": 149.49
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B!",
+     "mostra": "resposta",
+     "inicio": 149.49,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 149.585,
+       "e": 150.188
+      },
+      {
+       "w": "certa",
+       "s": 150.199,
+       "e": 150.642
+      },
+      {
+       "w": "letra",
+       "s": 150.892,
+       "e": 151.245
+      },
+      {
+       "w": "B",
+       "s": 151.256,
+       "e": 151.551
+      }
+     ],
+     "fim": 152.566
+    },
+    {
+     "voz": "en",
+     "texto": "I am thirty years old.",
+     "inicio": 152.566,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 152.666,
+       "e": 152.964
+      },
+      {
+       "w": "am",
+       "s": 152.978,
+       "e": 153.149
+      },
+      {
+       "w": "thirty",
+       "s": 153.177,
+       "e": 153.547
+      },
+      {
+       "w": "years",
+       "s": 153.561,
+       "e": 153.93
+      },
+      {
+       "w": "old",
+       "s": 153.944,
+       "e": 154.385
+      }
+     ],
+     "fim": 155.042
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 155.042,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 155.137,
+       "e": 155.74
+      },
+      {
+       "w": "Então",
+       "s": 156.519,
+       "e": 156.928
+      },
+      {
+       "w": "comenta",
+       "s": 156.94,
+       "e": 157.349
+      },
+      {
+       "w": "aí",
+       "s": 157.36,
+       "e": 157.644
+      },
+      {
+       "w": "acertei",
+       "s": 157.86,
+       "e": 158.406
+      }
+     ],
+     "fim": 159.414
+    }
+   ],
+   "inicio": 136.514,
+   "fim": 159.864
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 159.864,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 159.959,
+       "e": 160.209
+      },
+      {
+       "w": "dia",
+       "s": 160.221,
+       "e": 160.437
+      },
+      {
+       "w": "tem",
+       "s": 160.448,
+       "e": 160.573
+      },
+      {
+       "w": "dica",
+       "s": 160.584,
+       "e": 160.857
+      },
+      {
+       "w": "nova",
+       "s": 160.869,
+       "e": 161.175
+      },
+      {
+       "w": "de",
+       "s": 161.187,
+       "e": 161.255
+      },
+      {
+       "w": "inglês",
+       "s": 161.266,
+       "e": 161.664
+      },
+      {
+       "w": "fácil",
+       "s": 161.88,
+       "e": 162.255
+      },
+      {
+       "w": "e",
+       "s": 162.266,
+       "e": 162.3
+      },
+      {
+       "w": "rapidinha",
+       "s": 162.312,
+       "e": 162.903
+      },
+      {
+       "w": "Segue",
+       "s": 163.682,
+       "e": 164.114
+      },
+      {
+       "w": "pra",
+       "s": 164.125,
+       "e": 164.284
+      },
+      {
+       "w": "não",
+       "s": 164.296,
+       "e": 164.512
+      },
+      {
+       "w": "perder",
+       "s": 164.523,
+       "e": 164.944
+      }
+     ],
+     "fim": 165.964
+    },
+    {
+     "voz": "pt",
+     "texto": "E me conta nos comentários: qual desses erros você já cometeu?",
+     "inicio": 165.964,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 166.059,
+       "e": 166.162
+      },
+      {
+       "w": "me",
+       "s": 166.173,
+       "e": 166.298
+      },
+      {
+       "w": "conta",
+       "s": 166.309,
+       "e": 166.639
+      },
+      {
+       "w": "nos",
+       "s": 166.65,
+       "e": 166.787
+      },
+      {
+       "w": "comentários",
+       "s": 166.798,
+       "e": 167.514
+      },
+      {
+       "w": "qual",
+       "s": 167.775,
+       "e": 167.957
+      },
+      {
+       "w": "desses",
+       "s": 167.969,
+       "e": 168.207
+      },
+      {
+       "w": "erros",
+       "s": 168.219,
+       "e": 168.514
+      },
+      {
+       "w": "você",
+       "s": 168.525,
+       "e": 168.787
+      },
+      {
+       "w": "já",
+       "s": 168.798,
+       "e": 168.934
+      },
+      {
+       "w": "cometeu",
+       "s": 168.946,
+       "e": 169.423
+      }
+     ],
+     "fim": 170.432
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 170.432,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 170.532,
+       "e": 170.844
+      },
+      {
+       "w": "you",
+       "s": 170.859,
+       "e": 170.972
+      },
+      {
+       "w": "tomorrow",
+       "s": 170.987,
+       "e": 171.668
+      }
+     ],
+     "fim": 172.524
+    }
+   ],
+   "inicio": 159.864,
+   "fim": 173.724
+  }
+ ]
+}

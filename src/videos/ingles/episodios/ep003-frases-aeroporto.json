@@ -1,0 +1,2303 @@
+{
+ "slug": "ep003-frases-aeroporto",
+ "episodio": 3,
+ "titulo": "5 frases de inglês para o aeroporto e a imigração",
+ "cenario": [
+  "✈️",
+  "🧳",
+  "🛂",
+  "🌎",
+  "🎫"
+ ],
+ "duracao": 176.094,
+ "audio": "003. ingles-ep003-frases-aeroporto/audio/narracao.wav",
+ "fotos": [],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "AEROPORTO",
+    "5 frases de inglês",
+    "pra sua viagem"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Primeira viagem de avião pra fora do Brasil? Sem pânico!",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Primeira",
+       "s": 0.444,
+       "e": 0.795
+      },
+      {
+       "w": "viagem",
+       "s": 0.806,
+       "e": 1.189
+      },
+      {
+       "w": "de",
+       "s": 1.2,
+       "e": 1.266
+      },
+      {
+       "w": "avião",
+       "s": 1.277,
+       "e": 1.584
+      },
+      {
+       "w": "pra",
+       "s": 1.595,
+       "e": 1.738
+      },
+      {
+       "w": "fora",
+       "s": 1.749,
+       "e": 2.012
+      },
+      {
+       "w": "do",
+       "s": 2.023,
+       "e": 2.089
+      },
+      {
+       "w": "Brasil",
+       "s": 2.1,
+       "e": 2.505
+      },
+      {
+       "w": "Sem",
+       "s": 3.256,
+       "e": 3.574
+      },
+      {
+       "w": "pânico",
+       "s": 3.585,
+       "e": 4.023
+      }
+     ],
+     "fim": 5.01
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje eu te ensino cinco frases que você vai usar no aeroporto e na imigração.",
+     "inicio": 5.01,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 5.104,
+       "e": 5.378
+      },
+      {
+       "w": "eu",
+       "s": 5.389,
+       "e": 5.444
+      },
+      {
+       "w": "te",
+       "s": 5.455,
+       "e": 5.553
+      },
+      {
+       "w": "ensino",
+       "s": 5.564,
+       "e": 5.904
+      },
+      {
+       "w": "cinco",
+       "s": 5.915,
+       "e": 6.189
+      },
+      {
+       "w": "frases",
+       "s": 6.2,
+       "e": 6.584
+      },
+      {
+       "w": "que",
+       "s": 6.595,
+       "e": 6.672
+      },
+      {
+       "w": "você",
+       "s": 6.683,
+       "e": 6.924
+      },
+      {
+       "w": "vai",
+       "s": 6.935,
+       "e": 7.056
+      },
+      {
+       "w": "usar",
+       "s": 7.067,
+       "e": 7.33
+      },
+      {
+       "w": "no",
+       "s": 7.341,
+       "e": 7.385
+      },
+      {
+       "w": "aeroporto",
+       "s": 7.396,
+       "e": 7.911
+      },
+      {
+       "w": "e",
+       "s": 7.922,
+       "e": 7.944
+      },
+      {
+       "w": "na",
+       "s": 7.955,
+       "e": 8.031
+      },
+      {
+       "w": "imigração",
+       "s": 8.042,
+       "e": 8.613
+      }
+     ],
+     "fim": 9.598
+    },
+    {
+     "voz": "pt",
+     "texto": "Salva esse vídeo e fica até o final: tem desafio!",
+     "inicio": 9.598,
+     "palavras": [
+      {
+       "w": "Salva",
+       "s": 9.692,
+       "e": 10.032
+      },
+      {
+       "w": "esse",
+       "s": 10.043,
+       "e": 10.218
+      },
+      {
+       "w": "vídeo",
+       "s": 10.229,
+       "e": 10.492
+      },
+      {
+       "w": "e",
+       "s": 10.503,
+       "e": 10.525
+      },
+      {
+       "w": "fica",
+       "s": 10.536,
+       "e": 10.755
+      },
+      {
+       "w": "até",
+       "s": 10.766,
+       "e": 10.931
+      },
+      {
+       "w": "o",
+       "s": 10.942,
+       "e": 10.975
+      },
+      {
+       "w": "final",
+       "s": 10.986,
+       "e": 11.38
+      },
+      {
+       "w": "tem",
+       "s": 11.622,
+       "e": 11.753
+      },
+      {
+       "w": "desafio",
+       "s": 11.764,
+       "e": 12.312
+      }
+     ],
+     "fim": 13.298
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 13.748
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "dica": "Motivo da viagem? 🛂 Passeio = vacation",
+   "rotulo": "FRASE DE VIAGEM",
+   "certo": "I'm here on vacation.",
+   "exemplo": {
+    "en": "I'm here on vacation for two weeks.",
+    "pt": "Estou aqui de férias por duas semanas."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Frase número um. O policial da imigração olha pra você e pergunta o motivo da viagem. E agora?",
+     "inicio": 13.748,
+     "palavras": [
+      {
+       "w": "Frase",
+       "s": 13.842,
+       "e": 14.28
+      },
+      {
+       "w": "número",
+       "s": 14.291,
+       "e": 14.544
+      },
+      {
+       "w": "um",
+       "s": 14.555,
+       "e": 14.752
+      },
+      {
+       "w": "O",
+       "s": 15.502,
+       "e": 15.623
+      },
+      {
+       "w": "policial",
+       "s": 15.634,
+       "e": 16.16
+      },
+      {
+       "w": "da",
+       "s": 16.171,
+       "e": 16.237
+      },
+      {
+       "w": "imigração",
+       "s": 16.248,
+       "e": 16.752
+      },
+      {
+       "w": "olha",
+       "s": 16.763,
+       "e": 17.016
+      },
+      {
+       "w": "pra",
+       "s": 17.026,
+       "e": 17.147
+      },
+      {
+       "w": "você",
+       "s": 17.158,
+       "e": 17.432
+      },
+      {
+       "w": "e",
+       "s": 17.443,
+       "e": 17.498
+      },
+      {
+       "w": "pergunta",
+       "s": 17.509,
+       "e": 17.937
+      },
+      {
+       "w": "o",
+       "s": 17.948,
+       "e": 17.969
+      },
+      {
+       "w": "motivo",
+       "s": 17.98,
+       "e": 18.364
+      },
+      {
+       "w": "da",
+       "s": 18.375,
+       "e": 18.474
+      },
+      {
+       "w": "viagem",
+       "s": 18.485,
+       "e": 18.912
+      },
+      {
+       "w": "E",
+       "s": 19.669,
+       "e": 19.768
+      },
+      {
+       "w": "agora",
+       "s": 19.779,
+       "e": 20.206
+      }
+     ],
+     "fim": 21.192
+    },
+    {
+     "voz": "pt",
+     "texto": "Se for passeio, é só dizer que está de férias.",
+     "mostra": "dica",
+     "inicio": 21.192,
+     "palavras": [
+      {
+       "w": "Se",
+       "s": 21.286,
+       "e": 21.472
+      },
+      {
+       "w": "for",
+       "s": 21.483,
+       "e": 21.659
+      },
+      {
+       "w": "passeio",
+       "s": 21.67,
+       "e": 22.152
+      },
+      {
+       "w": "é",
+       "s": 22.349,
+       "e": 22.415
+      },
+      {
+       "w": "só",
+       "s": 22.426,
+       "e": 22.602
+      },
+      {
+       "w": "dizer",
+       "s": 22.613,
+       "e": 22.974
+      },
+      {
+       "w": "que",
+       "s": 22.985,
+       "e": 23.062
+      },
+      {
+       "w": "está",
+       "s": 23.073,
+       "e": 23.27
+      },
+      {
+       "w": "de",
+       "s": 23.281,
+       "e": 23.391
+      },
+      {
+       "w": "férias",
+       "s": 23.402,
+       "e": 23.885
+      }
+     ],
+     "fim": 24.868
+    },
+    {
+     "voz": "pt",
+     "texto": "Fala assim:",
+     "inicio": 24.868,
+     "palavras": [
+      {
+       "w": "Fala",
+       "s": 24.962,
+       "e": 25.258
+      },
+      {
+       "w": "assim",
+       "s": 25.269,
+       "e": 25.609
+      }
+     ],
+     "fim": 26.96
+    },
+    {
+     "voz": "en",
+     "texto": "I'm here on vacation.",
+     "mostra": "certo",
+     "inicio": 26.96,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 27.06,
+       "e": 27.372
+      },
+      {
+       "w": "here",
+       "s": 27.386,
+       "e": 27.536
+      },
+      {
+       "w": "on",
+       "s": 27.549,
+       "e": 27.671
+      },
+      {
+       "w": "vacation",
+       "s": 27.685,
+       "e": 28.405
+      }
+     ],
+     "fim": 29.052
+    },
+    {
+     "voz": "pt",
+     "texto": "Pode completar:",
+     "inicio": 29.052,
+     "palavras": [
+      {
+       "w": "Pode",
+       "s": 29.146,
+       "e": 29.409
+      },
+      {
+       "w": "completar",
+       "s": 29.42,
+       "e": 29.924
+      }
+     ],
+     "fim": 31.144
+    },
+    {
+     "voz": "en",
+     "texto": "I'm here on vacation for two weeks.",
+     "mostra": "exemplo",
+     "inicio": 31.144,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 31.244,
+       "e": 31.556
+      },
+      {
+       "w": "here",
+       "s": 31.57,
+       "e": 31.733
+      },
+      {
+       "w": "on",
+       "s": 31.747,
+       "e": 31.855
+      },
+      {
+       "w": "vacation",
+       "s": 31.869,
+       "e": 32.48
+      },
+      {
+       "w": "for",
+       "s": 32.494,
+       "e": 32.63
+      },
+      {
+       "w": "two",
+       "s": 32.643,
+       "e": 32.82
+      },
+      {
+       "w": "weeks",
+       "s": 32.834,
+       "e": 33.336
+      }
+     ],
+     "fim": 33.956
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 33.956,
+     "fim": 35.276
+    },
+    {
+     "voz": "pt",
+     "texto": "Estou aqui de férias por duas semanas.",
+     "inicio": 35.276,
+     "palavras": [
+      {
+       "w": "Estou",
+       "s": 35.37,
+       "e": 35.655
+      },
+      {
+       "w": "aqui",
+       "s": 35.666,
+       "e": 35.863
+      },
+      {
+       "w": "de",
+       "s": 35.874,
+       "e": 35.984
+      },
+      {
+       "w": "férias",
+       "s": 35.995,
+       "e": 36.379
+      },
+      {
+       "w": "por",
+       "s": 36.39,
+       "e": 36.576
+      },
+      {
+       "w": "duas",
+       "s": 36.587,
+       "e": 36.883
+      },
+      {
+       "w": "semanas",
+       "s": 36.894,
+       "e": 37.442
+      }
+     ],
+     "fim": 38.424
+    }
+   ],
+   "imagem": "🏖️",
+   "inicio": 13.748,
+   "fim": 38.874
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "dica": "Gate = portão de embarque ✈️",
+   "rotulo": "FRASE DE VIAGEM",
+   "certo": "Where is the gate?",
+   "exemplo": {
+    "en": "Excuse me, where is gate twelve?",
+    "pt": "Com licença, onde fica o portão doze?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Frase número dois. Você está no aeroporto, perdido, e precisa achar o portão de embarque.",
+     "inicio": 38.874,
+     "palavras": [
+      {
+       "w": "Frase",
+       "s": 38.968,
+       "e": 39.385
+      },
+      {
+       "w": "número",
+       "s": 39.395,
+       "e": 39.692
+      },
+      {
+       "w": "dois",
+       "s": 39.702,
+       "e": 40.108
+      },
+      {
+       "w": "Você",
+       "s": 40.859,
+       "e": 41.155
+      },
+      {
+       "w": "está",
+       "s": 41.166,
+       "e": 41.385
+      },
+      {
+       "w": "no",
+       "s": 41.396,
+       "e": 41.473
+      },
+      {
+       "w": "aeroporto",
+       "s": 41.484,
+       "e": 42.021
+      },
+      {
+       "w": "perdido",
+       "s": 42.251,
+       "e": 42.734
+      },
+      {
+       "w": "e",
+       "s": 43.019,
+       "e": 43.085
+      },
+      {
+       "w": "precisa",
+       "s": 43.095,
+       "e": 43.457
+      },
+      {
+       "w": "achar",
+       "s": 43.468,
+       "e": 43.742
+      },
+      {
+       "w": "o",
+       "s": 43.753,
+       "e": 43.797
+      },
+      {
+       "w": "portão",
+       "s": 43.808,
+       "e": 44.192
+      },
+      {
+       "w": "de",
+       "s": 44.203,
+       "e": 44.269
+      },
+      {
+       "w": "embarque",
+       "s": 44.28,
+       "e": 44.729
+      }
+     ],
+     "fim": 45.718
+    },
+    {
+     "voz": "pt",
+     "texto": "Gate é o portão. Com essa pergunta qualquer pessoa te ajuda.",
+     "mostra": "dica",
+     "inicio": 45.718,
+     "palavras": [
+      {
+       "w": "Gate",
+       "s": 45.812,
+       "e": 46.174
+      },
+      {
+       "w": "é",
+       "s": 46.185,
+       "e": 46.218
+      },
+      {
+       "w": "o",
+       "s": 46.229,
+       "e": 46.261
+      },
+      {
+       "w": "portão",
+       "s": 46.272,
+       "e": 46.711
+      },
+      {
+       "w": "Com",
+       "s": 47.461,
+       "e": 47.67
+      },
+      {
+       "w": "essa",
+       "s": 47.681,
+       "e": 47.889
+      },
+      {
+       "w": "pergunta",
+       "s": 47.9,
+       "e": 48.328
+      },
+      {
+       "w": "qualquer",
+       "s": 48.339,
+       "e": 48.679
+      },
+      {
+       "w": "pessoa",
+       "s": 48.689,
+       "e": 49.106
+      },
+      {
+       "w": "te",
+       "s": 49.117,
+       "e": 49.194
+      },
+      {
+       "w": "ajuda",
+       "s": 49.205,
+       "e": 49.6
+      }
+     ],
+     "fim": 50.594
+    },
+    {
+     "voz": "en",
+     "texto": "Where is the gate?",
+     "mostra": "certo",
+     "inicio": 50.594,
+     "palavras": [
+      {
+       "w": "Where",
+       "s": 50.694,
+       "e": 50.979
+      },
+      {
+       "w": "is",
+       "s": 50.993,
+       "e": 51.102
+      },
+      {
+       "w": "the",
+       "s": 51.115,
+       "e": 51.21
+      },
+      {
+       "w": "gate",
+       "s": 51.224,
+       "e": 51.686
+      }
+     ],
+     "fim": 52.686
+    },
+    {
+     "voz": "pt",
+     "texto": "Pra ficar educado, comece com licença:",
+     "inicio": 52.686,
+     "palavras": [
+      {
+       "w": "Pra",
+       "s": 52.78,
+       "e": 52.933
+      },
+      {
+       "w": "ficar",
+       "s": 52.944,
+       "e": 53.175
+      },
+      {
+       "w": "educado",
+       "s": 53.186,
+       "e": 53.657
+      },
+      {
+       "w": "comece",
+       "s": 53.843,
+       "e": 54.26
+      },
+      {
+       "w": "com",
+       "s": 54.271,
+       "e": 54.403
+      },
+      {
+       "w": "licença",
+       "s": 54.414,
+       "e": 54.94
+      }
+     ],
+     "fim": 55.93
+    },
+    {
+     "voz": "en",
+     "texto": "Excuse me, where is gate twelve?",
+     "mostra": "exemplo",
+     "inicio": 55.93,
+     "palavras": [
+      {
+       "w": "Excuse",
+       "s": 56.03,
+       "e": 56.669
+      },
+      {
+       "w": "me",
+       "s": 56.682,
+       "e": 56.94
+      },
+      {
+       "w": "where",
+       "s": 57.253,
+       "e": 57.429
+      },
+      {
+       "w": "is",
+       "s": 57.443,
+       "e": 57.552
+      },
+      {
+       "w": "gate",
+       "s": 57.565,
+       "e": 57.769
+      },
+      {
+       "w": "twelve",
+       "s": 57.783,
+       "e": 58.34
+      }
+     ],
+     "fim": 58.958
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 58.958,
+     "fim": 60.278
+    },
+    {
+     "voz": "pt",
+     "texto": "Com licença, onde fica o portão doze?",
+     "inicio": 60.278,
+     "palavras": [
+      {
+       "w": "Com",
+       "s": 60.372,
+       "e": 60.525
+      },
+      {
+       "w": "licença",
+       "s": 60.536,
+       "e": 61.041
+      },
+      {
+       "w": "onde",
+       "s": 61.26,
+       "e": 61.49
+      },
+      {
+       "w": "fica",
+       "s": 61.501,
+       "e": 61.731
+      },
+      {
+       "w": "o",
+       "s": 61.742,
+       "e": 61.764
+      },
+      {
+       "w": "portão",
+       "s": 61.775,
+       "e": 62.093
+      },
+      {
+       "w": "doze",
+       "s": 62.104,
+       "e": 62.466
+      }
+     ],
+     "fim": 63.45
+    }
+   ],
+   "imagem": "🛫",
+   "inicio": 38.874,
+   "fim": 63.9
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "dica": "Nada a declarar = nothing to declare 🧳",
+   "rotulo": "FRASE DE VIAGEM",
+   "certo": "I have nothing to declare.",
+   "exemplo": {
+    "en": "I'm only carrying clothes and a few gifts.",
+    "pt": "Estou levando só roupas e alguns presentes."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Frase número três. Na alfândega, o oficial pergunta se você tem algo a declarar.",
+     "inicio": 63.9,
+     "palavras": [
+      {
+       "w": "Frase",
+       "s": 63.994,
+       "e": 64.389
+      },
+      {
+       "w": "número",
+       "s": 64.4,
+       "e": 64.696
+      },
+      {
+       "w": "três",
+       "s": 64.707,
+       "e": 65.112
+      },
+      {
+       "w": "Na",
+       "s": 65.863,
+       "e": 65.983
+      },
+      {
+       "w": "alfândega",
+       "s": 65.994,
+       "e": 66.532
+      },
+      {
+       "w": "o",
+       "s": 66.74,
+       "e": 66.762
+      },
+      {
+       "w": "oficial",
+       "s": 66.773,
+       "e": 67.189
+      },
+      {
+       "w": "pergunta",
+       "s": 67.2,
+       "e": 67.65
+      },
+      {
+       "w": "se",
+       "s": 67.661,
+       "e": 67.76
+      },
+      {
+       "w": "você",
+       "s": 67.771,
+       "e": 67.99
+      },
+      {
+       "w": "tem",
+       "s": 68.001,
+       "e": 68.209
+      },
+      {
+       "w": "algo",
+       "s": 68.22,
+       "e": 68.461
+      },
+      {
+       "w": "a",
+       "s": 68.472,
+       "e": 68.516
+      },
+      {
+       "w": "declarar",
+       "s": 68.527,
+       "e": 68.955
+      }
+     ],
+     "fim": 69.952
+    },
+    {
+     "voz": "pt",
+     "texto": "Se você não leva nada de especial, a resposta é simples.",
+     "mostra": "dica",
+     "inicio": 69.952,
+     "palavras": [
+      {
+       "w": "Se",
+       "s": 70.046,
+       "e": 70.221
+      },
+      {
+       "w": "você",
+       "s": 70.232,
+       "e": 70.462
+      },
+      {
+       "w": "não",
+       "s": 70.474,
+       "e": 70.616
+      },
+      {
+       "w": "leva",
+       "s": 70.627,
+       "e": 70.868
+      },
+      {
+       "w": "nada",
+       "s": 70.879,
+       "e": 71.175
+      },
+      {
+       "w": "de",
+       "s": 71.186,
+       "e": 71.252
+      },
+      {
+       "w": "especial",
+       "s": 71.263,
+       "e": 71.811
+      },
+      {
+       "w": "a",
+       "s": 71.987,
+       "e": 72.052
+      },
+      {
+       "w": "resposta",
+       "s": 72.063,
+       "e": 72.535
+      },
+      {
+       "w": "é",
+       "s": 72.546,
+       "e": 72.568
+      },
+      {
+       "w": "simples",
+       "s": 72.579,
+       "e": 73.127
+      }
+     ],
+     "fim": 74.108
+    },
+    {
+     "voz": "en",
+     "texto": "I have nothing to declare.",
+     "mostra": "certo",
+     "inicio": 74.108,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 74.208,
+       "e": 74.48
+      },
+      {
+       "w": "have",
+       "s": 74.493,
+       "e": 74.643
+      },
+      {
+       "w": "nothing",
+       "s": 74.656,
+       "e": 75.037
+      },
+      {
+       "w": "to",
+       "s": 75.05,
+       "e": 75.118
+      },
+      {
+       "w": "declare",
+       "s": 75.132,
+       "e": 75.703
+      }
+     ],
+     "fim": 76.32
+    },
+    {
+     "voz": "pt",
+     "texto": "Se quiser explicar, diga:",
+     "inicio": 76.32,
+     "palavras": [
+      {
+       "w": "Se",
+       "s": 76.414,
+       "e": 76.6
+      },
+      {
+       "w": "quiser",
+       "s": 76.611,
+       "e": 76.907
+      },
+      {
+       "w": "explicar",
+       "s": 76.918,
+       "e": 77.39
+      },
+      {
+       "w": "diga",
+       "s": 77.631,
+       "e": 78.015
+      }
+     ],
+     "fim": 78.988
+    },
+    {
+     "voz": "en",
+     "texto": "I'm only carrying clothes and a few gifts.",
+     "mostra": "exemplo",
+     "inicio": 78.988,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 79.088,
+       "e": 79.428
+      },
+      {
+       "w": "only",
+       "s": 79.55,
+       "e": 79.89
+      },
+      {
+       "w": "carrying",
+       "s": 79.903,
+       "e": 80.379
+      },
+      {
+       "w": "clothes",
+       "s": 80.392,
+       "e": 80.936
+      },
+      {
+       "w": "and",
+       "s": 80.949,
+       "e": 81.126
+      },
+      {
+       "w": "a",
+       "s": 81.14,
+       "e": 81.208
+      },
+      {
+       "w": "few",
+       "s": 81.221,
+       "e": 81.506
+      },
+      {
+       "w": "gifts",
+       "s": 81.52,
+       "e": 82.077
+      }
+     ],
+     "fim": 82.712
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 82.712,
+     "fim": 84.032
+    },
+    {
+     "voz": "pt",
+     "texto": "Estou levando só roupas e alguns presentes.",
+     "inicio": 84.032,
+     "palavras": [
+      {
+       "w": "Estou",
+       "s": 84.126,
+       "e": 84.411
+      },
+      {
+       "w": "levando",
+       "s": 84.422,
+       "e": 84.86
+      },
+      {
+       "w": "só",
+       "s": 84.871,
+       "e": 85.025
+      },
+      {
+       "w": "roupas",
+       "s": 85.036,
+       "e": 85.354
+      },
+      {
+       "w": "e",
+       "s": 85.365,
+       "e": 85.453
+      },
+      {
+       "w": "alguns",
+       "s": 85.464,
+       "e": 85.771
+      },
+      {
+       "w": "presentes",
+       "s": 85.782,
+       "e": 86.407
+      }
+     ],
+     "fim": 87.396
+    }
+   ],
+   "imagem": "🛃",
+   "inicio": 63.9,
+   "fim": 87.846
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "dica": "Layover = escala ⏱️",
+   "rotulo": "FRASE DE VIAGEM",
+   "certo": "How long is the layover?",
+   "exemplo": {
+    "en": "The layover in Dallas is three hours.",
+    "pt": "A escala em Dallas é de três horas."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Frase número quatro. Quando o voo faz uma parada no meio do caminho, essa parada se chama escala.",
+     "inicio": 87.846,
+     "palavras": [
+      {
+       "w": "Frase",
+       "s": 87.94,
+       "e": 88.357
+      },
+      {
+       "w": "número",
+       "s": 88.368,
+       "e": 88.664
+      },
+      {
+       "w": "quatro",
+       "s": 88.675,
+       "e": 89.069
+      },
+      {
+       "w": "Quando",
+       "s": 89.82,
+       "e": 90.072
+      },
+      {
+       "w": "o",
+       "s": 90.083,
+       "e": 90.105
+      },
+      {
+       "w": "voo",
+       "s": 90.116,
+       "e": 90.324
+      },
+      {
+       "w": "faz",
+       "s": 90.335,
+       "e": 90.51
+      },
+      {
+       "w": "uma",
+       "s": 90.521,
+       "e": 90.708
+      },
+      {
+       "w": "parada",
+       "s": 90.719,
+       "e": 91.092
+      },
+      {
+       "w": "no",
+       "s": 91.103,
+       "e": 91.19
+      },
+      {
+       "w": "meio",
+       "s": 91.201,
+       "e": 91.41
+      },
+      {
+       "w": "do",
+       "s": 91.421,
+       "e": 91.53
+      },
+      {
+       "w": "caminho",
+       "s": 91.541,
+       "e": 91.925
+      },
+      {
+       "w": "essa",
+       "s": 92.122,
+       "e": 92.342
+      },
+      {
+       "w": "parada",
+       "s": 92.353,
+       "e": 92.736
+      },
+      {
+       "w": "se",
+       "s": 92.747,
+       "e": 92.868
+      },
+      {
+       "w": "chama",
+       "s": 92.879,
+       "e": 93.12
+      },
+      {
+       "w": "escala",
+       "s": 93.131,
+       "e": 93.57
+      }
+     ],
+     "fim": 94.57
+    },
+    {
+     "voz": "pt",
+     "texto": "Em inglês, escala é layover. Pra saber quanto tempo você espera, pergunte:",
+     "mostra": "dica",
+     "inicio": 94.57,
+     "palavras": [
+      {
+       "w": "Em",
+       "s": 94.664,
+       "e": 94.785
+      },
+      {
+       "w": "inglês",
+       "s": 94.795,
+       "e": 95.201
+      },
+      {
+       "w": "escala",
+       "s": 95.431,
+       "e": 95.837
+      },
+      {
+       "w": "é",
+       "s": 95.848,
+       "e": 95.881
+      },
+      {
+       "w": "layover",
+       "s": 95.892,
+       "e": 96.32
+      },
+      {
+       "w": "Pra",
+       "s": 97.07,
+       "e": 97.224
+      },
+      {
+       "w": "saber",
+       "s": 97.234,
+       "e": 97.552
+      },
+      {
+       "w": "quanto",
+       "s": 97.563,
+       "e": 97.859
+      },
+      {
+       "w": "tempo",
+       "s": 97.87,
+       "e": 98.166
+      },
+      {
+       "w": "você",
+       "s": 98.177,
+       "e": 98.375
+      },
+      {
+       "w": "espera",
+       "s": 98.386,
+       "e": 98.748
+      },
+      {
+       "w": "pergunte",
+       "s": 98.967,
+       "e": 99.526
+      }
+     ],
+     "fim": 100.526
+    },
+    {
+     "voz": "en",
+     "texto": "How long is the layover?",
+     "mostra": "certo",
+     "inicio": 100.526,
+     "palavras": [
+      {
+       "w": "How",
+       "s": 100.626,
+       "e": 100.857
+      },
+      {
+       "w": "long",
+       "s": 100.871,
+       "e": 101.047
+      },
+      {
+       "w": "is",
+       "s": 101.061,
+       "e": 101.142
+      },
+      {
+       "w": "the",
+       "s": 101.156,
+       "e": 101.237
+      },
+      {
+       "w": "layover",
+       "s": 101.251,
+       "e": 101.862
+      }
+     ],
+     "fim": 102.618
+    },
+    {
+     "voz": "pt",
+     "texto": "E a resposta pode ser:",
+     "inicio": 102.618,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 102.712,
+       "e": 102.811
+      },
+      {
+       "w": "a",
+       "s": 102.822,
+       "e": 102.876
+      },
+      {
+       "w": "resposta",
+       "s": 102.887,
+       "e": 103.436
+      },
+      {
+       "w": "pode",
+       "s": 103.447,
+       "e": 103.688
+      },
+      {
+       "w": "ser",
+       "s": 103.699,
+       "e": 103.94
+      }
+     ],
+     "fim": 104.926
+    },
+    {
+     "voz": "en",
+     "texto": "The layover in Dallas is three hours.",
+     "mostra": "exemplo",
+     "inicio": 104.926,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 105.026,
+       "e": 105.257
+      },
+      {
+       "w": "layover",
+       "s": 105.271,
+       "e": 105.76
+      },
+      {
+       "w": "in",
+       "s": 105.773,
+       "e": 105.882
+      },
+      {
+       "w": "Dallas",
+       "s": 105.896,
+       "e": 106.398
+      },
+      {
+       "w": "is",
+       "s": 106.521,
+       "e": 106.684
+      },
+      {
+       "w": "three",
+       "s": 106.697,
+       "e": 107.118
+      },
+      {
+       "w": "hours",
+       "s": 107.132,
+       "e": 107.675
+      }
+     ],
+     "fim": 108.314
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 108.314,
+     "fim": 109.634
+    },
+    {
+     "voz": "pt",
+     "texto": "A escala em Dallas é de três horas.",
+     "inicio": 109.634,
+     "palavras": [
+      {
+       "w": "A",
+       "s": 109.728,
+       "e": 109.838
+      },
+      {
+       "w": "escala",
+       "s": 109.848,
+       "e": 110.21
+      },
+      {
+       "w": "em",
+       "s": 110.221,
+       "e": 110.276
+      },
+      {
+       "w": "Dallas",
+       "s": 110.287,
+       "e": 110.594
+      },
+      {
+       "w": "é",
+       "s": 110.605,
+       "e": 110.726
+      },
+      {
+       "w": "de",
+       "s": 110.737,
+       "e": 110.857
+      },
+      {
+       "w": "três",
+       "s": 110.868,
+       "e": 111.066
+      },
+      {
+       "w": "horas",
+       "s": 111.077,
+       "e": 111.537
+      }
+     ],
+     "fim": 112.518
+    }
+   ],
+   "imagem": "⏱️",
+   "inicio": 87.846,
+   "fim": 112.968
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "dica": "Luggage = bagagem 🧳 · suitcase = mala",
+   "rotulo": "FRASE DE VIAGEM",
+   "certo": "My luggage is lost.",
+   "exemplo": {
+    "en": "My suitcase didn't arrive. Can you help me?",
+    "pt": "Minha mala não chegou. Você pode me ajudar?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Frase número cinco, a que ninguém quer usar, mas todo viajante precisa saber. A mala sumiu!",
+     "inicio": 112.968,
+     "palavras": [
+      {
+       "w": "Frase",
+       "s": 113.062,
+       "e": 113.479
+      },
+      {
+       "w": "número",
+       "s": 113.49,
+       "e": 113.797
+      },
+      {
+       "w": "cinco",
+       "s": 113.807,
+       "e": 114.213
+      },
+      {
+       "w": "a",
+       "s": 114.443,
+       "e": 114.542
+      },
+      {
+       "w": "que",
+       "s": 114.553,
+       "e": 114.641
+      },
+      {
+       "w": "ninguém",
+       "s": 114.652,
+       "e": 114.948
+      },
+      {
+       "w": "quer",
+       "s": 114.959,
+       "e": 115.123
+      },
+      {
+       "w": "usar",
+       "s": 115.134,
+       "e": 115.419
+      },
+      {
+       "w": "mas",
+       "s": 115.682,
+       "e": 115.913
+      },
+      {
+       "w": "todo",
+       "s": 115.924,
+       "e": 116.187
+      },
+      {
+       "w": "viajante",
+       "s": 116.198,
+       "e": 116.658
+      },
+      {
+       "w": "precisa",
+       "s": 116.669,
+       "e": 117.02
+      },
+      {
+       "w": "saber",
+       "s": 117.031,
+       "e": 117.349
+      },
+      {
+       "w": "A",
+       "s": 118.1,
+       "e": 118.198
+      },
+      {
+       "w": "mala",
+       "s": 118.209,
+       "e": 118.516
+      },
+      {
+       "w": "sumiu",
+       "s": 118.527,
+       "e": 118.966
+      }
+     ],
+     "fim": 119.956
+    },
+    {
+     "voz": "pt",
+     "texto": "Luggage é a bagagem. Fale com calma e peça ajuda.",
+     "mostra": "dica",
+     "inicio": 119.956,
+     "palavras": [
+      {
+       "w": "Luggage",
+       "s": 120.05,
+       "e": 120.576
+      },
+      {
+       "w": "é",
+       "s": 120.587,
+       "e": 120.62
+      },
+      {
+       "w": "a",
+       "s": 120.631,
+       "e": 120.664
+      },
+      {
+       "w": "bagagem",
+       "s": 120.675,
+       "e": 121.19
+      },
+      {
+       "w": "Fale",
+       "s": 121.941,
+       "e": 122.259
+      },
+      {
+       "w": "com",
+       "s": 122.27,
+       "e": 122.445
+      },
+      {
+       "w": "calma",
+       "s": 122.456,
+       "e": 122.73
+      },
+      {
+       "w": "e",
+       "s": 122.741,
+       "e": 122.785
+      },
+      {
+       "w": "peça",
+       "s": 122.796,
+       "e": 123.037
+      },
+      {
+       "w": "ajuda",
+       "s": 123.048,
+       "e": 123.421
+      }
+     ],
+     "fim": 124.424
+    },
+    {
+     "voz": "en",
+     "texto": "My luggage is lost.",
+     "mostra": "certo",
+     "inicio": 124.424,
+     "palavras": [
+      {
+       "w": "My",
+       "s": 124.524,
+       "e": 124.769
+      },
+      {
+       "w": "luggage",
+       "s": 124.782,
+       "e": 125.326
+      },
+      {
+       "w": "is",
+       "s": 125.339,
+       "e": 125.502
+      },
+      {
+       "w": "lost",
+       "s": 125.516,
+       "e": 126.086
+      }
+     ],
+     "fim": 126.708
+    },
+    {
+     "voz": "pt",
+     "texto": "E complete com um pedido:",
+     "inicio": 126.708,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 126.802,
+       "e": 126.901
+      },
+      {
+       "w": "complete",
+       "s": 126.912,
+       "e": 127.427
+      },
+      {
+       "w": "com",
+       "s": 127.438,
+       "e": 127.58
+      },
+      {
+       "w": "um",
+       "s": 127.591,
+       "e": 127.668
+      },
+      {
+       "w": "pedido",
+       "s": 127.679,
+       "e": 128.107
+      }
+     ],
+     "fim": 129.088
+    },
+    {
+     "voz": "en",
+     "texto": "My suitcase didn't arrive. Can you help me?",
+     "mostra": "exemplo",
+     "inicio": 129.088,
+     "palavras": [
+      {
+       "w": "My",
+       "s": 129.188,
+       "e": 129.405
+      },
+      {
+       "w": "suitcase",
+       "s": 129.419,
+       "e": 130.03
+      },
+      {
+       "w": "didn't",
+       "s": 130.044,
+       "e": 130.316
+      },
+      {
+       "w": "arrive",
+       "s": 130.329,
+       "e": 130.914
+      },
+      {
+       "w": "Can",
+       "s": 131.312,
+       "e": 131.516
+      },
+      {
+       "w": "you",
+       "s": 131.529,
+       "e": 131.611
+      },
+      {
+       "w": "help",
+       "s": 131.624,
+       "e": 131.828
+      },
+      {
+       "w": "me",
+       "s": 131.842,
+       "e": 132.086
+      }
+     ],
+     "fim": 132.716
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 132.716,
+     "fim": 134.036
+    },
+    {
+     "voz": "pt",
+     "texto": "Minha mala não chegou. Você pode me ajudar?",
+     "inicio": 134.036,
+     "palavras": [
+      {
+       "w": "Minha",
+       "s": 134.13,
+       "e": 134.382
+      },
+      {
+       "w": "mala",
+       "s": 134.393,
+       "e": 134.634
+      },
+      {
+       "w": "não",
+       "s": 134.645,
+       "e": 134.81
+      },
+      {
+       "w": "chegou",
+       "s": 134.821,
+       "e": 135.182
+      },
+      {
+       "w": "Você",
+       "s": 135.933,
+       "e": 136.207
+      },
+      {
+       "w": "pode",
+       "s": 136.218,
+       "e": 136.492
+      },
+      {
+       "w": "me",
+       "s": 136.503,
+       "e": 136.558
+      },
+      {
+       "w": "ajudar",
+       "s": 136.569,
+       "e": 136.975
+      }
+     ],
+     "fim": 137.976
+    }
+   ],
+   "imagem": "🧳",
+   "inicio": 112.968,
+   "fim": 138.426
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "Você quer achar o portão de embarque. O que pergunta?",
+   "opcoes": [
+    "I have nothing to declare.",
+    "I'm here on vacation.",
+    "Where is the gate?"
+   ],
+   "correta": 2,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Hora do desafio! Você quer achar o portão de embarque. O que pergunta?",
+     "mostra": "pergunta",
+     "inicio": 138.426,
+     "palavras": [
+      {
+       "w": "Hora",
+       "s": 138.52,
+       "e": 138.783
+      },
+      {
+       "w": "do",
+       "s": 138.794,
+       "e": 138.926
+      },
+      {
+       "w": "desafio",
+       "s": 138.937,
+       "e": 139.474
+      },
+      {
+       "w": "Você",
+       "s": 140.224,
+       "e": 140.509
+      },
+      {
+       "w": "quer",
+       "s": 140.52,
+       "e": 140.707
+      },
+      {
+       "w": "achar",
+       "s": 140.718,
+       "e": 141.014
+      },
+      {
+       "w": "o",
+       "s": 141.025,
+       "e": 141.069
+      },
+      {
+       "w": "portão",
+       "s": 141.08,
+       "e": 141.441
+      },
+      {
+       "w": "de",
+       "s": 141.452,
+       "e": 141.529
+      },
+      {
+       "w": "embarque",
+       "s": 141.54,
+       "e": 141.99
+      },
+      {
+       "w": "O",
+       "s": 142.746,
+       "e": 142.867
+      },
+      {
+       "w": "que",
+       "s": 142.878,
+       "e": 142.998
+      },
+      {
+       "w": "pergunta",
+       "s": 143.009,
+       "e": 143.536
+      }
+     ],
+     "fim": 144.526
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 144.526,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 144.62,
+       "e": 144.96
+      },
+      {
+       "w": "A",
+       "s": 144.971,
+       "e": 145.212
+      },
+      {
+       "w": "letra",
+       "s": 145.486,
+       "e": 145.793
+      },
+      {
+       "w": "B",
+       "s": 145.804,
+       "e": 145.99
+      },
+      {
+       "w": "ou",
+       "s": 146.001,
+       "e": 146.1
+      },
+      {
+       "w": "letra",
+       "s": 146.111,
+       "e": 146.429
+      },
+      {
+       "w": "C",
+       "s": 146.44,
+       "e": 146.747
+      },
+      {
+       "w": "Pensa",
+       "s": 147.498,
+       "e": 147.859
+      },
+      {
+       "w": "rápido",
+       "s": 147.87,
+       "e": 148.342
+      }
+     ],
+     "fim": 149.33
+    },
+    {
+     "pausa": 2.29,
+     "mostra": "contagem",
+     "inicio": 149.33,
+     "fim": 151.62
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra C!",
+     "mostra": "resposta",
+     "inicio": 151.62,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 151.714,
+       "e": 152.284
+      },
+      {
+       "w": "certa",
+       "s": 152.295,
+       "e": 152.723
+      },
+      {
+       "w": "letra",
+       "s": 152.964,
+       "e": 153.304
+      },
+      {
+       "w": "C",
+       "s": 153.315,
+       "e": 153.611
+      }
+     ],
+     "fim": 154.6
+    },
+    {
+     "voz": "en",
+     "texto": "Where is the gate?",
+     "inicio": 154.6,
+     "palavras": [
+      {
+       "w": "Where",
+       "s": 154.7,
+       "e": 154.985
+      },
+      {
+       "w": "is",
+       "s": 154.999,
+       "e": 155.108
+      },
+      {
+       "w": "the",
+       "s": 155.121,
+       "e": 155.216
+      },
+      {
+       "w": "gate",
+       "s": 155.23,
+       "e": 155.692
+      }
+     ],
+     "fim": 156.692
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 156.692,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 156.786,
+       "e": 157.367
+      },
+      {
+       "w": "Então",
+       "s": 158.117,
+       "e": 158.512
+      },
+      {
+       "w": "comenta",
+       "s": 158.523,
+       "e": 158.918
+      },
+      {
+       "w": "aí",
+       "s": 158.929,
+       "e": 159.203
+      },
+      {
+       "w": "acertei",
+       "s": 159.411,
+       "e": 159.938
+      }
+     ],
+     "fim": 160.92
+    }
+   ],
+   "inicio": 138.426,
+   "fim": 161.37
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 161.37,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 161.464,
+       "e": 161.705
+      },
+      {
+       "w": "dia",
+       "s": 161.716,
+       "e": 161.924
+      },
+      {
+       "w": "tem",
+       "s": 161.935,
+       "e": 162.056
+      },
+      {
+       "w": "dica",
+       "s": 162.067,
+       "e": 162.33
+      },
+      {
+       "w": "nova",
+       "s": 162.341,
+       "e": 162.637
+      },
+      {
+       "w": "de",
+       "s": 162.648,
+       "e": 162.714
+      },
+      {
+       "w": "inglês",
+       "s": 162.725,
+       "e": 163.109
+      },
+      {
+       "w": "fácil",
+       "s": 163.317,
+       "e": 163.679
+      },
+      {
+       "w": "e",
+       "s": 163.69,
+       "e": 163.723
+      },
+      {
+       "w": "rapidinha",
+       "s": 163.734,
+       "e": 164.304
+      },
+      {
+       "w": "Segue",
+       "s": 165.054,
+       "e": 165.471
+      },
+      {
+       "w": "pra",
+       "s": 165.482,
+       "e": 165.635
+      },
+      {
+       "w": "não",
+       "s": 165.646,
+       "e": 165.855
+      },
+      {
+       "w": "perder",
+       "s": 165.866,
+       "e": 166.271
+      }
+     ],
+     "fim": 167.254
+    },
+    {
+     "voz": "pt",
+     "texto": "E me conta nos comentários: pra qual país você sonha viajar?",
+     "inicio": 167.254,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 167.348,
+       "e": 167.447
+      },
+      {
+       "w": "me",
+       "s": 167.458,
+       "e": 167.589
+      },
+      {
+       "w": "conta",
+       "s": 167.6,
+       "e": 167.918
+      },
+      {
+       "w": "nos",
+       "s": 167.929,
+       "e": 168.05
+      },
+      {
+       "w": "comentários",
+       "s": 168.061,
+       "e": 168.74
+      },
+      {
+       "w": "pra",
+       "s": 168.96,
+       "e": 169.124
+      },
+      {
+       "w": "qual",
+       "s": 169.135,
+       "e": 169.343
+      },
+      {
+       "w": "país",
+       "s": 169.354,
+       "e": 169.661
+      },
+      {
+       "w": "você",
+       "s": 169.672,
+       "e": 169.903
+      },
+      {
+       "w": "sonha",
+       "s": 169.914,
+       "e": 170.254
+      },
+      {
+       "w": "viajar",
+       "s": 170.265,
+       "e": 170.67
+      }
+     ],
+     "fim": 171.65
+    },
+    {
+     "voz": "en",
+     "texto": "Have a nice trip! See you tomorrow!",
+     "inicio": 171.65,
+     "palavras": [
+      {
+       "w": "Have",
+       "s": 171.75,
+       "e": 172.008
+      },
+      {
+       "w": "a",
+       "s": 172.022,
+       "e": 172.062
+      },
+      {
+       "w": "nice",
+       "s": 172.076,
+       "e": 172.389
+      },
+      {
+       "w": "trip",
+       "s": 172.402,
+       "e": 172.796
+      },
+      {
+       "w": "See",
+       "s": 173.195,
+       "e": 173.493
+      },
+      {
+       "w": "you",
+       "s": 173.507,
+       "e": 173.616
+      },
+      {
+       "w": "tomorrow",
+       "s": 173.629,
+       "e": 174.281
+      }
+     ],
+     "fim": 174.894
+    }
+   ],
+   "inicio": 161.37,
+   "fim": 176.094
+  }
+ ]
+}

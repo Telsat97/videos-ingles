@@ -1,0 +1,28 @@
+{
+  "episodios": [
+    {
+      "slug": "ep001-cinco-erros",
+      "episodio": 1,
+      "titulo": "5 erros de inglês que todo brasileiro comete",
+      "temas": [
+        "I am agree -> I agree",
+        "I have 20 years -> I am 20 years old",
+        "I pretend to travel -> I plan to travel",
+        "Actually = atualmente -> Currently · Nowadays",
+        "Can I make a question? -> Can I ask a question?"
+      ],
+      "ensina": [
+        "I agree",
+        "I agree with you.",
+        "I am 20 years old",
+        "I'm twenty.",
+        "I plan to travel",
+        "I plan to travel next year.",
+        "Currently · Nowadays",
+        "Nowadays, I work from home.",
+        "Can I ask a question?",
+        "Can I ask you something?"
+      ]
+    }
+  ]
+}

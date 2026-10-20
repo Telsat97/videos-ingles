@@ -1,0 +1,108 @@
+# Produz e publica 1 episódio por dia da série "Inglês Fácil", direto na nuvem do GitHub (sem o seu PC).
+# Pega o roteiro mais antigo de serie-ingles/fila/, renderiza, guarda no Google Drive, publica onde houver
+# credencial e move o roteiro para serie-ingles/publicados/. Segredos: ver serie-ingles/SETUP.md.
+name: Episódio diário
+
+on:
+  schedule:
+    - cron: '0 14 * * *' # 11h de Brasília
+  workflow_dispatch:
+    inputs:
+      privacidade:
+        description: 'Privacidade no YouTube (public, unlisted, private)'
+        default: 'public'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: episodio-diario
+  cancel-in-progress: false
+
+jobs:
+  produzir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TEM_YT: ${{ secrets.YT_REFRESH_TOKEN != '' }}
+      TEM_FB: ${{ secrets.FB_PAGE_TOKEN != '' }}
+      TEM_DRIVE: ${{ secrets.RCLONE_CONF != '' }}
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Próximo roteiro da fila
+        id: fila
+        run: |
+          f=$(ls serie-ingles/fila/*.json 2>/dev/null | sort | head -1 || true)
+          if [ -z "$f" ]; then echo "::error::Fila vazia: não há roteiro para hoje."; exit 1; fi
+          echo "roteiro=$f" >> "$GITHUB_OUTPUT"
+          echo "Roteiro de hoje: $f"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependências
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji rclone
+          npm ci
+          python -m pip install -q edge-tts numpy requests google-api-python-client google-auth
+
+      - name: Produzir episódio
+        id: prod
+        run: |
+          python tools/produzir.py "${{ steps.fila.outputs.roteiro }}" | tee produzir.log
+          mp4=$(tail -1 produzir.log)
+          echo "mp4=$mp4" >> "$GITHUB_OUTPUT"
+          echo "pasta=$(dirname "$mp4")" >> "$GITHUB_OUTPUT"
+
+      - name: Guardar como artefato (7 dias)
+        uses: actions/upload-artifact@v4
+        with:
+          name: episodio
+          path: ${{ steps.prod.outputs.pasta }}
+          retention-days: 7
+
+      - name: Google Drive
+        if: env.TEM_DRIVE == 'true'
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          rclone copy "${{ steps.prod.outputs.pasta }}" "gdrive:Ingles Facil/$(basename "${{ steps.prod.outputs.pasta }}")"
+
+      - name: YouTube
+        if: env.TEM_YT == 'true'
+        continue-on-error: true
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACIDADE: ${{ inputs.privacidade || 'public' }}
+        run: python tools/publicar.py youtube "${{ steps.prod.outputs.pasta }}/post.json"
+
+      - name: Facebook
+        if: env.TEM_FB == 'true'
+        continue-on-error: true
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: python tools/publicar.py facebook "${{ steps.prod.outputs.pasta }}/post.json"
+
+      - name: Registrar e tirar da fila
+        run: |
+          f="${{ steps.fila.outputs.roteiro }}"
+          python -c "import json,sys; sys.path.insert(0,'tools'); import narrar; narrar.registrar(json.load(open('$f',encoding='utf-8')))"
+          git mv "$f" serie-ingles/publicados/
+          git config user.name "inglês-fácil bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add serie-ingles/
+          git commit -m "Publica $(basename "$f" .json)"
+          git push

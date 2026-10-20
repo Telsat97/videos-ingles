@@ -1,0 +1,343 @@
+{
+  "slug": "ep006-criancas-cores-frutas",
+  "episodio": 6,
+  "titulo": "Inglês para crianças: cores e frutas",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "Inglês pra crianças: cores e frutas 🍎🍌🍇 (adulto também aprende!)",
+    "descricao": "Maçã vermelha, banana amarela, uva roxa, laranja e melancia: aprenda cores e frutas em frases completas, do jeito mais divertido. No final tem desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#cores",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "BANANA",
+        "amarela? Em inglês",
+        "também tem cor!"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Banana, maçã, uva... Você sabe a cor de cada fruta em inglês?",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje é aula divertida: cores e frutas, em frases completas. Serve pra criança e pra gente grande também! Chama a família toda pra aprender junto."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "apple = maçã, red = vermelho 🍎",
+      "certo": "The apple is red.",
+      "exemplo": {
+        "en": "I eat a red apple.",
+        "pt": "Eu como uma maçã vermelha."
+      },
+      "pronuncia": "di ápol iz réd",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Primeira fruta: a maçã! Apple é maçã, e red é vermelho.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo a frase inteira:"
+        },
+        {
+          "voz": "en",
+          "texto": "The apple is red.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora com a cor antes da fruta:"
+        },
+        {
+          "voz": "en",
+          "texto": "I eat a red apple.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu como uma maçã vermelha. Gostoso! Agora olha pra uma fruta perto de você e tenta falar a cor dela em inglês."
+        }
+      ],
+      "imagem": "🍎",
+      "rotulo": "PALAVRA DO DIA"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "dica": "banana é igualzinha, só muda o som 🍌",
+      "certo": "The banana is yellow.",
+      "exemplo": {
+        "en": "Monkeys love yellow bananas.",
+        "pt": "Macacos adoram bananas amarelas."
+      },
+      "pronuncia": "di banána iz iélou",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Segunda: a banana! Escreve igual, mas fala diferente. E yellow é amarelo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "The banana is yellow.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Quem adora banana? Os macacos!"
+        },
+        {
+          "voz": "en",
+          "texto": "Monkeys love yellow bananas.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Macacos adoram bananas amarelas. Hi hi hi! Dica: imite um macaquinho enquanto repete, fica mais fácil de lembrar!"
+        }
+      ],
+      "imagem": "🍌",
+      "rotulo": "PALAVRA DO DIA"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "grape = uva, purple = roxo 🍇",
+      "certo": "The grape is purple.",
+      "exemplo": {
+        "en": "These grapes are purple.",
+        "pt": "Estas uvas são roxas."
+      },
+      "pronuncia": "di grêip iz pârpol",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Terceira: a uva! Grape é uva, e purple é roxo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "The grape is purple.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Quando são várias uvas, o verbo muda:"
+        },
+        {
+          "voz": "en",
+          "texto": "These grapes are purple.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estas uvas são roxas. Repete de novo, bem devagarinho, e tenta não rir da palavra purple!"
+        }
+      ],
+      "imagem": "🍇",
+      "rotulo": "PALAVRA DO DIA"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "dica": "orange é a fruta E a cor. Duas coisas numa palavra só! 🍊",
+      "certo": "The orange is orange.",
+      "exemplo": {
+        "en": "This orange is sweet.",
+        "pt": "Esta laranja é doce."
+      },
+      "pronuncia": "di ôrindj iz ôrindj",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quarta: a laranja! Aqui tem uma graça: orange é a fruta e também a cor.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta que divertido:"
+        },
+        {
+          "voz": "en",
+          "texto": "The orange is orange.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E pra dizer que ela é doce:"
+        },
+        {
+          "voz": "en",
+          "texto": "This orange is sweet.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Esta laranja é doce. Hummm! Quem acertou a pronúncia ganha uma laranja de prêmio."
+        }
+      ],
+      "imagem": "🍊",
+      "rotulo": "PALAVRA DO DIA"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "watermelon = melancia: verde por fora, vermelha por dentro 🍉",
+      "certo": "The watermelon is green.",
+      "exemplo": {
+        "en": "It is green outside and red inside.",
+        "pt": "É verde por fora e vermelha por dentro."
+      },
+      "pronuncia": "di uóter-mélon iz grín",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quinta: a melancia! Watermelon é uma palavra grande, mas fácil: água mais melão. Green é verde.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "The watermelon is green.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas por dentro ela é outra cor:"
+        },
+        {
+          "voz": "en",
+          "texto": "It is green outside and red inside.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "É verde por fora e vermelha por dentro. Que fruta esperta! Já são cinco frutas e cinco cores aprendidas."
+        }
+      ],
+      "imagem": "🍉",
+      "rotulo": "PALAVRA DO DIA"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como se diz “A uva é roxa”?",
+      "opcoes": [
+        "The grape is green",
+        "The grape is purple",
+        "The grape is yellow"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Agora, o desafio! Como se diz: a uva é roxa?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "The grape is purple."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual é a sua fruta favorita?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "🍎",
+    "🍌",
+    "🍇",
+    "🍊",
+    "🍉",
+    "🎨"
+  ]
+}

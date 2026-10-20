@@ -1,0 +1,364 @@
+{
+  "slug": "ep007-restaurante",
+  "episodio": 7,
+  "titulo": "Inglês no restaurante: peça tudo sem passar vergonha",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "Como pedir comida em INGLÊS no restaurante 🍽️ (e NÃO falar “the account”)",
+    "descricao": "Aprenda a pedir mesa, comida, tirar um ingrediente, pedir a conta e levar pra viagem em inglês. No final tem um desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#inglesparaviagem",
+      "#dicasdeingles",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "NO RESTAURANTE",
+        "pedir em inglês",
+        "sem passar vergonha"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Você já travou na hora de pedir a conta num restaurante lá fora?",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu te ensino cinco frases pra pedir tudo em inglês, do começo ao fim da refeição."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "diga quantas pessoas são + please 😊",
+      "rotulo": "NO RESTAURANTE",
+      "certo": "Table for two, please.",
+      "pronuncia": "TEI-bol for TU, pliz",
+      "exemplo": {
+        "en": "Do you have a table by the window?",
+        "pt": "Vocês têm uma mesa perto da janela?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Primeira frase. Você chegou e quer sentar. É só dizer o número de pessoas:"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mesa pra duas pessoas. Simples assim, e muito educado.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Table for two, please.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora, se quiser escolher o lugar:"
+        },
+        {
+          "voz": "en",
+          "texto": "Do you have a table by the window?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Vocês têm uma mesa perto da janela?"
+        }
+      ],
+      "imagem": "🪑"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "I want a burger",
+      "dica": "“I want” soa como ordem: peça com “Can I get…?”",
+      "rotulo": "NO RESTAURANTE",
+      "certo": "Can I get a burger, please?",
+      "pronuncia": "kén ai guét a BÂR-guer",
+      "exemplo": {
+        "en": "Can I get the chicken salad?",
+        "pt": "Eu posso pedir a salada de frango?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Segunda frase. Na hora de pedir, o brasileiro costuma falar assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Só que soa meio seco, como uma ordem. Os americanos preferem um pedido gentil.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O natural é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I get a burger, please?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Funciona com qualquer comida:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I get the chicken salad?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu posso pedir a salada de frango?"
+        }
+      ],
+      "imagem": "🍔"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "no + ingrediente, ou “without” = sem 🧅",
+      "rotulo": "NO RESTAURANTE",
+      "certo": "No onions, please.",
+      "pronuncia": "NOU Â-nions, pliz",
+      "exemplo": {
+        "en": "Can I get it without cheese?",
+        "pt": "Posso pedir sem queijo?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Terceira frase. Não gosta de cebola? Tem dois jeitos fáceis."
+        },
+        {
+          "voz": "pt",
+          "texto": "O primeiro é o mais curtinho: no, mais o ingrediente.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "No onions, please.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "O segundo usa a palavra without, que quer dizer sem:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I get it without cheese?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Posso pedir sem queijo?"
+        }
+      ],
+      "imagem": "🧅"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "I want the account",
+      "dica": "account = conta de banco. Restaurante = check",
+      "rotulo": "NO RESTAURANTE",
+      "certo": "Can we get the check, please?",
+      "pronuncia": "kén ui guét dhe tchék, pliz",
+      "exemplo": {
+        "en": "Could we have the check, please?",
+        "pt": "Poderíamos pedir a conta, por favor?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quarta frase, a mais importante! Na hora de pagar, o brasileiro fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas account é conta de banco! Conta do restaurante, nos Estados Unidos, é check.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Can we get the check, please?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Também dá pra falar assim, bem educado:"
+        },
+        {
+          "voz": "en",
+          "texto": "Could we have the check, please?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Poderíamos pedir a conta, por favor?"
+        }
+      ],
+      "imagem": "🧾"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "to go = pra viagem 🥡",
+      "rotulo": "NO RESTAURANTE",
+      "certo": "To go, please.",
+      "pronuncia": "tu GOU, pliz",
+      "exemplo": {
+        "en": "Can I get a box for my leftovers?",
+        "pt": "Posso pegar uma caixinha pra levar as sobras?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quinta e última frase. Quer levar a comida pra casa?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Os americanos dizem to go, que significa pra viagem.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "To go, please.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E se sobrou comida na mesa, você pede uma caixinha:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I get a box for my leftovers?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Posso pegar uma caixinha pra levar as sobras?"
+        }
+      ],
+      "imagem": "🥡"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como pedir a conta no restaurante?",
+      "opcoes": [
+        "I want the account",
+        "Can we get the check, please?",
+        "Give me the bill now"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Como você pede a conta no restaurante?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Can we get the check, please?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual frase você mais vai usar na sua próxima viagem?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "🍽️",
+    "🍔",
+    "🥗",
+    "🧾",
+    "☕"
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "slug": "ep003-frases-aeroporto",
+  "episodio": 3,
+  "titulo": "5 frases de inglês para o aeroporto e a imigração",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "VIAJA pro exterior? 5 frases de inglês pro aeroporto ✈️",
+    "descricao": "Cinco frases para não passar aperto na viagem: I'm here on vacation, Where is the gate?, I have nothing to declare, How long is the layover? e My luggage is lost. Tem desafio no final! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#inglesparaviagem",
+      "#aeroporto",
+      "#inglesfacil",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "AEROPORTO",
+        "5 frases de inglês",
+        "pra sua viagem"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Primeira viagem de avião pra fora do Brasil? Sem pânico!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu te ensino cinco frases que você vai usar no aeroporto e na imigração."
+        },
+        {
+          "voz": "pt",
+          "texto": "Salva esse vídeo e fica até o final: tem desafio!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "Motivo da viagem? 🛂 Passeio = vacation",
+      "rotulo": "FRASE DE VIAGEM",
+      "certo": "I'm here on vacation.",
+      "exemplo": {
+        "en": "I'm here on vacation for two weeks.",
+        "pt": "Estou aqui de férias por duas semanas."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número um. O policial da imigração olha pra você e pergunta o motivo da viagem. E agora?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Se for passeio, é só dizer que está de férias.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Fala assim:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm here on vacation.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pode completar:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm here on vacation for two weeks.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou aqui de férias por duas semanas."
+        }
+      ],
+      "imagem": "🏖️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "dica": "Gate = portão de embarque ✈️",
+      "rotulo": "FRASE DE VIAGEM",
+      "certo": "Where is the gate?",
+      "exemplo": {
+        "en": "Excuse me, where is gate twelve?",
+        "pt": "Com licença, onde fica o portão doze?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número dois. Você está no aeroporto, perdido, e precisa achar o portão de embarque."
+        },
+        {
+          "voz": "pt",
+          "texto": "Gate é o portão. Com essa pergunta qualquer pessoa te ajuda.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Where is the gate?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pra ficar educado, comece com licença:"
+        },
+        {
+          "voz": "en",
+          "texto": "Excuse me, where is gate twelve?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Com licença, onde fica o portão doze?"
+        }
+      ],
+      "imagem": "🛫"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "Nada a declarar = nothing to declare 🧳",
+      "rotulo": "FRASE DE VIAGEM",
+      "certo": "I have nothing to declare.",
+      "exemplo": {
+        "en": "I'm only carrying clothes and a few gifts.",
+        "pt": "Estou levando só roupas e alguns presentes."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número três. Na alfândega, o oficial pergunta se você tem algo a declarar."
+        },
+        {
+          "voz": "pt",
+          "texto": "Se você não leva nada de especial, a resposta é simples.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "I have nothing to declare.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Se quiser explicar, diga:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm only carrying clothes and a few gifts.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou levando só roupas e alguns presentes."
+        }
+      ],
+      "imagem": "🛃"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "dica": "Layover = escala ⏱️",
+      "rotulo": "FRASE DE VIAGEM",
+      "certo": "How long is the layover?",
+      "exemplo": {
+        "en": "The layover in Dallas is three hours.",
+        "pt": "A escala em Dallas é de três horas."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número quatro. Quando o voo faz uma parada no meio do caminho, essa parada se chama escala."
+        },
+        {
+          "voz": "pt",
+          "texto": "Em inglês, escala é layover. Pra saber quanto tempo você espera, pergunte:",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "How long is the layover?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E a resposta pode ser:"
+        },
+        {
+          "voz": "en",
+          "texto": "The layover in Dallas is three hours.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "A escala em Dallas é de três horas."
+        }
+      ],
+      "imagem": "⏱️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "Luggage = bagagem 🧳 · suitcase = mala",
+      "rotulo": "FRASE DE VIAGEM",
+      "certo": "My luggage is lost.",
+      "exemplo": {
+        "en": "My suitcase didn't arrive. Can you help me?",
+        "pt": "Minha mala não chegou. Você pode me ajudar?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número cinco, a que ninguém quer usar, mas todo viajante precisa saber. A mala sumiu!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Luggage é a bagagem. Fale com calma e peça ajuda.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "My luggage is lost.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E complete com um pedido:"
+        },
+        {
+          "voz": "en",
+          "texto": "My suitcase didn't arrive. Can you help me?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Minha mala não chegou. Você pode me ajudar?"
+        }
+      ],
+      "imagem": "🧳"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Você quer achar o portão de embarque. O que pergunta?",
+      "opcoes": [
+        "I have nothing to declare.",
+        "I'm here on vacation.",
+        "Where is the gate?"
+      ],
+      "correta": 2,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Você quer achar o portão de embarque. O que pergunta?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra C!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Where is the gate?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: pra qual país você sonha viajar?"
+        },
+        {
+          "voz": "en",
+          "texto": "Have a nice trip! See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "✈️",
+    "🧳",
+    "🛂",
+    "🌎",
+    "🎫"
+  ]
+}

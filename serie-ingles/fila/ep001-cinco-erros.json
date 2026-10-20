@@ -1,0 +1,381 @@
+{
+  "slug": "ep001-cinco-erros",
+  "episodio": 1,
+  "titulo": "5 erros de inglês que todo brasileiro comete",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "5 erros de inglês que TODO brasileiro comete 😳 (você comete o nº 3?)",
+    "descricao": "Aprenda a falar inglês do jeito certo corrigindo 5 erros clássicos: I am agree, I have 20 years, pretend, actually e make a question. No final tem um desafio pra você testar se aprendeu! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#dicasdeingles",
+      "#englishtips",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "5 ERROS",
+        "de inglês que todo",
+        "brasileiro comete"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Se você fala “I am agree”... calma, você não está sozinho!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu vou te mostrar cinco erros que quase todo brasileiro comete, e como falar do jeito certo."
+        },
+        {
+          "voz": "pt",
+          "texto": "E fica até o final: tem um desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "I am agree",
+      "dica": "agree já é verbo: não precisa do “am”",
+      "certo": "I agree",
+      "exemplo": {
+        "en": "I agree with you.",
+        "pt": "Eu concordo com você."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas agree já é verbo. Não precisa do am.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I agree.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I agree with you.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu concordo com você. Fácil, né?"
+        }
+      ],
+      "imagem": "🤝"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "I have 20 years",
+      "dica": "Em inglês você não TEM idade: você É a idade",
+      "certo": "I am 20 years old",
+      "exemplo": {
+        "en": "I'm twenty.",
+        "pt": "Eu tenho vinte anos."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número dois. Pra falar a idade, o brasileiro diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Só que em inglês a gente não tem idade: a gente é a idade! Usa o verbo to be.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "I am twenty years old.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Ou de um jeito mais curtinho:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm twenty.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Agora fala a sua idade em voz alta!"
+        }
+      ],
+      "imagem": "🎂"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "I pretend to travel",
+      "dica": "pretend = fingir 🎭",
+      "certo": "I plan to travel",
+      "exemplo": {
+        "en": "I plan to travel next year.",
+        "pt": "Eu pretendo viajar ano que vem."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número três. Esse é uma pegadinha!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pretend parece pretender, né? Mas não é. Pretend quer dizer fingir.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Se você fala assim, está dizendo que finge que vai viajar!",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é usar plan:"
+        },
+        {
+          "voz": "en",
+          "texto": "I plan to travel.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Por exemplo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I plan to travel next year.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu pretendo viajar ano que vem."
+        }
+      ],
+      "imagem": "✈️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "Actually = atualmente",
+      "dica": "actually = na verdade",
+      "certo": "Currently · Nowadays",
+      "exemplo": {
+        "en": "Nowadays, I work from home.",
+        "pt": "Atualmente, eu trabalho de casa."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número quatro. Outro falso amigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Actually.",
+          "mostra": "errado"
+        },
+        {
+          "voz": "pt",
+          "texto": "Parece atualmente, mas significa na verdade.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pra dizer atualmente, use:"
+        },
+        {
+          "voz": "en",
+          "texto": "Currently. Or: nowadays.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Olha só:"
+        },
+        {
+          "voz": "en",
+          "texto": "Nowadays, I work from home.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Atualmente, eu trabalho de casa."
+        }
+      ],
+      "imagem": "🏠"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "Can I make a question?",
+      "dica": "pergunta a gente PEDE: ask = perguntar",
+      "certo": "Can I ask a question?",
+      "exemplo": {
+        "en": "Can I ask you something?",
+        "pt": "Posso te perguntar uma coisa?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número cinco. A gente faz uma pergunta, aí sai assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas em inglês, pergunta a gente pede! Use o verbo ask.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I ask a question?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I ask you something?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Posso te perguntar uma coisa?"
+        }
+      ],
+      "imagem": "❓"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como se diz “Eu tenho 30 anos”?",
+      "opcoes": [
+        "I have 30 years",
+        "I am 30 years old",
+        "I make 30 years"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Agora, o desafio! Como se diz: eu tenho trinta anos?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "I am thirty years old."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual desses erros você já cometeu?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "💬",
+    "📚",
+    "✏️",
+    "⭐"
+  ]
+}

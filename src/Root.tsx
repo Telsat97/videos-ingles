@@ -5,6 +5,8 @@ import {TerminalTecnico} from './estilos/TerminalTecnico';
 import {VerticalDados} from './estilos/VerticalDados';
 import {VerticalLegendas} from './estilos/VerticalLegendas';
 import {VerticalPrint} from './estilos/VerticalPrint';
+import {Episodio} from './videos/ingles/Episodio';
+import {episodios} from './videos/ingles/episodios.gen';
 
 const FPS = 30;
 const SEIS_SEGUNDOS = 6 * FPS;
@@ -21,5 +23,30 @@ export const RemotionRoot: React.FC = () => (
     </Folder>
 
     {/* Seus vídeos entram aqui: um <Folder name="001-slug"> por projeto, com o código em src/videos/<slug>/. */}
+    {/* Série de inglês: um episódio por roteiro, gerado por tools/narrar.py. */}
+    <Folder name="ingles">
+      {episodios.map((ep) => (
+        <React.Fragment key={ep.slug}>
+          <Composition
+            id={`ingles-${ep.slug}`}
+            component={Episodio}
+            defaultProps={{ep, formato: 'vertical' as const}}
+            width={1080}
+            height={1920}
+            fps={FPS}
+            durationInFrames={Math.ceil(ep.duracao * FPS)}
+          />
+          <Composition
+            id={`ingles-${ep.slug}-h`}
+            component={Episodio}
+            defaultProps={{ep, formato: 'horizontal' as const}}
+            width={1920}
+            height={1080}
+            fps={FPS}
+            durationInFrames={Math.ceil(ep.duracao * FPS)}
+          />
+        </React.Fragment>
+      ))}
+    </Folder>
   </>
 );

@@ -1,0 +1,388 @@
+{
+  "slug": "ep005-como-dizer",
+  "episodio": 5,
+  "titulo": "Como dizer 5 expressões brasileiras em inglês",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "post": {
+    "titulo": "Como se diz SAUDADE em inglês? E mais 4 expressões brasileiras 💛",
+    "descricao": "Saudade, tanto faz, fique à vontade, bom apetite e estou com preguiça: veja como os americanos falam de verdade. No final tem desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#saudade",
+      "#dicasdeingles",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "SAUDADE?",
+        "Como se diz isso",
+        "em inglês?"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Saudade! Você sabe dizer isso em inglês? Quase ninguém sabe!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu te ensino cinco expressões bem brasileiras, e como os americanos falam de verdade."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "I have saudade of you",
+      "dica": "Em inglês, saudade vira o verbo miss 💛",
+      "certo": "I miss you",
+      "exemplo": {
+        "en": "I miss you so much.",
+        "pt": "Eu sinto tanta saudade de você."
+      },
+      "pronuncia": "ai mis iú",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Primeira expressão: saudade! O brasileiro tenta falar assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas não existe uma palavra igual. Os americanos usam o verbo miss, que quer dizer sentir falta.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I miss you.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pra dizer com mais carinho:"
+        },
+        {
+          "voz": "en",
+          "texto": "I miss you so much.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu sinto tanta saudade de você. Manda pra alguém hoje!"
+        }
+      ],
+      "imagem": "💛",
+      "rotulo": "COMO DIZER"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "So much makes",
+      "dica": "Tanto faz = it doesn't matter (ou: I don't mind) 🤷",
+      "certo": "It doesn't matter",
+      "exemplo": {
+        "en": "Pizza or pasta? I don't mind.",
+        "pt": "Pizza ou macarrão? Tanto faz."
+      },
+      "pronuncia": "it dâzent méra",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Segunda: tanto faz. Tem gente que traduz palavra por palavra e sai assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Isso não quer dizer nada! Em inglês você diz que não importa. Cuidado: só o whatever, sozinho, pode soar mal-educado.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "It doesn't matter.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "E se alguém te der duas opções:"
+        },
+        {
+          "voz": "en",
+          "texto": "Pizza or pasta? I don't mind.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pizza ou macarrão? Tanto faz. Simples, né? Usa isso hoje mesmo com alguém."
+        }
+      ],
+      "imagem": "🤷",
+      "rotulo": "COMO DIZER"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "Stay at will",
+      "dica": "Fique à vontade = faça de conta que é a sua casa 🏠",
+      "certo": "Make yourself at home",
+      "exemplo": {
+        "en": "Please, make yourself comfortable.",
+        "pt": "Fique à vontade, por favor."
+      },
+      "pronuncia": "mêik iorsélf ét rôum",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Terceira: fique à vontade! Na tradução literal, o povo fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Só que os americanos dizem outra coisa: faça de conta que a casa é sua.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Make yourself at home.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Ou, de um jeito parecido:"
+        },
+        {
+          "voz": "en",
+          "texto": "Please, make yourself comfortable.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Fique à vontade, por favor. Que acolhedor!"
+        }
+      ],
+      "imagem": "🏠",
+      "rotulo": "COMO DIZER"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "Good appetite",
+      "dica": "Na mesa, o americano deseja que você aproveite 🍽️",
+      "certo": "Enjoy your meal",
+      "exemplo": {
+        "en": "Dinner is ready. Enjoy!",
+        "pt": "O jantar está pronto. Bom apetite!"
+      },
+      "pronuncia": "êndjói ior míl",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quarta: bom apetite! Muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Dá pra entender, mas ninguém fala desse jeito. Os americanos desejam que você aproveite a comida.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Enjoy your meal.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Na hora de chamar todo mundo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Dinner is ready. Enjoy!",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O jantar está pronto. Bom apetite!"
+        }
+      ],
+      "imagem": "🍽️",
+      "rotulo": "COMO DIZER"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "I have laziness",
+      "dica": "Preguiça em inglês é jeito de se sentir: feel lazy 😴",
+      "certo": "I feel lazy",
+      "exemplo": {
+        "en": "I feel lazy today.",
+        "pt": "Hoje eu estou com preguiça."
+      },
+      "pronuncia": "ai fíl lêizi",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quinta: estou com preguiça! O brasileiro diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas em inglês, preguiça não se tem: se sente. Usa o verbo feel.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I feel lazy.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Olha só:"
+        },
+        {
+          "voz": "en",
+          "texto": "I feel lazy today.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu estou com preguiça. Todo mundo tem esse dia!"
+        }
+      ],
+      "imagem": "😴",
+      "rotulo": "COMO DIZER"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como se diz “Fique à vontade”?",
+      "opcoes": [
+        "Stay at will",
+        "Make yourself at home",
+        "Be free here"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Agora, o desafio! Como se diz: fique à vontade?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Make yourself at home."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "E me conta nos comentários: qual dessas expressões você mais usa?"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ],
+  "cenario": [
+    "💛",
+    "🏠",
+    "🍽️",
+    "☕"
+  ]
+}
