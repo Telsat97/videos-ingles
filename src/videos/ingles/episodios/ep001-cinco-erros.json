@@ -2,9 +2,21 @@
  "slug": "ep001-cinco-erros",
  "episodio": 1,
  "titulo": "5 erros de inglês que todo brasileiro comete",
+ "cenario": [
+  "💬",
+  "📚",
+  "✏️",
+  "⭐"
+ ],
  "duracao": 173.724,
  "audio": "002. ingles-ep001-cinco-erros/audio/narracao.wav",
- "fotos": [],
+ "fotos": [
+  "002. ingles-ep001-cinco-erros/prints/foto1.webp",
+  "002. ingles-ep001-cinco-erros/prints/foto2.webp",
+  "002. ingles-ep001-cinco-erros/prints/foto3.webp",
+  "002. ingles-ep001-cinco-erros/prints/foto4.webp",
+  "002. ingles-ep001-cinco-erros/prints/foto5.webp"
+ ],
  "cenas": [
   {
    "tipo": "abertura",
@@ -490,6 +502,7 @@
      "fim": 37.936
     }
    ],
+   "imagem": "🤝",
    "inicio": 15.26,
    "fim": 38.386
   },
@@ -819,6 +832,7 @@
      "fim": 61.318
     }
    ],
+   "imagem": "🎂",
    "inicio": 38.386,
    "fim": 61.768
   },
@@ -1169,6 +1183,7 @@
      "fim": 88.98
     }
    ],
+   "imagem": "✈️",
    "inicio": 61.768,
    "fim": 89.43
   },
@@ -1418,6 +1433,7 @@
      "fim": 114.794
     }
    ],
+   "imagem": "🏠",
    "inicio": 89.43,
    "fim": 115.244
   },
@@ -1687,6 +1703,7 @@
      "fim": 136.064
     }
    ],
+   "imagem": "❓",
    "inicio": 115.244,
    "fim": 136.514
   },

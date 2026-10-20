@@ -39,18 +39,23 @@ export const Abertura: React.FC<P> = ({cena, foto}) => {
   const linhas = cena.titulo ?? [];
   return (
     <AbsoluteFill>
-      <AbsoluteFill style={L.h ? {left: 860} : undefined}>
+      {/* No 16:9 a foto (retrato 9:16) entra inteira à direita, sobre um fundo azul, com a borda esquerda
+          se dissolvendo. No 9:16 ela ocupa a tela toda, com um degradê por cima para o título. */}
+      {L.h && <AbsoluteFill style={{background: 'linear-gradient(90deg, #1F2A44 0%, #1F2A44 55%, #2b3656 100%)'}} />}
+      <AbsoluteFill
+        style={
+          L.h
+            ? {left: 'auto', right: 0, width: 700, overflow: 'hidden', maskImage: 'linear-gradient(90deg, transparent, #000 22%)'}
+            : undefined
+        }
+      >
         <AbsoluteFill style={{transform: `scale(${zoom})`, transformOrigin: '50% 30%'}}>
           <Foto src={foto} />
         </AbsoluteFill>
       </AbsoluteFill>
-      <AbsoluteFill
-        style={{
-          background: L.h
-            ? 'linear-gradient(90deg, #1F2A44 0%, #1F2A44 44%, rgba(31,42,68,.0) 62%)'
-            : 'linear-gradient(rgba(0,0,0,.35) 0%, transparent 18%, transparent 42%, rgba(15,20,35,.88) 62%)',
-        }}
-      />
+      {!L.h && (
+        <AbsoluteFill style={{background: 'linear-gradient(rgba(0,0,0,.35) 0%, transparent 18%, transparent 42%, rgba(15,20,35,.88) 62%)'}} />
+      )}
       <div style={L.h ? {position: 'absolute', left: 110, width: 820, top: 230} : {position: 'absolute', left: L.esq, right: L.dir, top: 900, textAlign: 'center'}}>
         {linhas.map((l, i) => (
           <Linha key={l} texto={l} inicio={ti === null ? null : ti + i * 0.18} grande={i === 0} />
