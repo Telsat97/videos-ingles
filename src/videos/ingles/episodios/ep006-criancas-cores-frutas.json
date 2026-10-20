@@ -1,0 +1,2208 @@
+{
+ "slug": "ep006-criancas-cores-frutas",
+ "episodio": 6,
+ "titulo": "Inglês para crianças: cores e frutas",
+ "cenario": [
+  "🍎",
+  "🍌",
+  "🍇",
+  "🍊",
+  "🍉",
+  "🎨"
+ ],
+ "duracao": 177.494,
+ "audio": "006. ingles-ep006-criancas-cores-frutas/audio/narracao.wav",
+ "fotos": [
+  "006. ingles-ep006-criancas-cores-frutas/prints/foto1.webp",
+  "006. ingles-ep006-criancas-cores-frutas/prints/foto2.webp",
+  "006. ingles-ep006-criancas-cores-frutas/prints/foto3.webp",
+  "006. ingles-ep006-criancas-cores-frutas/prints/foto4.webp",
+  "006. ingles-ep006-criancas-cores-frutas/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "BANANA",
+    "amarela? Em inglês",
+    "também tem cor!"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Banana, maçã, uva... Você sabe a cor de cada fruta em inglês?",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Banana",
+       "s": 0.444,
+       "e": 0.948
+      },
+      {
+       "w": "maçã",
+       "s": 1.157,
+       "e": 1.584
+      },
+      {
+       "w": "uva",
+       "s": 1.858,
+       "e": 2.165
+      },
+      {
+       "w": "Você",
+       "s": 2.916,
+       "e": 3.179
+      },
+      {
+       "w": "sabe",
+       "s": 3.19,
+       "e": 3.409
+      },
+      {
+       "w": "a",
+       "s": 3.42,
+       "e": 3.464
+      },
+      {
+       "w": "cor",
+       "s": 3.475,
+       "e": 3.672
+      },
+      {
+       "w": "de",
+       "s": 3.683,
+       "e": 3.782
+      },
+      {
+       "w": "cada",
+       "s": 3.793,
+       "e": 4.045
+      },
+      {
+       "w": "fruta",
+       "s": 4.056,
+       "e": 4.341
+      },
+      {
+       "w": "em",
+       "s": 4.352,
+       "e": 4.407
+      },
+      {
+       "w": "inglês",
+       "s": 4.418,
+       "e": 4.857
+      }
+     ],
+     "fim": 5.85
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje é aula divertida: cores e frutas, em frases completas. Serve pra criança e pra gente grande também! Chama a família toda pra aprender junto.",
+     "inicio": 5.85,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 5.944,
+       "e": 6.251
+      },
+      {
+       "w": "é",
+       "s": 6.262,
+       "e": 6.306
+      },
+      {
+       "w": "aula",
+       "s": 6.317,
+       "e": 6.591
+      },
+      {
+       "w": "divertida",
+       "s": 6.602,
+       "e": 7.139
+      },
+      {
+       "w": "cores",
+       "s": 7.347,
+       "e": 7.6
+      },
+      {
+       "w": "e",
+       "s": 7.611,
+       "e": 7.72
+      },
+      {
+       "w": "frutas",
+       "s": 7.731,
+       "e": 8.181
+      },
+      {
+       "w": "em",
+       "s": 8.334,
+       "e": 8.433
+      },
+      {
+       "w": "frases",
+       "s": 8.444,
+       "e": 8.839
+      },
+      {
+       "w": "completas",
+       "s": 8.85,
+       "e": 9.485
+      },
+      {
+       "w": "Serve",
+       "s": 10.236,
+       "e": 10.696
+      },
+      {
+       "w": "pra",
+       "s": 10.707,
+       "e": 10.839
+      },
+      {
+       "w": "criança",
+       "s": 10.85,
+       "e": 11.332
+      },
+      {
+       "w": "e",
+       "s": 11.343,
+       "e": 11.387
+      },
+      {
+       "w": "pra",
+       "s": 11.398,
+       "e": 11.574
+      },
+      {
+       "w": "gente",
+       "s": 11.585,
+       "e": 11.87
+      },
+      {
+       "w": "grande",
+       "s": 11.881,
+       "e": 12.264
+      },
+      {
+       "w": "também",
+       "s": 12.275,
+       "e": 12.681
+      },
+      {
+       "w": "Chama",
+       "s": 13.438,
+       "e": 13.734
+      },
+      {
+       "w": "a",
+       "s": 13.745,
+       "e": 13.778
+      },
+      {
+       "w": "família",
+       "s": 13.789,
+       "e": 14.161
+      },
+      {
+       "w": "toda",
+       "s": 14.172,
+       "e": 14.457
+      },
+      {
+       "w": "pra",
+       "s": 14.468,
+       "e": 14.589
+      },
+      {
+       "w": "aprender",
+       "s": 14.6,
+       "e": 14.995
+      },
+      {
+       "w": "junto",
+       "s": 15.006,
+       "e": 15.368
+      }
+     ],
+     "fim": 16.366
+    },
+    {
+     "voz": "pt",
+     "texto": "Fica até o final: tem desafio!",
+     "inicio": 16.366,
+     "palavras": [
+      {
+       "w": "Fica",
+       "s": 16.46,
+       "e": 16.756
+      },
+      {
+       "w": "até",
+       "s": 16.767,
+       "e": 16.953
+      },
+      {
+       "w": "o",
+       "s": 16.964,
+       "e": 16.997
+      },
+      {
+       "w": "final",
+       "s": 17.008,
+       "e": 17.425
+      },
+      {
+       "w": "tem",
+       "s": 17.655,
+       "e": 17.798
+      },
+      {
+       "w": "desafio",
+       "s": 17.809,
+       "e": 18.379
+      }
+     ],
+     "fim": 19.37
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 19.82
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "dica": "apple = maçã, red = vermelho 🍎",
+   "certo": "The apple is red.",
+   "exemplo": {
+    "en": "I eat a red apple.",
+    "pt": "Eu como uma maçã vermelha."
+   },
+   "pronuncia": "di ápol iz réd",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Primeira fruta: a maçã! Apple é maçã, e red é vermelho.",
+     "mostra": "dica",
+     "inicio": 19.82,
+     "palavras": [
+      {
+       "w": "Primeira",
+       "s": 19.914,
+       "e": 20.341
+      },
+      {
+       "w": "fruta",
+       "s": 20.352,
+       "e": 20.758
+      },
+      {
+       "w": "a",
+       "s": 20.934,
+       "e": 20.988
+      },
+      {
+       "w": "maçã",
+       "s": 20.999,
+       "e": 21.449
+      },
+      {
+       "w": "Apple",
+       "s": 22.199,
+       "e": 22.484
+      },
+      {
+       "w": "é",
+       "s": 22.495,
+       "e": 22.528
+      },
+      {
+       "w": "maçã",
+       "s": 22.539,
+       "e": 22.956
+      },
+      {
+       "w": "e",
+       "s": 23.186,
+       "e": 23.274
+      },
+      {
+       "w": "red",
+       "s": 23.285,
+       "e": 23.559
+      },
+      {
+       "w": "é",
+       "s": 23.57,
+       "e": 23.592
+      },
+      {
+       "w": "vermelho",
+       "s": 23.603,
+       "e": 24.085
+      }
+     ],
+     "fim": 25.08
+    },
+    {
+     "voz": "pt",
+     "texto": "Repete comigo a frase inteira:",
+     "inicio": 25.08,
+     "palavras": [
+      {
+       "w": "Repete",
+       "s": 25.174,
+       "e": 25.656
+      },
+      {
+       "w": "comigo",
+       "s": 25.667,
+       "e": 25.974
+      },
+      {
+       "w": "a",
+       "s": 25.985,
+       "e": 26.029
+      },
+      {
+       "w": "frase",
+       "s": 26.04,
+       "e": 26.369
+      },
+      {
+       "w": "inteira",
+       "s": 26.38,
+       "e": 26.786
+      }
+     ],
+     "fim": 27.772
+    },
+    {
+     "voz": "en",
+     "texto": "The apple is red.",
+     "mostra": "certo",
+     "inicio": 27.772,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 27.872,
+       "e": 28.049
+      },
+      {
+       "w": "apple",
+       "s": 28.062,
+       "e": 28.361
+      },
+      {
+       "w": "is",
+       "s": 28.375,
+       "e": 28.538
+      },
+      {
+       "w": "red",
+       "s": 28.551,
+       "e": 28.959
+      }
+     ],
+     "fim": 29.864
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora com a cor antes da fruta:",
+     "inicio": 29.864,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 29.958,
+       "e": 30.385
+      },
+      {
+       "w": "com",
+       "s": 30.396,
+       "e": 30.539
+      },
+      {
+       "w": "a",
+       "s": 30.55,
+       "e": 30.594
+      },
+      {
+       "w": "cor",
+       "s": 30.605,
+       "e": 30.824
+      },
+      {
+       "w": "antes",
+       "s": 30.835,
+       "e": 31.12
+      },
+      {
+       "w": "da",
+       "s": 31.131,
+       "e": 31.241
+      },
+      {
+       "w": "fruta",
+       "s": 31.252,
+       "e": 31.603
+      }
+     ],
+     "fim": 32.58
+    },
+    {
+     "voz": "en",
+     "texto": "I eat a red apple.",
+     "mostra": "exemplo",
+     "inicio": 32.58,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 32.68,
+       "e": 32.992
+      },
+      {
+       "w": "eat",
+       "s": 33.06,
+       "e": 33.278
+      },
+      {
+       "w": "a",
+       "s": 33.291,
+       "e": 33.359
+      },
+      {
+       "w": "red",
+       "s": 33.373,
+       "e": 33.59
+      },
+      {
+       "w": "apple",
+       "s": 33.604,
+       "e": 34.12
+      }
+     ],
+     "fim": 34.744
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 34.744,
+     "fim": 36.064
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu como uma maçã vermelha. Gostoso! Agora olha pra uma fruta perto de você e tenta falar a cor dela em inglês.",
+     "inicio": 36.064,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 36.158,
+       "e": 36.322
+      },
+      {
+       "w": "como",
+       "s": 36.333,
+       "e": 36.574
+      },
+      {
+       "w": "uma",
+       "s": 36.586,
+       "e": 36.728
+      },
+      {
+       "w": "maçã",
+       "s": 36.739,
+       "e": 37.068
+      },
+      {
+       "w": "vermelha",
+       "s": 37.079,
+       "e": 37.561
+      },
+      {
+       "w": "Gostoso",
+       "s": 38.312,
+       "e": 38.959
+      },
+      {
+       "w": "Agora",
+       "s": 39.715,
+       "e": 40.077
+      },
+      {
+       "w": "olha",
+       "s": 40.088,
+       "e": 40.351
+      },
+      {
+       "w": "pra",
+       "s": 40.362,
+       "e": 40.461
+      },
+      {
+       "w": "uma",
+       "s": 40.472,
+       "e": 40.614
+      },
+      {
+       "w": "fruta",
+       "s": 40.625,
+       "e": 40.943
+      },
+      {
+       "w": "perto",
+       "s": 40.954,
+       "e": 41.261
+      },
+      {
+       "w": "de",
+       "s": 41.272,
+       "e": 41.349
+      },
+      {
+       "w": "você",
+       "s": 41.36,
+       "e": 41.645
+      },
+      {
+       "w": "e",
+       "s": 41.656,
+       "e": 41.733
+      },
+      {
+       "w": "tenta",
+       "s": 41.744,
+       "e": 41.974
+      },
+      {
+       "w": "falar",
+       "s": 41.985,
+       "e": 42.237
+      },
+      {
+       "w": "a",
+       "s": 42.248,
+       "e": 42.303
+      },
+      {
+       "w": "cor",
+       "s": 42.314,
+       "e": 42.544
+      },
+      {
+       "w": "dela",
+       "s": 42.555,
+       "e": 42.796
+      },
+      {
+       "w": "em",
+       "s": 42.807,
+       "e": 42.873
+      },
+      {
+       "w": "inglês",
+       "s": 42.884,
+       "e": 43.312
+      }
+     ],
+     "fim": 44.3
+    }
+   ],
+   "imagem": "🍎",
+   "rotulo": "PALAVRA DO DIA",
+   "inicio": 19.82,
+   "fim": 44.75
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "dica": "banana é igualzinha, só muda o som 🍌",
+   "certo": "The banana is yellow.",
+   "exemplo": {
+    "en": "Monkeys love yellow bananas.",
+    "pt": "Macacos adoram bananas amarelas."
+   },
+   "pronuncia": "di banána iz iélou",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Segunda: a banana! Escreve igual, mas fala diferente. E yellow é amarelo.",
+     "mostra": "dica",
+     "inicio": 44.75,
+     "palavras": [
+      {
+       "w": "Segunda",
+       "s": 44.844,
+       "e": 45.469
+      },
+      {
+       "w": "a",
+       "s": 45.622,
+       "e": 45.677
+      },
+      {
+       "w": "banana",
+       "s": 45.688,
+       "e": 46.193
+      },
+      {
+       "w": "Escreve",
+       "s": 46.943,
+       "e": 47.371
+      },
+      {
+       "w": "igual",
+       "s": 47.382,
+       "e": 47.689
+      },
+      {
+       "w": "mas",
+       "s": 47.93,
+       "e": 48.116
+      },
+      {
+       "w": "fala",
+       "s": 48.127,
+       "e": 48.368
+      },
+      {
+       "w": "diferente",
+       "s": 48.379,
+       "e": 48.928
+      },
+      {
+       "w": "E",
+       "s": 49.684,
+       "e": 49.783
+      },
+      {
+       "w": "yellow",
+       "s": 49.794,
+       "e": 50.243
+      },
+      {
+       "w": "é",
+       "s": 50.254,
+       "e": 50.32
+      },
+      {
+       "w": "amarelo",
+       "s": 50.331,
+       "e": 50.803
+      }
+     ],
+     "fim": 51.786
+    },
+    {
+     "voz": "en",
+     "texto": "The banana is yellow.",
+     "mostra": "certo",
+     "inicio": 51.786,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 51.886,
+       "e": 52.063
+      },
+      {
+       "w": "banana",
+       "s": 52.076,
+       "e": 52.647
+      },
+      {
+       "w": "is",
+       "s": 52.66,
+       "e": 52.823
+      },
+      {
+       "w": "yellow",
+       "s": 52.837,
+       "e": 53.381
+      }
+     ],
+     "fim": 53.998
+    },
+    {
+     "voz": "pt",
+     "texto": "Quem adora banana? Os macacos!",
+     "inicio": 53.998,
+     "palavras": [
+      {
+       "w": "Quem",
+       "s": 54.092,
+       "e": 54.333
+      },
+      {
+       "w": "adora",
+       "s": 54.344,
+       "e": 54.662
+      },
+      {
+       "w": "banana",
+       "s": 54.673,
+       "e": 55.112
+      },
+      {
+       "w": "Os",
+       "s": 55.862,
+       "e": 56.016
+      },
+      {
+       "w": "macacos",
+       "s": 56.027,
+       "e": 56.662
+      }
+     ],
+     "fim": 57.65
+    },
+    {
+     "voz": "en",
+     "texto": "Monkeys love yellow bananas.",
+     "mostra": "exemplo",
+     "inicio": 57.65,
+     "palavras": [
+      {
+       "w": "Monkeys",
+       "s": 57.75,
+       "e": 58.334
+      },
+      {
+       "w": "love",
+       "s": 58.348,
+       "e": 58.66
+      },
+      {
+       "w": "yellow",
+       "s": 58.674,
+       "e": 59.027
+      },
+      {
+       "w": "bananas",
+       "s": 59.041,
+       "e": 59.747
+      }
+     ],
+     "fim": 60.366
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 60.366,
+     "fim": 61.686
+    },
+    {
+     "voz": "pt",
+     "texto": "Macacos adoram bananas amarelas. Hi hi hi! Dica: imite um macaquinho enquanto repete, fica mais fácil de lembrar!",
+     "inicio": 61.686,
+     "palavras": [
+      {
+       "w": "Macacos",
+       "s": 61.78,
+       "e": 62.284
+      },
+      {
+       "w": "adoram",
+       "s": 62.295,
+       "e": 62.613
+      },
+      {
+       "w": "bananas",
+       "s": 62.624,
+       "e": 62.964
+      },
+      {
+       "w": "amarelas",
+       "s": 62.975,
+       "e": 63.666
+      },
+      {
+       "w": "Hi",
+       "s": 64.416,
+       "e": 64.69
+      },
+      {
+       "w": "hi",
+       "s": 64.701,
+       "e": 64.943
+      },
+      {
+       "w": "hi",
+       "s": 64.954,
+       "e": 65.293
+      },
+      {
+       "w": "Dica",
+       "s": 66.05,
+       "e": 66.423
+      },
+      {
+       "w": "imite",
+       "s": 66.686,
+       "e": 67.037
+      },
+      {
+       "w": "um",
+       "s": 67.048,
+       "e": 67.081
+      },
+      {
+       "w": "macaquinho",
+       "s": 67.092,
+       "e": 67.53
+      },
+      {
+       "w": "enquanto",
+       "s": 67.541,
+       "e": 67.815
+      },
+      {
+       "w": "repete",
+       "s": 67.826,
+       "e": 68.32
+      },
+      {
+       "w": "fica",
+       "s": 68.561,
+       "e": 68.791
+      },
+      {
+       "w": "mais",
+       "s": 68.802,
+       "e": 69.011
+      },
+      {
+       "w": "fácil",
+       "s": 69.022,
+       "e": 69.361
+      },
+      {
+       "w": "de",
+       "s": 69.372,
+       "e": 69.449
+      },
+      {
+       "w": "lembrar",
+       "s": 69.46,
+       "e": 69.822
+      }
+     ],
+     "fim": 70.81
+    }
+   ],
+   "imagem": "🍌",
+   "rotulo": "PALAVRA DO DIA",
+   "inicio": 44.75,
+   "fim": 71.26
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "dica": "grape = uva, purple = roxo 🍇",
+   "certo": "The grape is purple.",
+   "exemplo": {
+    "en": "These grapes are purple.",
+    "pt": "Estas uvas são roxas."
+   },
+   "pronuncia": "di grêip iz pârpol",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Terceira: a uva! Grape é uva, e purple é roxo.",
+     "mostra": "dica",
+     "inicio": 71.26,
+     "palavras": [
+      {
+       "w": "Terceira",
+       "s": 71.354,
+       "e": 71.891
+      },
+      {
+       "w": "a",
+       "s": 72.154,
+       "e": 72.297
+      },
+      {
+       "w": "uva",
+       "s": 72.308,
+       "e": 72.637
+      },
+      {
+       "w": "Grape",
+       "s": 73.387,
+       "e": 73.738
+      },
+      {
+       "w": "é",
+       "s": 73.749,
+       "e": 73.848
+      },
+      {
+       "w": "uva",
+       "s": 73.859,
+       "e": 74.144
+      },
+      {
+       "w": "e",
+       "s": 74.319,
+       "e": 74.396
+      },
+      {
+       "w": "purple",
+       "s": 74.407,
+       "e": 74.791
+      },
+      {
+       "w": "é",
+       "s": 74.802,
+       "e": 74.867
+      },
+      {
+       "w": "roxo",
+       "s": 74.878,
+       "e": 75.218
+      }
+     ],
+     "fim": 76.208
+    },
+    {
+     "voz": "en",
+     "texto": "The grape is purple.",
+     "mostra": "certo",
+     "inicio": 76.208,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 76.308,
+       "e": 76.485
+      },
+      {
+       "w": "grape",
+       "s": 76.498,
+       "e": 76.919
+      },
+      {
+       "w": "is",
+       "s": 76.987,
+       "e": 77.164
+      },
+      {
+       "w": "purple",
+       "s": 77.178,
+       "e": 77.789
+      }
+     ],
+     "fim": 78.42
+    },
+    {
+     "voz": "pt",
+     "texto": "Quando são várias uvas, o verbo muda:",
+     "inicio": 78.42,
+     "palavras": [
+      {
+       "w": "Quando",
+       "s": 78.514,
+       "e": 78.788
+      },
+      {
+       "w": "são",
+       "s": 78.799,
+       "e": 79.04
+      },
+      {
+       "w": "várias",
+       "s": 79.051,
+       "e": 79.347
+      },
+      {
+       "w": "uvas",
+       "s": 79.358,
+       "e": 79.775
+      },
+      {
+       "w": "o",
+       "s": 79.994,
+       "e": 80.071
+      },
+      {
+       "w": "verbo",
+       "s": 80.082,
+       "e": 80.422
+      },
+      {
+       "w": "muda",
+       "s": 80.433,
+       "e": 80.762
+      }
+     ],
+     "fim": 81.76
+    },
+    {
+     "voz": "en",
+     "texto": "These grapes are purple.",
+     "mostra": "exemplo",
+     "inicio": 81.76,
+     "palavras": [
+      {
+       "w": "These",
+       "s": 81.86,
+       "e": 82.172
+      },
+      {
+       "w": "grapes",
+       "s": 82.186,
+       "e": 82.566
+      },
+      {
+       "w": "are",
+       "s": 82.58,
+       "e": 82.77
+      },
+      {
+       "w": "purple",
+       "s": 82.784,
+       "e": 83.341
+      }
+     ],
+     "fim": 83.972
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 83.972,
+     "fim": 85.292
+    },
+    {
+     "voz": "pt",
+     "texto": "Estas uvas são roxas. Repete de novo, bem devagarinho, e tenta não rir da palavra purple!",
+     "inicio": 85.292,
+     "palavras": [
+      {
+       "w": "Estas",
+       "s": 85.386,
+       "e": 85.704
+      },
+      {
+       "w": "uvas",
+       "s": 85.715,
+       "e": 86.12
+      },
+      {
+       "w": "são",
+       "s": 86.131,
+       "e": 86.285
+      },
+      {
+       "w": "roxas",
+       "s": 86.296,
+       "e": 86.756
+      },
+      {
+       "w": "Repete",
+       "s": 87.507,
+       "e": 88.022
+      },
+      {
+       "w": "de",
+       "s": 88.033,
+       "e": 88.11
+      },
+      {
+       "w": "novo",
+       "s": 88.121,
+       "e": 88.439
+      },
+      {
+       "w": "bem",
+       "s": 88.658,
+       "e": 88.834
+      },
+      {
+       "w": "devagarinho",
+       "s": 88.845,
+       "e": 89.437
+      },
+      {
+       "w": "e",
+       "s": 89.656,
+       "e": 89.755
+      },
+      {
+       "w": "tenta",
+       "s": 89.766,
+       "e": 90.062
+      },
+      {
+       "w": "não",
+       "s": 90.073,
+       "e": 90.248
+      },
+      {
+       "w": "rir",
+       "s": 90.259,
+       "e": 90.457
+      },
+      {
+       "w": "da",
+       "s": 90.467,
+       "e": 90.566
+      },
+      {
+       "w": "palavra",
+       "s": 90.577,
+       "e": 90.972
+      },
+      {
+       "w": "purple",
+       "s": 90.983,
+       "e": 91.399
+      }
+     ],
+     "fim": 92.4
+    }
+   ],
+   "imagem": "🍇",
+   "rotulo": "PALAVRA DO DIA",
+   "inicio": 71.26,
+   "fim": 92.85
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "dica": "orange é a fruta E a cor. Duas coisas numa palavra só! 🍊",
+   "certo": "The orange is orange.",
+   "exemplo": {
+    "en": "This orange is sweet.",
+    "pt": "Esta laranja é doce."
+   },
+   "pronuncia": "di ôrindj iz ôrindj",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quarta: a laranja! Aqui tem uma graça: orange é a fruta e também a cor.",
+     "mostra": "dica",
+     "inicio": 92.85,
+     "palavras": [
+      {
+       "w": "Quarta",
+       "s": 92.944,
+       "e": 93.382
+      },
+      {
+       "w": "a",
+       "s": 93.558,
+       "e": 93.613
+      },
+      {
+       "w": "laranja",
+       "s": 93.624,
+       "e": 94.172
+      },
+      {
+       "w": "Aqui",
+       "s": 94.922,
+       "e": 95.207
+      },
+      {
+       "w": "tem",
+       "s": 95.218,
+       "e": 95.339
+      },
+      {
+       "w": "uma",
+       "s": 95.35,
+       "e": 95.504
+      },
+      {
+       "w": "graça",
+       "s": 95.514,
+       "e": 95.931
+      },
+      {
+       "w": "orange",
+       "s": 96.096,
+       "e": 96.436
+      },
+      {
+       "w": "é",
+       "s": 96.447,
+       "e": 96.501
+      },
+      {
+       "w": "a",
+       "s": 96.512,
+       "e": 96.578
+      },
+      {
+       "w": "fruta",
+       "s": 96.589,
+       "e": 96.896
+      },
+      {
+       "w": "e",
+       "s": 96.907,
+       "e": 96.951
+      },
+      {
+       "w": "também",
+       "s": 96.962,
+       "e": 97.28
+      },
+      {
+       "w": "a",
+       "s": 97.291,
+       "e": 97.368
+      },
+      {
+       "w": "cor",
+       "s": 97.379,
+       "e": 97.62
+      }
+     ],
+     "fim": 98.614
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta que divertido:",
+     "inicio": 98.614,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 98.708,
+       "e": 99.168
+      },
+      {
+       "w": "que",
+       "s": 99.179,
+       "e": 99.267
+      },
+      {
+       "w": "divertido",
+       "s": 99.278,
+       "e": 99.892
+      }
+     ],
+     "fim": 100.874
+    },
+    {
+     "voz": "en",
+     "texto": "The orange is orange.",
+     "mostra": "certo",
+     "inicio": 100.874,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 100.974,
+       "e": 101.205
+      },
+      {
+       "w": "orange",
+       "s": 101.273,
+       "e": 101.789
+      },
+      {
+       "w": "is",
+       "s": 101.83,
+       "e": 102.034
+      },
+      {
+       "w": "orange",
+       "s": 102.047,
+       "e": 102.645
+      }
+     ],
+     "fim": 103.278
+    },
+    {
+     "voz": "pt",
+     "texto": "E pra dizer que ela é doce:",
+     "inicio": 103.278,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 103.372,
+       "e": 103.482
+      },
+      {
+       "w": "pra",
+       "s": 103.492,
+       "e": 103.646
+      },
+      {
+       "w": "dizer",
+       "s": 103.657,
+       "e": 104.008
+      },
+      {
+       "w": "que",
+       "s": 104.019,
+       "e": 104.106
+      },
+      {
+       "w": "ela",
+       "s": 104.117,
+       "e": 104.271
+      },
+      {
+       "w": "é",
+       "s": 104.282,
+       "e": 104.348
+      },
+      {
+       "w": "doce",
+       "s": 104.359,
+       "e": 104.731
+      }
+     ],
+     "fim": 105.706
+    },
+    {
+     "voz": "en",
+     "texto": "This orange is sweet.",
+     "mostra": "exemplo",
+     "inicio": 105.706,
+     "palavras": [
+      {
+       "w": "This",
+       "s": 105.806,
+       "e": 106.146
+      },
+      {
+       "w": "orange",
+       "s": 106.241,
+       "e": 106.662
+      },
+      {
+       "w": "is",
+       "s": 106.676,
+       "e": 106.798
+      },
+      {
+       "w": "sweet",
+       "s": 106.811,
+       "e": 107.355
+      }
+     ],
+     "fim": 107.99
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 107.99,
+     "fim": 109.31
+    },
+    {
+     "voz": "pt",
+     "texto": "Esta laranja é doce. Hummm! Quem acertou a pronúncia ganha uma laranja de prêmio.",
+     "inicio": 109.31,
+     "palavras": [
+      {
+       "w": "Esta",
+       "s": 109.404,
+       "e": 109.667
+      },
+      {
+       "w": "laranja",
+       "s": 109.678,
+       "e": 110.117
+      },
+      {
+       "w": "é",
+       "s": 110.128,
+       "e": 110.171
+      },
+      {
+       "w": "doce",
+       "s": 110.182,
+       "e": 110.555
+      },
+      {
+       "w": "Hummm",
+       "s": 111.306,
+       "e": 111.591
+      },
+      {
+       "w": "Quem",
+       "s": 112.347,
+       "e": 112.534
+      },
+      {
+       "w": "acertou",
+       "s": 112.545,
+       "e": 112.928
+      },
+      {
+       "w": "a",
+       "s": 112.939,
+       "e": 112.983
+      },
+      {
+       "w": "pronúncia",
+       "s": 112.994,
+       "e": 113.455
+      },
+      {
+       "w": "ganha",
+       "s": 113.466,
+       "e": 113.718
+      },
+      {
+       "w": "uma",
+       "s": 113.729,
+       "e": 113.839
+      },
+      {
+       "w": "laranja",
+       "s": 113.849,
+       "e": 114.266
+      },
+      {
+       "w": "de",
+       "s": 114.277,
+       "e": 114.387
+      },
+      {
+       "w": "prêmio",
+       "s": 114.398,
+       "e": 114.749
+      }
+     ],
+     "fim": 115.746
+    }
+   ],
+   "imagem": "🍊",
+   "rotulo": "PALAVRA DO DIA",
+   "inicio": 92.85,
+   "fim": 116.196
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "dica": "watermelon = melancia: verde por fora, vermelha por dentro 🍉",
+   "certo": "The watermelon is green.",
+   "exemplo": {
+    "en": "It is green outside and red inside.",
+    "pt": "É verde por fora e vermelha por dentro."
+   },
+   "pronuncia": "di uóter-mélon iz grín",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quinta: a melancia! Watermelon é uma palavra grande, mas fácil: água mais melão. Green é verde.",
+     "mostra": "dica",
+     "inicio": 116.196,
+     "palavras": [
+      {
+       "w": "Quinta",
+       "s": 116.29,
+       "e": 116.685
+      },
+      {
+       "w": "a",
+       "s": 116.871,
+       "e": 116.937
+      },
+      {
+       "w": "melancia",
+       "s": 116.948,
+       "e": 117.639
+      },
+      {
+       "w": "Watermelon",
+       "s": 118.389,
+       "e": 119.025
+      },
+      {
+       "w": "é",
+       "s": 119.036,
+       "e": 119.102
+      },
+      {
+       "w": "uma",
+       "s": 119.113,
+       "e": 119.277
+      },
+      {
+       "w": "palavra",
+       "s": 119.288,
+       "e": 119.606
+      },
+      {
+       "w": "grande",
+       "s": 119.617,
+       "e": 119.99
+      },
+      {
+       "w": "mas",
+       "s": 120.242,
+       "e": 120.428
+      },
+      {
+       "w": "fácil",
+       "s": 120.439,
+       "e": 120.823
+      },
+      {
+       "w": "água",
+       "s": 121.021,
+       "e": 121.262
+      },
+      {
+       "w": "mais",
+       "s": 121.273,
+       "e": 121.492
+      },
+      {
+       "w": "melão",
+       "s": 121.503,
+       "e": 121.843
+      },
+      {
+       "w": "Green",
+       "s": 122.6,
+       "e": 122.874
+      },
+      {
+       "w": "é",
+       "s": 122.885,
+       "e": 122.972
+      },
+      {
+       "w": "verde",
+       "s": 122.983,
+       "e": 123.367
+      }
+     ],
+     "fim": 124.36
+    },
+    {
+     "voz": "en",
+     "texto": "The watermelon is green.",
+     "mostra": "certo",
+     "inicio": 124.36,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 124.46,
+       "e": 124.664
+      },
+      {
+       "w": "watermelon",
+       "s": 124.677,
+       "e": 125.384
+      },
+      {
+       "w": "is",
+       "s": 125.438,
+       "e": 125.615
+      },
+      {
+       "w": "green",
+       "s": 125.628,
+       "e": 126.172
+      }
+     ],
+     "fim": 126.812
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas por dentro ela é outra cor:",
+     "inicio": 126.812,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 126.906,
+       "e": 127.169
+      },
+      {
+       "w": "por",
+       "s": 127.18,
+       "e": 127.355
+      },
+      {
+       "w": "dentro",
+       "s": 127.366,
+       "e": 127.684
+      },
+      {
+       "w": "ela",
+       "s": 127.695,
+       "e": 127.816
+      },
+      {
+       "w": "é",
+       "s": 127.827,
+       "e": 127.904
+      },
+      {
+       "w": "outra",
+       "s": 127.915,
+       "e": 128.167
+      },
+      {
+       "w": "cor",
+       "s": 128.178,
+       "e": 128.441
+      }
+     ],
+     "fim": 129.432
+    },
+    {
+     "voz": "en",
+     "texto": "It is green outside and red inside.",
+     "mostra": "exemplo",
+     "inicio": 129.432,
+     "palavras": [
+      {
+       "w": "It",
+       "s": 129.532,
+       "e": 129.709
+      },
+      {
+       "w": "is",
+       "s": 129.722,
+       "e": 129.885
+      },
+      {
+       "w": "green",
+       "s": 129.899,
+       "e": 130.238
+      },
+      {
+       "w": "outside",
+       "s": 130.252,
+       "e": 130.809
+      },
+      {
+       "w": "and",
+       "s": 130.823,
+       "e": 131.013
+      },
+      {
+       "w": "red",
+       "s": 131.027,
+       "e": 131.244
+      },
+      {
+       "w": "inside",
+       "s": 131.258,
+       "e": 131.801
+      }
+     ],
+     "fim": 132.436
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 132.436,
+     "fim": 133.756
+    },
+    {
+     "voz": "pt",
+     "texto": "É verde por fora e vermelha por dentro. Que fruta esperta! Já são cinco frutas e cinco cores aprendidas.",
+     "inicio": 133.756,
+     "palavras": [
+      {
+       "w": "É",
+       "s": 133.85,
+       "e": 133.97
+      },
+      {
+       "w": "verde",
+       "s": 133.981,
+       "e": 134.343
+      },
+      {
+       "w": "por",
+       "s": 134.354,
+       "e": 134.497
+      },
+      {
+       "w": "fora",
+       "s": 134.508,
+       "e": 134.76
+      },
+      {
+       "w": "e",
+       "s": 134.771,
+       "e": 134.793
+      },
+      {
+       "w": "vermelha",
+       "s": 134.804,
+       "e": 135.242
+      },
+      {
+       "w": "por",
+       "s": 135.253,
+       "e": 135.407
+      },
+      {
+       "w": "dentro",
+       "s": 135.418,
+       "e": 135.769
+      },
+      {
+       "w": "Que",
+       "s": 136.519,
+       "e": 136.673
+      },
+      {
+       "w": "fruta",
+       "s": 136.684,
+       "e": 137.013
+      },
+      {
+       "w": "esperta",
+       "s": 137.024,
+       "e": 137.539
+      },
+      {
+       "w": "Já",
+       "s": 138.295,
+       "e": 138.471
+      },
+      {
+       "w": "são",
+       "s": 138.482,
+       "e": 138.668
+      },
+      {
+       "w": "cinco",
+       "s": 138.679,
+       "e": 138.997
+      },
+      {
+       "w": "frutas",
+       "s": 139.008,
+       "e": 139.315
+      },
+      {
+       "w": "e",
+       "s": 139.326,
+       "e": 139.425
+      },
+      {
+       "w": "cinco",
+       "s": 139.436,
+       "e": 139.71
+      },
+      {
+       "w": "cores",
+       "s": 139.721,
+       "e": 139.962
+      },
+      {
+       "w": "aprendidas",
+       "s": 139.973,
+       "e": 140.675
+      }
+     ],
+     "fim": 141.656
+    }
+   ],
+   "imagem": "🍉",
+   "rotulo": "PALAVRA DO DIA",
+   "inicio": 116.196,
+   "fim": 142.106
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "Como se diz “A uva é roxa”?",
+   "opcoes": [
+    "The grape is green",
+    "The grape is purple",
+    "The grape is yellow"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Agora, o desafio! Como se diz: a uva é roxa?",
+     "mostra": "pergunta",
+     "inicio": 142.106,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 142.2,
+       "e": 142.671
+      },
+      {
+       "w": "o",
+       "s": 142.847,
+       "e": 142.924
+      },
+      {
+       "w": "desafio",
+       "s": 142.934,
+       "e": 143.527
+      },
+      {
+       "w": "Como",
+       "s": 144.277,
+       "e": 144.573
+      },
+      {
+       "w": "se",
+       "s": 144.584,
+       "e": 144.705
+      },
+      {
+       "w": "diz",
+       "s": 144.716,
+       "e": 145.045
+      },
+      {
+       "w": "a",
+       "s": 145.264,
+       "e": 145.406
+      },
+      {
+       "w": "uva",
+       "s": 145.417,
+       "e": 145.648
+      },
+      {
+       "w": "é",
+       "s": 145.659,
+       "e": 145.735
+      },
+      {
+       "w": "roxa",
+       "s": 145.746,
+       "e": 146.13
+      }
+     ],
+     "fim": 147.126
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 147.126,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 147.22,
+       "e": 147.56
+      },
+      {
+       "w": "A",
+       "s": 147.571,
+       "e": 147.812
+      },
+      {
+       "w": "letra",
+       "s": 148.086,
+       "e": 148.393
+      },
+      {
+       "w": "B",
+       "s": 148.404,
+       "e": 148.59
+      },
+      {
+       "w": "ou",
+       "s": 148.601,
+       "e": 148.7
+      },
+      {
+       "w": "letra",
+       "s": 148.711,
+       "e": 149.029
+      },
+      {
+       "w": "C",
+       "s": 149.04,
+       "e": 149.347
+      },
+      {
+       "w": "Pensa",
+       "s": 150.097,
+       "e": 150.459
+      },
+      {
+       "w": "rápido",
+       "s": 150.47,
+       "e": 150.942
+      }
+     ],
+     "fim": 151.93
+    },
+    {
+     "pausa": 2.29,
+     "mostra": "contagem",
+     "inicio": 151.93,
+     "fim": 154.22
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B!",
+     "mostra": "resposta",
+     "inicio": 154.22,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 154.314,
+       "e": 154.895
+      },
+      {
+       "w": "certa",
+       "s": 154.906,
+       "e": 155.334
+      },
+      {
+       "w": "letra",
+       "s": 155.575,
+       "e": 155.915
+      },
+      {
+       "w": "B",
+       "s": 155.926,
+       "e": 156.211
+      }
+     ],
+     "fim": 157.2
+    },
+    {
+     "voz": "en",
+     "texto": "The grape is purple.",
+     "inicio": 157.2,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 157.3,
+       "e": 157.477
+      },
+      {
+       "w": "grape",
+       "s": 157.49,
+       "e": 157.911
+      },
+      {
+       "w": "is",
+       "s": 157.979,
+       "e": 158.156
+      },
+      {
+       "w": "purple",
+       "s": 158.17,
+       "e": 158.781
+      }
+     ],
+     "fim": 159.412
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 159.412,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 159.506,
+       "e": 160.087
+      },
+      {
+       "w": "Então",
+       "s": 160.837,
+       "e": 161.232
+      },
+      {
+       "w": "comenta",
+       "s": 161.243,
+       "e": 161.638
+      },
+      {
+       "w": "aí",
+       "s": 161.649,
+       "e": 161.923
+      },
+      {
+       "w": "acertei",
+       "s": 162.131,
+       "e": 162.658
+      }
+     ],
+     "fim": 163.64
+    }
+   ],
+   "inicio": 142.106,
+   "fim": 164.09
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 164.09,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 164.184,
+       "e": 164.425
+      },
+      {
+       "w": "dia",
+       "s": 164.436,
+       "e": 164.644
+      },
+      {
+       "w": "tem",
+       "s": 164.655,
+       "e": 164.776
+      },
+      {
+       "w": "dica",
+       "s": 164.787,
+       "e": 165.05
+      },
+      {
+       "w": "nova",
+       "s": 165.061,
+       "e": 165.357
+      },
+      {
+       "w": "de",
+       "s": 165.368,
+       "e": 165.434
+      },
+      {
+       "w": "inglês",
+       "s": 165.445,
+       "e": 165.829
+      },
+      {
+       "w": "fácil",
+       "s": 166.037,
+       "e": 166.399
+      },
+      {
+       "w": "e",
+       "s": 166.41,
+       "e": 166.443
+      },
+      {
+       "w": "rapidinha",
+       "s": 166.454,
+       "e": 167.024
+      },
+      {
+       "w": "Segue",
+       "s": 167.774,
+       "e": 168.191
+      },
+      {
+       "w": "pra",
+       "s": 168.202,
+       "e": 168.355
+      },
+      {
+       "w": "não",
+       "s": 168.366,
+       "e": 168.575
+      },
+      {
+       "w": "perder",
+       "s": 168.586,
+       "e": 168.991
+      }
+     ],
+     "fim": 169.974
+    },
+    {
+     "voz": "pt",
+     "texto": "E me conta nos comentários: qual é a sua fruta favorita?",
+     "inicio": 169.974,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 170.068,
+       "e": 170.178
+      },
+      {
+       "w": "me",
+       "s": 170.188,
+       "e": 170.309
+      },
+      {
+       "w": "conta",
+       "s": 170.32,
+       "e": 170.638
+      },
+      {
+       "w": "nos",
+       "s": 170.649,
+       "e": 170.781
+      },
+      {
+       "w": "comentários",
+       "s": 170.792,
+       "e": 171.482
+      },
+      {
+       "w": "qual",
+       "s": 171.669,
+       "e": 171.899
+      },
+      {
+       "w": "é",
+       "s": 171.91,
+       "e": 172.009
+      },
+      {
+       "w": "a",
+       "s": 172.02,
+       "e": 172.063
+      },
+      {
+       "w": "sua",
+       "s": 172.074,
+       "e": 172.338
+      },
+      {
+       "w": "fruta",
+       "s": 172.349,
+       "e": 172.667
+      },
+      {
+       "w": "favorita",
+       "s": 172.677,
+       "e": 173.215
+      }
+     ],
+     "fim": 174.202
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 174.202,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 174.302,
+       "e": 174.601
+      },
+      {
+       "w": "you",
+       "s": 174.614,
+       "e": 174.723
+      },
+      {
+       "w": "tomorrow",
+       "s": 174.737,
+       "e": 175.389
+      }
+     ],
+     "fim": 176.294
+    }
+   ],
+   "inicio": 164.09,
+   "fim": 177.494
+  }
+ ]
+}

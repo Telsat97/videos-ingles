@@ -58,7 +58,7 @@ export const Abertura: React.FC<P> = ({cena, foto}) => {
       )}
       <div style={L.h ? {position: 'absolute', left: 110, width: 820, top: 230} : {position: 'absolute', left: L.esq, right: L.dir, top: 900, textAlign: 'center'}}>
         {linhas.map((l, i) => (
-          <Linha key={l} texto={l} inicio={ti === null ? null : ti + i * 0.18} grande={i === 0} />
+          <Linha key={l} texto={l} inicio={ti === null ? null : ti + i * 0.18} grande={i === 0} largura={L.h ? 820 : L.w - L.esq - L.dir} />
         ))}
       </div>
       <Legenda falas={cena.falas} top={L.h ? 780 : 1270} dir={L.h ? 1000 : undefined} esq={L.h ? 110 : undefined} />
@@ -66,12 +66,14 @@ export const Abertura: React.FC<P> = ({cena, foto}) => {
   );
 };
 
-const Linha: React.FC<{texto: string; inicio: number | null; grande: boolean}> = ({texto, inicio, grande}) => {
+const Linha: React.FC<{texto: string; inicio: number | null; grande: boolean; largura: number}> = ({texto, inicio, grande, largura}) => {
   const m = useMola(inicio, 12);
+  // A palavra grande cabe numa linha só: palavras longas ("RESTAURANTE") diminuem em vez de cortar ou quebrar.
+  const tam = grande ? Math.min(190, Math.floor(largura / (texto.length * 0.66))) : 72;
   return (
     <div
       style={{
-        fontFamily: TITULO, fontWeight: 700, lineHeight: 1.02, fontSize: grande ? 190 : 72,
+        fontFamily: TITULO, fontWeight: 700, lineHeight: 1.02, fontSize: tam, whiteSpace: grande ? 'nowrap' : undefined,
         color: grande ? COR.amarelo : COR.branco, textShadow: '0 10px 30px rgba(0,0,0,.5)',
         opacity: interpolate(m, [0, 0.3], [0, 1], clamp), transform: `translateY(${(1 - m) * 50}px) scale(${0.85 + 0.15 * m})`,
       }}

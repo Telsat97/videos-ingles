@@ -1,0 +1,2330 @@
+{
+ "slug": "ep004-pronuncia",
+ "episodio": 4,
+ "titulo": "5 palavras que o brasileiro pronuncia errado em inglês",
+ "cenario": [
+  "🔊",
+  "👄",
+  "🗣️",
+  "🎧"
+ ],
+ "duracao": 187.048,
+ "audio": "004. ingles-ep004-pronuncia/audio/narracao.wav",
+ "fotos": [
+  "004. ingles-ep004-pronuncia/prints/foto1.webp",
+  "004. ingles-ep004-pronuncia/prints/foto2.webp",
+  "004. ingles-ep004-pronuncia/prints/foto3.webp",
+  "004. ingles-ep004-pronuncia/prints/foto4.webp",
+  "004. ingles-ep004-pronuncia/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "PRONÚNCIA",
+    "5 palavras que você",
+    "fala ERRADO"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Você sabe falar “confortável” em inglês? Quase todo brasileiro erra!",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Você",
+       "s": 0.441,
+       "e": 0.697
+      },
+      {
+       "w": "sabe",
+       "s": 0.707,
+       "e": 0.912
+      },
+      {
+       "w": "falar",
+       "s": 0.923,
+       "e": 1.209
+      },
+      {
+       "w": "confortável",
+       "s": 1.23,
+       "e": 1.865
+      },
+      {
+       "w": "em",
+       "s": 1.886,
+       "e": 1.947
+      },
+      {
+       "w": "inglês",
+       "s": 1.957,
+       "e": 2.377
+      },
+      {
+       "w": "Quase",
+       "s": 3.075,
+       "e": 3.444
+      },
+      {
+       "w": "todo",
+       "s": 3.454,
+       "e": 3.69
+      },
+      {
+       "w": "brasileiro",
+       "s": 3.7,
+       "e": 4.213
+      },
+      {
+       "w": "erra",
+       "s": 4.223,
+       "e": 4.541
+      }
+     ],
+     "fim": 5.49
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje eu te ensino a falar cinco palavras do jeito do americano, sem passar vergonha. O som aparece escrito na tela, em português.",
+     "inicio": 5.49,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 5.581,
+       "e": 5.847
+      },
+      {
+       "w": "eu",
+       "s": 5.858,
+       "e": 5.909
+      },
+      {
+       "w": "te",
+       "s": 5.919,
+       "e": 6.001
+      },
+      {
+       "w": "ensino",
+       "s": 6.011,
+       "e": 6.308
+      },
+      {
+       "w": "a",
+       "s": 6.319,
+       "e": 6.349
+      },
+      {
+       "w": "falar",
+       "s": 6.36,
+       "e": 6.626
+      },
+      {
+       "w": "cinco",
+       "s": 6.636,
+       "e": 6.903
+      },
+      {
+       "w": "palavras",
+       "s": 6.913,
+       "e": 7.282
+      },
+      {
+       "w": "do",
+       "s": 7.292,
+       "e": 7.394
+      },
+      {
+       "w": "jeito",
+       "s": 7.405,
+       "e": 7.651
+      },
+      {
+       "w": "do",
+       "s": 7.661,
+       "e": 7.722
+      },
+      {
+       "w": "americano",
+       "s": 7.733,
+       "e": 8.235
+      },
+      {
+       "w": "sem",
+       "s": 8.44,
+       "e": 8.603
+      },
+      {
+       "w": "passar",
+       "s": 8.614,
+       "e": 8.921
+      },
+      {
+       "w": "vergonha",
+       "s": 8.931,
+       "e": 9.341
+      },
+      {
+       "w": "O",
+       "s": 10.039,
+       "e": 10.142
+      },
+      {
+       "w": "som",
+       "s": 10.152,
+       "e": 10.377
+      },
+      {
+       "w": "aparece",
+       "s": 10.388,
+       "e": 10.736
+      },
+      {
+       "w": "escrito",
+       "s": 10.746,
+       "e": 11.115
+      },
+      {
+       "w": "na",
+       "s": 11.125,
+       "e": 11.228
+      },
+      {
+       "w": "tela",
+       "s": 11.238,
+       "e": 11.535
+      },
+      {
+       "w": "em",
+       "s": 11.72,
+       "e": 11.842
+      },
+      {
+       "w": "português",
+       "s": 11.853,
+       "e": 12.467
+      }
+     ],
+     "fim": 13.414
+    },
+    {
+     "voz": "pt",
+     "texto": "Fica até o final: tem desafio, e é bem fácil!",
+     "inicio": 13.414,
+     "palavras": [
+      {
+       "w": "Fica",
+       "s": 13.505,
+       "e": 13.782
+      },
+      {
+       "w": "até",
+       "s": 13.792,
+       "e": 13.956
+      },
+      {
+       "w": "o",
+       "s": 13.966,
+       "e": 13.997
+      },
+      {
+       "w": "final",
+       "s": 14.007,
+       "e": 14.366
+      },
+      {
+       "w": "tem",
+       "s": 14.591,
+       "e": 14.714
+      },
+      {
+       "w": "desafio",
+       "s": 14.724,
+       "e": 15.257
+      },
+      {
+       "w": "e",
+       "s": 15.472,
+       "e": 15.544
+      },
+      {
+       "w": "é",
+       "s": 15.554,
+       "e": 15.616
+      },
+      {
+       "w": "bem",
+       "s": 15.626,
+       "e": 15.851
+      },
+      {
+       "w": "fácil",
+       "s": 15.862,
+       "e": 16.271
+      }
+     ],
+     "fim": 17.21
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 17.66
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "errado": "com-for-tá-bou",
+   "dica": "são só 3 sílabas: câmf-ter-bou",
+   "rotulo": "PRONÚNCIA",
+   "pronuncia": "câmf-ter-bou",
+   "certo": "comfortable",
+   "exemplo": {
+    "en": "This bed is very comfortable.",
+    "pt": "Esta cama é muito confortável."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Palavra número um. Confortável. O brasileiro costuma falar assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 17.66,
+     "palavras": [
+      {
+       "w": "Palavra",
+       "s": 17.751,
+       "e": 18.151
+      },
+      {
+       "w": "número",
+       "s": 18.161,
+       "e": 18.437
+      },
+      {
+       "w": "um",
+       "s": 18.448,
+       "e": 18.642
+      },
+      {
+       "w": "Confortável",
+       "s": 19.34,
+       "e": 20.047
+      },
+      {
+       "w": "O",
+       "s": 20.754,
+       "e": 20.836
+      },
+      {
+       "w": "brasileiro",
+       "s": 20.846,
+       "e": 21.318
+      },
+      {
+       "w": "costuma",
+       "s": 21.328,
+       "e": 21.717
+      },
+      {
+       "w": "falar",
+       "s": 21.728,
+       "e": 21.963
+      },
+      {
+       "w": "assim",
+       "s": 21.974,
+       "e": 22.301
+      }
+     ],
+     "fim": 23.256
+    },
+    {
+     "voz": "pt",
+     "texto": "Só que em inglês a palavra é bem mais curta. As letras o e r quase somem, e o som aparece na tela.",
+     "mostra": "dica",
+     "inicio": 23.256,
+     "palavras": [
+      {
+       "w": "Só",
+       "s": 23.347,
+       "e": 23.613
+      },
+      {
+       "w": "que",
+       "s": 23.624,
+       "e": 23.706
+      },
+      {
+       "w": "em",
+       "s": 23.716,
+       "e": 23.788
+      },
+      {
+       "w": "inglês",
+       "s": 23.798,
+       "e": 24.044
+      },
+      {
+       "w": "a",
+       "s": 24.054,
+       "e": 24.156
+      },
+      {
+       "w": "palavra",
+       "s": 24.167,
+       "e": 24.546
+      },
+      {
+       "w": "é",
+       "s": 24.556,
+       "e": 24.587
+      },
+      {
+       "w": "bem",
+       "s": 24.597,
+       "e": 24.802
+      },
+      {
+       "w": "mais",
+       "s": 24.812,
+       "e": 25.038
+      },
+      {
+       "w": "curta",
+       "s": 25.048,
+       "e": 25.437
+      },
+      {
+       "w": "As",
+       "s": 26.135,
+       "e": 26.309
+      },
+      {
+       "w": "letras",
+       "s": 26.32,
+       "e": 26.637
+      },
+      {
+       "w": "o",
+       "s": 26.647,
+       "e": 26.781
+      },
+      {
+       "w": "e",
+       "s": 26.791,
+       "e": 26.822
+      },
+      {
+       "w": "r",
+       "s": 26.832,
+       "e": 27.016
+      },
+      {
+       "w": "quase",
+       "s": 27.026,
+       "e": 27.344
+      },
+      {
+       "w": "somem",
+       "s": 27.354,
+       "e": 27.703
+      },
+      {
+       "w": "e",
+       "s": 27.959,
+       "e": 28.031
+      },
+      {
+       "w": "o",
+       "s": 28.041,
+       "e": 28.082
+      },
+      {
+       "w": "som",
+       "s": 28.092,
+       "e": 28.287
+      },
+      {
+       "w": "aparece",
+       "s": 28.297,
+       "e": 28.697
+      },
+      {
+       "w": "na",
+       "s": 28.707,
+       "e": 28.809
+      },
+      {
+       "w": "tela",
+       "s": 28.82,
+       "e": 29.117
+      }
+     ],
+     "fim": 30.052
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta a nativa:",
+     "inicio": 30.052,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 30.143,
+       "e": 30.584
+      },
+      {
+       "w": "a",
+       "s": 30.594,
+       "e": 30.604
+      },
+      {
+       "w": "nativa",
+       "s": 30.614,
+       "e": 31.086
+      }
+     ],
+     "fim": 32.144
+    },
+    {
+     "voz": "en",
+     "texto": "Comfortable.",
+     "mostra": "certo",
+     "inicio": 32.144,
+     "palavras": [
+      {
+       "w": "Comfortable",
+       "s": 32.244,
+       "e": 32.994
+      }
+     ],
+     "fim": 34.236
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora numa frase:",
+     "inicio": 34.236,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 34.327,
+       "e": 34.696
+      },
+      {
+       "w": "numa",
+       "s": 34.706,
+       "e": 34.89
+      },
+      {
+       "w": "frase",
+       "s": 34.901,
+       "e": 35.27
+      }
+     ],
+     "fim": 36.328
+    },
+    {
+     "voz": "en",
+     "texto": "This bed is very comfortable.",
+     "mostra": "exemplo",
+     "inicio": 36.328,
+     "palavras": [
+      {
+       "w": "This",
+       "s": 36.428,
+       "e": 36.703
+      },
+      {
+       "w": "bed",
+       "s": 36.715,
+       "e": 37.04
+      },
+      {
+       "w": "is",
+       "s": 37.153,
+       "e": 37.34
+      },
+      {
+       "w": "very",
+       "s": 37.353,
+       "e": 37.678
+      },
+      {
+       "w": "comfortable",
+       "s": 37.69,
+       "e": 38.39
+      }
+     ],
+     "fim": 38.972
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "suavez",
+     "inicio": 38.972,
+     "fim": 40.172
+    },
+    {
+     "voz": "pt",
+     "texto": "Esta cama é muito confortável. Repete mais uma vez, devagarinho!",
+     "inicio": 40.172,
+     "palavras": [
+      {
+       "w": "Esta",
+       "s": 40.263,
+       "e": 40.529
+      },
+      {
+       "w": "cama",
+       "s": 40.54,
+       "e": 40.806
+      },
+      {
+       "w": "é",
+       "s": 40.816,
+       "e": 40.837
+      },
+      {
+       "w": "muito",
+       "s": 40.847,
+       "e": 41.175
+      },
+      {
+       "w": "confortável",
+       "s": 41.185,
+       "e": 41.831
+      },
+      {
+       "w": "Repete",
+       "s": 42.529,
+       "e": 42.99
+      },
+      {
+       "w": "mais",
+       "s": 43.0,
+       "e": 43.143
+      },
+      {
+       "w": "uma",
+       "s": 43.154,
+       "e": 43.369
+      },
+      {
+       "w": "vez",
+       "s": 43.379,
+       "e": 43.717
+      },
+      {
+       "w": "devagarinho",
+       "s": 43.901,
+       "e": 44.485
+      }
+     ],
+     "fim": 45.432
+    }
+   ],
+   "imagem": "🛋️",
+   "inicio": 17.66,
+   "fim": 45.882
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "errado": "ve-ge-tá-bou",
+   "dica": "são só 3 sílabas: védj-tê-bou",
+   "rotulo": "PRONÚNCIA",
+   "pronuncia": "VÉDJ-tê-bou",
+   "certo": "vegetable",
+   "exemplo": {
+    "en": "I eat vegetables every day.",
+    "pt": "Eu como legumes e verduras todo dia."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Palavra número dois. Legume ou verdura. Quase todo mundo fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 45.882,
+     "palavras": [
+      {
+       "w": "Palavra",
+       "s": 45.973,
+       "e": 46.373
+      },
+      {
+       "w": "número",
+       "s": 46.383,
+       "e": 46.68
+      },
+      {
+       "w": "dois",
+       "s": 46.69,
+       "e": 47.059
+      },
+      {
+       "w": "Legume",
+       "s": 47.757,
+       "e": 48.198
+      },
+      {
+       "w": "ou",
+       "s": 48.208,
+       "e": 48.269
+      },
+      {
+       "w": "verdura",
+       "s": 48.28,
+       "e": 48.741
+      },
+      {
+       "w": "Quase",
+       "s": 49.448,
+       "e": 49.796
+      },
+      {
+       "w": "todo",
+       "s": 49.806,
+       "e": 50.011
+      },
+      {
+       "w": "mundo",
+       "s": 50.021,
+       "e": 50.277
+      },
+      {
+       "w": "fala",
+       "s": 50.288,
+       "e": 50.493
+      },
+      {
+       "w": "assim",
+       "s": 50.503,
+       "e": 50.8
+      }
+     ],
+     "fim": 51.742
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas o americano engole uma sílaba e a palavra fica curtinha. Olha o som na tela.",
+     "mostra": "dica",
+     "inicio": 51.742,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 51.833,
+       "e": 51.997
+      },
+      {
+       "w": "o",
+       "s": 52.007,
+       "e": 52.089
+      },
+      {
+       "w": "americano",
+       "s": 52.099,
+       "e": 52.54
+      },
+      {
+       "w": "engole",
+       "s": 52.55,
+       "e": 52.858
+      },
+      {
+       "w": "uma",
+       "s": 52.868,
+       "e": 52.991
+      },
+      {
+       "w": "sílaba",
+       "s": 53.001,
+       "e": 53.411
+      },
+      {
+       "w": "e",
+       "s": 53.421,
+       "e": 53.462
+      },
+      {
+       "w": "a",
+       "s": 53.472,
+       "e": 53.534
+      },
+      {
+       "w": "palavra",
+       "s": 53.544,
+       "e": 53.892
+      },
+      {
+       "w": "fica",
+       "s": 53.903,
+       "e": 54.138
+      },
+      {
+       "w": "curtinha",
+       "s": 54.149,
+       "e": 54.599
+      },
+      {
+       "w": "Olha",
+       "s": 55.297,
+       "e": 55.543
+      },
+      {
+       "w": "o",
+       "s": 55.553,
+       "e": 55.594
+      },
+      {
+       "w": "som",
+       "s": 55.605,
+       "e": 55.84
+      },
+      {
+       "w": "na",
+       "s": 55.851,
+       "e": 55.963
+      },
+      {
+       "w": "tela",
+       "s": 55.974,
+       "e": 56.312
+      }
+     ],
+     "fim": 57.242
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta:",
+     "inicio": 57.242,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 57.333,
+       "e": 57.835
+      }
+     ],
+     "fim": 59.334
+    },
+    {
+     "voz": "en",
+     "texto": "Vegetable.",
+     "mostra": "certo",
+     "inicio": 59.334,
+     "palavras": [
+      {
+       "w": "Vegetable",
+       "s": 59.434,
+       "e": 60.209
+      }
+     ],
+     "fim": 61.426
+    },
+    {
+     "voz": "pt",
+     "texto": "E numa frase:",
+     "inicio": 61.426,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 61.517,
+       "e": 61.609
+      },
+      {
+       "w": "numa",
+       "s": 61.619,
+       "e": 61.814
+      },
+      {
+       "w": "frase",
+       "s": 61.824,
+       "e": 62.214
+      }
+     ],
+     "fim": 63.518
+    },
+    {
+     "voz": "en",
+     "texto": "I eat vegetables every day.",
+     "mostra": "exemplo",
+     "inicio": 63.518,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 63.618,
+       "e": 63.868
+      },
+      {
+       "w": "eat",
+       "s": 63.88,
+       "e": 64.093
+      },
+      {
+       "w": "vegetables",
+       "s": 64.105,
+       "e": 64.668
+      },
+      {
+       "w": "every",
+       "s": 64.693,
+       "e": 64.956
+      },
+      {
+       "w": "day",
+       "s": 64.968,
+       "e": 65.38
+      }
+     ],
+     "fim": 65.97
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "suavez",
+     "inicio": 65.97,
+     "fim": 67.17
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu como legumes e verduras todo dia. Repete mais uma vez, devagarinho!",
+     "inicio": 67.17,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 67.261,
+       "e": 67.415
+      },
+      {
+       "w": "como",
+       "s": 67.425,
+       "e": 67.62
+      },
+      {
+       "w": "legumes",
+       "s": 67.63,
+       "e": 68.009
+      },
+      {
+       "w": "e",
+       "s": 68.019,
+       "e": 68.101
+      },
+      {
+       "w": "verduras",
+       "s": 68.111,
+       "e": 68.562
+      },
+      {
+       "w": "todo",
+       "s": 68.572,
+       "e": 68.829
+      },
+      {
+       "w": "dia",
+       "s": 68.839,
+       "e": 69.126
+      },
+      {
+       "w": "Repete",
+       "s": 69.824,
+       "e": 70.285
+      },
+      {
+       "w": "mais",
+       "s": 70.295,
+       "e": 70.438
+      },
+      {
+       "w": "uma",
+       "s": 70.449,
+       "e": 70.664
+      },
+      {
+       "w": "vez",
+       "s": 70.674,
+       "e": 71.012
+      },
+      {
+       "w": "devagarinho",
+       "s": 71.197,
+       "e": 71.781
+      }
+     ],
+     "fim": 72.718
+    }
+   ],
+   "imagem": "🥦",
+   "inicio": 45.882,
+   "fim": 73.168
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "errado": "clô-tes",
+   "dica": "o th é suave e o final soa como z",
+   "rotulo": "PRONÚNCIA",
+   "pronuncia": "clôuz",
+   "certo": "clothes",
+   "exemplo": {
+    "en": "I need new clothes.",
+    "pt": "Eu preciso de roupas novas."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Palavra número três. Roupas. Essa é a pegadinha do th. Muita gente fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 73.168,
+     "palavras": [
+      {
+       "w": "Palavra",
+       "s": 73.259,
+       "e": 73.669
+      },
+      {
+       "w": "número",
+       "s": 73.679,
+       "e": 73.986
+      },
+      {
+       "w": "três",
+       "s": 73.997,
+       "e": 74.376
+      },
+      {
+       "w": "Roupas",
+       "s": 75.074,
+       "e": 75.576
+      },
+      {
+       "w": "Essa",
+       "s": 76.283,
+       "e": 76.57
+      },
+      {
+       "w": "é",
+       "s": 76.58,
+       "e": 76.621
+      },
+      {
+       "w": "a",
+       "s": 76.631,
+       "e": 76.662
+      },
+      {
+       "w": "pegadinha",
+       "s": 76.672,
+       "e": 77.092
+      },
+      {
+       "w": "do",
+       "s": 77.102,
+       "e": 77.195
+      },
+      {
+       "w": "th",
+       "s": 77.205,
+       "e": 77.625
+      },
+      {
+       "w": "Muita",
+       "s": 78.332,
+       "e": 78.639
+      },
+      {
+       "w": "gente",
+       "s": 78.65,
+       "e": 78.916
+      },
+      {
+       "w": "fala",
+       "s": 78.926,
+       "e": 79.111
+      },
+      {
+       "w": "assim",
+       "s": 79.121,
+       "e": 79.418
+      }
+     ],
+     "fim": 80.348
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é mais simples: o th quase não aparece, e o final soa como z.",
+     "mostra": "dica",
+     "inicio": 80.348,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 80.439,
+       "e": 80.541
+      },
+      {
+       "w": "certo",
+       "s": 80.552,
+       "e": 80.89
+      },
+      {
+       "w": "é",
+       "s": 80.9,
+       "e": 80.931
+      },
+      {
+       "w": "mais",
+       "s": 80.941,
+       "e": 81.136
+      },
+      {
+       "w": "simples",
+       "s": 81.146,
+       "e": 81.556
+      },
+      {
+       "w": "o",
+       "s": 81.761,
+       "e": 81.853
+      },
+      {
+       "w": "th",
+       "s": 81.863,
+       "e": 82.191
+      },
+      {
+       "w": "quase",
+       "s": 82.201,
+       "e": 82.488
+      },
+      {
+       "w": "não",
+       "s": 82.498,
+       "e": 82.601
+      },
+      {
+       "w": "aparece",
+       "s": 82.611,
+       "e": 83.103
+      },
+      {
+       "w": "e",
+       "s": 83.287,
+       "e": 83.359
+      },
+      {
+       "w": "o",
+       "s": 83.369,
+       "e": 83.4
+      },
+      {
+       "w": "final",
+       "s": 83.41,
+       "e": 83.697
+      },
+      {
+       "w": "soa",
+       "s": 83.707,
+       "e": 83.861
+      },
+      {
+       "w": "como",
+       "s": 83.871,
+       "e": 84.076
+      },
+      {
+       "w": "z",
+       "s": 84.087,
+       "e": 84.312
+      }
+     ],
+     "fim": 85.248
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta:",
+     "inicio": 85.248,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 85.339,
+       "e": 85.841
+      }
+     ],
+     "fim": 87.34
+    },
+    {
+     "voz": "en",
+     "texto": "Clothes.",
+     "mostra": "certo",
+     "inicio": 87.34,
+     "palavras": [
+      {
+       "w": "Clothes",
+       "s": 87.44,
+       "e": 88.165
+      }
+     ],
+     "fim": 89.432
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora na frase:",
+     "inicio": 89.432,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 89.523,
+       "e": 89.861
+      },
+      {
+       "w": "na",
+       "s": 89.871,
+       "e": 89.974
+      },
+      {
+       "w": "frase",
+       "s": 89.984,
+       "e": 90.353
+      }
+     ],
+     "fim": 91.524
+    },
+    {
+     "voz": "en",
+     "texto": "I need new clothes.",
+     "mostra": "exemplo",
+     "inicio": 91.524,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 91.624,
+       "e": 91.824
+      },
+      {
+       "w": "need",
+       "s": 91.837,
+       "e": 92.112
+      },
+      {
+       "w": "new",
+       "s": 92.124,
+       "e": 92.237
+      },
+      {
+       "w": "clothes",
+       "s": 92.249,
+       "e": 92.874
+      }
+     ],
+     "fim": 93.616
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "suavez",
+     "inicio": 93.616,
+     "fim": 94.816
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu preciso de roupas novas. Repete mais uma vez, devagarinho!",
+     "inicio": 94.816,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 94.907,
+       "e": 95.05
+      },
+      {
+       "w": "preciso",
+       "s": 95.061,
+       "e": 95.46
+      },
+      {
+       "w": "de",
+       "s": 95.471,
+       "e": 95.542
+      },
+      {
+       "w": "roupas",
+       "s": 95.552,
+       "e": 95.87
+      },
+      {
+       "w": "novas",
+       "s": 95.88,
+       "e": 96.311
+      },
+      {
+       "w": "Repete",
+       "s": 97.009,
+       "e": 97.47
+      },
+      {
+       "w": "mais",
+       "s": 97.48,
+       "e": 97.623
+      },
+      {
+       "w": "uma",
+       "s": 97.634,
+       "e": 97.849
+      },
+      {
+       "w": "vez",
+       "s": 97.859,
+       "e": 98.197
+      },
+      {
+       "w": "devagarinho",
+       "s": 98.382,
+       "e": 98.966
+      }
+     ],
+     "fim": 99.908
+    }
+   ],
+   "imagem": "👕",
+   "inicio": 73.168,
+   "fim": 100.358
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "errado": "xo-co-lá-te",
+   "dica": "são só 2 sílabas: tchók-let",
+   "rotulo": "PRONÚNCIA",
+   "pronuncia": "TCHÓK-let",
+   "certo": "chocolate",
+   "exemplo": {
+    "en": "I love hot chocolate.",
+    "pt": "Eu adoro chocolate quente."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Palavra número quatro. Chocolate, uma palavra que todo mundo ama! Mas em inglês não se fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 100.358,
+     "palavras": [
+      {
+       "w": "Palavra",
+       "s": 100.449,
+       "e": 100.859
+      },
+      {
+       "w": "número",
+       "s": 100.869,
+       "e": 101.166
+      },
+      {
+       "w": "quatro",
+       "s": 101.176,
+       "e": 101.545
+      },
+      {
+       "w": "Chocolate",
+       "s": 102.243,
+       "e": 102.889
+      },
+      {
+       "w": "uma",
+       "s": 103.104,
+       "e": 103.268
+      },
+      {
+       "w": "palavra",
+       "s": 103.278,
+       "e": 103.667
+      },
+      {
+       "w": "que",
+       "s": 103.678,
+       "e": 103.811
+      },
+      {
+       "w": "todo",
+       "s": 103.821,
+       "e": 104.098
+      },
+      {
+       "w": "mundo",
+       "s": 104.108,
+       "e": 104.467
+      },
+      {
+       "w": "ama",
+       "s": 104.477,
+       "e": 104.743
+      },
+      {
+       "w": "Mas",
+       "s": 105.45,
+       "e": 105.604
+      },
+      {
+       "w": "em",
+       "s": 105.614,
+       "e": 105.737
+      },
+      {
+       "w": "inglês",
+       "s": 105.747,
+       "e": 106.034
+      },
+      {
+       "w": "não",
+       "s": 106.044,
+       "e": 106.167
+      },
+      {
+       "w": "se",
+       "s": 106.178,
+       "e": 106.28
+      },
+      {
+       "w": "fala",
+       "s": 106.29,
+       "e": 106.506
+      },
+      {
+       "w": "assim",
+       "s": 106.516,
+       "e": 106.813
+      }
+     ],
+     "fim": 107.754
+    },
+    {
+     "voz": "pt",
+     "texto": "Lá são só duas sílabas, com força no começo.",
+     "mostra": "dica",
+     "inicio": 107.754,
+     "palavras": [
+      {
+       "w": "Lá",
+       "s": 107.845,
+       "e": 108.029
+      },
+      {
+       "w": "são",
+       "s": 108.04,
+       "e": 108.234
+      },
+      {
+       "w": "só",
+       "s": 108.245,
+       "e": 108.378
+      },
+      {
+       "w": "duas",
+       "s": 108.388,
+       "e": 108.695
+      },
+      {
+       "w": "sílabas",
+       "s": 108.706,
+       "e": 109.187
+      },
+      {
+       "w": "com",
+       "s": 109.382,
+       "e": 109.546
+      },
+      {
+       "w": "força",
+       "s": 109.556,
+       "e": 109.874
+      },
+      {
+       "w": "no",
+       "s": 109.884,
+       "e": 109.966
+      },
+      {
+       "w": "começo",
+       "s": 109.976,
+       "e": 110.396
+      }
+     ],
+     "fim": 111.334
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta:",
+     "inicio": 111.334,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 111.425,
+       "e": 111.927
+      }
+     ],
+     "fim": 113.426
+    },
+    {
+     "voz": "en",
+     "texto": "Chocolate.",
+     "mostra": "certo",
+     "inicio": 113.426,
+     "palavras": [
+      {
+       "w": "Chocolate",
+       "s": 113.526,
+       "e": 114.176
+      }
+     ],
+     "fim": 115.518
+    },
+    {
+     "voz": "pt",
+     "texto": "E agora a frase:",
+     "inicio": 115.518,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 115.609,
+       "e": 115.711
+      },
+      {
+       "w": "agora",
+       "s": 115.722,
+       "e": 115.998
+      },
+      {
+       "w": "a",
+       "s": 116.009,
+       "e": 116.039
+      },
+      {
+       "w": "frase",
+       "s": 116.05,
+       "e": 116.449
+      }
+     ],
+     "fim": 117.61
+    },
+    {
+     "voz": "en",
+     "texto": "I love hot chocolate.",
+     "mostra": "exemplo",
+     "inicio": 117.61,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 117.71,
+       "e": 117.973
+      },
+      {
+       "w": "love",
+       "s": 117.985,
+       "e": 118.31
+      },
+      {
+       "w": "hot",
+       "s": 118.323,
+       "e": 118.548
+      },
+      {
+       "w": "chocolate",
+       "s": 118.56,
+       "e": 119.123
+      }
+     ],
+     "fim": 119.726
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "suavez",
+     "inicio": 119.726,
+     "fim": 120.926
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu adoro chocolate quente. Repete mais uma vez, devagarinho!",
+     "inicio": 120.926,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 121.017,
+       "e": 121.171
+      },
+      {
+       "w": "adoro",
+       "s": 121.181,
+       "e": 121.478
+      },
+      {
+       "w": "chocolate",
+       "s": 121.488,
+       "e": 122.021
+      },
+      {
+       "w": "quente",
+       "s": 122.031,
+       "e": 122.38
+      },
+      {
+       "w": "Repete",
+       "s": 123.078,
+       "e": 123.539
+      },
+      {
+       "w": "mais",
+       "s": 123.549,
+       "e": 123.692
+      },
+      {
+       "w": "uma",
+       "s": 123.703,
+       "e": 123.918
+      },
+      {
+       "w": "vez",
+       "s": 123.928,
+       "e": 124.266
+      },
+      {
+       "w": "devagarinho",
+       "s": 124.451,
+       "e": 125.035
+      }
+     ],
+     "fim": 125.97
+    }
+   ],
+   "imagem": "🍫",
+   "inicio": 100.358,
+   "fim": 126.42
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "errado": "re-cai-pi",
+   "dica": "a força está no começo: ré-sa-pi",
+   "rotulo": "PRONÚNCIA",
+   "pronuncia": "RÉ-sa-pi",
+   "certo": "recipe",
+   "exemplo": {
+    "en": "Can I have the recipe?",
+    "pt": "Posso ficar com a receita?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Palavra número cinco. Receita. O brasileiro olha aquele i e e no final e fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 126.42,
+     "palavras": [
+      {
+       "w": "Palavra",
+       "s": 126.511,
+       "e": 126.911
+      },
+      {
+       "w": "número",
+       "s": 126.921,
+       "e": 127.208
+      },
+      {
+       "w": "cinco",
+       "s": 127.218,
+       "e": 127.577
+      },
+      {
+       "w": "Receita",
+       "s": 128.275,
+       "e": 128.848
+      },
+      {
+       "w": "O",
+       "s": 129.555,
+       "e": 129.637
+      },
+      {
+       "w": "brasileiro",
+       "s": 129.647,
+       "e": 130.109
+      },
+      {
+       "w": "olha",
+       "s": 130.119,
+       "e": 130.324
+      },
+      {
+       "w": "aquele",
+       "s": 130.334,
+       "e": 130.631
+      },
+      {
+       "w": "i",
+       "s": 130.641,
+       "e": 130.713
+      },
+      {
+       "w": "e",
+       "s": 130.723,
+       "e": 130.785
+      },
+      {
+       "w": "e",
+       "s": 130.795,
+       "e": 130.836
+      },
+      {
+       "w": "no",
+       "s": 130.846,
+       "e": 130.928
+      },
+      {
+       "w": "final",
+       "s": 130.938,
+       "e": 131.256
+      },
+      {
+       "w": "e",
+       "s": 131.266,
+       "e": 131.318
+      },
+      {
+       "w": "fala",
+       "s": 131.328,
+       "e": 131.553
+      },
+      {
+       "w": "assim",
+       "s": 131.563,
+       "e": 131.84
+      }
+     ],
+     "fim": 132.784
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas o som termina em pi, com força no começo.",
+     "mostra": "dica",
+     "inicio": 132.784,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 132.875,
+       "e": 133.049
+      },
+      {
+       "w": "o",
+       "s": 133.059,
+       "e": 133.162
+      },
+      {
+       "w": "som",
+       "s": 133.172,
+       "e": 133.408
+      },
+      {
+       "w": "termina",
+       "s": 133.418,
+       "e": 133.715
+      },
+      {
+       "w": "em",
+       "s": 133.725,
+       "e": 133.807
+      },
+      {
+       "w": "pi",
+       "s": 133.818,
+       "e": 134.033
+      },
+      {
+       "w": "com",
+       "s": 134.258,
+       "e": 134.432
+      },
+      {
+       "w": "força",
+       "s": 134.443,
+       "e": 134.771
+      },
+      {
+       "w": "no",
+       "s": 134.781,
+       "e": 134.863
+      },
+      {
+       "w": "começo",
+       "s": 134.873,
+       "e": 135.303
+      }
+     ],
+     "fim": 136.244
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta:",
+     "inicio": 136.244,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 136.335,
+       "e": 136.837
+      }
+     ],
+     "fim": 138.336
+    },
+    {
+     "voz": "en",
+     "texto": "Recipe.",
+     "mostra": "certo",
+     "inicio": 138.336,
+     "palavras": [
+      {
+       "w": "Recipe",
+       "s": 138.436,
+       "e": 139.124
+      }
+     ],
+     "fim": 140.428
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora a frase:",
+     "inicio": 140.428,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 140.519,
+       "e": 140.837
+      },
+      {
+       "w": "a",
+       "s": 140.847,
+       "e": 140.878
+      },
+      {
+       "w": "frase",
+       "s": 140.888,
+       "e": 141.277
+      }
+     ],
+     "fim": 142.52
+    },
+    {
+     "voz": "en",
+     "texto": "Can I have the recipe?",
+     "mostra": "exemplo",
+     "inicio": 142.52,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 142.62,
+       "e": 142.795
+      },
+      {
+       "w": "I",
+       "s": 142.808,
+       "e": 142.908
+      },
+      {
+       "w": "have",
+       "s": 142.92,
+       "e": 143.045
+      },
+      {
+       "w": "the",
+       "s": 143.058,
+       "e": 143.133
+      },
+      {
+       "w": "recipe",
+       "s": 143.145,
+       "e": 143.633
+      }
+     ],
+     "fim": 144.612
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "suavez",
+     "inicio": 144.612,
+     "fim": 145.812
+    },
+    {
+     "voz": "pt",
+     "texto": "Posso ficar com a receita? Repete mais uma vez, devagarinho!",
+     "inicio": 145.812,
+     "palavras": [
+      {
+       "w": "Posso",
+       "s": 145.903,
+       "e": 146.139
+      },
+      {
+       "w": "ficar",
+       "s": 146.149,
+       "e": 146.426
+      },
+      {
+       "w": "com",
+       "s": 146.436,
+       "e": 146.579
+      },
+      {
+       "w": "a",
+       "s": 146.589,
+       "e": 146.61
+      },
+      {
+       "w": "receita",
+       "s": 146.62,
+       "e": 147.102
+      },
+      {
+       "w": "Repete",
+       "s": 147.8,
+       "e": 148.261
+      },
+      {
+       "w": "mais",
+       "s": 148.271,
+       "e": 148.414
+      },
+      {
+       "w": "uma",
+       "s": 148.425,
+       "e": 148.64
+      },
+      {
+       "w": "vez",
+       "s": 148.65,
+       "e": 148.988
+      },
+      {
+       "w": "devagarinho",
+       "s": 149.173,
+       "e": 149.757
+      }
+     ],
+     "fim": 150.712
+    }
+   ],
+   "imagem": "📖",
+   "inicio": 126.42,
+   "fim": 151.162
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "Quantas sílabas tem “vegetable” na fala do americano?",
+   "opcoes": [
+    "Quatro",
+    "Três",
+    "Cinco"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Hora do desafio! Quantas sílabas tem a palavra vegetable na fala do americano?",
+     "mostra": "pergunta",
+     "inicio": 151.162,
+     "palavras": [
+      {
+       "w": "Hora",
+       "s": 151.253,
+       "e": 151.499
+      },
+      {
+       "w": "do",
+       "s": 151.509,
+       "e": 151.632
+      },
+      {
+       "w": "desafio",
+       "s": 151.642,
+       "e": 152.144
+      },
+      {
+       "w": "Quantas",
+       "s": 152.842,
+       "e": 153.211
+      },
+      {
+       "w": "sílabas",
+       "s": 153.221,
+       "e": 153.611
+      },
+      {
+       "w": "tem",
+       "s": 153.621,
+       "e": 153.734
+      },
+      {
+       "w": "a",
+       "s": 153.744,
+       "e": 153.805
+      },
+      {
+       "w": "palavra",
+       "s": 153.816,
+       "e": 154.144
+      },
+      {
+       "w": "vegetable",
+       "s": 154.154,
+       "e": 154.666
+      },
+      {
+       "w": "na",
+       "s": 154.676,
+       "e": 154.779
+      },
+      {
+       "w": "fala",
+       "s": 154.789,
+       "e": 155.035
+      },
+      {
+       "w": "do",
+       "s": 155.045,
+       "e": 155.137
+      },
+      {
+       "w": "americano",
+       "s": 155.148,
+       "e": 155.68
+      }
+     ],
+     "fim": 156.614
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 156.614,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 156.705,
+       "e": 157.023
+      },
+      {
+       "w": "A",
+       "s": 157.033,
+       "e": 157.258
+      },
+      {
+       "w": "letra",
+       "s": 157.514,
+       "e": 157.801
+      },
+      {
+       "w": "B",
+       "s": 157.812,
+       "e": 157.986
+      },
+      {
+       "w": "ou",
+       "s": 157.996,
+       "e": 158.088
+      },
+      {
+       "w": "letra",
+       "s": 158.098,
+       "e": 158.396
+      },
+      {
+       "w": "C",
+       "s": 158.406,
+       "e": 158.693
+      },
+      {
+       "w": "Pensa",
+       "s": 159.391,
+       "e": 159.729
+      },
+      {
+       "w": "rápido",
+       "s": 159.739,
+       "e": 160.18
+      }
+     ],
+     "fim": 161.13
+    },
+    {
+     "pausa": 1.78,
+     "mostra": "contagem",
+     "inicio": 161.13,
+     "fim": 162.91
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B, três sílabas!",
+     "mostra": "resposta",
+     "inicio": 162.91,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 163.001,
+       "e": 163.534
+      },
+      {
+       "w": "certa",
+       "s": 163.544,
+       "e": 163.923
+      },
+      {
+       "w": "letra",
+       "s": 164.149,
+       "e": 164.446
+      },
+      {
+       "w": "B",
+       "s": 164.456,
+       "e": 164.763
+      },
+      {
+       "w": "três",
+       "s": 164.927,
+       "e": 165.173
+      },
+      {
+       "w": "sílabas",
+       "s": 165.183,
+       "e": 165.778
+      }
+     ],
+     "fim": 166.706
+    },
+    {
+     "voz": "en",
+     "texto": "Vegetable. Three syllables.",
+     "inicio": 166.706,
+     "palavras": [
+      {
+       "w": "Vegetable",
+       "s": 166.806,
+       "e": 167.581
+      },
+      {
+       "w": "Three",
+       "s": 167.944,
+       "e": 168.256
+      },
+      {
+       "w": "syllables",
+       "s": 168.269,
+       "e": 168.956
+      }
+     ],
+     "fim": 169.542
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 169.542,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 169.633,
+       "e": 170.176
+      },
+      {
+       "w": "Então",
+       "s": 170.874,
+       "e": 171.243
+      },
+      {
+       "w": "comenta",
+       "s": 171.253,
+       "e": 171.622
+      },
+      {
+       "w": "aí",
+       "s": 171.632,
+       "e": 171.888
+      },
+      {
+       "w": "acertei",
+       "s": 172.083,
+       "e": 172.575
+      }
+     ],
+     "fim": 173.506
+    }
+   ],
+   "inicio": 151.162,
+   "fim": 173.956
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 173.956,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 174.047,
+       "e": 174.272
+      },
+      {
+       "w": "dia",
+       "s": 174.283,
+       "e": 174.477
+      },
+      {
+       "w": "tem",
+       "s": 174.488,
+       "e": 174.6
+      },
+      {
+       "w": "dica",
+       "s": 174.611,
+       "e": 174.856
+      },
+      {
+       "w": "nova",
+       "s": 174.867,
+       "e": 175.143
+      },
+      {
+       "w": "de",
+       "s": 175.154,
+       "e": 175.215
+      },
+      {
+       "w": "inglês",
+       "s": 175.225,
+       "e": 175.584
+      },
+      {
+       "w": "fácil",
+       "s": 175.779,
+       "e": 176.117
+      },
+      {
+       "w": "e",
+       "s": 176.127,
+       "e": 176.158
+      },
+      {
+       "w": "rapidinha",
+       "s": 176.168,
+       "e": 176.701
+      },
+      {
+       "w": "Segue",
+       "s": 177.399,
+       "e": 177.788
+      },
+      {
+       "w": "pra",
+       "s": 177.798,
+       "e": 177.942
+      },
+      {
+       "w": "não",
+       "s": 177.952,
+       "e": 178.147
+      },
+      {
+       "w": "perder",
+       "s": 178.157,
+       "e": 178.536
+      }
+     ],
+     "fim": 179.48
+    },
+    {
+     "voz": "pt",
+     "texto": "E me conta nos comentários: qual dessas palavras você falava errado?",
+     "inicio": 179.48,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 179.571,
+       "e": 179.663
+      },
+      {
+       "w": "me",
+       "s": 179.673,
+       "e": 179.786
+      },
+      {
+       "w": "conta",
+       "s": 179.796,
+       "e": 180.104
+      },
+      {
+       "w": "nos",
+       "s": 180.114,
+       "e": 180.237
+      },
+      {
+       "w": "comentários",
+       "s": 180.247,
+       "e": 180.882
+      },
+      {
+       "w": "qual",
+       "s": 181.077,
+       "e": 181.251
+      },
+      {
+       "w": "dessas",
+       "s": 181.262,
+       "e": 181.518
+      },
+      {
+       "w": "palavras",
+       "s": 181.528,
+       "e": 181.928
+      },
+      {
+       "w": "você",
+       "s": 181.938,
+       "e": 182.143
+      },
+      {
+       "w": "falava",
+       "s": 182.153,
+       "e": 182.46
+      },
+      {
+       "w": "errado",
+       "s": 182.471,
+       "e": 182.819
+      }
+     ],
+     "fim": 183.756
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 183.756,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 183.856,
+       "e": 184.131
+      },
+      {
+       "w": "you",
+       "s": 184.144,
+       "e": 184.244
+      },
+      {
+       "w": "tomorrow",
+       "s": 184.256,
+       "e": 184.856
+      }
+     ],
+     "fim": 185.848
+    }
+   ],
+   "inicio": 173.956,
+   "fim": 187.048
+  }
+ ]
+}

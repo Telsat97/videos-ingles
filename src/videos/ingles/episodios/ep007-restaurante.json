@@ -1,0 +1,2260 @@
+{
+ "slug": "ep007-restaurante",
+ "episodio": 7,
+ "titulo": "Inglês no restaurante: peça tudo sem passar vergonha",
+ "cenario": [
+  "🍽️",
+  "🍔",
+  "🥗",
+  "🧾",
+  "☕"
+ ],
+ "duracao": 172.984,
+ "audio": "007. ingles-ep007-restaurante/audio/narracao.wav",
+ "fotos": [
+  "007. ingles-ep007-restaurante/prints/foto1.webp",
+  "007. ingles-ep007-restaurante/prints/foto2.webp",
+  "007. ingles-ep007-restaurante/prints/foto3.webp",
+  "007. ingles-ep007-restaurante/prints/foto4.webp",
+  "007. ingles-ep007-restaurante/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "NO RESTAURANTE",
+    "pedir em inglês",
+    "sem passar vergonha"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Você já travou na hora de pedir a conta num restaurante lá fora?",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Você",
+       "s": 0.445,
+       "e": 0.707
+      },
+      {
+       "w": "já",
+       "s": 0.718,
+       "e": 0.832
+      },
+      {
+       "w": "travou",
+       "s": 0.843,
+       "e": 1.116
+      },
+      {
+       "w": "na",
+       "s": 1.127,
+       "e": 1.241
+      },
+      {
+       "w": "hora",
+       "s": 1.252,
+       "e": 1.491
+      },
+      {
+       "w": "de",
+       "s": 1.502,
+       "e": 1.593
+      },
+      {
+       "w": "pedir",
+       "s": 1.605,
+       "e": 1.866
+      },
+      {
+       "w": "a",
+       "s": 1.877,
+       "e": 1.945
+      },
+      {
+       "w": "conta",
+       "s": 1.957,
+       "e": 2.275
+      },
+      {
+       "w": "num",
+       "s": 2.286,
+       "e": 2.377
+      },
+      {
+       "w": "restaurante",
+       "s": 2.389,
+       "e": 2.945
+      },
+      {
+       "w": "lá",
+       "s": 2.957,
+       "e": 3.048
+      },
+      {
+       "w": "fora",
+       "s": 3.059,
+       "e": 3.445
+      }
+     ],
+     "fim": 4.458
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje eu te ensino cinco frases pra pedir tudo em inglês, do começo ao fim da refeição.",
+     "inicio": 4.458,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 4.553,
+       "e": 4.849
+      },
+      {
+       "w": "eu",
+       "s": 4.86,
+       "e": 4.928
+      },
+      {
+       "w": "te",
+       "s": 4.94,
+       "e": 5.031
+      },
+      {
+       "w": "ensino",
+       "s": 5.042,
+       "e": 5.394
+      },
+      {
+       "w": "cinco",
+       "s": 5.406,
+       "e": 5.69
+      },
+      {
+       "w": "frases",
+       "s": 5.701,
+       "e": 6.099
+      },
+      {
+       "w": "pra",
+       "s": 6.11,
+       "e": 6.224
+      },
+      {
+       "w": "pedir",
+       "s": 6.235,
+       "e": 6.531
+      },
+      {
+       "w": "tudo",
+       "s": 6.542,
+       "e": 6.781
+      },
+      {
+       "w": "em",
+       "s": 6.792,
+       "e": 6.849
+      },
+      {
+       "w": "inglês",
+       "s": 6.86,
+       "e": 7.303
+      },
+      {
+       "w": "do",
+       "s": 7.519,
+       "e": 7.678
+      },
+      {
+       "w": "começo",
+       "s": 7.69,
+       "e": 8.122
+      },
+      {
+       "w": "ao",
+       "s": 8.133,
+       "e": 8.201
+      },
+      {
+       "w": "fim",
+       "s": 8.213,
+       "e": 8.417
+      },
+      {
+       "w": "da",
+       "s": 8.428,
+       "e": 8.531
+      },
+      {
+       "w": "refeição",
+       "s": 8.542,
+       "e": 9.099
+      }
+     ],
+     "fim": 10.102
+    },
+    {
+     "voz": "pt",
+     "texto": "Fica até o final: tem desafio!",
+     "inicio": 10.102,
+     "palavras": [
+      {
+       "w": "Fica",
+       "s": 10.197,
+       "e": 10.504
+      },
+      {
+       "w": "até",
+       "s": 10.516,
+       "e": 10.709
+      },
+      {
+       "w": "o",
+       "s": 10.72,
+       "e": 10.754
+      },
+      {
+       "w": "final",
+       "s": 10.766,
+       "e": 11.197
+      },
+      {
+       "w": "tem",
+       "s": 11.436,
+       "e": 11.584
+      },
+      {
+       "w": "desafio",
+       "s": 11.595,
+       "e": 12.186
+      }
+     ],
+     "fim": 13.202
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 13.652
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "dica": "diga quantas pessoas são + please 😊",
+   "rotulo": "NO RESTAURANTE",
+   "certo": "Table for two, please.",
+   "pronuncia": "TEI-bol for TU, pliz",
+   "exemplo": {
+    "en": "Do you have a table by the window?",
+    "pt": "Vocês têm uma mesa perto da janela?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Primeira frase. Você chegou e quer sentar. É só dizer o número de pessoas:",
+     "inicio": 13.652,
+     "palavras": [
+      {
+       "w": "Primeira",
+       "s": 13.747,
+       "e": 14.122
+      },
+      {
+       "w": "frase",
+       "s": 14.134,
+       "e": 14.543
+      },
+      {
+       "w": "Você",
+       "s": 15.322,
+       "e": 15.595
+      },
+      {
+       "w": "chegou",
+       "s": 15.607,
+       "e": 15.982
+      },
+      {
+       "w": "e",
+       "s": 15.993,
+       "e": 16.05
+      },
+      {
+       "w": "quer",
+       "s": 16.061,
+       "e": 16.243
+      },
+      {
+       "w": "sentar",
+       "s": 16.254,
+       "e": 16.663
+      },
+      {
+       "w": "É",
+       "s": 17.447,
+       "e": 17.561
+      },
+      {
+       "w": "só",
+       "s": 17.572,
+       "e": 17.766
+      },
+      {
+       "w": "dizer",
+       "s": 17.777,
+       "e": 18.095
+      },
+      {
+       "w": "o",
+       "s": 18.107,
+       "e": 18.129
+      },
+      {
+       "w": "número",
+       "s": 18.141,
+       "e": 18.493
+      },
+      {
+       "w": "de",
+       "s": 18.504,
+       "e": 18.595
+      },
+      {
+       "w": "pessoas",
+       "s": 18.607,
+       "e": 19.232
+      }
+     ],
+     "fim": 20.256
+    },
+    {
+     "voz": "pt",
+     "texto": "Mesa pra duas pessoas. Simples assim, e muito educado.",
+     "mostra": "dica",
+     "inicio": 20.256,
+     "palavras": [
+      {
+       "w": "Mesa",
+       "s": 20.351,
+       "e": 20.715
+      },
+      {
+       "w": "pra",
+       "s": 20.726,
+       "e": 20.886
+      },
+      {
+       "w": "duas",
+       "s": 20.897,
+       "e": 21.215
+      },
+      {
+       "w": "pessoas",
+       "s": 21.226,
+       "e": 21.829
+      },
+      {
+       "w": "Simples",
+       "s": 22.608,
+       "e": 23.051
+      },
+      {
+       "w": "assim",
+       "s": 23.063,
+       "e": 23.472
+      },
+      {
+       "w": "e",
+       "s": 23.654,
+       "e": 23.733
+      },
+      {
+       "w": "muito",
+       "s": 23.745,
+       "e": 24.108
+      },
+      {
+       "w": "educado",
+       "s": 24.12,
+       "e": 24.608
+      }
+     ],
+     "fim": 25.636
+    },
+    {
+     "voz": "en",
+     "texto": "Table for two, please.",
+     "mostra": "certo",
+     "inicio": 25.636,
+     "palavras": [
+      {
+       "w": "Table",
+       "s": 25.736,
+       "e": 26.162
+      },
+      {
+       "w": "for",
+       "s": 26.176,
+       "e": 26.304
+      },
+      {
+       "w": "two",
+       "s": 26.318,
+       "e": 26.617
+      },
+      {
+       "w": "please",
+       "s": 26.645,
+       "e": 27.256
+      }
+     ],
+     "fim": 27.896
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora, se quiser escolher o lugar:",
+     "inicio": 27.896,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 27.991,
+       "e": 28.446
+      },
+      {
+       "w": "se",
+       "s": 28.673,
+       "e": 28.798
+      },
+      {
+       "w": "quiser",
+       "s": 28.81,
+       "e": 29.139
+      },
+      {
+       "w": "escolher",
+       "s": 29.151,
+       "e": 29.571
+      },
+      {
+       "w": "o",
+       "s": 29.582,
+       "e": 29.605
+      },
+      {
+       "w": "lugar",
+       "s": 29.616,
+       "e": 29.957
+      }
+     ],
+     "fim": 30.972
+    },
+    {
+     "voz": "en",
+     "texto": "Do you have a table by the window?",
+     "mostra": "exemplo",
+     "inicio": 30.972,
+     "palavras": [
+      {
+       "w": "Do",
+       "s": 31.072,
+       "e": 31.228
+      },
+      {
+       "w": "you",
+       "s": 31.242,
+       "e": 31.313
+      },
+      {
+       "w": "have",
+       "s": 31.328,
+       "e": 31.441
+      },
+      {
+       "w": "a",
+       "s": 31.456,
+       "e": 31.541
+      },
+      {
+       "w": "table",
+       "s": 31.555,
+       "e": 31.867
+      },
+      {
+       "w": "by",
+       "s": 31.882,
+       "e": 32.009
+      },
+      {
+       "w": "the",
+       "s": 32.024,
+       "e": 32.123
+      },
+      {
+       "w": "window",
+       "s": 32.137,
+       "e": 32.563
+      }
+     ],
+     "fim": 33.208
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 33.208,
+     "fim": 34.708
+    },
+    {
+     "voz": "pt",
+     "texto": "Vocês têm uma mesa perto da janela?",
+     "inicio": 34.708,
+     "palavras": [
+      {
+       "w": "Vocês",
+       "s": 34.803,
+       "e": 35.156
+      },
+      {
+       "w": "têm",
+       "s": 35.167,
+       "e": 35.281
+      },
+      {
+       "w": "uma",
+       "s": 35.292,
+       "e": 35.428
+      },
+      {
+       "w": "mesa",
+       "s": 35.44,
+       "e": 35.724
+      },
+      {
+       "w": "perto",
+       "s": 35.735,
+       "e": 36.065
+      },
+      {
+       "w": "da",
+       "s": 36.076,
+       "e": 36.156
+      },
+      {
+       "w": "janela",
+       "s": 36.167,
+       "e": 36.644
+      }
+     ],
+     "fim": 37.664
+    }
+   ],
+   "imagem": "🪑",
+   "inicio": 13.652,
+   "fim": 38.114
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "errado": "I want a burger",
+   "dica": "“I want” soa como ordem: peça com “Can I get…?”",
+   "rotulo": "NO RESTAURANTE",
+   "certo": "Can I get a burger, please?",
+   "pronuncia": "kén ai guét a BÂR-guer",
+   "exemplo": {
+    "en": "Can I get the chicken salad?",
+    "pt": "Eu posso pedir a salada de frango?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Segunda frase. Na hora de pedir, o brasileiro costuma falar assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 38.114,
+     "palavras": [
+      {
+       "w": "Segunda",
+       "s": 38.209,
+       "e": 38.778
+      },
+      {
+       "w": "frase",
+       "s": 38.789,
+       "e": 39.244
+      },
+      {
+       "w": "Na",
+       "s": 40.023,
+       "e": 40.205
+      },
+      {
+       "w": "hora",
+       "s": 40.216,
+       "e": 40.478
+      },
+      {
+       "w": "de",
+       "s": 40.489,
+       "e": 40.58
+      },
+      {
+       "w": "pedir",
+       "s": 40.591,
+       "e": 40.944
+      },
+      {
+       "w": "o",
+       "s": 41.239,
+       "e": 41.262
+      },
+      {
+       "w": "brasileiro",
+       "s": 41.273,
+       "e": 41.784
+      },
+      {
+       "w": "costuma",
+       "s": 41.796,
+       "e": 42.228
+      },
+      {
+       "w": "falar",
+       "s": 42.239,
+       "e": 42.489
+      },
+      {
+       "w": "assim",
+       "s": 42.5,
+       "e": 42.841
+      }
+     ],
+     "fim": 43.854
+    },
+    {
+     "voz": "pt",
+     "texto": "Só que soa meio seco, como uma ordem. Os americanos preferem um pedido gentil.",
+     "mostra": "dica",
+     "inicio": 43.854,
+     "palavras": [
+      {
+       "w": "Só",
+       "s": 43.949,
+       "e": 44.199
+      },
+      {
+       "w": "que",
+       "s": 44.211,
+       "e": 44.336
+      },
+      {
+       "w": "soa",
+       "s": 44.347,
+       "e": 44.563
+      },
+      {
+       "w": "meio",
+       "s": 44.574,
+       "e": 44.79
+      },
+      {
+       "w": "seco",
+       "s": 44.802,
+       "e": 45.177
+      },
+      {
+       "w": "como",
+       "s": 45.415,
+       "e": 45.62
+      },
+      {
+       "w": "uma",
+       "s": 45.631,
+       "e": 45.813
+      },
+      {
+       "w": "ordem",
+       "s": 45.824,
+       "e": 46.222
+      },
+      {
+       "w": "Os",
+       "s": 47.002,
+       "e": 47.104
+      },
+      {
+       "w": "americanos",
+       "s": 47.115,
+       "e": 47.763
+      },
+      {
+       "w": "preferem",
+       "s": 47.774,
+       "e": 48.218
+      },
+      {
+       "w": "um",
+       "s": 48.229,
+       "e": 48.32
+      },
+      {
+       "w": "pedido",
+       "s": 48.331,
+       "e": 48.672
+      },
+      {
+       "w": "gentil",
+       "s": 48.684,
+       "e": 49.161
+      }
+     ],
+     "fim": 50.17
+    },
+    {
+     "voz": "pt",
+     "texto": "O natural é:",
+     "inicio": 50.17,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 50.265,
+       "e": 50.368
+      },
+      {
+       "w": "natural",
+       "s": 50.379,
+       "e": 50.89
+      },
+      {
+       "w": "é",
+       "s": 50.902,
+       "e": 51.095
+      }
+     ],
+     "fim": 52.262
+    },
+    {
+     "voz": "en",
+     "texto": "Can I get a burger, please?",
+     "mostra": "certo",
+     "inicio": 52.262,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 52.362,
+       "e": 52.575
+      },
+      {
+       "w": "I",
+       "s": 52.589,
+       "e": 52.703
+      },
+      {
+       "w": "get",
+       "s": 52.717,
+       "e": 52.916
+      },
+      {
+       "w": "a",
+       "s": 52.93,
+       "e": 53.001
+      },
+      {
+       "w": "burger",
+       "s": 53.015,
+       "e": 53.385
+      },
+      {
+       "w": "please",
+       "s": 53.413,
+       "e": 54.01
+      }
+     ],
+     "fim": 54.666
+    },
+    {
+     "voz": "pt",
+     "texto": "Funciona com qualquer comida:",
+     "inicio": 54.666,
+     "palavras": [
+      {
+       "w": "Funciona",
+       "s": 54.761,
+       "e": 55.375
+      },
+      {
+       "w": "com",
+       "s": 55.386,
+       "e": 55.511
+      },
+      {
+       "w": "qualquer",
+       "s": 55.523,
+       "e": 55.864
+      },
+      {
+       "w": "comida",
+       "s": 55.875,
+       "e": 56.33
+      }
+     ],
+     "fim": 57.334
+    },
+    {
+     "voz": "en",
+     "texto": "Can I get the chicken salad?",
+     "mostra": "exemplo",
+     "inicio": 57.334,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 57.434,
+       "e": 57.647
+      },
+      {
+       "w": "I",
+       "s": 57.661,
+       "e": 57.761
+      },
+      {
+       "w": "get",
+       "s": 57.775,
+       "e": 57.945
+      },
+      {
+       "w": "the",
+       "s": 57.96,
+       "e": 58.045
+      },
+      {
+       "w": "chicken",
+       "s": 58.059,
+       "e": 58.4
+      },
+      {
+       "w": "salad",
+       "s": 58.414,
+       "e": 58.968
+      }
+     ],
+     "fim": 59.618
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 59.618,
+     "fim": 61.118
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu posso pedir a salada de frango?",
+     "inicio": 61.118,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 61.213,
+       "e": 61.373
+      },
+      {
+       "w": "posso",
+       "s": 61.384,
+       "e": 61.679
+      },
+      {
+       "w": "pedir",
+       "s": 61.691,
+       "e": 61.941
+      },
+      {
+       "w": "a",
+       "s": 61.952,
+       "e": 61.998
+      },
+      {
+       "w": "salada",
+       "s": 62.009,
+       "e": 62.361
+      },
+      {
+       "w": "de",
+       "s": 62.373,
+       "e": 62.475
+      },
+      {
+       "w": "frango",
+       "s": 62.486,
+       "e": 62.873
+      }
+     ],
+     "fim": 63.882
+    }
+   ],
+   "imagem": "🍔",
+   "inicio": 38.114,
+   "fim": 64.332
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "dica": "no + ingrediente, ou “without” = sem 🧅",
+   "rotulo": "NO RESTAURANTE",
+   "certo": "No onions, please.",
+   "pronuncia": "NOU Â-nions, pliz",
+   "exemplo": {
+    "en": "Can I get it without cheese?",
+    "pt": "Posso pedir sem queijo?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Terceira frase. Não gosta de cebola? Tem dois jeitos fáceis.",
+     "inicio": 64.332,
+     "palavras": [
+      {
+       "w": "Terceira",
+       "s": 64.427,
+       "e": 64.882
+      },
+      {
+       "w": "frase",
+       "s": 64.893,
+       "e": 65.314
+      },
+      {
+       "w": "Não",
+       "s": 66.093,
+       "e": 66.343
+      },
+      {
+       "w": "gosta",
+       "s": 66.355,
+       "e": 66.707
+      },
+      {
+       "w": "de",
+       "s": 66.718,
+       "e": 66.798
+      },
+      {
+       "w": "cebola",
+       "s": 66.809,
+       "e": 67.287
+      },
+      {
+       "w": "Tem",
+       "s": 68.071,
+       "e": 68.196
+      },
+      {
+       "w": "dois",
+       "s": 68.207,
+       "e": 68.468
+      },
+      {
+       "w": "jeitos",
+       "s": 68.48,
+       "e": 68.843
+      },
+      {
+       "w": "fáceis",
+       "s": 68.855,
+       "e": 69.446
+      }
+     ],
+     "fim": 70.456
+    },
+    {
+     "voz": "pt",
+     "texto": "O primeiro é o mais curtinho: no, mais o ingrediente.",
+     "mostra": "dica",
+     "inicio": 70.456,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 70.551,
+       "e": 70.665
+      },
+      {
+       "w": "primeiro",
+       "s": 70.676,
+       "e": 71.063
+      },
+      {
+       "w": "é",
+       "s": 71.074,
+       "e": 71.142
+      },
+      {
+       "w": "o",
+       "s": 71.154,
+       "e": 71.188
+      },
+      {
+       "w": "mais",
+       "s": 71.199,
+       "e": 71.449
+      },
+      {
+       "w": "curtinho",
+       "s": 71.461,
+       "e": 71.915
+      },
+      {
+       "w": "no",
+       "s": 72.154,
+       "e": 72.256
+      },
+      {
+       "w": "mais",
+       "s": 72.449,
+       "e": 72.688
+      },
+      {
+       "w": "o",
+       "s": 72.699,
+       "e": 72.779
+      },
+      {
+       "w": "ingrediente",
+       "s": 72.79,
+       "e": 73.426
+      }
+     ],
+     "fim": 74.444
+    },
+    {
+     "voz": "en",
+     "texto": "No onions, please.",
+     "mostra": "certo",
+     "inicio": 74.444,
+     "palavras": [
+      {
+       "w": "No",
+       "s": 74.544,
+       "e": 74.871
+      },
+      {
+       "w": "onions",
+       "s": 74.885,
+       "e": 75.339
+      },
+      {
+       "w": "please",
+       "s": 75.368,
+       "e": 76.021
+      }
+     ],
+     "fim": 76.68
+    },
+    {
+     "voz": "pt",
+     "texto": "O segundo usa a palavra without, que quer dizer sem:",
+     "inicio": 76.68,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 76.775,
+       "e": 76.889
+      },
+      {
+       "w": "segundo",
+       "s": 76.9,
+       "e": 77.378
+      },
+      {
+       "w": "usa",
+       "s": 77.389,
+       "e": 77.582
+      },
+      {
+       "w": "a",
+       "s": 77.594,
+       "e": 77.628
+      },
+      {
+       "w": "palavra",
+       "s": 77.639,
+       "e": 77.957
+      },
+      {
+       "w": "without",
+       "s": 77.969,
+       "e": 78.48
+      },
+      {
+       "w": "que",
+       "s": 78.639,
+       "e": 78.764
+      },
+      {
+       "w": "quer",
+       "s": 78.775,
+       "e": 78.957
+      },
+      {
+       "w": "dizer",
+       "s": 78.969,
+       "e": 79.275
+      },
+      {
+       "w": "sem",
+       "s": 79.287,
+       "e": 79.571
+      }
+     ],
+     "fim": 80.572
+    },
+    {
+     "voz": "en",
+     "texto": "Can I get it without cheese?",
+     "mostra": "exemplo",
+     "inicio": 80.572,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 80.672,
+       "e": 80.885
+      },
+      {
+       "w": "I",
+       "s": 80.899,
+       "e": 80.999
+      },
+      {
+       "w": "get",
+       "s": 81.013,
+       "e": 81.212
+      },
+      {
+       "w": "it",
+       "s": 81.226,
+       "e": 81.311
+      },
+      {
+       "w": "without",
+       "s": 81.325,
+       "e": 81.652
+      },
+      {
+       "w": "cheese",
+       "s": 81.666,
+       "e": 82.206
+      }
+     ],
+     "fim": 82.856
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 82.856,
+     "fim": 84.356
+    },
+    {
+     "voz": "pt",
+     "texto": "Posso pedir sem queijo?",
+     "inicio": 84.356,
+     "palavras": [
+      {
+       "w": "Posso",
+       "s": 84.451,
+       "e": 84.736
+      },
+      {
+       "w": "pedir",
+       "s": 84.747,
+       "e": 85.042
+      },
+      {
+       "w": "sem",
+       "s": 85.054,
+       "e": 85.236
+      },
+      {
+       "w": "queijo",
+       "s": 85.247,
+       "e": 85.622
+      }
+     ],
+     "fim": 86.64
+    }
+   ],
+   "imagem": "🧅",
+   "inicio": 64.332,
+   "fim": 87.09
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "errado": "I want the account",
+   "dica": "account = conta de banco. Restaurante = check",
+   "rotulo": "NO RESTAURANTE",
+   "certo": "Can we get the check, please?",
+   "pronuncia": "kén ui guét dhe tchék, pliz",
+   "exemplo": {
+    "en": "Could we have the check, please?",
+    "pt": "Poderíamos pedir a conta, por favor?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quarta frase, a mais importante! Na hora de pagar, o brasileiro fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 87.09,
+     "palavras": [
+      {
+       "w": "Quarta",
+       "s": 87.185,
+       "e": 87.572
+      },
+      {
+       "w": "frase",
+       "s": 87.583,
+       "e": 88.026
+      },
+      {
+       "w": "a",
+       "s": 88.151,
+       "e": 88.22
+      },
+      {
+       "w": "mais",
+       "s": 88.231,
+       "e": 88.492
+      },
+      {
+       "w": "importante",
+       "s": 88.504,
+       "e": 89.265
+      },
+      {
+       "w": "Na",
+       "s": 90.045,
+       "e": 90.215
+      },
+      {
+       "w": "hora",
+       "s": 90.226,
+       "e": 90.476
+      },
+      {
+       "w": "de",
+       "s": 90.488,
+       "e": 90.579
+      },
+      {
+       "w": "pagar",
+       "s": 90.59,
+       "e": 90.942
+      },
+      {
+       "w": "o",
+       "s": 91.204,
+       "e": 91.226
+      },
+      {
+       "w": "brasileiro",
+       "s": 91.238,
+       "e": 91.738
+      },
+      {
+       "w": "fala",
+       "s": 91.749,
+       "e": 91.976
+      },
+      {
+       "w": "assim",
+       "s": 91.988,
+       "e": 92.317
+      }
+     ],
+     "fim": 93.334
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas account é conta de banco! Conta do restaurante, nos Estados Unidos, é check.",
+     "mostra": "dica",
+     "inicio": 93.334,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 93.429,
+       "e": 93.611
+      },
+      {
+       "w": "account",
+       "s": 93.623,
+       "e": 94.123
+      },
+      {
+       "w": "é",
+       "s": 94.134,
+       "e": 94.168
+      },
+      {
+       "w": "conta",
+       "s": 94.179,
+       "e": 94.543
+      },
+      {
+       "w": "de",
+       "s": 94.554,
+       "e": 94.657
+      },
+      {
+       "w": "banco",
+       "s": 94.668,
+       "e": 95.077
+      },
+      {
+       "w": "Conta",
+       "s": 95.857,
+       "e": 96.186
+      },
+      {
+       "w": "do",
+       "s": 96.198,
+       "e": 96.289
+      },
+      {
+       "w": "restaurante",
+       "s": 96.3,
+       "e": 96.959
+      },
+      {
+       "w": "nos",
+       "s": 97.164,
+       "e": 97.254
+      },
+      {
+       "w": "Estados",
+       "s": 97.266,
+       "e": 97.698
+      },
+      {
+       "w": "Unidos",
+       "s": 97.709,
+       "e": 98.175
+      },
+      {
+       "w": "é",
+       "s": 98.402,
+       "e": 98.459
+      },
+      {
+       "w": "check",
+       "s": 98.47,
+       "e": 98.925
+      }
+     ],
+     "fim": 99.938
+    },
+    {
+     "voz": "en",
+     "texto": "Can we get the check, please?",
+     "mostra": "certo",
+     "inicio": 99.938,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 100.038,
+       "e": 100.265
+      },
+      {
+       "w": "we",
+       "s": 100.279,
+       "e": 100.393
+      },
+      {
+       "w": "get",
+       "s": 100.407,
+       "e": 100.578
+      },
+      {
+       "w": "the",
+       "s": 100.592,
+       "e": 100.677
+      },
+      {
+       "w": "check",
+       "s": 100.691,
+       "e": 100.99
+      },
+      {
+       "w": "please",
+       "s": 101.018,
+       "e": 101.586
+      }
+     ],
+     "fim": 102.246
+    },
+    {
+     "voz": "pt",
+     "texto": "Também dá pra falar assim, bem educado:",
+     "inicio": 102.246,
+     "palavras": [
+      {
+       "w": "Também",
+       "s": 102.341,
+       "e": 102.705
+      },
+      {
+       "w": "dá",
+       "s": 102.716,
+       "e": 102.819
+      },
+      {
+       "w": "pra",
+       "s": 102.83,
+       "e": 102.966
+      },
+      {
+       "w": "falar",
+       "s": 102.978,
+       "e": 103.239
+      },
+      {
+       "w": "assim",
+       "s": 103.251,
+       "e": 103.591
+      },
+      {
+       "w": "bem",
+       "s": 103.785,
+       "e": 104.001
+      },
+      {
+       "w": "educado",
+       "s": 104.012,
+       "e": 104.501
+      }
+     ],
+     "fim": 105.514
+    },
+    {
+     "voz": "en",
+     "texto": "Could we have the check, please?",
+     "mostra": "exemplo",
+     "inicio": 105.514,
+     "palavras": [
+      {
+       "w": "Could",
+       "s": 105.614,
+       "e": 105.827
+      },
+      {
+       "w": "we",
+       "s": 105.841,
+       "e": 105.941
+      },
+      {
+       "w": "have",
+       "s": 105.955,
+       "e": 106.111
+      },
+      {
+       "w": "the",
+       "s": 106.125,
+       "e": 106.211
+      },
+      {
+       "w": "check",
+       "s": 106.225,
+       "e": 106.551
+      },
+      {
+       "w": "please",
+       "s": 106.594,
+       "e": 107.134
+      }
+     ],
+     "fim": 107.774
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 107.774,
+     "fim": 109.274
+    },
+    {
+     "voz": "pt",
+     "texto": "Poderíamos pedir a conta, por favor?",
+     "inicio": 109.274,
+     "palavras": [
+      {
+       "w": "Poderíamos",
+       "s": 109.369,
+       "e": 109.96
+      },
+      {
+       "w": "pedir",
+       "s": 109.972,
+       "e": 110.256
+      },
+      {
+       "w": "a",
+       "s": 110.267,
+       "e": 110.347
+      },
+      {
+       "w": "conta",
+       "s": 110.358,
+       "e": 110.699
+      },
+      {
+       "w": "por",
+       "s": 110.926,
+       "e": 111.063
+      },
+      {
+       "w": "favor",
+       "s": 111.074,
+       "e": 111.449
+      }
+     ],
+     "fim": 112.47
+    }
+   ],
+   "imagem": "🧾",
+   "inicio": 87.09,
+   "fim": 112.92
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "dica": "to go = pra viagem 🥡",
+   "rotulo": "NO RESTAURANTE",
+   "certo": "To go, please.",
+   "pronuncia": "tu GOU, pliz",
+   "exemplo": {
+    "en": "Can I get a box for my leftovers?",
+    "pt": "Posso pegar uma caixinha pra levar as sobras?"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quinta e última frase. Quer levar a comida pra casa?",
+     "inicio": 112.92,
+     "palavras": [
+      {
+       "w": "Quinta",
+       "s": 113.015,
+       "e": 113.334
+      },
+      {
+       "w": "e",
+       "s": 113.345,
+       "e": 113.39
+      },
+      {
+       "w": "última",
+       "s": 113.402,
+       "e": 113.709
+      },
+      {
+       "w": "frase",
+       "s": 113.72,
+       "e": 114.152
+      },
+      {
+       "w": "Quer",
+       "s": 114.931,
+       "e": 115.125
+      },
+      {
+       "w": "levar",
+       "s": 115.136,
+       "e": 115.409
+      },
+      {
+       "w": "a",
+       "s": 115.42,
+       "e": 115.477
+      },
+      {
+       "w": "comida",
+       "s": 115.488,
+       "e": 115.829
+      },
+      {
+       "w": "pra",
+       "s": 115.84,
+       "e": 115.988
+      },
+      {
+       "w": "casa",
+       "s": 116.0,
+       "e": 116.397
+      }
+     ],
+     "fim": 117.412
+    },
+    {
+     "voz": "pt",
+     "texto": "Os americanos dizem to go, que significa pra viagem.",
+     "mostra": "dica",
+     "inicio": 117.412,
+     "palavras": [
+      {
+       "w": "Os",
+       "s": 117.507,
+       "e": 117.61
+      },
+      {
+       "w": "americanos",
+       "s": 117.621,
+       "e": 118.28
+      },
+      {
+       "w": "dizem",
+       "s": 118.292,
+       "e": 118.598
+      },
+      {
+       "w": "to",
+       "s": 118.61,
+       "e": 118.746
+      },
+      {
+       "w": "go",
+       "s": 118.757,
+       "e": 119.007
+      },
+      {
+       "w": "que",
+       "s": 119.212,
+       "e": 119.326
+      },
+      {
+       "w": "significa",
+       "s": 119.337,
+       "e": 119.928
+      },
+      {
+       "w": "pra",
+       "s": 119.939,
+       "e": 120.087
+      },
+      {
+       "w": "viagem",
+       "s": 120.098,
+       "e": 120.564
+      }
+     ],
+     "fim": 121.568
+    },
+    {
+     "voz": "en",
+     "texto": "To go, please.",
+     "mostra": "certo",
+     "inicio": 121.568,
+     "palavras": [
+      {
+       "w": "To",
+       "s": 121.668,
+       "e": 121.853
+      },
+      {
+       "w": "go",
+       "s": 121.867,
+       "e": 122.179
+      },
+      {
+       "w": "please",
+       "s": 122.208,
+       "e": 122.875
+      }
+     ],
+     "fim": 123.66
+    },
+    {
+     "voz": "pt",
+     "texto": "E se sobrou comida na mesa, você pede uma caixinha:",
+     "inicio": 123.66,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 123.755,
+       "e": 123.858
+      },
+      {
+       "w": "se",
+       "s": 123.869,
+       "e": 123.96
+      },
+      {
+       "w": "sobrou",
+       "s": 123.971,
+       "e": 124.267
+      },
+      {
+       "w": "comida",
+       "s": 124.278,
+       "e": 124.608
+      },
+      {
+       "w": "na",
+       "s": 124.619,
+       "e": 124.71
+      },
+      {
+       "w": "mesa",
+       "s": 124.721,
+       "e": 125.04
+      },
+      {
+       "w": "você",
+       "s": 125.312,
+       "e": 125.551
+      },
+      {
+       "w": "pede",
+       "s": 125.562,
+       "e": 125.835
+      },
+      {
+       "w": "uma",
+       "s": 125.846,
+       "e": 125.96
+      },
+      {
+       "w": "caixinha",
+       "s": 125.971,
+       "e": 126.505
+      }
+     ],
+     "fim": 127.528
+    },
+    {
+     "voz": "en",
+     "texto": "Can I get a box for my leftovers?",
+     "mostra": "exemplo",
+     "inicio": 127.528,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 127.628,
+       "e": 127.841
+      },
+      {
+       "w": "I",
+       "s": 127.855,
+       "e": 127.955
+      },
+      {
+       "w": "get",
+       "s": 127.969,
+       "e": 128.111
+      },
+      {
+       "w": "a",
+       "s": 128.125,
+       "e": 128.196
+      },
+      {
+       "w": "box",
+       "s": 128.21,
+       "e": 128.566
+      },
+      {
+       "w": "for",
+       "s": 128.58,
+       "e": 128.679
+      },
+      {
+       "w": "my",
+       "s": 128.693,
+       "e": 128.821
+      },
+      {
+       "w": "leftovers",
+       "s": 128.835,
+       "e": 129.631
+      }
+     ],
+     "fim": 130.268
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 130.268,
+     "fim": 131.768
+    },
+    {
+     "voz": "pt",
+     "texto": "Posso pegar uma caixinha pra levar as sobras?",
+     "inicio": 131.768,
+     "palavras": [
+      {
+       "w": "Posso",
+       "s": 131.863,
+       "e": 132.136
+      },
+      {
+       "w": "pegar",
+       "s": 132.148,
+       "e": 132.432
+      },
+      {
+       "w": "uma",
+       "s": 132.443,
+       "e": 132.568
+      },
+      {
+       "w": "caixinha",
+       "s": 132.579,
+       "e": 133.0
+      },
+      {
+       "w": "pra",
+       "s": 133.011,
+       "e": 133.113
+      },
+      {
+       "w": "levar",
+       "s": 133.125,
+       "e": 133.375
+      },
+      {
+       "w": "as",
+       "s": 133.386,
+       "e": 133.523
+      },
+      {
+       "w": "sobras",
+       "s": 133.534,
+       "e": 134.045
+      }
+     ],
+     "fim": 135.06
+    }
+   ],
+   "imagem": "🥡",
+   "inicio": 112.92,
+   "fim": 135.51
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "Como pedir a conta no restaurante?",
+   "opcoes": [
+    "I want the account",
+    "Can we get the check, please?",
+    "Give me the bill now"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Hora do desafio! Como você pede a conta no restaurante?",
+     "mostra": "pergunta",
+     "inicio": 135.51,
+     "palavras": [
+      {
+       "w": "Hora",
+       "s": 135.605,
+       "e": 135.878
+      },
+      {
+       "w": "do",
+       "s": 135.89,
+       "e": 136.026
+      },
+      {
+       "w": "desafio",
+       "s": 136.037,
+       "e": 136.594
+      },
+      {
+       "w": "Como",
+       "s": 137.374,
+       "e": 137.658
+      },
+      {
+       "w": "você",
+       "s": 137.669,
+       "e": 137.908
+      },
+      {
+       "w": "pede",
+       "s": 137.919,
+       "e": 138.192
+      },
+      {
+       "w": "a",
+       "s": 138.203,
+       "e": 138.249
+      },
+      {
+       "w": "conta",
+       "s": 138.26,
+       "e": 138.601
+      },
+      {
+       "w": "no",
+       "s": 138.612,
+       "e": 138.669
+      },
+      {
+       "w": "restaurante",
+       "s": 138.68,
+       "e": 139.351
+      }
+     ],
+     "fim": 140.362
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 140.362,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 140.457,
+       "e": 140.81
+      },
+      {
+       "w": "A",
+       "s": 140.821,
+       "e": 141.071
+      },
+      {
+       "w": "letra",
+       "s": 141.355,
+       "e": 141.673
+      },
+      {
+       "w": "B",
+       "s": 141.685,
+       "e": 141.878
+      },
+      {
+       "w": "ou",
+       "s": 141.889,
+       "e": 141.992
+      },
+      {
+       "w": "letra",
+       "s": 142.003,
+       "e": 142.332
+      },
+      {
+       "w": "C",
+       "s": 142.344,
+       "e": 142.662
+      },
+      {
+       "w": "Pensa",
+       "s": 143.442,
+       "e": 143.817
+      },
+      {
+       "w": "rápido",
+       "s": 143.828,
+       "e": 144.317
+      }
+     ],
+     "fim": 145.334
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "contagem",
+     "inicio": 145.334,
+     "fim": 147.934
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B!",
+     "mostra": "resposta",
+     "inicio": 147.934,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 148.029,
+       "e": 148.632
+      },
+      {
+       "w": "certa",
+       "s": 148.643,
+       "e": 149.086
+      },
+      {
+       "w": "letra",
+       "s": 149.336,
+       "e": 149.689
+      },
+      {
+       "w": "B",
+       "s": 149.7,
+       "e": 149.995
+      }
+     ],
+     "fim": 151.01
+    },
+    {
+     "voz": "en",
+     "texto": "Can we get the check, please?",
+     "inicio": 151.01,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 151.11,
+       "e": 151.337
+      },
+      {
+       "w": "we",
+       "s": 151.351,
+       "e": 151.465
+      },
+      {
+       "w": "get",
+       "s": 151.479,
+       "e": 151.65
+      },
+      {
+       "w": "the",
+       "s": 151.664,
+       "e": 151.749
+      },
+      {
+       "w": "check",
+       "s": 151.763,
+       "e": 152.062
+      },
+      {
+       "w": "please",
+       "s": 152.09,
+       "e": 152.658
+      }
+     ],
+     "fim": 153.318
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 153.318,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 153.413,
+       "e": 154.016
+      },
+      {
+       "w": "Então",
+       "s": 154.795,
+       "e": 155.204
+      },
+      {
+       "w": "comenta",
+       "s": 155.216,
+       "e": 155.625
+      },
+      {
+       "w": "aí",
+       "s": 155.636,
+       "e": 155.92
+      },
+      {
+       "w": "acertei",
+       "s": 156.136,
+       "e": 156.682
+      }
+     ],
+     "fim": 157.69
+    }
+   ],
+   "inicio": 135.51,
+   "fim": 158.14
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 158.14,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 158.235,
+       "e": 158.485
+      },
+      {
+       "w": "dia",
+       "s": 158.497,
+       "e": 158.713
+      },
+      {
+       "w": "tem",
+       "s": 158.724,
+       "e": 158.849
+      },
+      {
+       "w": "dica",
+       "s": 158.86,
+       "e": 159.133
+      },
+      {
+       "w": "nova",
+       "s": 159.145,
+       "e": 159.451
+      },
+      {
+       "w": "de",
+       "s": 159.463,
+       "e": 159.531
+      },
+      {
+       "w": "inglês",
+       "s": 159.542,
+       "e": 159.94
+      },
+      {
+       "w": "fácil",
+       "s": 160.156,
+       "e": 160.531
+      },
+      {
+       "w": "e",
+       "s": 160.542,
+       "e": 160.576
+      },
+      {
+       "w": "rapidinha",
+       "s": 160.588,
+       "e": 161.179
+      },
+      {
+       "w": "Segue",
+       "s": 161.958,
+       "e": 162.39
+      },
+      {
+       "w": "pra",
+       "s": 162.401,
+       "e": 162.56
+      },
+      {
+       "w": "não",
+       "s": 162.572,
+       "e": 162.788
+      },
+      {
+       "w": "perder",
+       "s": 162.799,
+       "e": 163.22
+      }
+     ],
+     "fim": 164.24
+    },
+    {
+     "voz": "pt",
+     "texto": "E me conta nos comentários: qual frase você mais vai usar na sua próxima viagem?",
+     "inicio": 164.24,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 164.335,
+       "e": 164.438
+      },
+      {
+       "w": "me",
+       "s": 164.449,
+       "e": 164.563
+      },
+      {
+       "w": "conta",
+       "s": 164.574,
+       "e": 164.881
+      },
+      {
+       "w": "nos",
+       "s": 164.892,
+       "e": 165.017
+      },
+      {
+       "w": "comentários",
+       "s": 165.029,
+       "e": 165.722
+      },
+      {
+       "w": "qual",
+       "s": 165.983,
+       "e": 166.188
+      },
+      {
+       "w": "frase",
+       "s": 166.199,
+       "e": 166.585
+      },
+      {
+       "w": "você",
+       "s": 166.597,
+       "e": 166.835
+      },
+      {
+       "w": "mais",
+       "s": 166.847,
+       "e": 167.04
+      },
+      {
+       "w": "vai",
+       "s": 167.051,
+       "e": 167.199
+      },
+      {
+       "w": "usar",
+       "s": 167.21,
+       "e": 167.46
+      },
+      {
+       "w": "na",
+       "s": 167.472,
+       "e": 167.551
+      },
+      {
+       "w": "sua",
+       "s": 167.563,
+       "e": 167.79
+      },
+      {
+       "w": "próxima",
+       "s": 167.801,
+       "e": 168.21
+      },
+      {
+       "w": "viagem",
+       "s": 168.222,
+       "e": 168.688
+      }
+     ],
+     "fim": 169.692
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 169.692,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 169.792,
+       "e": 170.104
+      },
+      {
+       "w": "you",
+       "s": 170.119,
+       "e": 170.232
+      },
+      {
+       "w": "tomorrow",
+       "s": 170.247,
+       "e": 170.928
+      }
+     ],
+     "fim": 171.784
+    }
+   ],
+   "inicio": 158.14,
+   "fim": 172.984
+  }
+ ]
+}

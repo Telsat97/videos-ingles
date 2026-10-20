@@ -11,7 +11,13 @@
  ],
  "duracao": 176.094,
  "audio": "003. ingles-ep003-frases-aeroporto/audio/narracao.wav",
- "fotos": [],
+ "fotos": [
+  "003. ingles-ep003-frases-aeroporto/prints/foto1.webp",
+  "003. ingles-ep003-frases-aeroporto/prints/foto2.webp",
+  "003. ingles-ep003-frases-aeroporto/prints/foto3.webp",
+  "003. ingles-ep003-frases-aeroporto/prints/foto4.webp",
+  "003. ingles-ep003-frases-aeroporto/prints/foto5.webp"
+ ],
  "cenas": [
   {
    "tipo": "abertura",
