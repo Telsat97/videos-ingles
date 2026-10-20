@@ -36,6 +36,9 @@ jobs:
         run: |
           f=$(ls serie-ingles/fila/*.json 2>/dev/null | sort | head -1 || true)
           if [ -z "$f" ]; then echo "::error::Fila vazia: não há roteiro para hoje."; exit 1; fi
+          if [ -z "$(find serie-ingles/fotos -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \))" ]; then
+            echo "::error::Faltam as fotos do apresentador em serie-ingles/fotos/ (ver serie-ingles/SETUP.md)."; exit 1
+          fi
           echo "roteiro=$f" >> "$GITHUB_OUTPUT"
           echo "Roteiro de hoje: $f"
 
@@ -79,6 +82,7 @@ jobs:
           rclone copy "${{ steps.prod.outputs.pasta }}" "gdrive:Ingles Facil/$(basename "${{ steps.prod.outputs.pasta }}")"
 
       - name: YouTube
+        id: yt
         if: env.TEM_YT == 'true'
         continue-on-error: true
         env:
@@ -89,6 +93,7 @@ jobs:
         run: python tools/publicar.py youtube "${{ steps.prod.outputs.pasta }}/post.json"
 
       - name: Facebook
+        id: fb
         if: env.TEM_FB == 'true'
         continue-on-error: true
         env:
@@ -96,7 +101,9 @@ jobs:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
         run: python tools/publicar.py facebook "${{ steps.prod.outputs.pasta }}/post.json"
 
+      # Só sai da fila se foi publicado em pelo menos uma rede; senão, tenta de novo amanhã.
       - name: Registrar e tirar da fila
+        if: steps.yt.outcome == 'success' || steps.fb.outcome == 'success'
         run: |
           f="${{ steps.fila.outputs.roteiro }}"
           python -c "import json,sys; sys.path.insert(0,'tools'); import narrar; narrar.registrar(json.load(open('$f',encoding='utf-8')))"
