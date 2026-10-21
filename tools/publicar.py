@@ -33,8 +33,8 @@ def youtube(post: dict) -> str:
     from googleapiclient.http import MediaFileUpload
 
     cred = Credentials(
-        None, refresh_token=os.environ["YT_REFRESH_TOKEN"], token_uri="https://oauth2.googleapis.com/token",
-        client_id=os.environ["YT_CLIENT_ID"], client_secret=os.environ["YT_CLIENT_SECRET"],
+        None, refresh_token=os.environ["YT_REFRESH_TOKEN"].strip(), token_uri="https://oauth2.googleapis.com/token",
+        client_id=os.environ["YT_CLIENT_ID"].strip(), client_secret=os.environ["YT_CLIENT_SECRET"].strip(),
         scopes=["https://www.googleapis.com/auth/youtube.upload"],
     )
     yt = build("youtube", "v3", credentials=cred, cache_discovery=False)

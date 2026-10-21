@@ -11,14 +11,14 @@ import os
 from pathlib import Path
 
 # access_token não pode ser vazio: o rclone trataria como "sem token" e nem tentaria renovar.
-token = {"access_token": "renovar", "token_type": "Bearer", "refresh_token": os.environ.get("DRIVE_REFRESH_TOKEN") or os.environ["YT_REFRESH_TOKEN"],
+token = {"access_token": "renovar", "token_type": "Bearer", "refresh_token": (os.environ.get("DRIVE_REFRESH_TOKEN") or os.environ["YT_REFRESH_TOKEN"]).strip(),
          "expiry": "2000-01-01T00:00:00Z"}  # vencido de propósito: o rclone renova na primeira chamada
 conf = (
     "[gdrive]\n"
     "type = drive\n"
     "scope = drive.file\n"
-    f"client_id = {os.environ['YT_CLIENT_ID']}\n"
-    f"client_secret = {os.environ['YT_CLIENT_SECRET']}\n"
+    f"client_id = {os.environ['YT_CLIENT_ID'].strip()}\n"
+    f"client_secret = {os.environ['YT_CLIENT_SECRET'].strip()}\n"
     f"token = {json.dumps(token)}\n"
 )
 destino = Path.home() / ".config" / "rclone" / "rclone.conf"
