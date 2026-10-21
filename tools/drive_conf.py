@@ -10,7 +10,8 @@ import json
 import os
 from pathlib import Path
 
-token = {"access_token": "", "token_type": "Bearer", "refresh_token": os.environ.get("DRIVE_REFRESH_TOKEN") or os.environ["YT_REFRESH_TOKEN"],
+# access_token não pode ser vazio: o rclone trataria como "sem token" e nem tentaria renovar.
+token = {"access_token": "renovar", "token_type": "Bearer", "refresh_token": os.environ.get("DRIVE_REFRESH_TOKEN") or os.environ["YT_REFRESH_TOKEN"],
          "expiry": "2000-01-01T00:00:00Z"}  # vencido de propósito: o rclone renova na primeira chamada
 conf = (
     "[gdrive]\n"
