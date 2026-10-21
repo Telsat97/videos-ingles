@@ -8,6 +8,7 @@ Imprime na última linha o caminho do MP4 (o workflow do GitHub lê essa linha).
 """
 import asyncio
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -22,6 +23,8 @@ FOTOS = RAIZ / "serie-ingles" / "fotos"
 SFX = RAIZ / "projetos" / "_sfx"
 LIMITE = 178.5  # segundos
 NPX = "npx.cmd" if sys.platform == "win32" else "npx"
+# O Remotion recusa mais processos que núcleos (o runner de repositório privado do GitHub tem 2).
+CONCORRENCIA = f"--concurrency={min(4, os.cpu_count() or 1)}"
 
 # Efeitos sintetizados com ffmpeg: sem direitos autorais, iguais em qualquer máquina.
 EFEITOS = {
@@ -101,7 +104,7 @@ def main() -> None:
     if "--sem-render" not in sys.argv:
         subprocess.run(
             [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}", str(mp4),
-             "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", "--concurrency=4"],
+             "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", CONCORRENCIA],
             cwd=RAIZ, check=True,
         )
         dur = float(subprocess.run(
@@ -112,7 +115,7 @@ def main() -> None:
         if "--horizontal" in sys.argv:  # versão 16:9 para o YouTube tradicional
             subprocess.run(
                 [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}-h", str(saida / f"{roteiro['slug']}-16x9.mp4"),
-                 "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", "--concurrency=4"],
+                 "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", CONCORRENCIA],
                 cwd=RAIZ, check=True,
             )
     print(mp4.relative_to(RAIZ).as_posix())

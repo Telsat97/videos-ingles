@@ -60,6 +60,7 @@ jobs:
       - name: Produzir episódio
         id: prod
         run: |
+          set -o pipefail  # sem isso, uma falha no render passa despercebida pelo "tee"
           python tools/produzir.py "${{ steps.fila.outputs.roteiro }}" | tee produzir.log
           mp4=$(tail -1 produzir.log)
           echo "mp4=$mp4" >> "$GITHUB_OUTPUT"
