@@ -23,6 +23,30 @@
         "Can I ask a question?",
         "Can I ask you something?"
       ]
+    },
+    {
+      "slug": "ep002-falsos-amigos",
+      "episodio": 2,
+      "titulo": "5 falsos amigos do inglês que enganam todo brasileiro",
+      "temas": [
+        "parents = parentes -> Parents = pais",
+        "push = puxar -> Push = empurrar",
+        "library = livraria -> Library = biblioteca",
+        "college = colégio -> College = faculdade",
+        "exquisite = esquisito -> Exquisite = requintado"
+      ],
+      "ensina": [
+        "Parents = pais",
+        "My parents live in Chicago.",
+        "Push = empurrar",
+        "Please push the door.",
+        "Library = biblioteca",
+        "I borrow books from the library.",
+        "College = faculdade",
+        "My sister is in college.",
+        "Exquisite = requintado",
+        "This cake is exquisite."
+      ]
     }
   ]
 }
