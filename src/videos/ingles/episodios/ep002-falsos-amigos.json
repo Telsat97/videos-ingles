@@ -1,0 +1,1977 @@
+{
+ "slug": "ep002-falsos-amigos",
+ "episodio": 2,
+ "titulo": "5 falsos amigos do inglês que enganam todo brasileiro",
+ "cenario": [
+  "📚",
+  "🚪",
+  "🎓",
+  "👨‍👩‍👧",
+  "✨"
+ ],
+ "duracao": 176.968,
+ "audio": "002. ingles-ep002-falsos-amigos/audio/narracao.wav",
+ "fotos": [
+  "002. ingles-ep002-falsos-amigos/prints/foto1.webp",
+  "002. ingles-ep002-falsos-amigos/prints/foto2.webp",
+  "002. ingles-ep002-falsos-amigos/prints/foto3.webp",
+  "002. ingles-ep002-falsos-amigos/prints/foto4.webp",
+  "002. ingles-ep002-falsos-amigos/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "FALSOS",
+    "AMIGOS do inglês",
+    "que enganam você"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Parents não é parentes! Calma, você não está sozinho.",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Parents",
+       "s": 0.445,
+       "e": 0.923
+      },
+      {
+       "w": "não",
+       "s": 0.934,
+       "e": 1.15
+      },
+      {
+       "w": "é",
+       "s": 1.161,
+       "e": 1.241
+      },
+      {
+       "w": "parentes",
+       "s": 1.252,
+       "e": 1.866
+      },
+      {
+       "w": "Calma",
+       "s": 2.645,
+       "e": 2.964
+      },
+      {
+       "w": "você",
+       "s": 3.225,
+       "e": 3.475
+      },
+      {
+       "w": "não",
+       "s": 3.486,
+       "e": 3.623
+      },
+      {
+       "w": "está",
+       "s": 3.634,
+       "e": 3.827
+      },
+      {
+       "w": "sozinho",
+       "s": 3.839,
+       "e": 4.407
+      }
+     ],
+     "fim": 5.418
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje: cinco palavras em inglês que parecem português, mas enganam.",
+     "inicio": 5.418,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 5.513,
+       "e": 5.854
+      },
+      {
+       "w": "cinco",
+       "s": 6.082,
+       "e": 6.423
+      },
+      {
+       "w": "palavras",
+       "s": 6.434,
+       "e": 6.798
+      },
+      {
+       "w": "em",
+       "s": 6.809,
+       "e": 6.957
+      },
+      {
+       "w": "inglês",
+       "s": 6.968,
+       "e": 7.298
+      },
+      {
+       "w": "que",
+       "s": 7.309,
+       "e": 7.4
+      },
+      {
+       "w": "parecem",
+       "s": 7.411,
+       "e": 7.786
+      },
+      {
+       "w": "português",
+       "s": 7.798,
+       "e": 8.4
+      },
+      {
+       "w": "mas",
+       "s": 8.616,
+       "e": 8.752
+      },
+      {
+       "w": "enganam",
+       "s": 8.763,
+       "e": 9.309
+      }
+     ],
+     "fim": 10.318
+    },
+    {
+     "voz": "pt",
+     "texto": "Fica até o final: tem desafio pra você!",
+     "inicio": 10.318,
+     "palavras": [
+      {
+       "w": "Fica",
+       "s": 10.413,
+       "e": 10.709
+      },
+      {
+       "w": "até",
+       "s": 10.72,
+       "e": 10.913
+      },
+      {
+       "w": "o",
+       "s": 10.925,
+       "e": 10.959
+      },
+      {
+       "w": "final",
+       "s": 10.97,
+       "e": 11.391
+      },
+      {
+       "w": "tem",
+       "s": 11.618,
+       "e": 11.743
+      },
+      {
+       "w": "desafio",
+       "s": 11.754,
+       "e": 12.232
+      },
+      {
+       "w": "pra",
+       "s": 12.243,
+       "e": 12.379
+      },
+      {
+       "w": "você",
+       "s": 12.391,
+       "e": 12.811
+      }
+     ],
+     "fim": 13.826
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 14.276
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "errado": "parents = parentes",
+   "dica": "parents = pais 👨‍👩‍👧 · parente = relative",
+   "rotulo": "FALSO AMIGO",
+   "certo": "Parents = pais",
+   "exemplo": {
+    "en": "My parents live in Chicago.",
+    "pt": "Meus pais moram em Chicago."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Falso amigo número um.",
+     "inicio": 14.276,
+     "palavras": [
+      {
+       "w": "Falso",
+       "s": 14.371,
+       "e": 14.758
+      },
+      {
+       "w": "amigo",
+       "s": 14.769,
+       "e": 15.087
+      },
+      {
+       "w": "número",
+       "s": 15.099,
+       "e": 15.383
+      },
+      {
+       "w": "um",
+       "s": 15.394,
+       "e": 15.587
+      }
+     ],
+     "fim": 16.608
+    },
+    {
+     "voz": "pt",
+     "texto": "Muita gente lê a palavra parents assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 16.608,
+     "palavras": [
+      {
+       "w": "Muita",
+       "s": 16.703,
+       "e": 17.056
+      },
+      {
+       "w": "gente",
+       "s": 17.067,
+       "e": 17.374
+      },
+      {
+       "w": "lê",
+       "s": 17.385,
+       "e": 17.51
+      },
+      {
+       "w": "a",
+       "s": 17.522,
+       "e": 17.59
+      },
+      {
+       "w": "palavra",
+       "s": 17.601,
+       "e": 17.965
+      },
+      {
+       "w": "parents",
+       "s": 17.976,
+       "e": 18.317
+      },
+      {
+       "w": "assim",
+       "s": 18.328,
+       "e": 18.703
+      }
+     ],
+     "fim": 19.708
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas parents é pai e mãe. Parente é relative.",
+     "mostra": "dica",
+     "inicio": 19.708,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 19.803,
+       "e": 20.122
+      },
+      {
+       "w": "parents",
+       "s": 20.133,
+       "e": 20.508
+      },
+      {
+       "w": "é",
+       "s": 20.519,
+       "e": 20.644
+      },
+      {
+       "w": "pai",
+       "s": 20.656,
+       "e": 20.894
+      },
+      {
+       "w": "e",
+       "s": 20.906,
+       "e": 20.951
+      },
+      {
+       "w": "mãe",
+       "s": 20.963,
+       "e": 21.235
+      },
+      {
+       "w": "Parente",
+       "s": 22.015,
+       "e": 22.515
+      },
+      {
+       "w": "é",
+       "s": 22.526,
+       "e": 22.56
+      },
+      {
+       "w": "relative",
+       "s": 22.572,
+       "e": 23.185
+      }
+     ],
+     "fim": 24.2
+    },
+    {
+     "voz": "pt",
+     "texto": "Então o certo é:",
+     "inicio": 24.2,
+     "palavras": [
+      {
+       "w": "Então",
+       "s": 24.295,
+       "e": 24.739
+      },
+      {
+       "w": "o",
+       "s": 24.75,
+       "e": 24.795
+      },
+      {
+       "w": "certo",
+       "s": 24.807,
+       "e": 25.239
+      },
+      {
+       "w": "é",
+       "s": 25.25,
+       "e": 25.432
+      }
+     ],
+     "fim": 26.436
+    },
+    {
+     "voz": "en",
+     "texto": "Parents. Mom and dad.",
+     "mostra": "certo",
+     "inicio": 26.436,
+     "palavras": [
+      {
+       "w": "Parents",
+       "s": 26.536,
+       "e": 27.331
+      },
+      {
+       "w": "Mom",
+       "s": 27.75,
+       "e": 28.191
+      },
+      {
+       "w": "and",
+       "s": 28.262,
+       "e": 28.404
+      },
+      {
+       "w": "dad",
+       "s": 28.418,
+       "e": 28.887
+      }
+     ],
+     "fim": 29.536
+    },
+    {
+     "voz": "pt",
+     "texto": "Repete comigo:",
+     "inicio": 29.536,
+     "palavras": [
+      {
+       "w": "Repete",
+       "s": 29.631,
+       "e": 30.143
+      },
+      {
+       "w": "comigo",
+       "s": 30.154,
+       "e": 30.563
+      }
+     ],
+     "fim": 31.628
+    },
+    {
+     "voz": "en",
+     "texto": "My parents live in Chicago.",
+     "mostra": "exemplo",
+     "inicio": 31.628,
+     "palavras": [
+      {
+       "w": "My",
+       "s": 31.728,
+       "e": 31.969
+      },
+      {
+       "w": "parents",
+       "s": 31.984,
+       "e": 32.566
+      },
+      {
+       "w": "live",
+       "s": 32.58,
+       "e": 32.95
+      },
+      {
+       "w": "in",
+       "s": 32.964,
+       "e": 33.063
+      },
+      {
+       "w": "Chicago",
+       "s": 33.077,
+       "e": 33.802
+      }
+     ],
+     "fim": 34.464
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 34.464,
+     "fim": 35.964
+    },
+    {
+     "voz": "pt",
+     "texto": "Meus pais moram em Chicago.",
+     "inicio": 35.964,
+     "palavras": [
+      {
+       "w": "Meus",
+       "s": 36.059,
+       "e": 36.344
+      },
+      {
+       "w": "pais",
+       "s": 36.355,
+       "e": 36.594
+      },
+      {
+       "w": "moram",
+       "s": 36.605,
+       "e": 36.878
+      },
+      {
+       "w": "em",
+       "s": 36.889,
+       "e": 36.934
+      },
+      {
+       "w": "Chicago",
+       "s": 36.946,
+       "e": 37.412
+      }
+     ],
+     "fim": 38.416
+    }
+   ],
+   "imagem": "👨‍👩‍👧",
+   "inicio": 14.276,
+   "fim": 38.866
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "errado": "push = puxar",
+   "dica": "push = empurrar · puxar = pull",
+   "rotulo": "FALSO AMIGO",
+   "certo": "Push = empurrar",
+   "exemplo": {
+    "en": "Please push the door.",
+    "pt": "Por favor, empurre a porta."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Falso amigo número dois. Já viu a palavra push numa porta?",
+     "inicio": 38.866,
+     "palavras": [
+      {
+       "w": "Falso",
+       "s": 38.961,
+       "e": 39.336
+      },
+      {
+       "w": "amigo",
+       "s": 39.348,
+       "e": 39.677
+      },
+      {
+       "w": "número",
+       "s": 39.689,
+       "e": 39.996
+      },
+      {
+       "w": "dois",
+       "s": 40.007,
+       "e": 40.393
+      },
+      {
+       "w": "Já",
+       "s": 41.173,
+       "e": 41.389
+      },
+      {
+       "w": "viu",
+       "s": 41.4,
+       "e": 41.593
+      },
+      {
+       "w": "a",
+       "s": 41.605,
+       "e": 41.65
+      },
+      {
+       "w": "palavra",
+       "s": 41.661,
+       "e": 42.014
+      },
+      {
+       "w": "push",
+       "s": 42.025,
+       "e": 42.343
+      },
+      {
+       "w": "numa",
+       "s": 42.355,
+       "e": 42.548
+      },
+      {
+       "w": "porta",
+       "s": 42.559,
+       "e": 42.991
+      }
+     ],
+     "fim": 44.006
+    },
+    {
+     "voz": "pt",
+     "texto": "Parece puxe, né? Aí a pessoa puxa quando era pra empurrar!",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 44.006,
+     "palavras": [
+      {
+       "w": "Parece",
+       "s": 44.101,
+       "e": 44.533
+      },
+      {
+       "w": "puxe",
+       "s": 44.545,
+       "e": 44.942
+      },
+      {
+       "w": "né",
+       "s": 45.09,
+       "e": 45.374
+      },
+      {
+       "w": "Aí",
+       "s": 46.154,
+       "e": 46.461
+      },
+      {
+       "w": "a",
+       "s": 46.472,
+       "e": 46.54
+      },
+      {
+       "w": "pessoa",
+       "s": 46.551,
+       "e": 46.915
+      },
+      {
+       "w": "puxa",
+       "s": 46.926,
+       "e": 47.279
+      },
+      {
+       "w": "quando",
+       "s": 47.29,
+       "e": 47.574
+      },
+      {
+       "w": "era",
+       "s": 47.586,
+       "e": 47.756
+      },
+      {
+       "w": "pra",
+       "s": 47.767,
+       "e": 47.904
+      },
+      {
+       "w": "empurrar",
+       "s": 47.915,
+       "e": 48.37
+      }
+     ],
+     "fim": 49.386
+    },
+    {
+     "voz": "pt",
+     "texto": "Push quer dizer empurrar. Puxar é pull.",
+     "mostra": "dica",
+     "inicio": 49.386,
+     "palavras": [
+      {
+       "w": "Push",
+       "s": 49.481,
+       "e": 49.8
+      },
+      {
+       "w": "quer",
+       "s": 49.811,
+       "e": 49.993
+      },
+      {
+       "w": "dizer",
+       "s": 50.004,
+       "e": 50.277
+      },
+      {
+       "w": "empurrar",
+       "s": 50.288,
+       "e": 50.709
+      },
+      {
+       "w": "Puxar",
+       "s": 51.488,
+       "e": 51.897
+      },
+      {
+       "w": "é",
+       "s": 51.909,
+       "e": 51.954
+      },
+      {
+       "w": "pull",
+       "s": 51.966,
+       "e": 52.261
+      }
+     ],
+     "fim": 53.278
+    },
+    {
+     "voz": "en",
+     "texto": "Push.",
+     "mostra": "certo",
+     "inicio": 53.278,
+     "palavras": [
+      {
+       "w": "Push",
+       "s": 53.378,
+       "e": 54.06
+      }
+     ],
+     "fim": 54.698
+    },
+    {
+     "voz": "pt",
+     "texto": "Olha o exemplo:",
+     "inicio": 54.698,
+     "palavras": [
+      {
+       "w": "Olha",
+       "s": 54.793,
+       "e": 55.078
+      },
+      {
+       "w": "o",
+       "s": 55.089,
+       "e": 55.157
+      },
+      {
+       "w": "exemplo",
+       "s": 55.168,
+       "e": 55.623
+      }
+     ],
+     "fim": 56.79
+    },
+    {
+     "voz": "en",
+     "texto": "Please push the door.",
+     "mostra": "exemplo",
+     "inicio": 56.79,
+     "palavras": [
+      {
+       "w": "Please",
+       "s": 56.89,
+       "e": 57.373
+      },
+      {
+       "w": "push",
+       "s": 57.401,
+       "e": 57.7
+      },
+      {
+       "w": "the",
+       "s": 57.714,
+       "e": 57.856
+      },
+      {
+       "w": "door",
+       "s": 57.87,
+       "e": 58.339
+      }
+     ],
+     "fim": 58.978
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 58.978,
+     "fim": 60.478
+    },
+    {
+     "voz": "pt",
+     "texto": "Por favor, empurre a porta.",
+     "inicio": 60.478,
+     "palavras": [
+      {
+       "w": "Por",
+       "s": 60.573,
+       "e": 60.733
+      },
+      {
+       "w": "favor",
+       "s": 60.744,
+       "e": 61.142
+      },
+      {
+       "w": "empurre",
+       "s": 61.369,
+       "e": 61.823
+      },
+      {
+       "w": "a",
+       "s": 61.835,
+       "e": 61.926
+      },
+      {
+       "w": "porta",
+       "s": 61.937,
+       "e": 62.323
+      }
+     ],
+     "fim": 63.338
+    }
+   ],
+   "imagem": "🚪",
+   "inicio": 38.866,
+   "fim": 63.788
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "errado": "library = livraria",
+   "dica": "library = biblioteca 📚 · livraria = bookstore",
+   "rotulo": "FALSO AMIGO",
+   "certo": "Library = biblioteca",
+   "exemplo": {
+    "en": "I borrow books from the library.",
+    "pt": "Eu pego livros emprestados na biblioteca."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Falso amigo número três. Esse é clássico!",
+     "inicio": 63.788,
+     "palavras": [
+      {
+       "w": "Falso",
+       "s": 63.883,
+       "e": 64.27
+      },
+      {
+       "w": "amigo",
+       "s": 64.281,
+       "e": 64.599
+      },
+      {
+       "w": "número",
+       "s": 64.611,
+       "e": 64.94
+      },
+      {
+       "w": "três",
+       "s": 64.952,
+       "e": 65.372
+      },
+      {
+       "w": "Esse",
+       "s": 66.152,
+       "e": 66.447
+      },
+      {
+       "w": "é",
+       "s": 66.458,
+       "e": 66.527
+      },
+      {
+       "w": "clássico",
+       "s": 66.538,
+       "e": 67.14
+      }
+     ],
+     "fim": 68.16
+    },
+    {
+     "voz": "pt",
+     "texto": "Library parece livraria, e muita gente entende assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 68.16,
+     "palavras": [
+      {
+       "w": "Library",
+       "s": 68.255,
+       "e": 68.721
+      },
+      {
+       "w": "parece",
+       "s": 68.733,
+       "e": 69.096
+      },
+      {
+       "w": "livraria",
+       "s": 69.108,
+       "e": 69.608
+      },
+      {
+       "w": "e",
+       "s": 69.869,
+       "e": 69.949
+      },
+      {
+       "w": "muita",
+       "s": 69.96,
+       "e": 70.335
+      },
+      {
+       "w": "gente",
+       "s": 70.346,
+       "e": 70.642
+      },
+      {
+       "w": "entende",
+       "s": 70.653,
+       "e": 70.983
+      },
+      {
+       "w": "assim",
+       "s": 70.994,
+       "e": 71.335
+      }
+     ],
+     "fim": 72.34
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas library é biblioteca. Livraria é bookstore.",
+     "mostra": "dica",
+     "inicio": 72.34,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 72.435,
+       "e": 72.697
+      },
+      {
+       "w": "library",
+       "s": 72.708,
+       "e": 73.163
+      },
+      {
+       "w": "é",
+       "s": 73.174,
+       "e": 73.22
+      },
+      {
+       "w": "biblioteca",
+       "s": 73.231,
+       "e": 73.879
+      },
+      {
+       "w": "Livraria",
+       "s": 74.658,
+       "e": 75.204
+      },
+      {
+       "w": "é",
+       "s": 75.215,
+       "e": 75.26
+      },
+      {
+       "w": "bookstore",
+       "s": 75.272,
+       "e": 75.829
+      }
+     ],
+     "fim": 76.856
+    },
+    {
+     "voz": "en",
+     "texto": "Library.",
+     "mostra": "certo",
+     "inicio": 76.856,
+     "palavras": [
+      {
+       "w": "Library",
+       "s": 76.956,
+       "e": 77.965
+      }
+     ],
+     "fim": 78.948
+    },
+    {
+     "voz": "pt",
+     "texto": "Repete comigo:",
+     "inicio": 78.948,
+     "palavras": [
+      {
+       "w": "Repete",
+       "s": 79.043,
+       "e": 79.555
+      },
+      {
+       "w": "comigo",
+       "s": 79.566,
+       "e": 79.975
+      }
+     ],
+     "fim": 81.04
+    },
+    {
+     "voz": "en",
+     "texto": "I borrow books from the library.",
+     "mostra": "exemplo",
+     "inicio": 81.04,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 81.14,
+       "e": 81.396
+      },
+      {
+       "w": "borrow",
+       "s": 81.41,
+       "e": 81.893
+      },
+      {
+       "w": "books",
+       "s": 81.907,
+       "e": 82.291
+      },
+      {
+       "w": "from",
+       "s": 82.305,
+       "e": 82.461
+      },
+      {
+       "w": "the",
+       "s": 82.475,
+       "e": 82.56
+      },
+      {
+       "w": "library",
+       "s": 82.575,
+       "e": 83.313
+      }
+     ],
+     "fim": 83.972
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 83.972,
+     "fim": 85.472
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu pego livros emprestados na biblioteca.",
+     "inicio": 85.472,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 85.567,
+       "e": 85.749
+      },
+      {
+       "w": "pego",
+       "s": 85.761,
+       "e": 86.067
+      },
+      {
+       "w": "livros",
+       "s": 86.079,
+       "e": 86.386
+      },
+      {
+       "w": "emprestados",
+       "s": 86.397,
+       "e": 87.056
+      },
+      {
+       "w": "na",
+       "s": 87.067,
+       "e": 87.147
+      },
+      {
+       "w": "biblioteca",
+       "s": 87.158,
+       "e": 87.772
+      }
+     ],
+     "fim": 88.788
+    }
+   ],
+   "imagem": "📚",
+   "inicio": 63.788,
+   "fim": 89.238
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "errado": "college = colégio",
+   "dica": "college = faculdade 🎓 · colégio = school",
+   "rotulo": "FALSO AMIGO",
+   "certo": "College = faculdade",
+   "exemplo": {
+    "en": "My sister is in college.",
+    "pt": "Minha irmã está na faculdade."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Falso amigo número quatro.",
+     "inicio": 89.238,
+     "palavras": [
+      {
+       "w": "Falso",
+       "s": 89.333,
+       "e": 89.72
+      },
+      {
+       "w": "amigo",
+       "s": 89.731,
+       "e": 90.049
+      },
+      {
+       "w": "número",
+       "s": 90.061,
+       "e": 90.345
+      },
+      {
+       "w": "quatro",
+       "s": 90.356,
+       "e": 90.777
+      }
+     ],
+     "fim": 91.786
+    },
+    {
+     "voz": "pt",
+     "texto": "College parece colégio, e o brasileiro entende assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 91.786,
+     "palavras": [
+      {
+       "w": "College",
+       "s": 91.881,
+       "e": 92.268
+      },
+      {
+       "w": "parece",
+       "s": 92.279,
+       "e": 92.62
+      },
+      {
+       "w": "colégio",
+       "s": 92.631,
+       "e": 93.109
+      },
+      {
+       "w": "e",
+       "s": 93.359,
+       "e": 93.438
+      },
+      {
+       "w": "o",
+       "s": 93.45,
+       "e": 93.484
+      },
+      {
+       "w": "brasileiro",
+       "s": 93.495,
+       "e": 93.972
+      },
+      {
+       "w": "entende",
+       "s": 93.984,
+       "e": 94.336
+      },
+      {
+       "w": "assim",
+       "s": 94.347,
+       "e": 94.688
+      }
+     ],
+     "fim": 95.702
+    },
+    {
+     "voz": "pt",
+     "texto": "Só que college é faculdade. Colégio é school.",
+     "mostra": "dica",
+     "inicio": 95.702,
+     "palavras": [
+      {
+       "w": "Só",
+       "s": 95.797,
+       "e": 96.059
+      },
+      {
+       "w": "que",
+       "s": 96.07,
+       "e": 96.195
+      },
+      {
+       "w": "college",
+       "s": 96.207,
+       "e": 96.57
+      },
+      {
+       "w": "é",
+       "s": 96.582,
+       "e": 96.616
+      },
+      {
+       "w": "faculdade",
+       "s": 96.627,
+       "e": 97.286
+      },
+      {
+       "w": "Colégio",
+       "s": 98.066,
+       "e": 98.566
+      },
+      {
+       "w": "é",
+       "s": 98.577,
+       "e": 98.622
+      },
+      {
+       "w": "school",
+       "s": 98.634,
+       "e": 99.043
+      }
+     ],
+     "fim": 100.05
+    },
+    {
+     "voz": "en",
+     "texto": "College.",
+     "mostra": "certo",
+     "inicio": 100.05,
+     "palavras": [
+      {
+       "w": "College",
+       "s": 100.15,
+       "e": 100.945
+      }
+     ],
+     "fim": 102.142
+    },
+    {
+     "voz": "pt",
+     "texto": "Agora fala:",
+     "inicio": 102.142,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 102.237,
+       "e": 102.692
+      },
+      {
+       "w": "fala",
+       "s": 102.703,
+       "e": 103.112
+      }
+     ],
+     "fim": 104.234
+    },
+    {
+     "voz": "en",
+     "texto": "My sister is in college.",
+     "mostra": "exemplo",
+     "inicio": 104.234,
+     "palavras": [
+      {
+       "w": "My",
+       "s": 104.334,
+       "e": 104.575
+      },
+      {
+       "w": "sister",
+       "s": 104.59,
+       "e": 105.087
+      },
+      {
+       "w": "is",
+       "s": 105.101,
+       "e": 105.229
+      },
+      {
+       "w": "in",
+       "s": 105.243,
+       "e": 105.371
+      },
+      {
+       "w": "college",
+       "s": 105.385,
+       "e": 106.01
+      }
+     ],
+     "fim": 106.662
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 106.662,
+     "fim": 108.162
+    },
+    {
+     "voz": "pt",
+     "texto": "Minha irmã está na faculdade.",
+     "inicio": 108.162,
+     "palavras": [
+      {
+       "w": "Minha",
+       "s": 108.257,
+       "e": 108.439
+      },
+      {
+       "w": "irmã",
+       "s": 108.451,
+       "e": 108.701
+      },
+      {
+       "w": "está",
+       "s": 108.712,
+       "e": 108.939
+      },
+      {
+       "w": "na",
+       "s": 108.951,
+       "e": 109.053
+      },
+      {
+       "w": "faculdade",
+       "s": 109.064,
+       "e": 109.689
+      }
+     ],
+     "fim": 110.71
+    }
+   ],
+   "imagem": "🎓",
+   "inicio": 89.238,
+   "fim": 111.16
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "errado": "exquisite = esquisito",
+   "dica": "exquisite = requintado ✨ (é elogio!)",
+   "rotulo": "FALSO AMIGO",
+   "certo": "Exquisite = requintado",
+   "exemplo": {
+    "en": "This cake is exquisite.",
+    "pt": "Este bolo é requintado."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Falso amigo número cinco, o mais engraçado!",
+     "inicio": 111.16,
+     "palavras": [
+      {
+       "w": "Falso",
+       "s": 111.255,
+       "e": 111.608
+      },
+      {
+       "w": "amigo",
+       "s": 111.619,
+       "e": 111.915
+      },
+      {
+       "w": "número",
+       "s": 111.926,
+       "e": 112.255
+      },
+      {
+       "w": "cinco",
+       "s": 112.267,
+       "e": 112.653
+      },
+      {
+       "w": "o",
+       "s": 112.858,
+       "e": 112.926
+      },
+      {
+       "w": "mais",
+       "s": 112.937,
+       "e": 113.187
+      },
+      {
+       "w": "engraçado",
+       "s": 113.199,
+       "e": 113.869
+      }
+     ],
+     "fim": 114.884
+    },
+    {
+     "voz": "en",
+     "texto": "Exquisite.",
+     "inicio": 114.884,
+     "palavras": [
+      {
+       "w": "Exquisite",
+       "s": 114.984,
+       "e": 115.893
+      }
+     ],
+     "fim": 116.976
+    },
+    {
+     "voz": "pt",
+     "texto": "Parece esquisito, né? E olha o perigo de entender assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 116.976,
+     "palavras": [
+      {
+       "w": "Parece",
+       "s": 117.071,
+       "e": 117.492
+      },
+      {
+       "w": "esquisito",
+       "s": 117.503,
+       "e": 118.026
+      },
+      {
+       "w": "né",
+       "s": 118.219,
+       "e": 118.503
+      },
+      {
+       "w": "E",
+       "s": 119.283,
+       "e": 119.408
+      },
+      {
+       "w": "olha",
+       "s": 119.419,
+       "e": 119.658
+      },
+      {
+       "w": "o",
+       "s": 119.669,
+       "e": 119.692
+      },
+      {
+       "w": "perigo",
+       "s": 119.703,
+       "e": 120.067
+      },
+      {
+       "w": "de",
+       "s": 120.078,
+       "e": 120.158
+      },
+      {
+       "w": "entender",
+       "s": 120.169,
+       "e": 120.567
+      },
+      {
+       "w": "assim",
+       "s": 120.578,
+       "e": 120.942
+      }
+     ],
+     "fim": 121.948
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas exquisite é elogio: quer dizer requintado, delicioso.",
+     "mostra": "dica",
+     "inicio": 121.948,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 122.043,
+       "e": 122.203
+      },
+      {
+       "w": "exquisite",
+       "s": 122.214,
+       "e": 122.782
+      },
+      {
+       "w": "é",
+       "s": 122.793,
+       "e": 122.816
+      },
+      {
+       "w": "elogio",
+       "s": 122.828,
+       "e": 123.282
+      },
+      {
+       "w": "quer",
+       "s": 123.475,
+       "e": 123.634
+      },
+      {
+       "w": "dizer",
+       "s": 123.646,
+       "e": 123.93
+      },
+      {
+       "w": "requintado",
+       "s": 123.941,
+       "e": 124.566
+      },
+      {
+       "w": "delicioso",
+       "s": 124.782,
+       "e": 125.453
+      }
+     ],
+     "fim": 126.464
+    },
+    {
+     "voz": "en",
+     "texto": "Exquisite.",
+     "mostra": "certo",
+     "inicio": 126.464,
+     "palavras": [
+      {
+       "w": "Exquisite",
+       "s": 126.564,
+       "e": 127.473
+      }
+     ],
+     "fim": 128.556
+    },
+    {
+     "voz": "pt",
+     "texto": "Veja:",
+     "inicio": 128.556,
+     "palavras": [
+      {
+       "w": "Veja",
+       "s": 128.651,
+       "e": 129.151
+      }
+     ],
+     "fim": 130.648
+    },
+    {
+     "voz": "en",
+     "texto": "This cake is exquisite.",
+     "mostra": "exemplo",
+     "inicio": 130.648,
+     "palavras": [
+      {
+       "w": "This",
+       "s": 130.748,
+       "e": 131.075
+      },
+      {
+       "w": "cake",
+       "s": 131.089,
+       "e": 131.373
+      },
+      {
+       "w": "is",
+       "s": 131.387,
+       "e": 131.529
+      },
+      {
+       "w": "exquisite",
+       "s": 131.543,
+       "e": 132.296
+      }
+     ],
+     "fim": 132.956
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 132.956,
+     "fim": 134.456
+    },
+    {
+     "voz": "pt",
+     "texto": "Este bolo é requintado. Pode usar sem medo!",
+     "inicio": 134.456,
+     "palavras": [
+      {
+       "w": "Este",
+       "s": 134.551,
+       "e": 134.847
+      },
+      {
+       "w": "bolo",
+       "s": 134.858,
+       "e": 135.188
+      },
+      {
+       "w": "é",
+       "s": 135.199,
+       "e": 135.233
+      },
+      {
+       "w": "requintado",
+       "s": 135.245,
+       "e": 135.881
+      },
+      {
+       "w": "Pode",
+       "s": 136.661,
+       "e": 136.911
+      },
+      {
+       "w": "usar",
+       "s": 136.922,
+       "e": 137.217
+      },
+      {
+       "w": "sem",
+       "s": 137.229,
+       "e": 137.433
+      },
+      {
+       "w": "medo",
+       "s": 137.445,
+       "e": 137.808
+      }
+     ],
+     "fim": 138.828
+    }
+   ],
+   "imagem": "🍰",
+   "inicio": 111.16,
+   "fim": 139.278
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "A porta diz “PUSH”. O que você faz?",
+   "opcoes": [
+    "Puxa",
+    "Empurra",
+    "Bate"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Hora do desafio! A porta diz push. O que você faz?",
+     "mostra": "pergunta",
+     "inicio": 139.278,
+     "palavras": [
+      {
+       "w": "Hora",
+       "s": 139.373,
+       "e": 139.646
+      },
+      {
+       "w": "do",
+       "s": 139.658,
+       "e": 139.794
+      },
+      {
+       "w": "desafio",
+       "s": 139.805,
+       "e": 140.362
+      },
+      {
+       "w": "A",
+       "s": 141.142,
+       "e": 141.267
+      },
+      {
+       "w": "porta",
+       "s": 141.278,
+       "e": 141.63
+      },
+      {
+       "w": "diz",
+       "s": 141.642,
+       "e": 141.812
+      },
+      {
+       "w": "push",
+       "s": 141.823,
+       "e": 142.221
+      },
+      {
+       "w": "O",
+       "s": 143.005,
+       "e": 143.119
+      },
+      {
+       "w": "que",
+       "s": 143.13,
+       "e": 143.267
+      },
+      {
+       "w": "você",
+       "s": 143.278,
+       "e": 143.528
+      },
+      {
+       "w": "faz",
+       "s": 143.539,
+       "e": 143.983
+      }
+     ],
+     "fim": 144.994
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 144.994,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 145.089,
+       "e": 145.442
+      },
+      {
+       "w": "A",
+       "s": 145.453,
+       "e": 145.703
+      },
+      {
+       "w": "letra",
+       "s": 145.987,
+       "e": 146.305
+      },
+      {
+       "w": "B",
+       "s": 146.317,
+       "e": 146.51
+      },
+      {
+       "w": "ou",
+       "s": 146.521,
+       "e": 146.624
+      },
+      {
+       "w": "letra",
+       "s": 146.635,
+       "e": 146.964
+      },
+      {
+       "w": "C",
+       "s": 146.976,
+       "e": 147.294
+      },
+      {
+       "w": "Pensa",
+       "s": 148.074,
+       "e": 148.449
+      },
+      {
+       "w": "rápido",
+       "s": 148.46,
+       "e": 148.949
+      }
+     ],
+     "fim": 149.966
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "contagem",
+     "inicio": 149.966,
+     "fim": 152.566
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B, empurra!",
+     "mostra": "resposta",
+     "inicio": 152.566,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 152.661,
+       "e": 153.252
+      },
+      {
+       "w": "certa",
+       "s": 153.264,
+       "e": 153.696
+      },
+      {
+       "w": "letra",
+       "s": 153.968,
+       "e": 154.332
+      },
+      {
+       "w": "B",
+       "s": 154.343,
+       "e": 154.661
+      },
+      {
+       "w": "empurra",
+       "s": 154.866,
+       "e": 155.4
+      }
+     ],
+     "fim": 156.41
+    },
+    {
+     "voz": "en",
+     "texto": "Push the door!",
+     "inicio": 156.41,
+     "palavras": [
+      {
+       "w": "Push",
+       "s": 156.51,
+       "e": 156.879
+      },
+      {
+       "w": "the",
+       "s": 156.894,
+       "e": 157.05
+      },
+      {
+       "w": "door",
+       "s": 157.064,
+       "e": 157.518
+      }
+     ],
+     "fim": 158.502
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 158.502,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 158.597,
+       "e": 159.2
+      },
+      {
+       "w": "Então",
+       "s": 159.979,
+       "e": 160.388
+      },
+      {
+       "w": "comenta",
+       "s": 160.4,
+       "e": 160.809
+      },
+      {
+       "w": "aí",
+       "s": 160.82,
+       "e": 161.104
+      },
+      {
+       "w": "acertei",
+       "s": 161.32,
+       "e": 161.866
+      }
+     ],
+     "fim": 162.874
+    }
+   ],
+   "inicio": 139.278,
+   "fim": 163.324
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 163.324,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 163.419,
+       "e": 163.669
+      },
+      {
+       "w": "dia",
+       "s": 163.681,
+       "e": 163.897
+      },
+      {
+       "w": "tem",
+       "s": 163.908,
+       "e": 164.033
+      },
+      {
+       "w": "dica",
+       "s": 164.044,
+       "e": 164.317
+      },
+      {
+       "w": "nova",
+       "s": 164.329,
+       "e": 164.635
+      },
+      {
+       "w": "de",
+       "s": 164.647,
+       "e": 164.715
+      },
+      {
+       "w": "inglês",
+       "s": 164.726,
+       "e": 165.124
+      },
+      {
+       "w": "fácil",
+       "s": 165.34,
+       "e": 165.715
+      },
+      {
+       "w": "e",
+       "s": 165.726,
+       "e": 165.76
+      },
+      {
+       "w": "rapidinha",
+       "s": 165.772,
+       "e": 166.363
+      },
+      {
+       "w": "Segue",
+       "s": 167.142,
+       "e": 167.574
+      },
+      {
+       "w": "pra",
+       "s": 167.585,
+       "e": 167.744
+      },
+      {
+       "w": "não",
+       "s": 167.756,
+       "e": 167.972
+      },
+      {
+       "w": "perder",
+       "s": 167.983,
+       "e": 168.404
+      }
+     ],
+     "fim": 169.424
+    },
+    {
+     "voz": "pt",
+     "texto": "Qual falso amigo já te enganou? Comenta aí!",
+     "inicio": 169.424,
+     "palavras": [
+      {
+       "w": "Qual",
+       "s": 169.519,
+       "e": 169.747
+      },
+      {
+       "w": "falso",
+       "s": 169.758,
+       "e": 170.076
+      },
+      {
+       "w": "amigo",
+       "s": 170.088,
+       "e": 170.429
+      },
+      {
+       "w": "já",
+       "s": 170.44,
+       "e": 170.565
+      },
+      {
+       "w": "te",
+       "s": 170.576,
+       "e": 170.679
+      },
+      {
+       "w": "enganou",
+       "s": 170.69,
+       "e": 171.11
+      },
+      {
+       "w": "Comenta",
+       "s": 171.89,
+       "e": 172.367
+      },
+      {
+       "w": "aí",
+       "s": 172.379,
+       "e": 172.663
+      }
+     ],
+     "fim": 173.676
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 173.676,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 173.776,
+       "e": 174.089
+      },
+      {
+       "w": "you",
+       "s": 174.103,
+       "e": 174.216
+      },
+      {
+       "w": "tomorrow",
+       "s": 174.231,
+       "e": 174.912
+      }
+     ],
+     "fim": 175.768
+    }
+   ],
+   "inicio": 163.324,
+   "fim": 176.968
+  }
+ ]
+}

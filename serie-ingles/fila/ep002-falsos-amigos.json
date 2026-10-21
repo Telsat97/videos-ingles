@@ -47,7 +47,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Hoje eu mostro cinco falsos amigos: palavras em inglês que parecem português, mas enganam."
+          "texto": "Hoje: cinco palavras em inglês que parecem português, mas enganam."
         },
         {
           "voz": "pt",
@@ -79,7 +79,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Mas parents quer dizer pai e mãe, os dois juntos. Parente de família é relative.",
+          "texto": "Mas parents é pai e mãe. Parente é relative.",
           "mostra": "dica"
         },
         {
@@ -106,7 +106,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Meus pais moram em Chicago. Bem fácil, né?"
+          "texto": "Meus pais moram em Chicago."
         }
       ],
       "imagem": "👨‍👩‍👧"
@@ -129,7 +129,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Parece puxe, né? Quem entende assim acaba puxando quando era pra empurrar!",
+          "texto": "Parece puxe, né? Aí a pessoa puxa quando era pra empurrar!",
           "mostra": "errado",
           "gatilho": "assim"
         },
@@ -187,7 +187,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Mas library é biblioteca, onde a gente empresta livros. Livraria, onde se compra, é bookstore.",
+          "texto": "Mas library é biblioteca. Livraria é bookstore.",
           "mostra": "dica"
         },
         {
@@ -229,7 +229,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Falso amigo número quatro. Quem estuda inglês cai nessa direto!"
+          "texto": "Falso amigo número quatro."
         },
         {
           "voz": "pt",
@@ -239,7 +239,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Só que college é faculdade. Colégio, a escola dos mais novos, é school.",
+          "texto": "Só que college é faculdade. Colégio é school.",
           "mostra": "dica"
         },
         {
@@ -295,7 +295,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Se você diz que o bolo da sua tia é esquisito, ops! Mas aqui é elogio: quer dizer requintado, lindo, delicioso.",
+          "texto": "Mas exquisite é elogio: quer dizer requintado, delicioso.",
           "mostra": "dica"
         },
         {
@@ -318,7 +318,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Este bolo é requintado. Um elogio e tanto, pode usar sem medo!"
+          "texto": "Este bolo é requintado. Pode usar sem medo!"
         }
       ],
       "imagem": "🍰"
@@ -373,7 +373,7 @@
         },
         {
           "voz": "pt",
-          "texto": "E me conta nos comentários: qual falso amigo já te enganou?"
+          "texto": "Qual falso amigo já te enganou? Comenta aí!"
         },
         {
           "voz": "en",

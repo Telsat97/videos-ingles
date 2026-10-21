@@ -47,7 +47,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Hoje eu te ensino cinco expressões bem brasileiras, e como os americanos falam de verdade."
+          "texto": "Hoje: cinco expressões bem brasileiras, e como o americano fala de verdade."
         },
         {
           "voz": "pt",
@@ -75,7 +75,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Mas não existe uma palavra igual. Os americanos usam o verbo miss, que quer dizer sentir falta.",
+          "texto": "Mas não existe palavra igual. O americano usa miss: sentir falta.",
           "mostra": "dica"
         },
         {
@@ -102,7 +102,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Eu sinto tanta saudade de você. Manda pra alguém hoje!"
+          "texto": "Eu sinto tanta saudade de você."
         }
       ],
       "imagem": "💛",
@@ -122,13 +122,13 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Segunda: tanto faz. Tem gente que traduz palavra por palavra e sai assim:",
+          "texto": "Segunda: tanto faz. Traduzindo palavra por palavra, sai assim:",
           "mostra": "errado",
           "gatilho": "assim"
         },
         {
           "voz": "pt",
-          "texto": "Isso não quer dizer nada! Em inglês você diz que não importa. Cuidado: só o whatever, sozinho, pode soar mal-educado.",
+          "texto": "Isso não quer dizer nada! Diga que não importa. Só o whatever, sozinho, pode soar grosseiro.",
           "mostra": "dica"
         },
         {
@@ -155,7 +155,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Pizza ou macarrão? Tanto faz. Simples, né? Usa isso hoje mesmo com alguém."
+          "texto": "Pizza ou macarrão? Tanto faz."
         }
       ],
       "imagem": "🤷",
@@ -208,7 +208,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Fique à vontade, por favor. Que acolhedor!"
+          "texto": "Fique à vontade, por favor."
         }
       ],
       "imagem": "🏠",
@@ -234,7 +234,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Dá pra entender, mas ninguém fala desse jeito. Os americanos desejam que você aproveite a comida.",
+          "texto": "Dá pra entender, mas ninguém fala assim. O americano deseja que você aproveite.",
           "mostra": "dica"
         },
         {
@@ -314,7 +314,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Hoje eu estou com preguiça. Todo mundo tem esse dia!"
+          "texto": "Hoje eu estou com preguiça."
         }
       ],
       "imagem": "😴",
@@ -370,7 +370,7 @@
         },
         {
           "voz": "pt",
-          "texto": "E me conta nos comentários: qual dessas expressões você mais usa?"
+          "texto": "Qual dessas você mais usa? Comenta aí!"
         },
         {
           "voz": "en",

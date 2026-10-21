@@ -16,3 +16,4 @@ skills-lock.json
 
 # Gravações originais do apresentador (grandes, ficam só no PC)
 serie-ingles/gravacoes/originais/
+__pycache__/

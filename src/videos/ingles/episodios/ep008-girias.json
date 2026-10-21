@@ -1,0 +1,2195 @@
+{
+ "slug": "ep008-girias",
+ "episodio": 8,
+ "titulo": "5 gírias que os jovens americanos usam",
+ "cenario": [
+  "😎",
+  "🎧",
+  "📱",
+  "✨"
+ ],
+ "duracao": 172.442,
+ "audio": "008. ingles-ep008-girias/audio/narracao.wav",
+ "fotos": [
+  "008. ingles-ep008-girias/prints/foto1.webp",
+  "008. ingles-ep008-girias/prints/foto2.webp",
+  "008. ingles-ep008-girias/prints/foto3.webp",
+  "008. ingles-ep008-girias/prints/foto4.webp",
+  "008. ingles-ep008-girias/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "GÍRIAS",
+    "que os jovens",
+    "americanos usam"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Seu filho ou seu neto fala “no cap” e você ficou boiando? Calma!",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Seu",
+       "s": 0.444,
+       "e": 0.729
+      },
+      {
+       "w": "filho",
+       "s": 0.74,
+       "e": 1.102
+      },
+      {
+       "w": "ou",
+       "s": 1.113,
+       "e": 1.2
+      },
+      {
+       "w": "seu",
+       "s": 1.211,
+       "e": 1.376
+      },
+      {
+       "w": "neto",
+       "s": 1.387,
+       "e": 1.617
+      },
+      {
+       "w": "fala",
+       "s": 1.628,
+       "e": 1.935
+      },
+      {
+       "w": "no",
+       "s": 1.957,
+       "e": 2.089
+      },
+      {
+       "w": "cap",
+       "s": 2.1,
+       "e": 2.396
+      },
+      {
+       "w": "e",
+       "s": 2.461,
+       "e": 2.527
+      },
+      {
+       "w": "você",
+       "s": 2.538,
+       "e": 2.757
+      },
+      {
+       "w": "ficou",
+       "s": 2.768,
+       "e": 3.032
+      },
+      {
+       "w": "boiando",
+       "s": 3.043,
+       "e": 3.514
+      },
+      {
+       "w": "Calma",
+       "s": 4.264,
+       "e": 4.736
+      }
+     ],
+     "fim": 5.73
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje eu explico cinco gírias que os jovens americanos usam todo dia, e todas servem pra qualquer idade.",
+     "inicio": 5.73,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 5.824,
+       "e": 6.109
+      },
+      {
+       "w": "eu",
+       "s": 6.12,
+       "e": 6.186
+      },
+      {
+       "w": "explico",
+       "s": 6.197,
+       "e": 6.548
+      },
+      {
+       "w": "cinco",
+       "s": 6.558,
+       "e": 6.865
+      },
+      {
+       "w": "gírias",
+       "s": 6.877,
+       "e": 7.216
+      },
+      {
+       "w": "que",
+       "s": 7.227,
+       "e": 7.315
+      },
+      {
+       "w": "os",
+       "s": 7.326,
+       "e": 7.392
+      },
+      {
+       "w": "jovens",
+       "s": 7.403,
+       "e": 7.688
+      },
+      {
+       "w": "americanos",
+       "s": 7.699,
+       "e": 8.247
+      },
+      {
+       "w": "usam",
+       "s": 8.258,
+       "e": 8.587
+      },
+      {
+       "w": "todo",
+       "s": 8.598,
+       "e": 8.883
+      },
+      {
+       "w": "dia",
+       "s": 8.894,
+       "e": 9.157
+      },
+      {
+       "w": "e",
+       "s": 9.377,
+       "e": 9.475
+      },
+      {
+       "w": "todas",
+       "s": 9.486,
+       "e": 9.782
+      },
+      {
+       "w": "servem",
+       "s": 9.793,
+       "e": 10.133
+      },
+      {
+       "w": "pra",
+       "s": 10.144,
+       "e": 10.276
+      },
+      {
+       "w": "qualquer",
+       "s": 10.287,
+       "e": 10.626
+      },
+      {
+       "w": "idade",
+       "s": 10.637,
+       "e": 11.032
+      }
+     ],
+     "fim": 12.022
+    },
+    {
+     "voz": "pt",
+     "texto": "Fica até o final, porque tem um desafio pra você testar o que aprendeu!",
+     "inicio": 12.022,
+     "palavras": [
+      {
+       "w": "Fica",
+       "s": 12.116,
+       "e": 12.401
+      },
+      {
+       "w": "até",
+       "s": 12.412,
+       "e": 12.609
+      },
+      {
+       "w": "o",
+       "s": 12.62,
+       "e": 12.653
+      },
+      {
+       "w": "final",
+       "s": 12.664,
+       "e": 13.037
+      },
+      {
+       "w": "porque",
+       "s": 13.278,
+       "e": 13.596
+      },
+      {
+       "w": "tem",
+       "s": 13.607,
+       "e": 13.739
+      },
+      {
+       "w": "um",
+       "s": 13.75,
+       "e": 13.804
+      },
+      {
+       "w": "desafio",
+       "s": 13.815,
+       "e": 14.287
+      },
+      {
+       "w": "pra",
+       "s": 14.298,
+       "e": 14.418
+      },
+      {
+       "w": "você",
+       "s": 14.429,
+       "e": 14.66
+      },
+      {
+       "w": "testar",
+       "s": 14.671,
+       "e": 15.054
+      },
+      {
+       "w": "o",
+       "s": 15.065,
+       "e": 15.109
+      },
+      {
+       "w": "que",
+       "s": 15.12,
+       "e": 15.208
+      },
+      {
+       "w": "aprendeu",
+       "s": 15.219,
+       "e": 15.756
+      }
+     ],
+     "fim": 16.754
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 17.204
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "dica": "no cap = sem mentira, de verdade 🧢",
+   "rotulo": "GÍRIA",
+   "certo": "No cap, this pizza is amazing.",
+   "pronuncia": "NÔU kép",
+   "exemplo": {
+    "en": "No cap, that movie was great.",
+    "pt": "Sem mentira, aquele filme foi ótimo."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Primeira gíria: no cap.",
+     "inicio": 17.204,
+     "palavras": [
+      {
+       "w": "Primeira",
+       "s": 17.298,
+       "e": 17.66
+      },
+      {
+       "w": "gíria",
+       "s": 17.671,
+       "e": 17.989
+      },
+      {
+       "w": "no",
+       "s": 18.175,
+       "e": 18.252
+      },
+      {
+       "w": "cap.",
+       "s": 18.263,
+       "e": 18.767
+      }
+     ],
+     "fim": 19.752
+    },
+    {
+     "voz": "pt",
+     "texto": "Cap quer dizer mentira. Então no cap é sem mentira, é de verdade, pode acreditar.",
+     "mostra": "dica",
+     "inicio": 19.752,
+     "palavras": [
+      {
+       "w": "Cap",
+       "s": 19.846,
+       "e": 20.142
+      },
+      {
+       "w": "quer",
+       "s": 20.153,
+       "e": 20.317
+      },
+      {
+       "w": "dizer",
+       "s": 20.328,
+       "e": 20.624
+      },
+      {
+       "w": "mentira",
+       "s": 20.635,
+       "e": 21.118
+      },
+      {
+       "w": "Então",
+       "s": 21.868,
+       "e": 22.186
+      },
+      {
+       "w": "no",
+       "s": 22.197,
+       "e": 22.296
+      },
+      {
+       "w": "cap",
+       "s": 22.307,
+       "e": 22.57
+      },
+      {
+       "w": "é",
+       "s": 22.581,
+       "e": 22.614
+      },
+      {
+       "w": "sem",
+       "s": 22.625,
+       "e": 22.811
+      },
+      {
+       "w": "mentira",
+       "s": 22.822,
+       "e": 23.283
+      },
+      {
+       "w": "é",
+       "s": 23.436,
+       "e": 23.535
+      },
+      {
+       "w": "de",
+       "s": 23.546,
+       "e": 23.623
+      },
+      {
+       "w": "verdade",
+       "s": 23.634,
+       "e": 24.138
+      },
+      {
+       "w": "pode",
+       "s": 24.346,
+       "e": 24.566
+      },
+      {
+       "w": "acreditar",
+       "s": 24.577,
+       "e": 25.048
+      }
+     ],
+     "fim": 26.044
+    },
+    {
+     "voz": "en",
+     "texto": "No cap, this pizza is amazing.",
+     "mostra": "certo",
+     "inicio": 26.044,
+     "palavras": [
+      {
+       "w": "No",
+       "s": 26.144,
+       "e": 26.456
+      },
+      {
+       "w": "cap",
+       "s": 26.47,
+       "e": 26.905
+      },
+      {
+       "w": "this",
+       "s": 27.122,
+       "e": 27.38
+      },
+      {
+       "w": "pizza",
+       "s": 27.394,
+       "e": 27.91
+      },
+      {
+       "w": "is",
+       "s": 27.924,
+       "e": 28.087
+      },
+      {
+       "w": "amazing",
+       "s": 28.101,
+       "e": 28.875
+      }
+     ],
+     "fim": 29.504
+    },
+    {
+     "voz": "pt",
+     "texto": "Os jovens falam isso o tempo todo, nas redes e na escola. Mais um exemplo:",
+     "inicio": 29.504,
+     "palavras": [
+      {
+       "w": "Os",
+       "s": 29.598,
+       "e": 29.751
+      },
+      {
+       "w": "jovens",
+       "s": 29.762,
+       "e": 30.146
+      },
+      {
+       "w": "falam",
+       "s": 30.157,
+       "e": 30.464
+      },
+      {
+       "w": "isso",
+       "s": 30.475,
+       "e": 30.683
+      },
+      {
+       "w": "o",
+       "s": 30.694,
+       "e": 30.727
+      },
+      {
+       "w": "tempo",
+       "s": 30.738,
+       "e": 31.045
+      },
+      {
+       "w": "todo",
+       "s": 31.056,
+       "e": 31.374
+      },
+      {
+       "w": "nas",
+       "s": 31.572,
+       "e": 31.736
+      },
+      {
+       "w": "redes",
+       "s": 31.747,
+       "e": 32.021
+      },
+      {
+       "w": "e",
+       "s": 32.032,
+       "e": 32.12
+      },
+      {
+       "w": "na",
+       "s": 32.131,
+       "e": 32.207
+      },
+      {
+       "w": "escola",
+       "s": 32.218,
+       "e": 32.646
+      },
+      {
+       "w": "Mais",
+       "s": 33.397,
+       "e": 33.638
+      },
+      {
+       "w": "um",
+       "s": 33.649,
+       "e": 33.824
+      },
+      {
+       "w": "exemplo",
+       "s": 33.835,
+       "e": 34.252
+      }
+     ],
+     "fim": 35.244
+    },
+    {
+     "voz": "en",
+     "texto": "No cap, that movie was great.",
+     "mostra": "exemplo",
+     "inicio": 35.244,
+     "palavras": [
+      {
+       "w": "No",
+       "s": 35.344,
+       "e": 35.629
+      },
+      {
+       "w": "cap",
+       "s": 35.643,
+       "e": 36.051
+      },
+      {
+       "w": "that",
+       "s": 36.309,
+       "e": 36.512
+      },
+      {
+       "w": "movie",
+       "s": 36.526,
+       "e": 36.852
+      },
+      {
+       "w": "was",
+       "s": 36.866,
+       "e": 37.029
+      },
+      {
+       "w": "great",
+       "s": 37.042,
+       "e": 37.572
+      }
+     ],
+     "fim": 38.2
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 38.2,
+     "fim": 39.52
+    },
+    {
+     "voz": "pt",
+     "texto": "Sem mentira, aquele filme foi ótimo.",
+     "inicio": 39.52,
+     "palavras": [
+      {
+       "w": "Sem",
+       "s": 39.614,
+       "e": 39.866
+      },
+      {
+       "w": "mentira",
+       "s": 39.877,
+       "e": 40.338
+      },
+      {
+       "w": "aquele",
+       "s": 40.48,
+       "e": 40.743
+      },
+      {
+       "w": "filme",
+       "s": 40.754,
+       "e": 41.061
+      },
+      {
+       "w": "foi",
+       "s": 41.072,
+       "e": 41.259
+      },
+      {
+       "w": "ótimo",
+       "s": 41.27,
+       "e": 41.653
+      }
+     ],
+     "fim": 42.644
+    }
+   ],
+   "imagem": "🧢",
+   "inicio": 17.204,
+   "fim": 43.094
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "dica": "lowkey = meio que, no fundo 🤫",
+   "rotulo": "GÍRIA",
+   "certo": "I'm lowkey tired today.",
+   "pronuncia": "LÔU-ki",
+   "exemplo": {
+    "en": "I lowkey love this song.",
+    "pt": "No fundo, eu amo essa música."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Segunda gíria: lowkey.",
+     "inicio": 43.094,
+     "palavras": [
+      {
+       "w": "Segunda",
+       "s": 43.188,
+       "e": 43.714
+      },
+      {
+       "w": "gíria",
+       "s": 43.725,
+       "e": 44.054
+      },
+      {
+       "w": "lowkey",
+       "s": 44.295,
+       "e": 44.701
+      }
+     ],
+     "fim": 45.69
+    },
+    {
+     "voz": "pt",
+     "texto": "Lowkey é um jeitinho de dizer um pouco, mais ou menos, ou no fundo.",
+     "mostra": "dica",
+     "inicio": 45.69,
+     "palavras": [
+      {
+       "w": "Lowkey",
+       "s": 45.784,
+       "e": 46.157
+      },
+      {
+       "w": "é",
+       "s": 46.168,
+       "e": 46.201
+      },
+      {
+       "w": "um",
+       "s": 46.212,
+       "e": 46.299
+      },
+      {
+       "w": "jeitinho",
+       "s": 46.31,
+       "e": 46.727
+      },
+      {
+       "w": "de",
+       "s": 46.738,
+       "e": 46.825
+      },
+      {
+       "w": "dizer",
+       "s": 46.837,
+       "e": 47.067
+      },
+      {
+       "w": "um",
+       "s": 47.078,
+       "e": 47.176
+      },
+      {
+       "w": "pouco",
+       "s": 47.187,
+       "e": 47.505
+      },
+      {
+       "w": "mais",
+       "s": 47.714,
+       "e": 47.878
+      },
+      {
+       "w": "ou",
+       "s": 47.889,
+       "e": 48.032
+      },
+      {
+       "w": "menos",
+       "s": 48.043,
+       "e": 48.404
+      },
+      {
+       "w": "ou",
+       "s": 48.514,
+       "e": 48.635
+      },
+      {
+       "w": "no",
+       "s": 48.646,
+       "e": 48.744
+      },
+      {
+       "w": "fundo",
+       "s": 48.755,
+       "e": 49.139
+      }
+     ],
+     "fim": 50.134
+    },
+    {
+     "voz": "en",
+     "texto": "I'm lowkey tired today.",
+     "mostra": "certo",
+     "inicio": 50.134,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 50.234,
+       "e": 50.547
+      },
+      {
+       "w": "lowkey",
+       "s": 50.56,
+       "e": 50.845
+      },
+      {
+       "w": "tired",
+       "s": 50.859,
+       "e": 51.212
+      },
+      {
+       "w": "today",
+       "s": 51.226,
+       "e": 51.661
+      }
+     ],
+     "fim": 52.298
+    },
+    {
+     "voz": "pt",
+     "texto": "Dá pra usar em quase toda frase. Olha outro exemplo:",
+     "inicio": 52.298,
+     "palavras": [
+      {
+       "w": "Dá",
+       "s": 52.392,
+       "e": 52.589
+      },
+      {
+       "w": "pra",
+       "s": 52.6,
+       "e": 52.765
+      },
+      {
+       "w": "usar",
+       "s": 52.776,
+       "e": 53.028
+      },
+      {
+       "w": "em",
+       "s": 53.039,
+       "e": 53.126
+      },
+      {
+       "w": "quase",
+       "s": 53.137,
+       "e": 53.488
+      },
+      {
+       "w": "toda",
+       "s": 53.499,
+       "e": 53.752
+      },
+      {
+       "w": "frase",
+       "s": 53.762,
+       "e": 54.179
+      },
+      {
+       "w": "Olha",
+       "s": 54.93,
+       "e": 55.259
+      },
+      {
+       "w": "outro",
+       "s": 55.27,
+       "e": 55.522
+      },
+      {
+       "w": "exemplo",
+       "s": 55.533,
+       "e": 55.971
+      }
+     ],
+     "fim": 56.958
+    },
+    {
+     "voz": "en",
+     "texto": "I lowkey love this song.",
+     "mostra": "exemplo",
+     "inicio": 56.958,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 57.058,
+       "e": 57.303
+      },
+      {
+       "w": "lowkey",
+       "s": 57.316,
+       "e": 57.656
+      },
+      {
+       "w": "love",
+       "s": 57.669,
+       "e": 57.887
+      },
+      {
+       "w": "this",
+       "s": 57.9,
+       "e": 58.063
+      },
+      {
+       "w": "song",
+       "s": 58.077,
+       "e": 58.539
+      }
+     ],
+     "fim": 59.17
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 59.17,
+     "fim": 60.49
+    },
+    {
+     "voz": "pt",
+     "texto": "No fundo, eu amo essa música.",
+     "inicio": 60.49,
+     "palavras": [
+      {
+       "w": "No",
+       "s": 60.584,
+       "e": 60.737
+      },
+      {
+       "w": "fundo",
+       "s": 60.748,
+       "e": 61.121
+      },
+      {
+       "w": "eu",
+       "s": 61.319,
+       "e": 61.483
+      },
+      {
+       "w": "amo",
+       "s": 61.494,
+       "e": 61.647
+      },
+      {
+       "w": "essa",
+       "s": 61.658,
+       "e": 61.845
+      },
+      {
+       "w": "música",
+       "s": 61.856,
+       "e": 62.316
+      }
+     ],
+     "fim": 63.302
+    }
+   ],
+   "imagem": "🤫",
+   "inicio": 43.094,
+   "fim": 63.752
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "dica": "vibe = clima, energia ✨",
+   "rotulo": "GÍRIA",
+   "certo": "I like the vibe here.",
+   "pronuncia": "vaib",
+   "exemplo": {
+    "en": "This place has a great vibe.",
+    "pt": "Esse lugar tem uma ótima vibe."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Terceira gíria: vibe. Essa você já deve conhecer!",
+     "inicio": 63.752,
+     "palavras": [
+      {
+       "w": "Terceira",
+       "s": 63.846,
+       "e": 64.306
+      },
+      {
+       "w": "gíria",
+       "s": 64.317,
+       "e": 64.657
+      },
+      {
+       "w": "vibe",
+       "s": 64.92,
+       "e": 65.315
+      },
+      {
+       "w": "Essa",
+       "s": 66.066,
+       "e": 66.384
+      },
+      {
+       "w": "você",
+       "s": 66.395,
+       "e": 66.636
+      },
+      {
+       "w": "já",
+       "s": 66.647,
+       "e": 66.778
+      },
+      {
+       "w": "deve",
+       "s": 66.789,
+       "e": 67.052
+      },
+      {
+       "w": "conhecer",
+       "s": 67.063,
+       "e": 67.59
+      }
+     ],
+     "fim": 68.58
+    },
+    {
+     "voz": "pt",
+     "texto": "Vibe é o clima, a energia de um lugar ou de uma pessoa.",
+     "mostra": "dica",
+     "inicio": 68.58,
+     "palavras": [
+      {
+       "w": "Vibe",
+       "s": 68.674,
+       "e": 68.981
+      },
+      {
+       "w": "é",
+       "s": 68.992,
+       "e": 69.025
+      },
+      {
+       "w": "o",
+       "s": 69.036,
+       "e": 69.091
+      },
+      {
+       "w": "clima",
+       "s": 69.102,
+       "e": 69.43
+      },
+      {
+       "w": "a",
+       "s": 69.661,
+       "e": 69.716
+      },
+      {
+       "w": "energia",
+       "s": 69.727,
+       "e": 70.132
+      },
+      {
+       "w": "de",
+       "s": 70.143,
+       "e": 70.209
+      },
+      {
+       "w": "um",
+       "s": 70.22,
+       "e": 70.286
+      },
+      {
+       "w": "lugar",
+       "s": 70.297,
+       "e": 70.626
+      },
+      {
+       "w": "ou",
+       "s": 70.637,
+       "e": 70.713
+      },
+      {
+       "w": "de",
+       "s": 70.724,
+       "e": 70.79
+      },
+      {
+       "w": "uma",
+       "s": 70.801,
+       "e": 70.933
+      },
+      {
+       "w": "pessoa",
+       "s": 70.944,
+       "e": 71.393
+      }
+     ],
+     "fim": 72.376
+    },
+    {
+     "voz": "en",
+     "texto": "I like the vibe here.",
+     "mostra": "certo",
+     "inicio": 72.376,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 72.476,
+       "e": 72.707
+      },
+      {
+       "w": "like",
+       "s": 72.721,
+       "e": 72.979
+      },
+      {
+       "w": "the",
+       "s": 72.992,
+       "e": 73.074
+      },
+      {
+       "w": "vibe",
+       "s": 73.087,
+       "e": 73.346
+      },
+      {
+       "w": "here",
+       "s": 73.359,
+       "e": 73.726
+      }
+     ],
+     "fim": 74.468
+    },
+    {
+     "voz": "pt",
+     "texto": "Você vai ouvir muito essa por aí. Outro exemplo:",
+     "inicio": 74.468,
+     "palavras": [
+      {
+       "w": "Você",
+       "s": 74.562,
+       "e": 74.858
+      },
+      {
+       "w": "vai",
+       "s": 74.869,
+       "e": 75.0
+      },
+      {
+       "w": "ouvir",
+       "s": 75.011,
+       "e": 75.286
+      },
+      {
+       "w": "muito",
+       "s": 75.297,
+       "e": 75.636
+      },
+      {
+       "w": "essa",
+       "s": 75.647,
+       "e": 75.845
+      },
+      {
+       "w": "por",
+       "s": 75.856,
+       "e": 75.976
+      },
+      {
+       "w": "aí",
+       "s": 75.987,
+       "e": 76.239
+      },
+      {
+       "w": "Outro",
+       "s": 76.99,
+       "e": 77.308
+      },
+      {
+       "w": "exemplo",
+       "s": 77.319,
+       "e": 77.736
+      }
+     ],
+     "fim": 78.72
+    },
+    {
+     "voz": "en",
+     "texto": "This place has a great vibe.",
+     "mostra": "exemplo",
+     "inicio": 78.72,
+     "palavras": [
+      {
+       "w": "This place",
+       "s": 78.82,
+       "e": 79.445
+      },
+      {
+       "w": "has",
+       "s": 79.459,
+       "e": 79.635
+      },
+      {
+       "w": "a",
+       "s": 79.649,
+       "e": 79.703
+      },
+      {
+       "w": "great",
+       "s": 79.717,
+       "e": 80.016
+      },
+      {
+       "w": "vibe",
+       "s": 80.029,
+       "e": 80.478
+      }
+     ],
+     "fim": 81.1
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 81.1,
+     "fim": 82.42
+    },
+    {
+     "voz": "pt",
+     "texto": "Esse lugar tem uma ótima vibe.",
+     "inicio": 82.42,
+     "palavras": [
+      {
+       "w": "Esse",
+       "s": 82.514,
+       "e": 82.744
+      },
+      {
+       "w": "lugar",
+       "s": 82.755,
+       "e": 83.106
+      },
+      {
+       "w": "tem",
+       "s": 83.117,
+       "e": 83.259
+      },
+      {
+       "w": "uma",
+       "s": 83.27,
+       "e": 83.424
+      },
+      {
+       "w": "ótima",
+       "s": 83.435,
+       "e": 83.819
+      },
+      {
+       "w": "vibe",
+       "s": 83.83,
+       "e": 84.191
+      }
+     ],
+     "fim": 85.184
+    }
+   ],
+   "imagem": "✨",
+   "inicio": 63.752,
+   "fim": 85.634
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "dica": "slay = arrasar 💅",
+   "rotulo": "GÍRIA",
+   "certo": "You did great today. Slay!",
+   "pronuncia": "sleî",
+   "exemplo": {
+    "en": "Her dress is amazing. She slayed!",
+    "pt": "O vestido dela é incrível. Ela arrasou!"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quarta gíria: slay.",
+     "inicio": 85.634,
+     "palavras": [
+      {
+       "w": "Quarta",
+       "s": 85.728,
+       "e": 86.101
+      },
+      {
+       "w": "gíria",
+       "s": 86.112,
+       "e": 86.495
+      },
+      {
+       "w": "slay",
+       "s": 86.704,
+       "e": 87.022
+      }
+     ],
+     "fim": 88.014
+    },
+    {
+     "voz": "pt",
+     "texto": "Slay é arrasar. Você faz algo muito bem, e alguém te elogia assim.",
+     "mostra": "dica",
+     "inicio": 88.014,
+     "palavras": [
+      {
+       "w": "Slay",
+       "s": 88.108,
+       "e": 88.426
+      },
+      {
+       "w": "é",
+       "s": 88.437,
+       "e": 88.535
+      },
+      {
+       "w": "arrasar",
+       "s": 88.546,
+       "e": 88.996
+      },
+      {
+       "w": "Você",
+       "s": 89.746,
+       "e": 90.021
+      },
+      {
+       "w": "faz",
+       "s": 90.032,
+       "e": 90.152
+      },
+      {
+       "w": "algo",
+       "s": 90.163,
+       "e": 90.382
+      },
+      {
+       "w": "muito",
+       "s": 90.393,
+       "e": 90.711
+      },
+      {
+       "w": "bem",
+       "s": 90.722,
+       "e": 90.942
+      },
+      {
+       "w": "e",
+       "s": 91.227,
+       "e": 91.292
+      },
+      {
+       "w": "alguém",
+       "s": 91.303,
+       "e": 91.589
+      },
+      {
+       "w": "te",
+       "s": 91.6,
+       "e": 91.654
+      },
+      {
+       "w": "elogia",
+       "s": 91.665,
+       "e": 92.016
+      },
+      {
+       "w": "assim",
+       "s": 92.027,
+       "e": 92.345
+      }
+     ],
+     "fim": 93.346
+    },
+    {
+     "voz": "en",
+     "texto": "You did great today. Slay!",
+     "mostra": "certo",
+     "inicio": 93.346,
+     "palavras": [
+      {
+       "w": "You",
+       "s": 93.446,
+       "e": 93.677
+      },
+      {
+       "w": "did",
+       "s": 93.691,
+       "e": 93.881
+      },
+      {
+       "w": "great",
+       "s": 93.894,
+       "e": 94.207
+      },
+      {
+       "w": "today",
+       "s": 94.22,
+       "e": 94.655
+      },
+      {
+       "w": "Slay",
+       "s": 95.054,
+       "e": 95.651
+      }
+     ],
+     "fim": 96.278
+    },
+    {
+     "voz": "pt",
+     "texto": "É a gíria mais animada de todas! No passado, vira slayed:",
+     "inicio": 96.278,
+     "palavras": [
+      {
+       "w": "É",
+       "s": 96.372,
+       "e": 96.492
+      },
+      {
+       "w": "a",
+       "s": 96.503,
+       "e": 96.569
+      },
+      {
+       "w": "gíria",
+       "s": 96.58,
+       "e": 96.887
+      },
+      {
+       "w": "mais",
+       "s": 96.898,
+       "e": 97.074
+      },
+      {
+       "w": "animada",
+       "s": 97.085,
+       "e": 97.567
+      },
+      {
+       "w": "de",
+       "s": 97.578,
+       "e": 97.721
+      },
+      {
+       "w": "todas",
+       "s": 97.731,
+       "e": 98.236
+      },
+      {
+       "w": "No",
+       "s": 98.986,
+       "e": 99.129
+      },
+      {
+       "w": "passado",
+       "s": 99.14,
+       "e": 99.655
+      },
+      {
+       "w": "vira",
+       "s": 99.885,
+       "e": 100.16
+      },
+      {
+       "w": "slayed",
+       "s": 100.171,
+       "e": 100.62
+      }
+     ],
+     "fim": 101.61
+    },
+    {
+     "voz": "en",
+     "texto": "Her dress is amazing. She slayed!",
+     "mostra": "exemplo",
+     "inicio": 101.61,
+     "palavras": [
+      {
+       "w": "Her",
+       "s": 101.71,
+       "e": 101.995
+      },
+      {
+       "w": "dress",
+       "s": 102.009,
+       "e": 102.471
+      },
+      {
+       "w": "is",
+       "s": 102.539,
+       "e": 102.661
+      },
+      {
+       "w": "amazing",
+       "s": 102.675,
+       "e": 103.436
+      },
+      {
+       "w": "She",
+       "s": 103.834,
+       "e": 104.146
+      },
+      {
+       "w": "slayed",
+       "s": 104.16,
+       "e": 104.744
+      }
+     ],
+     "fim": 105.358
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 105.358,
+     "fim": 106.678
+    },
+    {
+     "voz": "pt",
+     "texto": "O vestido dela é incrível. Ela arrasou!",
+     "inicio": 106.678,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 106.772,
+       "e": 106.86
+      },
+      {
+       "w": "vestido",
+       "s": 106.871,
+       "e": 107.331
+      },
+      {
+       "w": "dela",
+       "s": 107.342,
+       "e": 107.605
+      },
+      {
+       "w": "é",
+       "s": 107.616,
+       "e": 107.649
+      },
+      {
+       "w": "incrível",
+       "s": 107.66,
+       "e": 108.241
+      },
+      {
+       "w": "Ela",
+       "s": 108.992,
+       "e": 109.255
+      },
+      {
+       "w": "arrasou",
+       "s": 109.266,
+       "e": 109.781
+      }
+     ],
+     "fim": 110.762
+    }
+   ],
+   "imagem": "💅",
+   "inicio": 85.634,
+   "fim": 111.212
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "dica": "bet = fechado, combinado 🤝",
+   "rotulo": "GÍRIA",
+   "certo": "Bet! See you at six.",
+   "pronuncia": "bét",
+   "exemplo": {
+    "en": "Dinner at seven? Bet.",
+    "pt": "Jantar às sete? Fechado."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quinta e última gíria: bet.",
+     "inicio": 111.212,
+     "palavras": [
+      {
+       "w": "Quinta",
+       "s": 111.306,
+       "e": 111.58
+      },
+      {
+       "w": "e",
+       "s": 111.591,
+       "e": 111.624
+      },
+      {
+       "w": "última",
+       "s": 111.635,
+       "e": 111.975
+      },
+      {
+       "w": "gíria",
+       "s": 111.986,
+       "e": 112.304
+      },
+      {
+       "w": "bet",
+       "s": 112.512,
+       "e": 112.907
+      }
+     ],
+     "fim": 113.904
+    },
+    {
+     "voz": "pt",
+     "texto": "Bet é um fechado, combinado, pode deixar. É resposta curtinha pra aceitar um convite.",
+     "mostra": "dica",
+     "inicio": 113.904,
+     "palavras": [
+      {
+       "w": "Bet",
+       "s": 113.998,
+       "e": 114.36
+      },
+      {
+       "w": "é",
+       "s": 114.371,
+       "e": 114.393
+      },
+      {
+       "w": "um",
+       "s": 114.404,
+       "e": 114.469
+      },
+      {
+       "w": "fechado",
+       "s": 114.48,
+       "e": 114.963
+      },
+      {
+       "w": "combinado",
+       "s": 115.171,
+       "e": 115.708
+      },
+      {
+       "w": "pode",
+       "s": 115.928,
+       "e": 116.18
+      },
+      {
+       "w": "deixar",
+       "s": 116.191,
+       "e": 116.597
+      },
+      {
+       "w": "É",
+       "s": 117.347,
+       "e": 117.446
+      },
+      {
+       "w": "resposta",
+       "s": 117.457,
+       "e": 117.95
+      },
+      {
+       "w": "curtinha",
+       "s": 117.961,
+       "e": 118.345
+      },
+      {
+       "w": "pra",
+       "s": 118.356,
+       "e": 118.487
+      },
+      {
+       "w": "aceitar",
+       "s": 118.498,
+       "e": 118.849
+      },
+      {
+       "w": "um",
+       "s": 118.86,
+       "e": 118.926
+      },
+      {
+       "w": "convite",
+       "s": 118.937,
+       "e": 119.43
+      }
+     ],
+     "fim": 120.412
+    },
+    {
+     "voz": "en",
+     "texto": "Bet! See you at six.",
+     "mostra": "certo",
+     "inicio": 120.412,
+     "palavras": [
+      {
+       "w": "Bet",
+       "s": 120.512,
+       "e": 121.001
+      },
+      {
+       "w": "See",
+       "s": 121.399,
+       "e": 121.766
+      },
+      {
+       "w": "you",
+       "s": 121.78,
+       "e": 121.889
+      },
+      {
+       "w": "at",
+       "s": 121.902,
+       "e": 122.011
+      },
+      {
+       "w": "six",
+       "s": 122.024,
+       "e": 122.582
+      }
+     ],
+     "fim": 123.2
+    },
+    {
+     "voz": "pt",
+     "texto": "É uma resposta rápida, bem de amigo. Olha numa conversa:",
+     "inicio": 123.2,
+     "palavras": [
+      {
+       "w": "É",
+       "s": 123.294,
+       "e": 123.382
+      },
+      {
+       "w": "uma",
+       "s": 123.393,
+       "e": 123.513
+      },
+      {
+       "w": "resposta",
+       "s": 123.524,
+       "e": 124.018
+      },
+      {
+       "w": "rápida",
+       "s": 124.028,
+       "e": 124.423
+      },
+      {
+       "w": "bem",
+       "s": 124.643,
+       "e": 124.84
+      },
+      {
+       "w": "de",
+       "s": 124.851,
+       "e": 124.928
+      },
+      {
+       "w": "amigo",
+       "s": 124.939,
+       "e": 125.3
+      },
+      {
+       "w": "Olha",
+       "s": 126.051,
+       "e": 126.281
+      },
+      {
+       "w": "numa",
+       "s": 126.292,
+       "e": 126.468
+      },
+      {
+       "w": "conversa",
+       "s": 126.478,
+       "e": 127.049
+      }
+     ],
+     "fim": 128.052
+    },
+    {
+     "voz": "en",
+     "texto": "Dinner at seven? Bet.",
+     "mostra": "exemplo",
+     "inicio": 128.052,
+     "palavras": [
+      {
+       "w": "Dinner",
+       "s": 128.152,
+       "e": 128.437
+      },
+      {
+       "w": "at",
+       "s": 128.451,
+       "e": 128.573
+      },
+      {
+       "w": "seven",
+       "s": 128.587,
+       "e": 129.008
+      },
+      {
+       "w": "Bet",
+       "s": 129.406,
+       "e": 129.909
+      }
+     ],
+     "fim": 130.528
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 130.528,
+     "fim": 131.848
+    },
+    {
+     "voz": "pt",
+     "texto": "Jantar às sete? Fechado.",
+     "inicio": 131.848,
+     "palavras": [
+      {
+       "w": "Jantar",
+       "s": 131.942,
+       "e": 132.391
+      },
+      {
+       "w": "às",
+       "s": 132.402,
+       "e": 132.523
+      },
+      {
+       "w": "sete",
+       "s": 132.534,
+       "e": 132.929
+      },
+      {
+       "w": "Fechado",
+       "s": 133.679,
+       "e": 134.271
+      }
+     ],
+     "fim": 135.26
+    }
+   ],
+   "imagem": "🤝",
+   "inicio": 111.212,
+   "fim": 135.71
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "O que significa “no cap”?",
+   "opcoes": [
+    "Sem boné",
+    "Sem mentira",
+    "Sem tempo"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Hora do desafio! O que significa no cap?",
+     "mostra": "pergunta",
+     "inicio": 135.71,
+     "palavras": [
+      {
+       "w": "Hora",
+       "s": 135.804,
+       "e": 136.067
+      },
+      {
+       "w": "do",
+       "s": 136.078,
+       "e": 136.21
+      },
+      {
+       "w": "desafio",
+       "s": 136.221,
+       "e": 136.758
+      },
+      {
+       "w": "O",
+       "s": 137.508,
+       "e": 137.607
+      },
+      {
+       "w": "que",
+       "s": 137.618,
+       "e": 137.738
+      },
+      {
+       "w": "significa",
+       "s": 137.749,
+       "e": 138.331
+      },
+      {
+       "w": "no",
+       "s": 138.342,
+       "e": 138.451
+      },
+      {
+       "w": "cap",
+       "s": 138.462,
+       "e": 138.791
+      }
+     ],
+     "fim": 139.77
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 139.77,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 139.864,
+       "e": 140.204
+      },
+      {
+       "w": "A",
+       "s": 140.215,
+       "e": 140.456
+      },
+      {
+       "w": "letra",
+       "s": 140.73,
+       "e": 141.037
+      },
+      {
+       "w": "B",
+       "s": 141.048,
+       "e": 141.234
+      },
+      {
+       "w": "ou",
+       "s": 141.245,
+       "e": 141.344
+      },
+      {
+       "w": "letra",
+       "s": 141.355,
+       "e": 141.673
+      },
+      {
+       "w": "C",
+       "s": 141.684,
+       "e": 141.991
+      },
+      {
+       "w": "Pensa",
+       "s": 142.741,
+       "e": 143.103
+      },
+      {
+       "w": "rápido",
+       "s": 143.114,
+       "e": 143.586
+      }
+     ],
+     "fim": 144.574
+    },
+    {
+     "pausa": 2.29,
+     "mostra": "contagem",
+     "inicio": 144.574,
+     "fim": 146.864
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B! Sem mentira.",
+     "mostra": "resposta",
+     "inicio": 146.864,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 146.958,
+       "e": 147.539
+      },
+      {
+       "w": "certa",
+       "s": 147.55,
+       "e": 147.978
+      },
+      {
+       "w": "letra",
+       "s": 148.219,
+       "e": 148.559
+      },
+      {
+       "w": "B",
+       "s": 148.57,
+       "e": 148.855
+      },
+      {
+       "w": "Sem",
+       "s": 149.605,
+       "e": 149.857
+      },
+      {
+       "w": "mentira",
+       "s": 149.868,
+       "e": 150.395
+      }
+     ],
+     "fim": 151.38
+    },
+    {
+     "voz": "en",
+     "texto": "No cap. It means no lie.",
+     "inicio": 151.38,
+     "palavras": [
+      {
+       "w": "No",
+       "s": 151.48,
+       "e": 151.765
+      },
+      {
+       "w": "cap",
+       "s": 151.779,
+       "e": 152.227
+      },
+      {
+       "w": "It",
+       "s": 152.626,
+       "e": 152.857
+      },
+      {
+       "w": "means",
+       "s": 152.87,
+       "e": 153.156
+      },
+      {
+       "w": "no",
+       "s": 153.169,
+       "e": 153.414
+      },
+      {
+       "w": "lie",
+       "s": 153.427,
+       "e": 153.889
+      }
+     ],
+     "fim": 154.504
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 154.504,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 154.598,
+       "e": 155.179
+      },
+      {
+       "w": "Então",
+       "s": 155.929,
+       "e": 156.324
+      },
+      {
+       "w": "comenta",
+       "s": 156.335,
+       "e": 156.73
+      },
+      {
+       "w": "aí",
+       "s": 156.741,
+       "e": 157.015
+      },
+      {
+       "w": "acertei",
+       "s": 157.223,
+       "e": 157.75
+      }
+     ],
+     "fim": 158.732
+    }
+   ],
+   "inicio": 135.71,
+   "fim": 159.182
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 159.182,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 159.276,
+       "e": 159.517
+      },
+      {
+       "w": "dia",
+       "s": 159.528,
+       "e": 159.736
+      },
+      {
+       "w": "tem",
+       "s": 159.747,
+       "e": 159.868
+      },
+      {
+       "w": "dica",
+       "s": 159.879,
+       "e": 160.142
+      },
+      {
+       "w": "nova",
+       "s": 160.153,
+       "e": 160.449
+      },
+      {
+       "w": "de",
+       "s": 160.46,
+       "e": 160.526
+      },
+      {
+       "w": "inglês",
+       "s": 160.537,
+       "e": 160.921
+      },
+      {
+       "w": "fácil",
+       "s": 161.129,
+       "e": 161.491
+      },
+      {
+       "w": "e",
+       "s": 161.502,
+       "e": 161.535
+      },
+      {
+       "w": "rapidinha",
+       "s": 161.546,
+       "e": 162.116
+      },
+      {
+       "w": "Segue",
+       "s": 162.866,
+       "e": 163.283
+      },
+      {
+       "w": "pra",
+       "s": 163.294,
+       "e": 163.447
+      },
+      {
+       "w": "não",
+       "s": 163.458,
+       "e": 163.667
+      },
+      {
+       "w": "perder",
+       "s": 163.678,
+       "e": 164.083
+      }
+     ],
+     "fim": 165.066
+    },
+    {
+     "voz": "pt",
+     "texto": "E me conta nos comentários: qual gíria você vai usar hoje?",
+     "inicio": 165.066,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 165.16,
+       "e": 165.259
+      },
+      {
+       "w": "me",
+       "s": 165.269,
+       "e": 165.39
+      },
+      {
+       "w": "conta",
+       "s": 165.401,
+       "e": 165.719
+      },
+      {
+       "w": "nos",
+       "s": 165.73,
+       "e": 165.851
+      },
+      {
+       "w": "comentários",
+       "s": 165.862,
+       "e": 166.541
+      },
+      {
+       "w": "qual",
+       "s": 166.761,
+       "e": 166.958
+      },
+      {
+       "w": "gíria",
+       "s": 166.969,
+       "e": 167.199
+      },
+      {
+       "w": "você",
+       "s": 167.21,
+       "e": 167.441
+      },
+      {
+       "w": "vai",
+       "s": 167.452,
+       "e": 167.583
+      },
+      {
+       "w": "usar",
+       "s": 167.594,
+       "e": 167.857
+      },
+      {
+       "w": "hoje",
+       "s": 167.868,
+       "e": 168.175
+      }
+     ],
+     "fim": 169.15
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 169.15,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 169.25,
+       "e": 169.549
+      },
+      {
+       "w": "you",
+       "s": 169.562,
+       "e": 169.671
+      },
+      {
+       "w": "tomorrow",
+       "s": 169.685,
+       "e": 170.337
+      }
+     ],
+     "fim": 171.242
+    }
+   ],
+   "inicio": 159.182,
+   "fim": 172.442
+  }
+ ]
+}

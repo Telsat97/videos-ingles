@@ -47,11 +47,11 @@
         },
         {
           "voz": "pt",
-          "texto": "Hoje eu te ensino a falar cinco palavras do jeito do americano, sem passar vergonha. O som aparece escrito na tela, em português."
+          "texto": "Hoje você aprende cinco palavras do jeito do americano. O som aparece escrito na tela."
         },
         {
           "voz": "pt",
-          "texto": "Fica até o final: tem desafio, e é bem fácil!"
+          "texto": "Fica até o final: tem desafio!"
         }
       ]
     },
@@ -76,12 +76,12 @@
         },
         {
           "voz": "pt",
-          "texto": "Só que em inglês a palavra é bem mais curta. As letras o e r quase somem, e o som aparece na tela.",
+          "texto": "Em inglês ela é bem mais curta: só três sílabas.",
           "mostra": "dica"
         },
         {
           "voz": "pt",
-          "texto": "Escuta a nativa:"
+          "texto": "Escuta:"
         },
         {
           "voz": "en",
@@ -103,7 +103,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Esta cama é muito confortável. Repete mais uma vez, devagarinho!"
+          "texto": "Esta cama é muito confortável."
         }
       ],
       "imagem": "🛋️"
@@ -129,7 +129,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Mas o americano engole uma sílaba e a palavra fica curtinha. Olha o som na tela.",
+          "texto": "Mas o americano engole uma sílaba. Fica curtinha.",
           "mostra": "dica"
         },
         {
@@ -156,7 +156,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Eu como legumes e verduras todo dia. Repete mais uma vez, devagarinho!"
+          "texto": "Eu como legumes e verduras todo dia."
         }
       ],
       "imagem": "🥦"
@@ -176,7 +176,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Palavra número três. Roupas. Essa é a pegadinha do th. Muita gente fala assim:",
+          "texto": "Palavra número três. Roupas. Muita gente fala assim:",
           "mostra": "errado",
           "gatilho": "assim"
         },
@@ -209,7 +209,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Eu preciso de roupas novas. Repete mais uma vez, devagarinho!"
+          "texto": "Eu preciso de roupas novas."
         }
       ],
       "imagem": "👕"
@@ -229,7 +229,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Palavra número quatro. Chocolate, uma palavra que todo mundo ama! Mas em inglês não se fala assim:",
+          "texto": "Palavra número quatro. Chocolate! Em inglês não se fala assim:",
           "mostra": "errado",
           "gatilho": "assim"
         },
@@ -262,7 +262,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Eu adoro chocolate quente. Repete mais uma vez, devagarinho!"
+          "texto": "Eu adoro chocolate quente."
         }
       ],
       "imagem": "🍫"
@@ -282,7 +282,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Palavra número cinco. Receita. O brasileiro olha aquele i e e no final e fala assim:",
+          "texto": "Palavra número cinco. Receita. O brasileiro vê o e no final e fala assim:",
           "mostra": "errado",
           "gatilho": "assim"
         },
@@ -315,7 +315,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Posso ficar com a receita? Repete mais uma vez, devagarinho!"
+          "texto": "Posso ficar com a receita?"
         }
       ],
       "imagem": "📖"
@@ -370,7 +370,7 @@
         },
         {
           "voz": "pt",
-          "texto": "E me conta nos comentários: qual dessas palavras você falava errado?"
+          "texto": "Qual dessas você falava errado? Comenta aí!"
         },
         {
           "voz": "en",

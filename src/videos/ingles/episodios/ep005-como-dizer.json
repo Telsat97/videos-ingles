@@ -1,0 +1,2090 @@
+{
+ "slug": "ep005-como-dizer",
+ "episodio": 5,
+ "titulo": "Como dizer 5 expressões brasileiras em inglês",
+ "cenario": [
+  "💛",
+  "🏠",
+  "🍽️",
+  "☕"
+ ],
+ "duracao": 176.422,
+ "audio": "005. ingles-ep005-como-dizer/audio/narracao.wav",
+ "fotos": [
+  "005. ingles-ep005-como-dizer/prints/foto1.webp",
+  "005. ingles-ep005-como-dizer/prints/foto2.webp",
+  "005. ingles-ep005-como-dizer/prints/foto3.webp",
+  "005. ingles-ep005-como-dizer/prints/foto4.webp",
+  "005. ingles-ep005-como-dizer/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "SAUDADE?",
+    "Como se diz isso",
+    "em inglês?"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Saudade! Você sabe dizer isso em inglês? Quase ninguém sabe!",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Saudade",
+       "s": 0.444,
+       "e": 1.157
+      },
+      {
+       "w": "Você",
+       "s": 1.907,
+       "e": 2.181
+      },
+      {
+       "w": "sabe",
+       "s": 2.192,
+       "e": 2.444
+      },
+      {
+       "w": "dizer",
+       "s": 2.455,
+       "e": 2.696
+      },
+      {
+       "w": "isso",
+       "s": 2.707,
+       "e": 2.938
+      },
+      {
+       "w": "em",
+       "s": 2.949,
+       "e": 3.003
+      },
+      {
+       "w": "inglês",
+       "s": 3.014,
+       "e": 3.453
+      },
+      {
+       "w": "Quase",
+       "s": 4.21,
+       "e": 4.55
+      },
+      {
+       "w": "ninguém",
+       "s": 4.561,
+       "e": 4.911
+      },
+      {
+       "w": "sabe",
+       "s": 4.922,
+       "e": 5.339
+      }
+     ],
+     "fim": 6.33
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje: cinco expressões bem brasileiras, e como o americano fala de verdade.",
+     "inicio": 6.33,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 6.424,
+       "e": 6.764
+      },
+      {
+       "w": "cinco",
+       "s": 6.961,
+       "e": 7.246
+      },
+      {
+       "w": "expressões",
+       "s": 7.257,
+       "e": 7.729
+      },
+      {
+       "w": "bem",
+       "s": 7.74,
+       "e": 7.893
+      },
+      {
+       "w": "brasileiras",
+       "s": 7.904,
+       "e": 8.496
+      },
+      {
+       "w": "e",
+       "s": 8.781,
+       "e": 8.847
+      },
+      {
+       "w": "como",
+       "s": 8.858,
+       "e": 9.077
+      },
+      {
+       "w": "o",
+       "s": 9.088,
+       "e": 9.11
+      },
+      {
+       "w": "americano",
+       "s": 9.121,
+       "e": 9.615
+      },
+      {
+       "w": "fala",
+       "s": 9.626,
+       "e": 9.867
+      },
+      {
+       "w": "de",
+       "s": 9.878,
+       "e": 9.944
+      },
+      {
+       "w": "verdade",
+       "s": 9.955,
+       "e": 10.437
+      }
+     ],
+     "fim": 11.422
+    },
+    {
+     "voz": "pt",
+     "texto": "Fica até o final: tem desafio pra você!",
+     "inicio": 11.422,
+     "palavras": [
+      {
+       "w": "Fica",
+       "s": 11.516,
+       "e": 11.801
+      },
+      {
+       "w": "até",
+       "s": 11.812,
+       "e": 11.998
+      },
+      {
+       "w": "o",
+       "s": 12.009,
+       "e": 12.042
+      },
+      {
+       "w": "final",
+       "s": 12.053,
+       "e": 12.459
+      },
+      {
+       "w": "tem",
+       "s": 12.678,
+       "e": 12.799
+      },
+      {
+       "w": "desafio",
+       "s": 12.81,
+       "e": 13.27
+      },
+      {
+       "w": "pra",
+       "s": 13.281,
+       "e": 13.413
+      },
+      {
+       "w": "você",
+       "s": 13.424,
+       "e": 13.829
+      }
+     ],
+     "fim": 14.81
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 15.26
+  },
+  {
+   "tipo": "erro",
+   "numero": 1,
+   "errado": "I have saudade of you",
+   "dica": "Em inglês, saudade vira o verbo miss 💛",
+   "certo": "I miss you",
+   "exemplo": {
+    "en": "I miss you so much.",
+    "pt": "Eu sinto tanta saudade de você."
+   },
+   "pronuncia": "ai mis iú",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Primeira expressão: saudade! O brasileiro tenta falar assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 15.26,
+     "palavras": [
+      {
+       "w": "Primeira",
+       "s": 15.354,
+       "e": 15.749
+      },
+      {
+       "w": "expressão",
+       "s": 15.76,
+       "e": 16.275
+      },
+      {
+       "w": "saudade",
+       "s": 16.428,
+       "e": 17.01
+      },
+      {
+       "w": "O",
+       "s": 17.76,
+       "e": 17.848
+      },
+      {
+       "w": "brasileiro",
+       "s": 17.859,
+       "e": 18.385
+      },
+      {
+       "w": "tenta",
+       "s": 18.396,
+       "e": 18.648
+      },
+      {
+       "w": "falar",
+       "s": 18.659,
+       "e": 18.911
+      },
+      {
+       "w": "assim",
+       "s": 18.922,
+       "e": 19.24
+      }
+     ],
+     "fim": 20.232
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas não existe palavra igual. O americano usa miss: sentir falta.",
+     "mostra": "dica",
+     "inicio": 20.232,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 20.326,
+       "e": 20.6
+      },
+      {
+       "w": "não",
+       "s": 20.611,
+       "e": 20.786
+      },
+      {
+       "w": "existe",
+       "s": 20.797,
+       "e": 21.181
+      },
+      {
+       "w": "palavra",
+       "s": 21.192,
+       "e": 21.554
+      },
+      {
+       "w": "igual",
+       "s": 21.565,
+       "e": 21.883
+      },
+      {
+       "w": "O",
+       "s": 22.633,
+       "e": 22.732
+      },
+      {
+       "w": "americano",
+       "s": 22.743,
+       "e": 23.302
+      },
+      {
+       "w": "usa",
+       "s": 23.313,
+       "e": 23.521
+      },
+      {
+       "w": "miss",
+       "s": 23.532,
+       "e": 23.894
+      },
+      {
+       "w": "sentir",
+       "s": 24.092,
+       "e": 24.464
+      },
+      {
+       "w": "falta",
+       "s": 24.475,
+       "e": 24.848
+      }
+     ],
+     "fim": 25.828
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é:",
+     "inicio": 25.828,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 25.922,
+       "e": 26.032
+      },
+      {
+       "w": "certo",
+       "s": 26.042,
+       "e": 26.525
+      },
+      {
+       "w": "é",
+       "s": 26.536,
+       "e": 26.733
+      }
+     ],
+     "fim": 27.92
+    },
+    {
+     "voz": "en",
+     "texto": "I miss you.",
+     "mostra": "certo",
+     "inicio": 27.92,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 28.02,
+       "e": 28.265
+      },
+      {
+       "w": "miss",
+       "s": 28.278,
+       "e": 28.604
+      },
+      {
+       "w": "you",
+       "s": 28.618,
+       "e": 28.998
+      }
+     ],
+     "fim": 30.012
+    },
+    {
+     "voz": "pt",
+     "texto": "Pra dizer com mais carinho:",
+     "inicio": 30.012,
+     "palavras": [
+      {
+       "w": "Pra",
+       "s": 30.106,
+       "e": 30.27
+      },
+      {
+       "w": "dizer",
+       "s": 30.281,
+       "e": 30.577
+      },
+      {
+       "w": "com",
+       "s": 30.588,
+       "e": 30.764
+      },
+      {
+       "w": "mais",
+       "s": 30.775,
+       "e": 31.005
+      },
+      {
+       "w": "carinho",
+       "s": 31.016,
+       "e": 31.433
+      }
+     ],
+     "fim": 32.416
+    },
+    {
+     "voz": "en",
+     "texto": "I miss you so much.",
+     "mostra": "exemplo",
+     "inicio": 32.416,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 32.516,
+       "e": 32.761
+      },
+      {
+       "w": "miss",
+       "s": 32.774,
+       "e": 33.1
+      },
+      {
+       "w": "you",
+       "s": 33.114,
+       "e": 33.277
+      },
+      {
+       "w": "so",
+       "s": 33.29,
+       "e": 33.644
+      },
+      {
+       "w": "much",
+       "s": 33.657,
+       "e": 34.228
+      }
+     ],
+     "fim": 34.868
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 34.868,
+     "fim": 36.188
+    },
+    {
+     "voz": "pt",
+     "texto": "Eu sinto tanta saudade de você.",
+     "inicio": 36.188,
+     "palavras": [
+      {
+       "w": "Eu",
+       "s": 36.282,
+       "e": 36.424
+      },
+      {
+       "w": "sinto",
+       "s": 36.435,
+       "e": 36.841
+      },
+      {
+       "w": "tanta",
+       "s": 36.852,
+       "e": 37.148
+      },
+      {
+       "w": "saudade",
+       "s": 37.159,
+       "e": 37.609
+      },
+      {
+       "w": "de",
+       "s": 37.62,
+       "e": 37.696
+      },
+      {
+       "w": "você",
+       "s": 37.707,
+       "e": 38.113
+      }
+     ],
+     "fim": 39.096
+    }
+   ],
+   "imagem": "💛",
+   "rotulo": "COMO DIZER",
+   "inicio": 15.26,
+   "fim": 39.546
+  },
+  {
+   "tipo": "erro",
+   "numero": 2,
+   "errado": "So much makes",
+   "dica": "Tanto faz = it doesn't matter (ou: I don't mind) 🤷",
+   "certo": "It doesn't matter",
+   "exemplo": {
+    "en": "Pizza or pasta? I don't mind.",
+    "pt": "Pizza ou macarrão? Tanto faz."
+   },
+   "pronuncia": "it dâzent méra",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Segunda: tanto faz. Traduzindo palavra por palavra, sai assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 39.546,
+     "palavras": [
+      {
+       "w": "Segunda",
+       "s": 39.64,
+       "e": 40.221
+      },
+      {
+       "w": "tanto",
+       "s": 40.473,
+       "e": 40.78
+      },
+      {
+       "w": "faz",
+       "s": 40.791,
+       "e": 41.208
+      },
+      {
+       "w": "Traduzindo",
+       "s": 41.958,
+       "e": 42.507
+      },
+      {
+       "w": "palavra",
+       "s": 42.517,
+       "e": 42.901
+      },
+      {
+       "w": "por",
+       "s": 42.912,
+       "e": 43.033
+      },
+      {
+       "w": "palavra",
+       "s": 43.044,
+       "e": 43.526
+      },
+      {
+       "w": "sai",
+       "s": 43.735,
+       "e": 43.921
+      },
+      {
+       "w": "assim",
+       "s": 43.932,
+       "e": 44.272
+      }
+     ],
+     "fim": 45.262
+    },
+    {
+     "voz": "pt",
+     "texto": "Isso não quer dizer nada! Diga que não importa. Só o whatever, sozinho, pode soar grosseiro.",
+     "mostra": "dica",
+     "inicio": 45.262,
+     "palavras": [
+      {
+       "w": "Isso",
+       "s": 45.356,
+       "e": 45.652
+      },
+      {
+       "w": "não",
+       "s": 45.663,
+       "e": 45.805
+      },
+      {
+       "w": "quer",
+       "s": 45.816,
+       "e": 45.992
+      },
+      {
+       "w": "dizer",
+       "s": 46.003,
+       "e": 46.288
+      },
+      {
+       "w": "nada",
+       "s": 46.299,
+       "e": 46.694
+      },
+      {
+       "w": "Diga",
+       "s": 47.444,
+       "e": 47.773
+      },
+      {
+       "w": "que",
+       "s": 47.784,
+       "e": 47.883
+      },
+      {
+       "w": "não",
+       "s": 47.894,
+       "e": 48.036
+      },
+      {
+       "w": "importa",
+       "s": 48.047,
+       "e": 48.497
+      },
+      {
+       "w": "Só",
+       "s": 49.253,
+       "e": 49.505
+      },
+      {
+       "w": "o",
+       "s": 49.516,
+       "e": 49.538
+      },
+      {
+       "w": "whatever",
+       "s": 49.549,
+       "e": 49.999
+      },
+      {
+       "w": "sozinho",
+       "s": 50.185,
+       "e": 50.712
+      },
+      {
+       "w": "pode",
+       "s": 50.942,
+       "e": 51.183
+      },
+      {
+       "w": "soar",
+       "s": 51.194,
+       "e": 51.501
+      },
+      {
+       "w": "grosseiro",
+       "s": 51.512,
+       "e": 51.994
+      }
+     ],
+     "fim": 52.994
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é:",
+     "inicio": 52.994,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 53.088,
+       "e": 53.198
+      },
+      {
+       "w": "certo",
+       "s": 53.208,
+       "e": 53.691
+      },
+      {
+       "w": "é",
+       "s": 53.702,
+       "e": 53.899
+      }
+     ],
+     "fim": 55.086
+    },
+    {
+     "voz": "en",
+     "texto": "It doesn't matter.",
+     "mostra": "certo",
+     "inicio": 55.086,
+     "palavras": [
+      {
+       "w": "It",
+       "s": 55.186,
+       "e": 55.417
+      },
+      {
+       "w": "doesn't",
+       "s": 55.431,
+       "e": 55.77
+      },
+      {
+       "w": "matter",
+       "s": 55.784,
+       "e": 56.273
+      }
+     ],
+     "fim": 57.178
+    },
+    {
+     "voz": "pt",
+     "texto": "E se alguém te der duas opções:",
+     "inicio": 57.178,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 57.272,
+       "e": 57.382
+      },
+      {
+       "w": "se",
+       "s": 57.392,
+       "e": 57.502
+      },
+      {
+       "w": "alguém",
+       "s": 57.513,
+       "e": 57.765
+      },
+      {
+       "w": "te",
+       "s": 57.776,
+       "e": 57.875
+      },
+      {
+       "w": "der",
+       "s": 57.886,
+       "e": 58.094
+      },
+      {
+       "w": "duas",
+       "s": 58.105,
+       "e": 58.368
+      },
+      {
+       "w": "opções",
+       "s": 58.379,
+       "e": 58.993
+      }
+     ],
+     "fim": 59.99
+    },
+    {
+     "voz": "en",
+     "texto": "Pizza or pasta? I don't mind.",
+     "mostra": "exemplo",
+     "inicio": 59.99,
+     "palavras": [
+      {
+       "w": "Pizza",
+       "s": 60.09,
+       "e": 60.674
+      },
+      {
+       "w": "or",
+       "s": 60.688,
+       "e": 60.878
+      },
+      {
+       "w": "pasta",
+       "s": 60.892,
+       "e": 61.462
+      },
+      {
+       "w": "I",
+       "s": 61.861,
+       "e": 62.064
+      },
+      {
+       "w": "don't",
+       "s": 62.078,
+       "e": 62.282
+      },
+      {
+       "w": "mind",
+       "s": 62.295,
+       "e": 62.866
+      }
+     ],
+     "fim": 63.498
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 63.498,
+     "fim": 64.818
+    },
+    {
+     "voz": "pt",
+     "texto": "Pizza ou macarrão? Tanto faz.",
+     "inicio": 64.818,
+     "palavras": [
+      {
+       "w": "Pizza",
+       "s": 64.912,
+       "e": 65.285
+      },
+      {
+       "w": "ou",
+       "s": 65.296,
+       "e": 65.361
+      },
+      {
+       "w": "macarrão",
+       "s": 65.372,
+       "e": 65.855
+      },
+      {
+       "w": "Tanto",
+       "s": 66.605,
+       "e": 66.901
+      },
+      {
+       "w": "faz",
+       "s": 66.912,
+       "e": 67.362
+      }
+     ],
+     "fim": 68.35
+    }
+   ],
+   "imagem": "🤷",
+   "rotulo": "COMO DIZER",
+   "inicio": 39.546,
+   "fim": 68.8
+  },
+  {
+   "tipo": "erro",
+   "numero": 3,
+   "errado": "Stay at will",
+   "dica": "Fique à vontade = faça de conta que é a sua casa 🏠",
+   "certo": "Make yourself at home",
+   "exemplo": {
+    "en": "Please, make yourself comfortable.",
+    "pt": "Fique à vontade, por favor."
+   },
+   "pronuncia": "mêik iorsélf ét rôum",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Terceira: fique à vontade! Na tradução literal, o povo fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 68.8,
+     "palavras": [
+      {
+       "w": "Terceira",
+       "s": 68.894,
+       "e": 69.42
+      },
+      {
+       "w": "fique",
+       "s": 69.618,
+       "e": 69.881
+      },
+      {
+       "w": "à",
+       "s": 69.892,
+       "e": 69.957
+      },
+      {
+       "w": "vontade",
+       "s": 69.968,
+       "e": 70.517
+      },
+      {
+       "w": "Na",
+       "s": 71.267,
+       "e": 71.443
+      },
+      {
+       "w": "tradução",
+       "s": 71.453,
+       "e": 71.892
+      },
+      {
+       "w": "literal",
+       "s": 71.903,
+       "e": 72.353
+      },
+      {
+       "w": "o",
+       "s": 72.583,
+       "e": 72.682
+      },
+      {
+       "w": "povo",
+       "s": 72.693,
+       "e": 73.0
+      },
+      {
+       "w": "fala",
+       "s": 73.011,
+       "e": 73.219
+      },
+      {
+       "w": "assim",
+       "s": 73.23,
+       "e": 73.526
+      }
+     ],
+     "fim": 74.516
+    },
+    {
+     "voz": "pt",
+     "texto": "Só que os americanos dizem outra coisa: faça de conta que a casa é sua.",
+     "mostra": "dica",
+     "inicio": 74.516,
+     "palavras": [
+      {
+       "w": "Só",
+       "s": 74.61,
+       "e": 74.884
+      },
+      {
+       "w": "que",
+       "s": 74.895,
+       "e": 74.972
+      },
+      {
+       "w": "os",
+       "s": 74.983,
+       "e": 75.005
+      },
+      {
+       "w": "americanos",
+       "s": 75.016,
+       "e": 75.619
+      },
+      {
+       "w": "dizem",
+       "s": 75.63,
+       "e": 75.926
+      },
+      {
+       "w": "outra",
+       "s": 75.937,
+       "e": 76.178
+      },
+      {
+       "w": "coisa",
+       "s": 76.189,
+       "e": 76.529
+      },
+      {
+       "w": "faça",
+       "s": 76.748,
+       "e": 77.044
+      },
+      {
+       "w": "de",
+       "s": 77.055,
+       "e": 77.154
+      },
+      {
+       "w": "conta",
+       "s": 77.165,
+       "e": 77.494
+      },
+      {
+       "w": "que",
+       "s": 77.505,
+       "e": 77.581
+      },
+      {
+       "w": "a",
+       "s": 77.592,
+       "e": 77.647
+      },
+      {
+       "w": "casa",
+       "s": 77.658,
+       "e": 77.943
+      },
+      {
+       "w": "é",
+       "s": 77.954,
+       "e": 77.976
+      },
+      {
+       "w": "sua",
+       "s": 77.987,
+       "e": 78.371
+      }
+     ],
+     "fim": 79.368
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é:",
+     "inicio": 79.368,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 79.462,
+       "e": 79.572
+      },
+      {
+       "w": "certo",
+       "s": 79.582,
+       "e": 80.065
+      },
+      {
+       "w": "é",
+       "s": 80.076,
+       "e": 80.273
+      }
+     ],
+     "fim": 81.46
+    },
+    {
+     "voz": "en",
+     "texto": "Make yourself at home.",
+     "mostra": "certo",
+     "inicio": 81.46,
+     "palavras": [
+      {
+       "w": "Make",
+       "s": 81.56,
+       "e": 81.845
+      },
+      {
+       "w": "yourself",
+       "s": 81.859,
+       "e": 82.28
+      },
+      {
+       "w": "at",
+       "s": 82.294,
+       "e": 82.375
+      },
+      {
+       "w": "home",
+       "s": 82.389,
+       "e": 82.905
+      }
+     ],
+     "fim": 83.552
+    },
+    {
+     "voz": "pt",
+     "texto": "Ou, de um jeito parecido:",
+     "inicio": 83.552,
+     "palavras": [
+      {
+       "w": "Ou",
+       "s": 83.646,
+       "e": 83.876
+      },
+      {
+       "w": "de",
+       "s": 84.095,
+       "e": 84.194
+      },
+      {
+       "w": "um",
+       "s": 84.205,
+       "e": 84.315
+      },
+      {
+       "w": "jeito",
+       "s": 84.326,
+       "e": 84.666
+      },
+      {
+       "w": "parecido",
+       "s": 84.677,
+       "e": 85.269
+      }
+     ],
+     "fim": 86.244
+    },
+    {
+     "voz": "en",
+     "texto": "Please, make yourself comfortable.",
+     "mostra": "exemplo",
+     "inicio": 86.244,
+     "palavras": [
+      {
+       "w": "Please",
+       "s": 86.344,
+       "e": 86.928
+      },
+      {
+       "w": "make",
+       "s": 86.955,
+       "e": 87.186
+      },
+      {
+       "w": "yourself",
+       "s": 87.2,
+       "e": 87.648
+      },
+      {
+       "w": "comfortable",
+       "s": 87.662,
+       "e": 88.368
+      }
+     ],
+     "fim": 89.008
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 89.008,
+     "fim": 90.328
+    },
+    {
+     "voz": "pt",
+     "texto": "Fique à vontade, por favor.",
+     "inicio": 90.328,
+     "palavras": [
+      {
+       "w": "Fique",
+       "s": 90.422,
+       "e": 90.696
+      },
+      {
+       "w": "à",
+       "s": 90.707,
+       "e": 90.762
+      },
+      {
+       "w": "vontade",
+       "s": 90.773,
+       "e": 91.299
+      },
+      {
+       "w": "por",
+       "s": 91.54,
+       "e": 91.672
+      },
+      {
+       "w": "favor",
+       "s": 91.683,
+       "e": 92.056
+      }
+     ],
+     "fim": 93.044
+    }
+   ],
+   "imagem": "🏠",
+   "rotulo": "COMO DIZER",
+   "inicio": 68.8,
+   "fim": 93.494
+  },
+  {
+   "tipo": "erro",
+   "numero": 4,
+   "errado": "Good appetite",
+   "dica": "Na mesa, o americano deseja que você aproveite 🍽️",
+   "certo": "Enjoy your meal",
+   "exemplo": {
+    "en": "Dinner is ready. Enjoy!",
+    "pt": "O jantar está pronto. Bom apetite!"
+   },
+   "pronuncia": "êndjói ior míl",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quarta: bom apetite! Muita gente fala assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 93.494,
+     "palavras": [
+      {
+       "w": "Quarta",
+       "s": 93.588,
+       "e": 93.972
+      },
+      {
+       "w": "bom",
+       "s": 94.169,
+       "e": 94.388
+      },
+      {
+       "w": "apetite",
+       "s": 94.399,
+       "e": 94.969
+      },
+      {
+       "w": "Muita",
+       "s": 95.72,
+       "e": 96.049
+      },
+      {
+       "w": "gente",
+       "s": 96.06,
+       "e": 96.345
+      },
+      {
+       "w": "fala",
+       "s": 96.356,
+       "e": 96.553
+      },
+      {
+       "w": "assim",
+       "s": 96.564,
+       "e": 96.882
+      }
+     ],
+     "fim": 97.866
+    },
+    {
+     "voz": "pt",
+     "texto": "Dá pra entender, mas ninguém fala assim. O americano deseja que você aproveite.",
+     "mostra": "dica",
+     "inicio": 97.866,
+     "palavras": [
+      {
+       "w": "Dá",
+       "s": 97.96,
+       "e": 98.135
+      },
+      {
+       "w": "pra",
+       "s": 98.146,
+       "e": 98.267
+      },
+      {
+       "w": "entender",
+       "s": 98.278,
+       "e": 98.727
+      },
+      {
+       "w": "mas",
+       "s": 99.002,
+       "e": 99.221
+      },
+      {
+       "w": "ninguém",
+       "s": 99.232,
+       "e": 99.561
+      },
+      {
+       "w": "fala",
+       "s": 99.572,
+       "e": 99.813
+      },
+      {
+       "w": "assim",
+       "s": 99.824,
+       "e": 100.153
+      },
+      {
+       "w": "O",
+       "s": 100.903,
+       "e": 101.002
+      },
+      {
+       "w": "americano",
+       "s": 101.013,
+       "e": 101.572
+      },
+      {
+       "w": "deseja",
+       "s": 101.583,
+       "e": 102.0
+      },
+      {
+       "w": "que",
+       "s": 102.011,
+       "e": 102.109
+      },
+      {
+       "w": "você",
+       "s": 102.12,
+       "e": 102.362
+      },
+      {
+       "w": "aproveite",
+       "s": 102.373,
+       "e": 102.932
+      }
+     ],
+     "fim": 103.918
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é:",
+     "inicio": 103.918,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 104.012,
+       "e": 104.122
+      },
+      {
+       "w": "certo",
+       "s": 104.132,
+       "e": 104.615
+      },
+      {
+       "w": "é",
+       "s": 104.626,
+       "e": 104.823
+      }
+     ],
+     "fim": 106.01
+    },
+    {
+     "voz": "en",
+     "texto": "Enjoy your meal.",
+     "mostra": "certo",
+     "inicio": 106.01,
+     "palavras": [
+      {
+       "w": "Enjoy",
+       "s": 106.11,
+       "e": 106.558
+      },
+      {
+       "w": "your",
+       "s": 106.572,
+       "e": 106.721
+      },
+      {
+       "w": "meal",
+       "s": 106.735,
+       "e": 107.129
+      }
+     ],
+     "fim": 108.102
+    },
+    {
+     "voz": "pt",
+     "texto": "Na hora de chamar todo mundo:",
+     "inicio": 108.102,
+     "palavras": [
+      {
+       "w": "Na",
+       "s": 108.196,
+       "e": 108.371
+      },
+      {
+       "w": "hora",
+       "s": 108.382,
+       "e": 108.623
+      },
+      {
+       "w": "de",
+       "s": 108.634,
+       "e": 108.7
+      },
+      {
+       "w": "chamar",
+       "s": 108.711,
+       "e": 109.029
+      },
+      {
+       "w": "todo",
+       "s": 109.04,
+       "e": 109.325
+      },
+      {
+       "w": "mundo",
+       "s": 109.336,
+       "e": 109.654
+      }
+     ],
+     "fim": 110.65
+    },
+    {
+     "voz": "en",
+     "texto": "Dinner is ready. Enjoy!",
+     "mostra": "exemplo",
+     "inicio": 110.65,
+     "palavras": [
+      {
+       "w": "Dinner",
+       "s": 110.75,
+       "e": 111.103
+      },
+      {
+       "w": "is",
+       "s": 111.117,
+       "e": 111.239
+      },
+      {
+       "w": "ready",
+       "s": 111.253,
+       "e": 111.701
+      },
+      {
+       "w": "Enjoy",
+       "s": 112.099,
+       "e": 112.752
+      }
+     ],
+     "fim": 113.366
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 113.366,
+     "fim": 114.686
+    },
+    {
+     "voz": "pt",
+     "texto": "O jantar está pronto. Bom apetite!",
+     "inicio": 114.686,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 114.78,
+       "e": 114.868
+      },
+      {
+       "w": "jantar",
+       "s": 114.879,
+       "e": 115.273
+      },
+      {
+       "w": "está",
+       "s": 115.284,
+       "e": 115.471
+      },
+      {
+       "w": "pronto",
+       "s": 115.482,
+       "e": 115.898
+      },
+      {
+       "w": "Bom",
+       "s": 116.649,
+       "e": 116.879
+      },
+      {
+       "w": "apetite",
+       "s": 116.89,
+       "e": 117.493
+      }
+     ],
+     "fim": 118.482
+    }
+   ],
+   "imagem": "🍽️",
+   "rotulo": "COMO DIZER",
+   "inicio": 93.494,
+   "fim": 118.932
+  },
+  {
+   "tipo": "erro",
+   "numero": 5,
+   "errado": "I have laziness",
+   "dica": "Preguiça em inglês é jeito de se sentir: feel lazy 😴",
+   "certo": "I feel lazy",
+   "exemplo": {
+    "en": "I feel lazy today.",
+    "pt": "Hoje eu estou com preguiça."
+   },
+   "pronuncia": "ai fíl lêizi",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Quinta: estou com preguiça! O brasileiro diz assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 118.932,
+     "palavras": [
+      {
+       "w": "Quinta",
+       "s": 119.026,
+       "e": 119.41
+      },
+      {
+       "w": "estou",
+       "s": 119.585,
+       "e": 119.848
+      },
+      {
+       "w": "com",
+       "s": 119.859,
+       "e": 119.991
+      },
+      {
+       "w": "preguiça",
+       "s": 120.002,
+       "e": 120.539
+      },
+      {
+       "w": "O",
+       "s": 121.289,
+       "e": 121.388
+      },
+      {
+       "w": "brasileiro",
+       "s": 121.399,
+       "e": 121.936
+      },
+      {
+       "w": "diz",
+       "s": 121.947,
+       "e": 122.079
+      },
+      {
+       "w": "assim",
+       "s": 122.09,
+       "e": 122.485
+      }
+     ],
+     "fim": 123.472
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas em inglês, preguiça não se tem: se sente. Usa o verbo feel.",
+     "mostra": "dica",
+     "inicio": 123.472,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 123.566,
+       "e": 123.741
+      },
+      {
+       "w": "em",
+       "s": 123.752,
+       "e": 123.895
+      },
+      {
+       "w": "inglês",
+       "s": 123.906,
+       "e": 124.322
+      },
+      {
+       "w": "preguiça",
+       "s": 124.498,
+       "e": 124.958
+      },
+      {
+       "w": "não",
+       "s": 124.969,
+       "e": 125.101
+      },
+      {
+       "w": "se",
+       "s": 125.112,
+       "e": 125.265
+      },
+      {
+       "w": "tem",
+       "s": 125.276,
+       "e": 125.485
+      },
+      {
+       "w": "se",
+       "s": 125.715,
+       "e": 125.836
+      },
+      {
+       "w": "sente",
+       "s": 125.847,
+       "e": 126.274
+      },
+      {
+       "w": "Usa",
+       "s": 127.025,
+       "e": 127.321
+      },
+      {
+       "w": "o",
+       "s": 127.332,
+       "e": 127.376
+      },
+      {
+       "w": "verbo",
+       "s": 127.386,
+       "e": 127.759
+      },
+      {
+       "w": "feel",
+       "s": 127.77,
+       "e": 128.066
+      }
+     ],
+     "fim": 129.068
+    },
+    {
+     "voz": "pt",
+     "texto": "O certo é:",
+     "inicio": 129.068,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 129.162,
+       "e": 129.272
+      },
+      {
+       "w": "certo",
+       "s": 129.282,
+       "e": 129.765
+      },
+      {
+       "w": "é",
+       "s": 129.776,
+       "e": 129.973
+      }
+     ],
+     "fim": 131.16
+    },
+    {
+     "voz": "en",
+     "texto": "I feel lazy.",
+     "mostra": "certo",
+     "inicio": 131.16,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 131.26,
+       "e": 131.532
+      },
+      {
+       "w": "feel",
+       "s": 131.545,
+       "e": 131.858
+      },
+      {
+       "w": "lazy",
+       "s": 131.871,
+       "e": 132.374
+      }
+     ],
+     "fim": 133.252
+    },
+    {
+     "voz": "pt",
+     "texto": "Olha só:",
+     "inicio": 133.252,
+     "palavras": [
+      {
+       "w": "Olha",
+       "s": 133.346,
+       "e": 133.642
+      },
+      {
+       "w": "só",
+       "s": 133.653,
+       "e": 133.982
+      }
+     ],
+     "fim": 135.344
+    },
+    {
+     "voz": "en",
+     "texto": "I feel lazy today.",
+     "mostra": "exemplo",
+     "inicio": 135.344,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 135.444,
+       "e": 135.702
+      },
+      {
+       "w": "feel",
+       "s": 135.716,
+       "e": 135.988
+      },
+      {
+       "w": "lazy",
+       "s": 136.001,
+       "e": 136.273
+      },
+      {
+       "w": "today",
+       "s": 136.286,
+       "e": 136.748
+      }
+     ],
+     "fim": 137.436
+    },
+    {
+     "pausa": 1.32,
+     "mostra": "suavez",
+     "inicio": 137.436,
+     "fim": 138.756
+    },
+    {
+     "voz": "pt",
+     "texto": "Hoje eu estou com preguiça.",
+     "inicio": 138.756,
+     "palavras": [
+      {
+       "w": "Hoje",
+       "s": 138.85,
+       "e": 139.146
+      },
+      {
+       "w": "eu",
+       "s": 139.157,
+       "e": 139.223
+      },
+      {
+       "w": "estou",
+       "s": 139.234,
+       "e": 139.453
+      },
+      {
+       "w": "com",
+       "s": 139.464,
+       "e": 139.585
+      },
+      {
+       "w": "preguiça",
+       "s": 139.595,
+       "e": 140.078
+      }
+     ],
+     "fim": 141.064
+    }
+   ],
+   "imagem": "😴",
+   "rotulo": "COMO DIZER",
+   "inicio": 118.932,
+   "fim": 141.514
+  },
+  {
+   "tipo": "quiz",
+   "pergunta": "Como se diz “Fique à vontade”?",
+   "opcoes": [
+    "Stay at will",
+    "Make yourself at home",
+    "Be free here"
+   ],
+   "correta": 1,
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Agora, o desafio! Como se diz: fique à vontade?",
+     "mostra": "pergunta",
+     "inicio": 141.514,
+     "palavras": [
+      {
+       "w": "Agora",
+       "s": 141.608,
+       "e": 142.079
+      },
+      {
+       "w": "o",
+       "s": 142.255,
+       "e": 142.332
+      },
+      {
+       "w": "desafio",
+       "s": 142.343,
+       "e": 142.935
+      },
+      {
+       "w": "Como",
+       "s": 143.685,
+       "e": 143.981
+      },
+      {
+       "w": "se",
+       "s": 143.992,
+       "e": 144.113
+      },
+      {
+       "w": "diz",
+       "s": 144.124,
+       "e": 144.409
+      },
+      {
+       "w": "fique",
+       "s": 144.628,
+       "e": 144.858
+      },
+      {
+       "w": "à",
+       "s": 144.869,
+       "e": 144.924
+      },
+      {
+       "w": "vontade",
+       "s": 144.935,
+       "e": 145.461
+      }
+     ],
+     "fim": 146.462
+    },
+    {
+     "voz": "pt",
+     "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+     "mostra": "opcoes",
+     "inicio": 146.462,
+     "palavras": [
+      {
+       "w": "Letra",
+       "s": 146.556,
+       "e": 146.896
+      },
+      {
+       "w": "A",
+       "s": 146.907,
+       "e": 147.148
+      },
+      {
+       "w": "letra",
+       "s": 147.422,
+       "e": 147.729
+      },
+      {
+       "w": "B",
+       "s": 147.74,
+       "e": 147.926
+      },
+      {
+       "w": "ou",
+       "s": 147.937,
+       "e": 148.036
+      },
+      {
+       "w": "letra",
+       "s": 148.047,
+       "e": 148.365
+      },
+      {
+       "w": "C",
+       "s": 148.376,
+       "e": 148.683
+      },
+      {
+       "w": "Pensa",
+       "s": 149.434,
+       "e": 149.795
+      },
+      {
+       "w": "rápido",
+       "s": 149.806,
+       "e": 150.278
+      }
+     ],
+     "fim": 151.266
+    },
+    {
+     "pausa": 2.29,
+     "mostra": "contagem",
+     "inicio": 151.266,
+     "fim": 153.556
+    },
+    {
+     "voz": "pt",
+     "texto": "Resposta certa: letra B!",
+     "mostra": "resposta",
+     "inicio": 153.556,
+     "palavras": [
+      {
+       "w": "Resposta",
+       "s": 153.65,
+       "e": 154.231
+      },
+      {
+       "w": "certa",
+       "s": 154.242,
+       "e": 154.67
+      },
+      {
+       "w": "letra",
+       "s": 154.911,
+       "e": 155.251
+      },
+      {
+       "w": "B",
+       "s": 155.262,
+       "e": 155.547
+      }
+     ],
+     "fim": 156.536
+    },
+    {
+     "voz": "en",
+     "texto": "Make yourself at home.",
+     "inicio": 156.536,
+     "palavras": [
+      {
+       "w": "Make",
+       "s": 156.636,
+       "e": 156.921
+      },
+      {
+       "w": "yourself",
+       "s": 156.935,
+       "e": 157.356
+      },
+      {
+       "w": "at",
+       "s": 157.37,
+       "e": 157.451
+      },
+      {
+       "w": "home",
+       "s": 157.465,
+       "e": 157.981
+      }
+     ],
+     "fim": 158.628
+    },
+    {
+     "voz": "pt",
+     "texto": "Acertou? Então comenta aí: acertei!",
+     "inicio": 158.628,
+     "palavras": [
+      {
+       "w": "Acertou",
+       "s": 158.722,
+       "e": 159.303
+      },
+      {
+       "w": "Então",
+       "s": 160.053,
+       "e": 160.448
+      },
+      {
+       "w": "comenta",
+       "s": 160.459,
+       "e": 160.854
+      },
+      {
+       "w": "aí",
+       "s": 160.865,
+       "e": 161.139
+      },
+      {
+       "w": "acertei",
+       "s": 161.347,
+       "e": 161.874
+      }
+     ],
+     "fim": 162.856
+    }
+   ],
+   "inicio": 141.514,
+   "fim": 163.306
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica nova de inglês TODO DIA",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+     "mostra": "chamada",
+     "inicio": 163.306,
+     "palavras": [
+      {
+       "w": "Todo",
+       "s": 163.4,
+       "e": 163.641
+      },
+      {
+       "w": "dia",
+       "s": 163.652,
+       "e": 163.86
+      },
+      {
+       "w": "tem",
+       "s": 163.871,
+       "e": 163.992
+      },
+      {
+       "w": "dica",
+       "s": 164.003,
+       "e": 164.266
+      },
+      {
+       "w": "nova",
+       "s": 164.277,
+       "e": 164.573
+      },
+      {
+       "w": "de",
+       "s": 164.584,
+       "e": 164.65
+      },
+      {
+       "w": "inglês",
+       "s": 164.661,
+       "e": 165.045
+      },
+      {
+       "w": "fácil",
+       "s": 165.253,
+       "e": 165.615
+      },
+      {
+       "w": "e",
+       "s": 165.626,
+       "e": 165.659
+      },
+      {
+       "w": "rapidinha",
+       "s": 165.67,
+       "e": 166.24
+      },
+      {
+       "w": "Segue",
+       "s": 166.99,
+       "e": 167.407
+      },
+      {
+       "w": "pra",
+       "s": 167.418,
+       "e": 167.571
+      },
+      {
+       "w": "não",
+       "s": 167.582,
+       "e": 167.791
+      },
+      {
+       "w": "perder",
+       "s": 167.802,
+       "e": 168.207
+      }
+     ],
+     "fim": 169.19
+    },
+    {
+     "voz": "pt",
+     "texto": "Qual dessas você mais usa? Comenta aí!",
+     "inicio": 169.19,
+     "palavras": [
+      {
+       "w": "Qual",
+       "s": 169.284,
+       "e": 169.503
+      },
+      {
+       "w": "dessas",
+       "s": 169.514,
+       "e": 169.799
+      },
+      {
+       "w": "você",
+       "s": 169.81,
+       "e": 170.095
+      },
+      {
+       "w": "mais",
+       "s": 170.106,
+       "e": 170.282
+      },
+      {
+       "w": "usa",
+       "s": 170.293,
+       "e": 170.643
+      },
+      {
+       "w": "Comenta",
+       "s": 171.394,
+       "e": 171.854
+      },
+      {
+       "w": "aí",
+       "s": 171.865,
+       "e": 172.14
+      }
+     ],
+     "fim": 173.13
+    },
+    {
+     "voz": "en",
+     "texto": "See you tomorrow!",
+     "inicio": 173.13,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 173.23,
+       "e": 173.529
+      },
+      {
+       "w": "you",
+       "s": 173.542,
+       "e": 173.651
+      },
+      {
+       "w": "tomorrow",
+       "s": 173.665,
+       "e": 174.317
+      }
+     ],
+     "fim": 175.222
+    }
+   ],
+   "inicio": 163.306,
+   "fim": 176.422
+  }
+ ]
+}
