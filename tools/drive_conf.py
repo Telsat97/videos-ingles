@@ -1,16 +1,16 @@
 """Monta ~/.config/rclone/rclone.conf a partir da autorização do YouTube (usado no GitHub Actions).
 
-Com um único refresh token (escopos youtube.upload + drive.file, obtido no OAuth Playground),
-o mesmo acesso publica no YouTube e guarda o vídeo no Google Drive. Nada é impresso: o arquivo
+Usa DRIVE_REFRESH_TOKEN (escopo drive.file, autorizado na conta pessoal: canais que são conta de marca
+não têm Drive) ou, se não houver, o próprio YT_REFRESH_TOKEN. O cliente OAuth é o mesmo do YouTube. Nada é impresso: o arquivo
 é gravado direto, legível só pelo próprio usuário.
 
-Variáveis: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
+Variáveis: YT_CLIENT_ID, YT_CLIENT_SECRET e DRIVE_REFRESH_TOKEN ou YT_REFRESH_TOKEN.
 """
 import json
 import os
 from pathlib import Path
 
-token = {"access_token": "", "token_type": "Bearer", "refresh_token": os.environ["YT_REFRESH_TOKEN"],
+token = {"access_token": "", "token_type": "Bearer", "refresh_token": os.environ.get("DRIVE_REFRESH_TOKEN") or os.environ["YT_REFRESH_TOKEN"],
          "expiry": "2000-01-01T00:00:00Z"}  # vencido de propósito: o rclone renova na primeira chamada
 conf = (
     "[gdrive]\n"

@@ -29,7 +29,7 @@ Cada episódio usa uma, em rodízio.
 
 ## 3. YouTube + Google Drive (25 min, tudo pelo navegador)
 
-Uma autorização só libera as duas coisas: publicar no canal e guardar os vídeos no Drive
+Duas autorizações rápidas: publicar no canal e guardar os vídeos no Drive
 (em `Meu Drive/Ingles Facil/`). Faça logado na conta Google **dona do canal**.
 
 **A. Google Cloud** (console.cloud.google.com)
@@ -42,17 +42,18 @@ Uma autorização só libera as duas coisas: publicar no canal e guardar os víd
    autorizados**, adicione `https://developers.google.com/oauthplayground` → Criar.
    Aparecem o **ID do cliente** e a **Chave secreta do cliente**: deixe essa janela aberta.
 
-**B. OAuth Playground** (developers.google.com/oauthplayground)
+**B. OAuth Playground** (developers.google.com/oauthplayground): duas autorizações
 6. Clique na **engrenagem** (canto superior direito) → marque **Use your own OAuth credentials** → cole o ID e a chave.
-7. À esquerda, no campo **Input your own scopes**, cole exatamente:
-   `https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/drive.file`
-   → **Authorize APIs** → escolha a conta (se aparecer, escolha o **canal**) → "O Google não verificou este app":
-   **Avançado → Acessar Ingles Facil** → marque as permissões → Continuar.
-8. De volta ao Playground: **Exchange authorization code for tokens**. Copie o **Refresh token**.
+7. **YouTube:** em **Input your own scopes**, cole `https://www.googleapis.com/auth/youtube.upload` → **Authorize APIs**
+   → escolha o **canal** → "O Google não verificou este app": **Avançado → Acessar Ingles Facil** → Continuar.
+   Em **Step 2**, **Exchange authorization code for tokens** → copie o **Refresh token** (é o do YouTube).
+8. **Drive:** volte ao **Step 1**, troque o escopo por `https://www.googleapis.com/auth/drive.file` → **Authorize APIs**
+   → escolha a sua **conta pessoal** (canal de marca não tem Drive) → Exchange → copie o **Refresh token** (é o do Drive).
+   O passo 3 do Playground não é necessário.
 
 **C. Segredos no GitHub** (github.com/Telsat97/videos-ingles → Settings → Secrets and variables → Actions)
-9. **New repository secret**, três vezes: `YT_CLIENT_ID` (o ID), `YT_CLIENT_SECRET` (a chave) e
-   `YT_REFRESH_TOKEN` (o refresh token). Nunca cole esses valores em conversas.
+9. **New repository secret**, quatro vezes: `YT_CLIENT_ID` (o ID), `YT_CLIENT_SECRET` (a chave),
+   `YT_REFRESH_TOKEN` (token do YouTube) e `DRIVE_REFRESH_TOKEN` (token do Drive). Nunca cole esses valores em conversas.
 
 **D. Liberação para vídeos públicos (gratuita, opcional no começo).** Um app novo só publica vídeos **privados**.
 Peça a liberação no formulário "YouTube API Services – Audit and Quota Extension"
