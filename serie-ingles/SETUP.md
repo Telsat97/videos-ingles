@@ -27,36 +27,40 @@ Cada episódio usa uma, em rodízio.
 3. Para conferir: no GitHub, abra **Actions → Episódio diário → Run workflow** e escolha a privacidade `private`.
    Em uns 15 minutos o vídeo aparece em **Artifacts**.
 
-## 3. Google Drive (10 min), com rclone (open source)
+## 3. YouTube + Google Drive (25 min, tudo pelo navegador)
 
-1. Instale: `winget install Rclone.Rclone` (feche e reabra o terminal).
-2. Rode `rclone config` → `n` (novo) → nome `gdrive` → tipo `drive` → deixe client_id/secret vazios →
-   scope `1` (acesso total) → aceite o resto no padrão → o navegador abre: entre com a sua conta Google.
-3. Rode `rclone config file`, abra o arquivo mostrado e copie **todo** o conteúdo.
-4. No GitHub: **Settings → Secrets and variables → Actions → New repository secret**.
-   Nome `RCLONE_CONF`, valor = o conteúdo copiado.
+Uma autorização só libera as duas coisas: publicar no canal e guardar os vídeos no Drive
+(em `Meu Drive/Ingles Facil/`). Faça logado na conta Google **dona do canal**.
 
-Os vídeos passam a cair em `Meu Drive/Ingles Facil/`.
+**A. Google Cloud** (console.cloud.google.com)
+1. No topo, **Selecionar projeto → Novo projeto** → nome `ingles-facil` → Criar. Confira que ele ficou selecionado.
+2. Menu **APIs e serviços → Biblioteca**: ative **YouTube Data API v3** e **Google Drive API**.
+3. Menu **Google Auth Platform** (ou "Tela de consentimento OAuth") → Começar: nome do app `Ingles Facil`,
+   seu e-mail de suporte, público **Externo**, seu e-mail de contato → Criar.
+4. Em **Público-alvo**, clique em **Publicar app** → Confirmar. Importante: em modo "teste" a autorização vence em 7 dias.
+5. Em **Clientes → Criar cliente**: tipo **Aplicativo da Web**, nome `playground`. Em **URIs de redirecionamento
+   autorizados**, adicione `https://developers.google.com/oauthplayground` → Criar.
+   Aparecem o **ID do cliente** e a **Chave secreta do cliente**: deixe essa janela aberta.
 
-## 4. YouTube (20 min)
+**B. OAuth Playground** (developers.google.com/oauthplayground)
+6. Clique na **engrenagem** (canto superior direito) → marque **Use your own OAuth credentials** → cole o ID e a chave.
+7. À esquerda, no campo **Input your own scopes**, cole exatamente:
+   `https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/drive.file`
+   → **Authorize APIs** → escolha a conta (se aparecer, escolha o **canal**) → "O Google não verificou este app":
+   **Avançado → Acessar Ingles Facil** → marque as permissões → Continuar.
+8. De volta ao Playground: **Exchange authorization code for tokens**. Copie o **Refresh token**.
 
-1. Em console.cloud.google.com crie um projeto (ex.: `ingles-facil`).
-2. **APIs e serviços → Biblioteca** → ative **YouTube Data API v3**.
-3. **Tela de consentimento OAuth** → Externo → preencha nome e e-mail → depois clique em **Publicar app**.
-   Isso é importante: em modo "teste", a autorização expira em 7 dias.
-4. **Credenciais → Criar credenciais → ID do cliente OAuth → App para computador** → baixe o JSON.
-5. No seu terminal, nesta pasta:
-   ```bash
-   python -m pip install google-auth-oauthlib
-   python tools/autorizar_youtube.py "C:\caminho\do\client_secret.json"
-   ```
-   Entre com a conta do **canal**. Se aparecer "app não verificado", clique em Avançado → Continuar (o app é seu).
-6. Crie 3 secrets no GitHub com os valores mostrados: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`.
-7. **Auditoria (gratuita):** um app novo só consegue publicar vídeos como **privados**. Peça a liberação no
-   formulário "YouTube API Services – Audit and Quota Extension" (support.google.com/youtube/contact/yt_api_form).
-   Até a aprovação, os vídeos sobem privados e você só troca para "Público" no YouTube Studio (1 clique por vídeo).
+**C. Segredos no GitHub** (github.com/Telsat97/videos-ingles → Settings → Secrets and variables → Actions)
+9. **New repository secret**, três vezes: `YT_CLIENT_ID` (o ID), `YT_CLIENT_SECRET` (a chave) e
+   `YT_REFRESH_TOKEN` (o refresh token). Nunca cole esses valores em conversas.
 
-## 5. Facebook (15 min)
+**D. Liberação para vídeos públicos (gratuita, opcional no começo).** Um app novo só publica vídeos **privados**.
+Peça a liberação no formulário "YouTube API Services – Audit and Quota Extension"
+(support.google.com/youtube/contact/yt_api_form). Até a aprovação, troque para "Público" no YouTube Studio (1 clique).
+
+> Alternativa sem navegador: `tools/autorizar_youtube.py` (pede Python no PC) e rclone com o segredo `RCLONE_CONF`.
+
+## 4. Facebook (15 min)
 
 Precisa de uma **Página** do Facebook (não perfil pessoal).
 
@@ -68,16 +72,16 @@ Precisa de uma **Página** do Facebook (não perfil pessoal).
    Esse token de Página não expira.
 5. Secrets no GitHub: `FB_PAGE_ID` e `FB_PAGE_TOKEN`.
 
-## 6. TikTok
+## 5. TikTok
 
 A API do TikTok só publica vídeos **privados** até o app passar por auditoria. Enquanto isso:
 - os vídeos ficam no Drive. No app do TikTok, agende os 7 da semana de uma vez (cerca de 10 min por semana);
 - se quiser automatizar depois, crie um app em developers.tiktok.com, peça o "Content Posting API"
   e avise o Claude para ligar a publicação automática.
 
-## 7. Roteirista na nuvem
+## 6. Roteirista na nuvem
 
-Com o repositório criado (passo 2), o Claude configura um agente agendado que todo domingo:
+Com o repositório criado (passo 2, já feito), o Claude configura um agente agendado que todo domingo:
 lê a pauta e o registro do que já foi ensinado, escreve os 7 roteiros da semana, valida e envia para a fila.
 Se a fila esvaziar, o GitHub manda um e-mail avisando.
 

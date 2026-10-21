@@ -26,7 +26,7 @@ jobs:
     env:
       TEM_YT: ${{ secrets.YT_REFRESH_TOKEN != '' }}
       TEM_FB: ${{ secrets.FB_PAGE_TOKEN != '' }}
-      TEM_DRIVE: ${{ secrets.RCLONE_CONF != '' }}
+      TEM_DRIVE: ${{ secrets.RCLONE_CONF != '' || secrets.YT_REFRESH_TOKEN != '' }}
       PYTHONIOENCODING: utf-8
     steps:
       - uses: actions/checkout@v4
@@ -76,9 +76,16 @@ jobs:
         if: env.TEM_DRIVE == 'true'
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
           mkdir -p ~/.config/rclone
-          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          if [ -n "$RCLONE_CONF" ]; then
+            printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          else
+            python tools/drive_conf.py  # mesma autorização do YouTube (escopo drive.file)
+          fi
           rclone copy "${{ steps.prod.outputs.pasta }}" "gdrive:Ingles Facil/$(basename "${{ steps.prod.outputs.pasta }}")"
 
       - name: YouTube
