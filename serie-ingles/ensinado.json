@@ -47,6 +47,30 @@
         "Exquisite = requintado",
         "This cake is exquisite."
       ]
+    },
+    {
+      "slug": "ep003-frases-aeroporto",
+      "episodio": 3,
+      "titulo": "5 frases de inglês para o aeroporto e a imigração",
+      "temas": [
+        "Motivo da viagem? 🛂 Passeio = vacation -> I'm here on vacation.",
+        "Gate = portão de embarque ✈️ -> Where is the gate?",
+        "Nada a declarar = nothing to declare 🧳 -> I have nothing to declare.",
+        "Layover = escala ⏱️ -> How long is the layover?",
+        "Luggage = bagagem 🧳 · suitcase = mala -> My luggage is lost."
+      ],
+      "ensina": [
+        "I'm here on vacation.",
+        "I'm here on vacation for two weeks.",
+        "Where is the gate?",
+        "Excuse me, where is gate twelve?",
+        "I have nothing to declare.",
+        "I'm only carrying clothes and a few gifts.",
+        "How long is the layover?",
+        "The layover in Dallas is three hours.",
+        "My luggage is lost.",
+        "My suitcase didn't arrive. Can you help me?"
+      ]
     }
   ]
 }
