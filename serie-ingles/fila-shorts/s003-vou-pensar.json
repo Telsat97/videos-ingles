@@ -1,0 +1,105 @@
+{
+  "slug": "s003-vou-pensar",
+  "episodio": 103,
+  "formato": "short",
+  "titulo": "Como dizer vou pensar em inglês",
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "🛍️",
+    "🤔",
+    "💳"
+  ],
+  "post": {
+    "titulo": "Como dizer VOU PENSAR em inglês sem parecer robô 🤔 #shorts",
+    "descricao": "Na loja, use: Let me think about it. Educado, curto e natural. Uma dica de inglês por dia.",
+    "hashtags": [
+      "#ingles",
+      "#inglesfacil",
+      "#inglesparaviagem",
+      "#aprenderingles",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "VOU PENSAR",
+        "como se diz",
+        "em inglês?"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Como você diz vou pensar em inglês, sem parecer um robô?",
+          "mostra": "titulo"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "manchete": "VOU PENSAR",
+      "rotulo": "COMO DIZER",
+      "dica": "educado e natural, perfeito na loja 🛍️",
+      "certo": "Let me think about it.",
+      "imagem": "🤔",
+      "exemplo": {
+        "en": "It looks nice, but let me think about it.",
+        "pt": "É bonito, mas deixa eu pensar."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Sabe quando o vendedor insiste e você quer sair com educação? Eu uso essa frase toda vez."
+        },
+        {
+          "voz": "pt",
+          "texto": "O americano fala uma frase curtinha, educada e natural.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta:"
+        },
+        {
+          "voz": "en",
+          "texto": "Let me think about it.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "en",
+          "texto": "It looks nice, but let me think about it.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "É bonito, mas deixa eu pensar. E pronto, você sai da loja sem climão!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica por dia 🔔",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Salva esse vídeo e segue pra mais!",
+          "mostra": "chamada"
+        }
+      ]
+    }
+  ]
+}

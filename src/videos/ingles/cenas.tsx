@@ -102,12 +102,17 @@ export const Erro: React.FC<P> = ({cena, foto}) => {
   // A ilustração entra junto com o primeiro conteúdo dito, nunca antes.
   const tImg = [tErr, tDica, tCerto].filter((x): x is number => x !== null).sort((a, b) => a - b)[0] ?? null;
 
+  // Nos shorts (uma dica só) a manchete curta ("IN ou ON?") substitui o "Nº 1"; diminui para caber numa linha.
+  const manchete = cena.manchete ?? `Nº ${cena.numero}`;
+  const tamManchete = Math.min(92, Math.floor(470 / (manchete.length * 0.6)));
   const cabecalho = (
     <div style={{transform: `translateX(${(1 - entrada) * 80}px)`, opacity: entrada}}>
       <div style={{fontFamily: TEXTO, fontWeight: 900, fontSize: 30, letterSpacing: 3, color: COR.suave}}>
         {cena.rotulo ?? (cena.errado ? 'ERRO COMUM' : 'DICA')}
       </div>
-      <div style={{fontFamily: TITULO, fontWeight: 700, fontSize: 92, color: COR.coral, lineHeight: 1}}>Nº {cena.numero}</div>
+      <div style={{fontFamily: TITULO, fontWeight: 700, fontSize: tamManchete, color: COR.coral, lineHeight: 1, whiteSpace: 'nowrap'}}>
+        {manchete}
+      </div>
     </div>
   );
 

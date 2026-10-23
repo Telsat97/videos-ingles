@@ -98,7 +98,10 @@ export const Topo: React.FC<{ep: Episodio}> = ({ep}) => {
           letterSpacing: 1.5, background: 'rgba(255,255,255,.9)', padding: '4px 18px', borderRadius: 30,
         }}
       >
-        {SERIE} <span style={{color: COR.coral}}>· EP {String(ep.episodio).padStart(2, '0')}</span>
+        {SERIE}{' '}
+        <span style={{color: COR.coral}}>
+          · {ep.formato === 'short' ? 'DICA RÁPIDA' : ep.formato === 'longo' ? 'AULA' : `EP ${String(ep.episodio).padStart(2, '0')}`}
+        </span>
       </div>
     </>
   );

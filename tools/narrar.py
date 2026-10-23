@@ -29,6 +29,12 @@ GAP_FALA = 0.22
 GAP_CENA = 0.45
 FINAL = 1.2
 REGISTRO = RAIZ / "serie-ingles" / "ensinado.json"
+# Tamanhos da série (ver serie-ingles/ESTRATEGIA.md): palavras (mín, máx, alvo) e duração máxima em segundos.
+FORMATOS = {
+    "short": {"palavras": (45, 130, "70-110 para dar 30-55 s"), "limite": 58.0},  # YouTube Shorts: 1 ideia
+    "episodio": {"palavras": (250, 400, "320-380 para dar 2:30-2:59"), "limite": 178.5},  # TikTok e Facebook
+    "longo": {"palavras": (900, 12000, "1.400+ para passar de 10 min"), "limite": None},  # YouTube, horizontal
+}
 
 
 TWEMOJI = "https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/{}.svg"
@@ -127,9 +133,11 @@ def validar(roteiro: dict) -> list[str]:
         exige = {"abertura": {"titulo"}, "erro": {"certo", "exemplo", "suavez"}, "quiz": {"pergunta", "opcoes", "contagem", "resposta"},
                  "final": {"chamada"}}.get(c.get("tipo"), set())
         if c.get("tipo") == "erro":
-            for campo in ("numero", "certo", "exemplo"):
+            for campo in ("certo", "exemplo"):
                 if campo not in c:
                     erros.append(f"cena {i}: falta '{campo}'")
+            if "numero" not in c and "manchete" not in c:
+                erros.append(f"cena {i}: falta 'numero' (ou 'manchete', nos shorts)")
             if c.get("errado"):
                 exige |= {"errado"}
             if c.get("dica"):
@@ -141,9 +149,14 @@ def validar(roteiro: dict) -> list[str]:
         for f in c.get("falas", []):
             if "pausa" not in f and (f.get("voz") not in ("pt", "en") or not f.get("texto")):
                 erros.append(f"cena {i}: fala sem voz/texto: {f}")
+    formato = roteiro.get("formato", "episodio")
+    if formato not in FORMATOS:
+        erros.append(f"formato inválido {formato!r}: use {sorted(FORMATOS)}")
+        return erros
     palavras = sum(len(f.get("texto", "").split()) for c in roteiro.get("cenas", []) for f in c.get("falas", []))
-    if not 250 <= palavras <= 400:  # a duração real é conferida depois da narração
-        erros.append(f"{palavras} palavras faladas: mire em 320-380 para dar 2:30-2:59")
+    minimo, maximo, alvo = FORMATOS[formato]["palavras"]
+    if not minimo <= palavras <= maximo:  # a duração real é conferida depois da narração
+        erros.append(f"{palavras} palavras faladas: num {formato} mire em {alvo}")
     return erros
 
 
@@ -218,6 +231,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
     nome = proj.name
     ep = {
         **{k: roteiro[k] for k in ("slug", "episodio", "titulo")},
+        "formato": roteiro.get("formato", "episodio"),
         "cenario": roteiro.get("cenario", []),
         "duracao": round(t, 3),
         "audio": f"{nome}/audio/narracao.wav",
@@ -238,8 +252,9 @@ async def main(proj: Path, gravar_registro: bool) -> None:
     (RAIZ / "src" / "videos" / "ingles" / "episodios.gen.ts").write_text("\n".join(linhas) + "\n", encoding="utf-8")
 
     print(f"ok: {wav.relative_to(RAIZ)}  duração {t:.1f}s  ({int(t // 60)}:{int(t % 60):02d})")
-    if t > 179:
-        print("ATENÇÃO: passou de 2:59, o YouTube não classifica como Short. Encurte o roteiro.")
+    limite = FORMATOS[roteiro.get("formato", "episodio")]["limite"]
+    if limite and t > limite:
+        print(f"ATENÇÃO: passou de {limite:.0f}s, o limite deste formato. Encurte o roteiro.")
     if gravar_registro:
         registrar(roteiro)
 

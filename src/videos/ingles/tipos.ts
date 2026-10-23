@@ -18,6 +18,7 @@ export type Cena = {
   falas: Fala[];
   titulo?: string[];
   numero?: number;
+  manchete?: string; // shorts: título curto do bloco no lugar do "Nº", ex.: "IN ou ON?"
   rotulo?: string; // ex.: "ERRO COMUM", "FALSO AMIGO", "PALAVRA DO DIA"
   imagem?: string; // emoji ilustrativo (vira desenho Twemoji), ex.: "🍎"
   pronuncia?: string; // pronúncia aproximada para brasileiros, ex.: "câmf-ter-bou"
@@ -35,6 +36,7 @@ export type Episodio = {
   slug: string;
   episodio: number;
   titulo: string;
+  formato?: 'short' | 'episodio' | 'longo'; // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
   duracao: number;
   audio: string;
   fotos: string[];

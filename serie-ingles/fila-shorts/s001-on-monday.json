@@ -1,0 +1,108 @@
+{
+  "slug": "s001-on-monday",
+  "episodio": 101,
+  "formato": "short",
+  "titulo": "IN ou ON antes do dia da semana?",
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "📅",
+    "🗓️",
+    "⏰"
+  ],
+  "post": {
+    "titulo": "Você fala IN MONDAY? 😬 Para tudo! #shorts",
+    "descricao": "Antes do dia da semana, a palavra certa é ON: on Monday, on Friday. Uma dica de inglês por dia, rapidinha e fácil.",
+    "hashtags": [
+      "#ingles",
+      "#inglesfacil",
+      "#aprenderingles",
+      "#dicadeingles",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "IN ou ON?",
+        "antes do dia",
+        "da semana"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Tem uma palavrinha que quase todo brasileiro erra antes do dia da semana.",
+          "mostra": "titulo"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "manchete": "IN ou ON?",
+      "rotulo": "DIA DA SEMANA",
+      "errado": "in Monday",
+      "dica": "dia da semana pede ON 📅",
+      "certo": "on Monday",
+      "imagem": "📅",
+      "exemplo": {
+        "en": "See you on Monday!",
+        "pt": "Te vejo na segunda!"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Pra falar do dia da semana, não escreve assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Com dia da semana, a palavra certa é on. Eu lembro assim: o dia fica em cima do calendário.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta a americana:"
+        },
+        {
+          "voz": "en",
+          "texto": "On Monday.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "en",
+          "texto": "See you on Monday!",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Te vejo na segunda! In fica pro mês, on fica pro dia. Volta e escuta de novo!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica por dia 🔔",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Segue, que amanhã tem mais uma!",
+          "mostra": "chamada"
+        }
+      ]
+    }
+  ]
+}

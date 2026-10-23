@@ -1,0 +1,498 @@
+{
+ "slug": "s003-vou-pensar",
+ "episodio": 103,
+ "titulo": "Como dizer vou pensar em inglês",
+ "formato": "short",
+ "cenario": [
+  "🛍️",
+  "🤔",
+  "💳"
+ ],
+ "duracao": 36.022,
+ "audio": "011. ingles-s003-vou-pensar/audio/narracao.wav",
+ "fotos": [
+  "011. ingles-s003-vou-pensar/prints/foto1.webp",
+  "011. ingles-s003-vou-pensar/prints/foto2.webp",
+  "011. ingles-s003-vou-pensar/prints/foto3.webp",
+  "011. ingles-s003-vou-pensar/prints/foto4.webp",
+  "011. ingles-s003-vou-pensar/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "VOU PENSAR",
+    "como se diz",
+    "em inglês?"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Como você diz vou pensar em inglês, sem parecer um robô?",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Como",
+       "s": 0.445,
+       "e": 0.741
+      },
+      {
+       "w": "você",
+       "s": 0.752,
+       "e": 1.002
+      },
+      {
+       "w": "diz",
+       "s": 1.014,
+       "e": 1.184
+      },
+      {
+       "w": "vou",
+       "s": 1.195,
+       "e": 1.332
+      },
+      {
+       "w": "pensar",
+       "s": 1.343,
+       "e": 1.752
+      },
+      {
+       "w": "em",
+       "s": 1.764,
+       "e": 1.843
+      },
+      {
+       "w": "inglês",
+       "s": 1.855,
+       "e": 2.332
+      },
+      {
+       "w": "sem",
+       "s": 2.536,
+       "e": 2.741
+      },
+      {
+       "w": "parecer",
+       "s": 2.752,
+       "e": 3.15
+      },
+      {
+       "w": "um",
+       "s": 3.161,
+       "e": 3.23
+      },
+      {
+       "w": "robô",
+       "s": 3.241,
+       "e": 3.593
+      }
+     ],
+     "fim": 4.602
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 5.052
+  },
+  {
+   "tipo": "erro",
+   "manchete": "VOU PENSAR",
+   "rotulo": "COMO DIZER",
+   "dica": "educado e natural, perfeito na loja 🛍️",
+   "certo": "Let me think about it.",
+   "imagem": "🤔",
+   "exemplo": {
+    "en": "It looks nice, but let me think about it.",
+    "pt": "É bonito, mas deixa eu pensar."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Sabe quando o vendedor insiste e você quer sair com educação? Eu uso essa frase toda vez.",
+     "inicio": 5.052,
+     "palavras": [
+      {
+       "w": "Sabe",
+       "s": 5.147,
+       "e": 5.488
+      },
+      {
+       "w": "quando",
+       "s": 5.5,
+       "e": 5.693
+      },
+      {
+       "w": "o",
+       "s": 5.704,
+       "e": 5.727
+      },
+      {
+       "w": "vendedor",
+       "s": 5.738,
+       "e": 6.136
+      },
+      {
+       "w": "insiste",
+       "s": 6.147,
+       "e": 6.579
+      },
+      {
+       "w": "e",
+       "s": 6.591,
+       "e": 6.613
+      },
+      {
+       "w": "você",
+       "s": 6.625,
+       "e": 6.852
+      },
+      {
+       "w": "quer",
+       "s": 6.863,
+       "e": 7.057
+      },
+      {
+       "w": "sair",
+       "s": 7.068,
+       "e": 7.409
+      },
+      {
+       "w": "com",
+       "s": 7.42,
+       "e": 7.602
+      },
+      {
+       "w": "educação",
+       "s": 7.613,
+       "e": 8.159
+      },
+      {
+       "w": "Eu",
+       "s": 8.938,
+       "e": 9.2
+      },
+      {
+       "w": "uso",
+       "s": 9.211,
+       "e": 9.393
+      },
+      {
+       "w": "essa",
+       "s": 9.404,
+       "e": 9.586
+      },
+      {
+       "w": "frase",
+       "s": 9.597,
+       "e": 9.984
+      },
+      {
+       "w": "toda",
+       "s": 9.995,
+       "e": 10.257
+      },
+      {
+       "w": "vez",
+       "s": 10.268,
+       "e": 10.643
+      }
+     ],
+     "fim": 11.656
+    },
+    {
+     "voz": "pt",
+     "texto": "O americano fala uma frase curtinha, educada e natural.",
+     "mostra": "dica",
+     "inicio": 11.656,
+     "palavras": [
+      {
+       "w": "O",
+       "s": 11.751,
+       "e": 11.842
+      },
+      {
+       "w": "americano",
+       "s": 11.854,
+       "e": 12.433
+      },
+      {
+       "w": "fala",
+       "s": 12.445,
+       "e": 12.661
+      },
+      {
+       "w": "uma",
+       "s": 12.672,
+       "e": 12.831
+      },
+      {
+       "w": "frase",
+       "s": 12.842,
+       "e": 13.206
+      },
+      {
+       "w": "curtinha",
+       "s": 13.217,
+       "e": 13.683
+      },
+      {
+       "w": "educada",
+       "s": 13.899,
+       "e": 14.365
+      },
+      {
+       "w": "e",
+       "s": 14.376,
+       "e": 14.422
+      },
+      {
+       "w": "natural",
+       "s": 14.433,
+       "e": 14.899
+      }
+     ],
+     "fim": 15.908
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta:",
+     "inicio": 15.908,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 16.003,
+       "e": 16.56
+      }
+     ],
+     "fim": 18.0
+    },
+    {
+     "voz": "en",
+     "texto": "Let me think about it.",
+     "mostra": "certo",
+     "inicio": 18.0,
+     "palavras": [
+      {
+       "w": "Let",
+       "s": 18.1,
+       "e": 18.327
+      },
+      {
+       "w": "me",
+       "s": 18.341,
+       "e": 18.441
+      },
+      {
+       "w": "think",
+       "s": 18.455,
+       "e": 18.697
+      },
+      {
+       "w": "about",
+       "s": 18.711,
+       "e": 19.009
+      },
+      {
+       "w": "it",
+       "s": 19.023,
+       "e": 19.265
+      }
+     ],
+     "fim": 20.092
+    },
+    {
+     "voz": "en",
+     "texto": "It looks nice, but let me think about it.",
+     "mostra": "exemplo",
+     "inicio": 20.092,
+     "palavras": [
+      {
+       "w": "It",
+       "s": 20.192,
+       "e": 20.433
+      },
+      {
+       "w": "looks",
+       "s": 20.448,
+       "e": 20.732
+      },
+      {
+       "w": "nice",
+       "s": 20.746,
+       "e": 21.328
+      },
+      {
+       "w": "but",
+       "s": 21.428,
+       "e": 21.698
+      },
+      {
+       "w": "let",
+       "s": 21.712,
+       "e": 21.868
+      },
+      {
+       "w": "me",
+       "s": 21.882,
+       "e": 21.996
+      },
+      {
+       "w": "think",
+       "s": 22.01,
+       "e": 22.252
+      },
+      {
+       "w": "about",
+       "s": 22.266,
+       "e": 22.564
+      },
+      {
+       "w": "it",
+       "s": 22.578,
+       "e": 22.834
+      }
+     ],
+     "fim": 23.48
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 23.48,
+     "fim": 24.98
+    },
+    {
+     "voz": "pt",
+     "texto": "É bonito, mas deixa eu pensar. E pronto, você sai da loja sem climão!",
+     "inicio": 24.98,
+     "palavras": [
+      {
+       "w": "É",
+       "s": 25.075,
+       "e": 25.178
+      },
+      {
+       "w": "bonito",
+       "s": 25.189,
+       "e": 25.655
+      },
+      {
+       "w": "mas",
+       "s": 25.962,
+       "e": 26.155
+      },
+      {
+       "w": "deixa",
+       "s": 26.166,
+       "e": 26.462
+      },
+      {
+       "w": "eu",
+       "s": 26.473,
+       "e": 26.541
+      },
+      {
+       "w": "pensar",
+       "s": 26.553,
+       "e": 26.962
+      },
+      {
+       "w": "E",
+       "s": 27.741,
+       "e": 27.855
+      },
+      {
+       "w": "pronto",
+       "s": 27.866,
+       "e": 28.23
+      },
+      {
+       "w": "você",
+       "s": 28.525,
+       "e": 28.775
+      },
+      {
+       "w": "sai",
+       "s": 28.787,
+       "e": 29.025
+      },
+      {
+       "w": "da",
+       "s": 29.037,
+       "e": 29.128
+      },
+      {
+       "w": "loja",
+       "s": 29.139,
+       "e": 29.537
+      },
+      {
+       "w": "sem",
+       "s": 29.548,
+       "e": 29.775
+      },
+      {
+       "w": "climão",
+       "s": 29.787,
+       "e": 30.23
+      }
+     ],
+     "fim": 31.248
+    }
+   ],
+   "inicio": 5.052,
+   "fim": 31.698
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica por dia 🔔",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Salva esse vídeo e segue pra mais!",
+     "mostra": "chamada",
+     "inicio": 31.698,
+     "palavras": [
+      {
+       "w": "Salva",
+       "s": 31.793,
+       "e": 32.237
+      },
+      {
+       "w": "esse",
+       "s": 32.248,
+       "e": 32.464
+      },
+      {
+       "w": "vídeo",
+       "s": 32.475,
+       "e": 32.805
+      },
+      {
+       "w": "e",
+       "s": 32.816,
+       "e": 32.85
+      },
+      {
+       "w": "segue",
+       "s": 32.862,
+       "e": 33.18
+      },
+      {
+       "w": "pra",
+       "s": 33.191,
+       "e": 33.328
+      },
+      {
+       "w": "mais",
+       "s": 33.339,
+       "e": 33.805
+      }
+     ],
+     "fim": 34.822
+    }
+   ],
+   "inicio": 31.698,
+   "fim": 36.022
+  }
+ ]
+}
