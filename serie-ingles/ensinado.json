@@ -71,6 +71,30 @@
         "My luggage is lost.",
         "My suitcase didn't arrive. Can you help me?"
       ]
+    },
+    {
+      "slug": "ep004-pronuncia",
+      "episodio": 4,
+      "titulo": "5 palavras que o brasileiro pronuncia errado em inglês",
+      "temas": [
+        "com-for-tá-bou -> comfortable",
+        "ve-ge-tá-bou -> vegetable",
+        "clô-tes -> clothes",
+        "xo-co-lá-te -> chocolate",
+        "re-cai-pi -> recipe"
+      ],
+      "ensina": [
+        "comfortable",
+        "This bed is very comfortable.",
+        "vegetable",
+        "I eat vegetables every day.",
+        "clothes",
+        "I need new clothes.",
+        "chocolate",
+        "I love hot chocolate.",
+        "recipe",
+        "Can I have the recipe?"
+      ]
     }
   ]
 }
