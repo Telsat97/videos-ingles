@@ -19,12 +19,30 @@ RAIZ = Path(__file__).resolve().parent.parent
 GRAPH = "https://graph.facebook.com/v21.0"
 
 
+# Rodapé por idioma: transparência sobre a voz sintética (política do YouTube) e crédito da licença Twemoji.
+RODAPE = {
+    "en": "New English tip every day. 🔔\nMade with AI-assisted tools and a synthetic (AI) voice.\n"
+          "Illustrations: Twemoji (CC-BY 4.0)",
+    "pt": "Uma dica nova de inglês todo dia! 🔔\nFeito com ferramentas de IA e voz sintética.\n"
+          "Ilustrações: Twemoji (CC-BY 4.0)",
+}
+
+
+def idioma(post: dict) -> str:
+    return "en" if post.get("formato") == "dica" else post.get("idioma", "pt")
+
+
 def texto(post: dict, plataforma: str) -> str:
-    tags = " ".join(post.get("hashtags", []))
-    if plataforma == "facebook":
-        tags = " ".join(t for t in post.get("hashtags", []) if t != "#shorts")
-    credito = "Ilustrações: Twemoji (CC-BY 4.0)"  # exigência da licença
-    return f"{post['descricao']}\n\nUma dica nova de inglês todo dia! 🔔\n\n{tags}\n\n{credito}".strip()
+    # 3 a 5 hashtags no fim da descrição; #shorts não ajuda (o YouTube reconhece o Short pelo formato).
+    tags = " ".join([t for t in post.get("hashtags", []) if t.lower() != "#shorts"][:5])
+    capitulos = "\n".join(post.get("capitulos", []))
+    partes = [post["descricao"], capitulos, RODAPE[idioma(post)], tags]
+    return "\n\n".join(p for p in partes if p).strip()
+
+
+def titulo(post: dict) -> str:
+    t = " ".join(w for w in post["titulo"].split() if w.lower() != "#shorts")
+    return t[:100]
 
 
 def youtube(post: dict) -> str:
@@ -40,16 +58,17 @@ def youtube(post: dict) -> str:
     yt = build("youtube", "v3", credentials=cred, cache_discovery=False)
     corpo = {
         "snippet": {
-            "title": post["titulo"][:100],
+            "title": titulo(post),
             "description": texto(post, "youtube"),
             "tags": [t.lstrip("#") for t in post.get("hashtags", [])],
             "categoryId": "27",  # Educação
-            "defaultLanguage": "pt-BR",
-            "defaultAudioLanguage": "pt-BR",
+            "defaultLanguage": "en" if idioma(post) == "en" else "pt-BR",
+            "defaultAudioLanguage": "en" if idioma(post) == "en" else "pt-BR",
         },
         "status": {
             "privacyStatus": os.environ.get("YT_PRIVACIDADE", "public"),
-            "selfDeclaredMadeForKids": False,
+            # Decidido por vídeo no roteiro (post.para_criancas); o padrão é público geral (ver PLANO-DO-TIME.md).
+            "selfDeclaredMadeForKids": bool(post.get("para_criancas", False)),
             "containsSyntheticMedia": True,  # voz gerada por IA: declaração exigida pelo YouTube
         },
     }
@@ -58,6 +77,8 @@ def youtube(post: dict) -> str:
     resp = None
     while resp is None:
         _, resp = req.next_chunk()
+    if post.get("formato") == "longo":
+        return f"https://www.youtube.com/watch?v={resp['id']}"
     return f"https://youtube.com/shorts/{resp['id']}"
 
 
@@ -77,7 +98,7 @@ def facebook(post: dict) -> str:
     fim = requests.post(
         f"{GRAPH}/{page}/video_reels",
         data={"upload_phase": "finish", "video_id": vid, "video_state": "PUBLISHED",
-              "description": f"{post['titulo']}\n\n{texto(post, 'facebook')}", "access_token": token},
+              "description": f"{titulo(post)}\n\n{texto(post, 'facebook')}", "access_token": token},
         timeout=60,
     )
     fim.raise_for_status()

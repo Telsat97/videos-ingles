@@ -1,13 +1,20 @@
-# Produz e publica 1 episódio por dia da série "Inglês Fácil", direto na nuvem do GitHub (sem o seu PC).
-# Pega o roteiro mais antigo de serie-ingles/fila/, renderiza, guarda no Google Drive, publica onde houver
-# credencial e move o roteiro para serie-ingles/publicados/. Segredos: ver serie-ingles/SETUP.md.
+# Robô diário da série (GitHub Actions, sem o seu PC). Ver serie-ingles/PLANO-DO-TIME.md.
+# - 2 rodadas por dia: cada uma publica o próximo micro-Short GLOBAL (serie-ingles/fila-global/) no YouTube
+#   e guarda a cópia no Google Drive.
+# - Na 1ª rodada do dia também sai o episódio em PORTUGUÊS (serie-ingles/fila/), só para o Drive
+#   (o dono reposta no TikTok e no Facebook; o YouTube agora é global).
+# Quem sai da fila vai para publicados-global/ ou publicados/. Segredos: serie-ingles/SETUP.md.
 name: Episódio diário
 
 on:
   schedule:
-    - cron: '0 14 * * *' # 11h de Brasília
+    - cron: '17 13 * * *' # 13:17 UTC: noite na Índia, tarde na Europa, manhã nas Américas
+    - cron: '17 23 * * *' # 23:17 UTC: noite nas Américas
   workflow_dispatch:
     inputs:
+      rodada:
+        description: 'O que produzir: global, pt ou ambos'
+        default: 'global'
       privacidade:
         description: 'Privacidade no YouTube (public, unlisted, private)'
         default: 'public'
@@ -22,25 +29,16 @@ concurrency:
 jobs:
   produzir:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     env:
       TEM_YT: ${{ secrets.YT_REFRESH_TOKEN != '' }}
-      TEM_FB: ${{ secrets.FB_PAGE_TOKEN != '' }}
       TEM_DRIVE: ${{ secrets.RCLONE_CONF != '' || secrets.DRIVE_REFRESH_TOKEN != '' || secrets.YT_REFRESH_TOKEN != '' }}
       PYTHONIOENCODING: utf-8
+      # Agendamento: a rodada das 13:17 UTC faz global + pt; a das 23:17 só global.
+      RODADA: ${{ inputs.rodada || (github.event.schedule == '17 13 * * *' && 'ambos') || 'global' }}
+      YT_PRIVACIDADE: ${{ inputs.privacidade || 'public' }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: Próximo roteiro da fila
-        id: fila
-        run: |
-          f=$(ls serie-ingles/fila/*.json 2>/dev/null | sort | head -1 || true)
-          if [ -z "$f" ]; then echo "::error::Fila vazia: não há roteiro para hoje."; exit 1; fi
-          if [ -z "$(find serie-ingles/fotos -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \))" ]; then
-            echo "::error::Faltam as fotos do apresentador em serie-ingles/fotos/ (ver serie-ingles/SETUP.md)."; exit 1
-          fi
-          echo "roteiro=$f" >> "$GITHUB_OUTPUT"
-          echo "Roteiro de hoje: $f"
 
       - uses: actions/setup-node@v4
         with:
@@ -57,25 +55,8 @@ jobs:
           npm ci
           python -m pip install -q edge-tts numpy requests google-api-python-client google-auth
 
-      - name: Produzir episódio
-        id: prod
-        run: |
-          set -o pipefail  # sem isso, uma falha no render passa despercebida pelo "tee"
-          python tools/produzir.py "${{ steps.fila.outputs.roteiro }}" | tee produzir.log
-          mp4=$(tail -1 produzir.log)
-          echo "mp4=$mp4" >> "$GITHUB_OUTPUT"
-          echo "pasta=$(dirname "$mp4")" >> "$GITHUB_OUTPUT"
-
-      - name: Guardar como artefato (7 dias)
-        uses: actions/upload-artifact@v4
-        with:
-          name: episodio
-          path: ${{ steps.prod.outputs.pasta }}
-          retention-days: 7
-
-      - name: Google Drive
+      - name: Acesso ao Google Drive
         if: env.TEM_DRIVE == 'true'
-        continue-on-error: true  # o Drive é só cópia: se falhar, a publicação segue
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
           DRIVE_REFRESH_TOKEN: ${{ secrets.DRIVE_REFRESH_TOKEN }}
@@ -89,37 +70,49 @@ jobs:
           else
             python tools/drive_conf.py  # autorização do Drive (ou a do YouTube), escopo drive.file
           fi
-          rclone copy "${{ steps.prod.outputs.pasta }}" "gdrive:Ingles Facil/$(basename "${{ steps.prod.outputs.pasta }}")"
 
-      - name: YouTube
-        id: yt
-        if: env.TEM_YT == 'true'
-        continue-on-error: true
+      - name: Micro-Short global (YouTube + Drive)
+        id: global
+        if: env.RODADA == 'global' || env.RODADA == 'ambos'
+        continue-on-error: true  # uma falha aqui não impede o episódio em português
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          YT_PRIVACIDADE: ${{ inputs.privacidade || 'public' }}
-        run: python tools/publicar.py youtube "${{ steps.prod.outputs.pasta }}/post.json"
+        run: python tools/rodada.py global
 
-      - name: Facebook
-        id: fb
-        if: env.TEM_FB == 'true'
+      - name: Episódio em português (só Drive)
+        id: pt
+        if: env.RODADA == 'pt' || env.RODADA == 'ambos'
         continue-on-error: true
-        env:
-          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-        run: python tools/publicar.py facebook "${{ steps.prod.outputs.pasta }}/post.json"
-
-      # Só sai da fila se foi publicado em pelo menos uma rede; senão, tenta de novo amanhã.
-      - name: Registrar e tirar da fila
-        if: steps.yt.outcome == 'success' || steps.fb.outcome == 'success'
         run: |
-          f="${{ steps.fila.outputs.roteiro }}"
-          python -c "import json,sys; sys.path.insert(0,'tools'); import narrar; narrar.registrar(json.load(open('$f',encoding='utf-8')))"
-          git mv "$f" serie-ingles/publicados/
+          if [ -z "$(find serie-ingles/fotos -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \))" ]; then
+            echo "::error::Faltam as fotos do apresentador em serie-ingles/fotos/."; exit 1
+          fi
+          python tools/rodada.py pt
+
+      - name: Guardar como artefato (7 dias)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rodada
+          path: edicoes/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Registrar o que saiu da fila
+        if: always()
+        run: |
           git config user.name "inglês-fácil bot"
           git config user.email "actions@users.noreply.github.com"
           git add serie-ingles/
-          git commit -m "Publica $(basename "$f" .json)"
-          git push
+          if git diff --cached --quiet; then echo "Nada saiu da fila."; else
+            git commit -m "Publica: $(git diff --cached --name-only --diff-filter=A | xargs -n1 basename | tr '\n' ' ')"
+            git push
+          fi
+
+      - name: Resultado
+        if: always()
+        run: |
+          echo "global: ${{ steps.global.outcome }}  pt: ${{ steps.pt.outcome }}"
+          if [ "${{ steps.global.outcome }}" = "failure" ] || [ "${{ steps.pt.outcome }}" = "failure" ]; then exit 1; fi

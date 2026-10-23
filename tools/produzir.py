@@ -99,7 +99,8 @@ def main() -> None:
     saida = RAIZ / "edicoes" / proj.name
     saida.mkdir(parents=True, exist_ok=True)
     mp4 = saida / f"{roteiro['slug']}.mp4"
-    post = {**roteiro["post"], "episodio": roteiro["episodio"], "slug": roteiro["slug"], "arquivo": str(mp4.relative_to(RAIZ))}
+    post = {**roteiro["post"], "episodio": roteiro["episodio"], "slug": roteiro["slug"], "formato": formato,
+            "arquivo": str(mp4.relative_to(RAIZ))}
     (saida / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if "--sem-render" not in sys.argv:
