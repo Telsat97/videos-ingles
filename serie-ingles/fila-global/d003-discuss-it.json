@@ -1,0 +1,105 @@
+{
+  "slug": "d003-discuss-it",
+  "episodio": 203,
+  "formato": "dica",
+  "titulo": "Discuss it",
+  "post": {
+    "titulo": "Never say “discuss about” in English",
+    "descricao": "Discuss already means “talk about”, so you don’t need “about”: Let’s discuss it. One quick English tip every day.",
+    "hashtags": [
+      "#learnenglish",
+      "#englishgrammar",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Let's discuss\nabout it",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Almost every English learner adds one extra word here.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Let's discuss it.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Native speakers say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Let's discuss it.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "discuss = talk about"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "discuss ✗ about\ntalk ✓ about",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Discuss already means talk about. So after discuss, no about.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Let's discuss the plan.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Which sounds natural?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one sounds natural? Tell me in the comments: A or B?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "We discussed about money.",
+        "We discussed money."
+      ]
+    }
+  ]
+}

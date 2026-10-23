@@ -1,0 +1,126 @@
+{
+  "slug": "d002-bored-boring",
+  "episodio": 202,
+  "formato": "dica",
+  "titulo": "Bored or boring",
+  "post": {
+    "titulo": "I’m BORED or I’m BORING? Careful!",
+    "descricao": "“I’m boring” means people find you dull. If you have nothing to do, say “I’m bored”. Words ending in -ed describe how you feel; -ing describes the thing. One quick English tip every day.",
+    "hashtags": [
+      "#learnenglish",
+      "#englishvocabulary",
+      "#englishtips",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I'm boring",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Careful! This sentence says that you are not interesting.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I'm bored.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "When you have nothing to do, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm bored.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "It means you have nothing fun to do.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "= I have nothing to do"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "-ED = how you feel\n-ING = the thing",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Easy rule. Words ending in E D describe how you feel. Words ending in I N G describe the thing.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "The movie is boring.\nI'm bored.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Listen to both together:"
+        },
+        {
+          "voz": "en",
+          "texto": "The movie is boring. I'm bored.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I'm so bored today.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "The class was…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Now you. Which word is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "interested",
+        "interesting"
+      ]
+    }
+  ]
+}

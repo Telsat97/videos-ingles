@@ -1,0 +1,122 @@
+{
+  "slug": "d001-explain-it-to-me",
+  "episodio": 201,
+  "formato": "dica",
+  "titulo": "Explain it to me",
+  "post": {
+    "titulo": "Stop saying “explain me” in English",
+    "descricao": "Say “Explain it to me” or “Can you explain this to me?”. You explain something TO someone. One quick English tip every day.",
+    "hashtags": [
+      "#learnenglish",
+      "#englishgrammar",
+      "#englishtips",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Explain me…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Stop saying this. It sounds wrong to native speakers.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Explain it\nto me.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say it like this:"
+        },
+        {
+          "voz": "en",
+          "texto": "Explain it to me.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "Can you explain this to me?",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "Can you explain this to me?"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "explain + thing\n+ TO + person",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Remember: you explain something to someone.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "say it TO me\ndescribe it TO me",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: the same rule works with say and describe.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Can you explain this to me?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Which is right?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Quick test. Which one is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "Explain me the plan.",
+        "Explain the plan to me."
+      ]
+    }
+  ]
+}

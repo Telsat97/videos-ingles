@@ -1,7 +1,7 @@
 export type Palavra = {w: string; s: number; e: number};
 
 export type Fala = {
-  voz?: 'pt' | 'en';
+  voz?: string; // chave de roteiro.vozes: 'pt' | 'en' | 'narr' (narrador em inglês da versão global)
   texto?: string;
   pausa?: number;
   mostra?: string;
@@ -12,7 +12,11 @@ export type Fala = {
 };
 
 export type Cena = {
-  tipo: 'abertura' | 'erro' | 'quiz' | 'final';
+  tipo: 'abertura' | 'erro' | 'quiz' | 'final' | 'tela';
+  // 'tela' (formato dica): uma ideia em tela cheia
+  visual?: 'erro' | 'certo' | 'regra' | 'vez' | 'bonus' | 'quiz';
+  grande?: string;
+  pequeno?: string;
   inicio: number;
   fim: number;
   falas: Fala[];
@@ -36,7 +40,7 @@ export type Episodio = {
   slug: string;
   episodio: number;
   titulo: string;
-  formato?: 'short' | 'episodio' | 'longo'; // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
+  formato?: 'short' | 'episodio' | 'longo' | 'dica'; // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
   duracao: number;
   audio: string;
   fotos: string[];
