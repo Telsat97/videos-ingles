@@ -1,0 +1,488 @@
+{
+ "slug": "d007-ed-pronunciation",
+ "episodio": 207,
+ "titulo": "ED pronunciation",
+ "formato": "dica",
+ "cenario": [],
+ "duracao": 33.916,
+ "audio": "015. ingles-d007-ed-pronunciation/audio/narracao.wav",
+ "fotos": [
+  "015. ingles-d007-ed-pronunciation/prints/foto1.webp",
+  "015. ingles-d007-ed-pronunciation/prints/foto2.webp",
+  "015. ingles-d007-ed-pronunciation/prints/foto3.webp",
+  "015. ingles-d007-ed-pronunciation/prints/foto4.webp",
+  "015. ingles-d007-ed-pronunciation/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "tela",
+   "visual": "erro",
+   "grande": "work-ed",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "One syllable, not two. Here's the secret.",
+     "mostra": "grande",
+     "inicio": 0.1,
+     "palavras": [
+      {
+       "w": "One",
+       "s": 0.204,
+       "e": 0.386
+      },
+      {
+       "w": "syllable",
+       "s": 0.399,
+       "e": 0.803
+      },
+      {
+       "w": "not",
+       "s": 0.816,
+       "e": 1.09
+      },
+      {
+       "w": "two",
+       "s": 1.103,
+       "e": 1.532
+      },
+      {
+       "w": "Here's",
+       "s": 1.975,
+       "e": 2.209
+      },
+      {
+       "w": "the",
+       "s": 2.209,
+       "e": 2.301
+      },
+      {
+       "w": "secret",
+       "s": 2.301,
+       "e": 2.834
+      }
+     ],
+     "fim": 3.44
+    }
+   ],
+   "inicio": 0.1,
+   "fim": 3.59
+  },
+  {
+   "tipo": "tela",
+   "visual": "regra",
+   "grande": "worked → T\nplayed → D\nwanted → ID",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "E D has three sounds. After sounds like K, P, S, or S H, it sounds like T.",
+     "mostra": "grande",
+     "inicio": 3.59,
+     "palavras": [
+      {
+       "w": "E",
+       "s": 3.681,
+       "e": 3.746
+      },
+      {
+       "w": "D",
+       "s": 3.759,
+       "e": 3.942
+      },
+      {
+       "w": "has",
+       "s": 3.942,
+       "e": 4.202
+      },
+      {
+       "w": "three",
+       "s": 4.215,
+       "e": 4.671
+      },
+      {
+       "w": "sounds",
+       "s": 4.671,
+       "e": 5.335
+      },
+      {
+       "w": "After",
+       "s": 5.751,
+       "e": 5.986
+      },
+      {
+       "w": "sounds",
+       "s": 5.999,
+       "e": 6.324
+      },
+      {
+       "w": "like",
+       "s": 6.337,
+       "e": 6.494
+      },
+      {
+       "w": "K",
+       "s": 6.494,
+       "e": 6.91
+      },
+      {
+       "w": "P",
+       "s": 7.158,
+       "e": 7.561
+      },
+      {
+       "w": "S",
+       "s": 8.082,
+       "e": 8.668
+      },
+      {
+       "w": "or",
+       "s": 8.837,
+       "e": 9.085
+      },
+      {
+       "w": "S",
+       "s": 9.28,
+       "e": 9.541
+      },
+      {
+       "w": "H",
+       "s": 9.541,
+       "e": 9.905
+      },
+      {
+       "w": "it",
+       "s": 10.152,
+       "e": 10.205
+      },
+      {
+       "w": "sounds",
+       "s": 10.205,
+       "e": 10.452
+      },
+      {
+       "w": "like",
+       "s": 10.465,
+       "e": 10.608
+      },
+      {
+       "w": "T",
+       "s": 10.621,
+       "e": 10.973
+      }
+     ],
+     "fim": 11.562
+    },
+    {
+     "voz": "narr",
+     "texto": "After most other sounds, it sounds like D. After T or D, you add a syllable: I D.",
+     "mostra": "pequeno",
+     "inicio": 11.562,
+     "palavras": [
+      {
+       "w": "After",
+       "s": 11.666,
+       "e": 11.874
+      },
+      {
+       "w": "most",
+       "s": 11.874,
+       "e": 12.148
+      },
+      {
+       "w": "other",
+       "s": 12.161,
+       "e": 12.343
+      },
+      {
+       "w": "sounds",
+       "s": 12.343,
+       "e": 12.916
+      },
+      {
+       "w": "it",
+       "s": 13.124,
+       "e": 13.19
+      },
+      {
+       "w": "sounds",
+       "s": 13.19,
+       "e": 13.398
+      },
+      {
+       "w": "like",
+       "s": 13.411,
+       "e": 13.593
+      },
+      {
+       "w": "D",
+       "s": 13.606,
+       "e": 14.023
+      },
+      {
+       "w": "After",
+       "s": 14.453,
+       "e": 14.713
+      },
+      {
+       "w": "T",
+       "s": 14.713,
+       "e": 14.973
+      },
+      {
+       "w": "or",
+       "s": 14.973,
+       "e": 15.117
+      },
+      {
+       "w": "D",
+       "s": 15.13,
+       "e": 15.507
+      },
+      {
+       "w": "you",
+       "s": 15.937,
+       "e": 16.08
+      },
+      {
+       "w": "add",
+       "s": 16.093,
+       "e": 16.21
+      },
+      {
+       "w": "a",
+       "s": 16.21,
+       "e": 16.25
+      },
+      {
+       "w": "syllable",
+       "s": 16.263,
+       "e": 16.796
+      },
+      {
+       "w": "I",
+       "s": 17.226,
+       "e": 17.317
+      },
+      {
+       "w": "D",
+       "s": 17.317,
+       "e": 17.721
+      }
+     ],
+     "fim": 18.334
+    }
+   ],
+   "pequeno": "extra syllable only after T or D",
+   "inicio": 3.59,
+   "fim": 18.484
+  },
+  {
+   "tipo": "tela",
+   "visual": "certo",
+   "grande": "I worked late\nyesterday.",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "So say it like this:",
+     "inicio": 18.484,
+     "palavras": [
+      {
+       "w": "So",
+       "s": 18.588,
+       "e": 18.705
+      },
+      {
+       "w": "say",
+       "s": 18.718,
+       "e": 18.875
+      },
+      {
+       "w": "it",
+       "s": 18.875,
+       "e": 18.94
+      },
+      {
+       "w": "like",
+       "s": 18.94,
+       "e": 19.161
+      },
+      {
+       "w": "this",
+       "s": 19.174,
+       "e": 19.656
+      }
+     ],
+     "fim": 20.264
+    },
+    {
+     "voz": "en",
+     "texto": "I worked late yesterday.",
+     "mostra": "grande",
+     "inicio": 20.264,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 20.364,
+       "e": 20.595
+      },
+      {
+       "w": "worked",
+       "s": 20.609,
+       "e": 20.975
+      },
+      {
+       "w": "late",
+       "s": 20.989,
+       "e": 21.193
+      },
+      {
+       "w": "yesterday",
+       "s": 21.206,
+       "e": 21.859
+      }
+     ],
+     "fim": 22.476
+    }
+   ],
+   "pequeno": "worked = one syllable",
+   "inicio": 18.484,
+   "fim": 22.626
+  },
+  {
+   "tipo": "tela",
+   "visual": "vez",
+   "grande": "Your turn!",
+   "falas": [
+    {
+     "voz": "en",
+     "texto": "I worked late yesterday.",
+     "mostra": "grande",
+     "inicio": 22.626,
+     "palavras": [
+      {
+       "w": "I",
+       "s": 22.726,
+       "e": 22.957
+      },
+      {
+       "w": "worked",
+       "s": 22.971,
+       "e": 23.337
+      },
+      {
+       "w": "late",
+       "s": 23.351,
+       "e": 23.555
+      },
+      {
+       "w": "yesterday",
+       "s": 23.568,
+       "e": 24.221
+      }
+     ],
+     "fim": 24.838
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "suavez",
+     "inicio": 24.838,
+     "fim": 27.438
+    }
+   ],
+   "inicio": 22.626,
+   "fim": 27.588
+  },
+  {
+   "tipo": "tela",
+   "visual": "quiz",
+   "grande": "Extra syllable?",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Which word has an extra syllable at the end? Comment A or B!",
+     "mostra": "grande",
+     "inicio": 27.588,
+     "palavras": [
+      {
+       "w": "Which",
+       "s": 27.692,
+       "e": 27.822
+      },
+      {
+       "w": "word",
+       "s": 27.835,
+       "e": 28.057
+      },
+      {
+       "w": "has",
+       "s": 28.07,
+       "e": 28.252
+      },
+      {
+       "w": "an",
+       "s": 28.252,
+       "e": 28.369
+      },
+      {
+       "w": "extra",
+       "s": 28.512,
+       "e": 28.903
+      },
+      {
+       "w": "syllable",
+       "s": 28.903,
+       "e": 29.437
+      },
+      {
+       "w": "at",
+       "s": 29.437,
+       "e": 29.515
+      },
+      {
+       "w": "the",
+       "s": 29.515,
+       "e": 29.606
+      },
+      {
+       "w": "end",
+       "s": 29.619,
+       "e": 30.023
+      },
+      {
+       "w": "Comment",
+       "s": 30.453,
+       "e": 30.739
+      },
+      {
+       "w": "A",
+       "s": 30.869,
+       "e": 31.169
+      },
+      {
+       "w": "or",
+       "s": 31.286,
+       "e": 31.468
+      },
+      {
+       "w": "B",
+       "s": 31.481,
+       "e": 31.82
+      }
+     ],
+     "fim": 32.416
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "opcoes",
+     "inicio": 32.416,
+     "fim": 33.616
+    }
+   ],
+   "opcoes": [
+    "needed",
+    "cleaned"
+   ],
+   "inicio": 27.588,
+   "fim": 33.916
+  }
+ ]
+}

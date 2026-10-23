@@ -4,7 +4,7 @@
   "formato": "dica",
   "titulo": "TH sound",
   "post": {
-    "titulo": "TH sound: stop saying “tank you”",
+    "titulo": "TH sound: the tongue trick for “thank you”",
     "descricao": "TH sound: put the tip of your tongue between your teeth and blow air softly: thank you.\n❌ “tank you” ✅ “thank you”",
     "hashtags": [
       "#englishpronunciation",
@@ -110,11 +110,11 @@
     {
       "tipo": "tela",
       "visual": "quiz",
-      "grande": "For TH, your tongue…",
+      "grande": "Tongue between\nyour teeth?",
       "falas": [
         {
           "voz": "narr",
-          "texto": "Quick question: where does your tongue go? Comment A or B!",
+          "texto": "Which word needs your tongue between your teeth? Comment A or B!",
           "mostra": "grande"
         },
         {
@@ -123,8 +123,8 @@
         }
       ],
       "opcoes": [
-        "goes between your teeth.",
-        "stays behind your teeth."
+        "tree",
+        "three"
       ]
     }
   ]

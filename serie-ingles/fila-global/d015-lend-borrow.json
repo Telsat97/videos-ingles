@@ -4,7 +4,7 @@
   "formato": "dica",
   "titulo": "Lend vs Borrow",
   "post": {
-    "titulo": "Lend vs Borrow: never say “borrow me”",
+    "titulo": "Lend vs Borrow: which one do you need?",
     "descricao": "Lend vs Borrow: lend means you give something for a while, borrow means you take it: Can you lend me your pen?\n❌ Can you borrow me your pen? ✅ Can you lend me your pen?",
     "hashtags": [
       "#englishvocabulary",
@@ -43,7 +43,7 @@
       "falas": [
         {
           "voz": "narr",
-          "texto": "Lend means you give something for a short time.",
+          "texto": "Lend means you give something for a while.",
           "mostra": "grande"
         },
         {

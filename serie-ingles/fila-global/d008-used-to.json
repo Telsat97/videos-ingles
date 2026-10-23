@@ -5,7 +5,7 @@
   "titulo": "Used to vs Would",
   "post": {
     "titulo": "Used to vs Would: when “would” is wrong",
-    "descricao": "Used to vs Would: for past states like live, have or like, use “used to”: I used to live in Paris.\n❌ I would live in Paris. ✅ I used to live in Paris.",
+    "descricao": "Used to vs Would: for past states like live, have or like, use “used to”: I used to live in Paris.\n❌ As a kid, I would live in Paris. ✅ I used to live in Paris.",
     "hashtags": [
       "#englishgrammar",
       "#learnenglish",
@@ -27,7 +27,7 @@
     {
       "tipo": "tela",
       "visual": "erro",
-      "grande": "I would live\nin Paris.",
+      "grande": "As a kid, I would\nlive in Paris.",
       "falas": [
         {
           "voz": "narr",

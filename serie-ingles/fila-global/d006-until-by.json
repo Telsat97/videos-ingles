@@ -61,7 +61,7 @@
     {
       "tipo": "tela",
       "visual": "regra",
-      "grande": "BY = a deadline\nUNTIL = nonstop\nup to then",
+      "grande": "BY = a deadline\nUNTIL = all the time\nup to then",
       "falas": [
         {
           "voz": "narr",
