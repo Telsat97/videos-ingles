@@ -65,7 +65,7 @@
         "en": "I miss you so much.",
         "pt": "Eu sinto tanta saudade de você."
       },
-      "pronuncia": "ai mis iú",
+      "pronuncia": "ai MÍS iú",
       "falas": [
         {
           "voz": "pt",
@@ -112,13 +112,13 @@
       "tipo": "erro",
       "numero": 2,
       "errado": "So much makes",
-      "dica": "Tanto faz = it doesn't matter (ou: I don't mind) 🤷",
-      "certo": "It doesn't matter",
+      "dica": "Tanto faz = I don't mind (ou: either is fine) 🤷",
+      "certo": "I don't mind.",
       "exemplo": {
-        "en": "Pizza or pasta? I don't mind.",
+        "en": "Pizza or pasta? Either is fine.",
         "pt": "Pizza ou macarrão? Tanto faz."
       },
-      "pronuncia": "it dâzent méra",
+      "pronuncia": "ai DÔUNT MÁIND",
       "falas": [
         {
           "voz": "pt",
@@ -128,7 +128,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Isso não quer dizer nada! Diga que não importa. Só o whatever, sozinho, pode soar grosseiro.",
+          "texto": "Isso não quer dizer nada! O americano diz que não se importa. Só o whatever, sozinho, pode soar grosseiro.",
           "mostra": "dica"
         },
         {
@@ -137,7 +137,7 @@
         },
         {
           "voz": "en",
-          "texto": "It doesn't matter.",
+          "texto": "I don't mind.",
           "mostra": "certo"
         },
         {
@@ -146,7 +146,7 @@
         },
         {
           "voz": "en",
-          "texto": "Pizza or pasta? I don't mind.",
+          "texto": "Pizza or pasta? Either is fine.",
           "mostra": "exemplo"
         },
         {
@@ -168,10 +168,10 @@
       "dica": "Fique à vontade = faça de conta que é a sua casa 🏠",
       "certo": "Make yourself at home",
       "exemplo": {
-        "en": "Please, make yourself comfortable.",
+        "en": "Please make yourself comfortable.",
         "pt": "Fique à vontade, por favor."
       },
-      "pronuncia": "mêik iorsélf ét rôum",
+      "pronuncia": "mêik iâr-SÉLF ât RÔUM",
       "falas": [
         {
           "voz": "pt",
@@ -199,7 +199,7 @@
         },
         {
           "voz": "en",
-          "texto": "Please, make yourself comfortable.",
+          "texto": "Please make yourself comfortable.",
           "mostra": "exemplo"
         },
         {
@@ -224,7 +224,7 @@
         "en": "Dinner is ready. Enjoy!",
         "pt": "O jantar está pronto. Bom apetite!"
       },
-      "pronuncia": "êndjói ior míl",
+      "pronuncia": "in-DJÓI iór MÍL",
       "falas": [
         {
           "voz": "pt",
@@ -234,7 +234,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Dá pra entender, mas ninguém fala assim. O americano deseja que você aproveite.",
+          "texto": "Dá pra entender, mas em inglês quase não se usa. O americano deseja que você aproveite.",
           "mostra": "dica"
         },
         {
@@ -271,13 +271,13 @@
       "tipo": "erro",
       "numero": 5,
       "errado": "I have laziness",
-      "dica": "Preguiça em inglês é jeito de se sentir: feel lazy 😴",
+      "dica": "Tô com preguiça = I feel lazy · I'm lazy = sou preguiçoso 😴",
       "certo": "I feel lazy",
       "exemplo": {
         "en": "I feel lazy today.",
         "pt": "Hoje eu estou com preguiça."
       },
-      "pronuncia": "ai fíl lêizi",
+      "pronuncia": "ai FÍL LÊI-zi",
       "falas": [
         {
           "voz": "pt",

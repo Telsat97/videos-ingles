@@ -1,0 +1,518 @@
+{
+ "slug": "d002-bored-boring",
+ "episodio": 202,
+ "titulo": "Bored or boring",
+ "formato": "dica",
+ "cenario": [],
+ "duracao": 36.45,
+ "audio": "013. ingles-d002-bored-boring/audio/narracao.wav",
+ "fotos": [
+  "013. ingles-d002-bored-boring/prints/foto1.webp",
+  "013. ingles-d002-bored-boring/prints/foto2.webp",
+  "013. ingles-d002-bored-boring/prints/foto3.webp",
+  "013. ingles-d002-bored-boring/prints/foto4.webp",
+  "013. ingles-d002-bored-boring/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "tela",
+   "visual": "erro",
+   "grande": "I'm boring",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Careful! This sentence says that you are not interesting.",
+     "mostra": "grande",
+     "inicio": 0.1,
+     "palavras": [
+      {
+       "w": "Careful",
+       "s": 0.204,
+       "e": 0.673
+      },
+      {
+       "w": "This",
+       "s": 1.103,
+       "e": 1.246
+      },
+      {
+       "w": "sentence",
+       "s": 1.246,
+       "e": 1.702
+      },
+      {
+       "w": "says",
+       "s": 1.936,
+       "e": 2.17
+      },
+      {
+       "w": "that",
+       "s": 2.183,
+       "e": 2.301
+      },
+      {
+       "w": "you",
+       "s": 2.314,
+       "e": 2.418
+      },
+      {
+       "w": "are",
+       "s": 2.418,
+       "e": 2.496
+      },
+      {
+       "w": "not",
+       "s": 2.496,
+       "e": 2.821
+      },
+      {
+       "w": "interesting",
+       "s": 2.834,
+       "e": 3.407
+      }
+     ],
+     "fim": 4.016
+    }
+   ],
+   "inicio": 0.1,
+   "fim": 4.166
+  },
+  {
+   "tipo": "tela",
+   "visual": "certo",
+   "grande": "I'm bored.",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "When you have nothing to do, say:",
+     "inicio": 4.166,
+     "palavras": [
+      {
+       "w": "When",
+       "s": 4.27,
+       "e": 4.335
+      },
+      {
+       "w": "you",
+       "s": 4.335,
+       "e": 4.413
+      },
+      {
+       "w": "have",
+       "s": 4.413,
+       "e": 4.635
+      },
+      {
+       "w": "nothing",
+       "s": 4.635,
+       "e": 5.038
+      },
+      {
+       "w": "to",
+       "s": 5.038,
+       "e": 5.103
+      },
+      {
+       "w": "do",
+       "s": 5.104,
+       "e": 5.442
+      },
+      {
+       "w": "say",
+       "s": 5.872,
+       "e": 6.301
+      }
+     ],
+     "fim": 6.882
+    },
+    {
+     "voz": "en",
+     "texto": "I'm bored.",
+     "mostra": "grande",
+     "inicio": 6.882,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 6.982,
+       "e": 7.295
+      },
+      {
+       "w": "bored",
+       "s": 7.308,
+       "e": 7.784
+      }
+     ],
+     "fim": 8.422
+    },
+    {
+     "voz": "narr",
+     "texto": "It means you have nothing fun to do.",
+     "mostra": "pequeno",
+     "inicio": 8.422,
+     "palavras": [
+      {
+       "w": "It",
+       "s": 8.526,
+       "e": 8.604
+      },
+      {
+       "w": "means",
+       "s": 8.617,
+       "e": 8.839
+      },
+      {
+       "w": "you",
+       "s": 8.839,
+       "e": 8.917
+      },
+      {
+       "w": "have",
+       "s": 8.93,
+       "e": 9.112
+      },
+      {
+       "w": "nothing",
+       "s": 9.112,
+       "e": 9.477
+      },
+      {
+       "w": "fun",
+       "s": 9.477,
+       "e": 9.75
+      },
+      {
+       "w": "to",
+       "s": 9.75,
+       "e": 9.815
+      },
+      {
+       "w": "do",
+       "s": 9.815,
+       "e": 10.18
+      }
+     ],
+     "fim": 10.778
+    }
+   ],
+   "pequeno": "= I have nothing to do",
+   "inicio": 4.166,
+   "fim": 10.928
+  },
+  {
+   "tipo": "tela",
+   "visual": "regra",
+   "grande": "-ED = how you feel\n-ING = the thing",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Easy rule. Words ending in E D describe how you feel. Words ending in I N G describe the thing.",
+     "mostra": "grande",
+     "inicio": 10.928,
+     "palavras": [
+      {
+       "w": "Easy",
+       "s": 11.019,
+       "e": 11.28
+      },
+      {
+       "w": "rule",
+       "s": 11.293,
+       "e": 11.683
+      },
+      {
+       "w": "Words",
+       "s": 12.1,
+       "e": 12.543
+      },
+      {
+       "w": "ending",
+       "s": 12.686,
+       "e": 13.102
+      },
+      {
+       "w": "in",
+       "s": 13.168,
+       "e": 13.337
+      },
+      {
+       "w": "E",
+       "s": 13.467,
+       "e": 13.662
+      },
+      {
+       "w": "D",
+       "s": 13.741,
+       "e": 14.144
+      },
+      {
+       "w": "describe",
+       "s": 14.196,
+       "e": 14.782
+      },
+      {
+       "w": "how",
+       "s": 14.782,
+       "e": 14.925
+      },
+      {
+       "w": "you",
+       "s": 14.925,
+       "e": 15.082
+      },
+      {
+       "w": "feel",
+       "s": 15.095,
+       "e": 15.615
+      },
+      {
+       "w": "Words",
+       "s": 15.993,
+       "e": 16.553
+      },
+      {
+       "w": "ending",
+       "s": 16.709,
+       "e": 17.048
+      },
+      {
+       "w": "in",
+       "s": 17.061,
+       "e": 17.165
+      },
+      {
+       "w": "I",
+       "s": 17.165,
+       "e": 17.438
+      },
+      {
+       "w": "N",
+       "s": 17.53,
+       "e": 17.842
+      },
+      {
+       "w": "G",
+       "s": 17.998,
+       "e": 18.337
+      },
+      {
+       "w": "describe",
+       "s": 18.337,
+       "e": 18.819
+      },
+      {
+       "w": "the",
+       "s": 18.819,
+       "e": 18.884
+      },
+      {
+       "w": "thing",
+       "s": 18.897,
+       "e": 19.274
+      }
+     ],
+     "fim": 19.884
+    }
+   ],
+   "inicio": 10.928,
+   "fim": 20.034
+  },
+  {
+   "tipo": "tela",
+   "visual": "bonus",
+   "grande": "The movie is boring.\nI'm bored.",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Listen to both together:",
+     "inicio": 20.034,
+     "palavras": [
+      {
+       "w": "Listen",
+       "s": 20.112,
+       "e": 20.36
+      },
+      {
+       "w": "to",
+       "s": 20.373,
+       "e": 20.464
+      },
+      {
+       "w": "both",
+       "s": 20.477,
+       "e": 20.88
+      },
+      {
+       "w": "together",
+       "s": 20.88,
+       "e": 21.531
+      }
+     ],
+     "fim": 22.126
+    },
+    {
+     "voz": "en",
+     "texto": "The movie is boring. I'm bored.",
+     "mostra": "grande",
+     "inicio": 22.126,
+     "palavras": [
+      {
+       "w": "The",
+       "s": 22.226,
+       "e": 22.403
+      },
+      {
+       "w": "movie",
+       "s": 22.416,
+       "e": 22.81
+      },
+      {
+       "w": "is",
+       "s": 22.824,
+       "e": 23.028
+      },
+      {
+       "w": "boring",
+       "s": 23.041,
+       "e": 23.612
+      },
+      {
+       "w": "I'm",
+       "s": 24.01,
+       "e": 24.323
+      },
+      {
+       "w": "bored",
+       "s": 24.336,
+       "e": 24.812
+      }
+     ],
+     "fim": 25.442
+    }
+   ],
+   "inicio": 20.034,
+   "fim": 25.592
+  },
+  {
+   "tipo": "tela",
+   "visual": "vez",
+   "grande": "Your turn!",
+   "falas": [
+    {
+     "voz": "en",
+     "texto": "I'm so bored today.",
+     "mostra": "grande",
+     "inicio": 25.592,
+     "palavras": [
+      {
+       "w": "I'm",
+       "s": 25.692,
+       "e": 25.977
+      },
+      {
+       "w": "so",
+       "s": 25.991,
+       "e": 26.521
+      },
+      {
+       "w": "bored",
+       "s": 26.534,
+       "e": 26.82
+      },
+      {
+       "w": "today",
+       "s": 26.833,
+       "e": 27.254
+      }
+     ],
+     "fim": 27.876
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "suavez",
+     "inicio": 27.876,
+     "fim": 30.476
+    }
+   ],
+   "inicio": 25.592,
+   "fim": 30.626
+  },
+  {
+   "tipo": "tela",
+   "visual": "quiz",
+   "grande": "The class was…",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Now you. Which word is right? Comment A or B!",
+     "mostra": "grande",
+     "inicio": 30.626,
+     "palavras": [
+      {
+       "w": "Now",
+       "s": 30.73,
+       "e": 30.952
+      },
+      {
+       "w": "you",
+       "s": 30.952,
+       "e": 31.238
+      },
+      {
+       "w": "Which",
+       "s": 31.668,
+       "e": 31.785
+      },
+      {
+       "w": "word",
+       "s": 31.785,
+       "e": 31.967
+      },
+      {
+       "w": "is",
+       "s": 31.967,
+       "e": 32.084
+      },
+      {
+       "w": "right",
+       "s": 32.084,
+       "e": 32.449
+      },
+      {
+       "w": "Comment",
+       "s": 32.853,
+       "e": 33.152
+      },
+      {
+       "w": "A",
+       "s": 33.295,
+       "e": 33.647
+      },
+      {
+       "w": "or",
+       "s": 33.777,
+       "e": 33.998
+      },
+      {
+       "w": "B",
+       "s": 33.998,
+       "e": 34.35
+      }
+     ],
+     "fim": 34.95
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "opcoes",
+     "inicio": 34.95,
+     "fim": 36.15
+    }
+   ],
+   "opcoes": [
+    "interested",
+    "interesting"
+   ],
+   "inicio": 30.626,
+   "fim": 36.45
+  }
+ ]
+}

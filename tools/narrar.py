@@ -29,10 +29,18 @@ GAP_FALA = 0.22
 GAP_CENA = 0.45
 FINAL = 1.2
 REGISTRO = RAIZ / "serie-ingles" / "ensinado.json"
+# Tamanhos da série (ver serie-ingles/ESTRATEGIA.md): palavras (mín, máx, alvo) e duração máxima em segundos.
+FORMATOS = {
+    "short": {"palavras": (45, 130, "70-110 para dar 30-55 s"), "limite": 58.0},  # YouTube Shorts: 1 ideia
+    "episodio": {"palavras": (250, 400, "320-380 para dar 2:30-2:59"), "limite": 178.5},  # TikTok e Facebook
+    "longo": {"palavras": (900, 12000, "1.400+ para passar de 10 min"), "limite": None},  # YouTube, horizontal
+    # Versão global (narrada em inglês simples): uma ideia por tela, cortes secos (ver serie-ingles/PLANO-DO-TIME.md)
+    "dica": {"palavras": (40, 120, "60-100 para dar 25-45 s"), "limite": 58.0},
+}
 
 
 TWEMOJI = "https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/{}.svg"
-EMOJIS_FIXOS = ["🎤", "🎉", "🔔", "📚", "✏️", "💬", "⭐"]  # usados pelo modelo visual (src/videos/ingles)
+EMOJIS_FIXOS = ["🎤", "🎉", "🔔", "📚", "✏️", "💬", "⭐", "❌", "✅", "💡", "🎁", "🤔"]  # usados pelo modelo visual (src/videos/ingles)
 
 
 def codigo_twemoji(e: str) -> str:
@@ -80,6 +88,8 @@ def chaves_ensinadas(roteiro: dict) -> list[str]:
     for c in roteiro["cenas"]:
         if c["tipo"] == "erro":
             out += [c["certo"], c["exemplo"]["en"]]
+        if c["tipo"] == "tela" and c.get("visual") == "certo":
+            out.append(c["grande"])
     return [normalizar(x) for x in out]
 
 
@@ -101,6 +111,8 @@ def registrar(roteiro: dict) -> None:
     for c in roteiro["cenas"]:
         if c["tipo"] == "erro":
             ensina += [c["certo"], c["exemplo"]["en"]]
+        if c["tipo"] == "tela" and c.get("visual") == "certo":
+            ensina.append(c["grande"])
     reg["episodios"].append({
         "slug": roteiro["slug"], "episodio": roteiro["episodio"], "titulo": roteiro["titulo"],
         "temas": [f'{c.get("errado") or c.get("dica", "")} -> {c["certo"]}' for c in roteiro["cenas"] if c["tipo"] == "erro"],
@@ -118,18 +130,23 @@ def validar(roteiro: dict) -> list[str]:
         if k not in roteiro:
             erros.append(f"falta '{k}'")
     tipos = [c.get("tipo") for c in roteiro.get("cenas", [])]
-    if tipos[:1] != ["abertura"] or tipos[-1:] != ["final"]:
+    if roteiro.get("formato") == "dica":
+        if any(t != "tela" for t in tipos):
+            erros.append("no formato dica todas as cenas são 'tela'")
+    elif tipos[:1] != ["abertura"] or tipos[-1:] != ["final"]:
         erros.append("a primeira cena deve ser 'abertura' e a última 'final'")
     for i, c in enumerate(roteiro.get("cenas", [])):
-        if c.get("tipo") not in ("abertura", "erro", "quiz", "final"):
+        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela"):
             erros.append(f"cena {i}: tipo inválido {c.get('tipo')}")
         chaves = {f.get("mostra") for f in c.get("falas", [])}
         exige = {"abertura": {"titulo"}, "erro": {"certo", "exemplo", "suavez"}, "quiz": {"pergunta", "opcoes", "contagem", "resposta"},
                  "final": {"chamada"}}.get(c.get("tipo"), set())
         if c.get("tipo") == "erro":
-            for campo in ("numero", "certo", "exemplo"):
+            for campo in ("certo", "exemplo"):
                 if campo not in c:
                     erros.append(f"cena {i}: falta '{campo}'")
+            if "numero" not in c and "manchete" not in c:
+                erros.append(f"cena {i}: falta 'numero' (ou 'manchete', nos shorts)")
             if c.get("errado"):
                 exige |= {"errado"}
             if c.get("dica"):
@@ -139,15 +156,32 @@ def validar(roteiro: dict) -> list[str]:
         if exige - chaves:
             erros.append(f"cena {i} ({c.get('tipo')}): falta fala com mostra={sorted(exige - chaves)}")
         for f in c.get("falas", []):
-            if "pausa" not in f and (f.get("voz") not in ("pt", "en") or not f.get("texto")):
+            if "pausa" not in f and (f.get("voz") not in roteiro.get("vozes", {}) or not f.get("texto")):
                 erros.append(f"cena {i}: fala sem voz/texto: {f}")
+    formato = roteiro.get("formato", "episodio")
+    if formato not in FORMATOS:
+        erros.append(f"formato inválido {formato!r}: use {sorted(FORMATOS)}")
+        return erros
     palavras = sum(len(f.get("texto", "").split()) for c in roteiro.get("cenas", []) for f in c.get("falas", []))
-    if not 250 <= palavras <= 400:  # a duração real é conferida depois da narração
-        erros.append(f"{palavras} palavras faladas: mire em 320-380 para dar 2:30-2:59")
+    minimo, maximo, alvo = FORMATOS[formato]["palavras"]
+    if not minimo <= palavras <= maximo:  # a duração real é conferida depois da narração
+        erros.append(f"{palavras} palavras faladas: num {formato} mire em {alvo}")
     return erros
 
 
 async def sintetizar(texto: str, voz: str, rate: str, destino: Path) -> list[dict]:
+    # O serviço de voz às vezes não devolve áudio (falha intermitente): tenta de novo antes de desistir.
+    for tentativa in range(4):
+        try:
+            return await _sintetizar(texto, voz, rate, destino)
+        except edge_tts.exceptions.NoAudioReceived:
+            if tentativa == 3:
+                raise
+            await asyncio.sleep(2 * (tentativa + 1))
+    raise AssertionError("inalcançável")
+
+
+async def _sintetizar(texto: str, voz: str, rate: str, destino: Path) -> list[dict]:
     com = edge_tts.Communicate(texto, voz, rate=rate, boundary="WordBoundary")
     palavras = []
     with open(destino, "wb") as f:
@@ -175,7 +209,8 @@ async def main(proj: Path, gravar_registro: bool) -> None:
     tmp = proj / "audio" / "_falas"
     tmp.mkdir(parents=True, exist_ok=True)
 
-    t = 0.35
+    dica = roteiro.get("formato") == "dica"
+    t = 0.1 if dica else 0.35  # na dica a fala começa colada no primeiro quadro
     pedacos: list[tuple[float, np.ndarray]] = []
     n = 0
     for ci, cena in enumerate(roteiro["cenas"]):
@@ -195,7 +230,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
                 t += dur + GAP_FALA
             fala["fim"] = round(t, 3)
             n += 1
-        t += GAP_CENA if ci < len(roteiro["cenas"]) - 1 else FINAL
+        t += (0.15 if dica else GAP_CENA) if ci < len(roteiro["cenas"]) - 1 else (0.3 if dica else FINAL)
         cena["fim"] = round(t, 3)
 
     total = np.zeros(int(t * SR) + SR, dtype=np.float32)
@@ -218,6 +253,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
     nome = proj.name
     ep = {
         **{k: roteiro[k] for k in ("slug", "episodio", "titulo")},
+        "formato": roteiro.get("formato", "episodio"),
         "cenario": roteiro.get("cenario", []),
         "duracao": round(t, 3),
         "audio": f"{nome}/audio/narracao.wav",
@@ -238,8 +274,9 @@ async def main(proj: Path, gravar_registro: bool) -> None:
     (RAIZ / "src" / "videos" / "ingles" / "episodios.gen.ts").write_text("\n".join(linhas) + "\n", encoding="utf-8")
 
     print(f"ok: {wav.relative_to(RAIZ)}  duração {t:.1f}s  ({int(t // 60)}:{int(t % 60):02d})")
-    if t > 179:
-        print("ATENÇÃO: passou de 2:59, o YouTube não classifica como Short. Encurte o roteiro.")
+    limite = FORMATOS[roteiro.get("formato", "episodio")]["limite"]
+    if limite and t > limite:
+        print(f"ATENÇÃO: passou de {limite:.0f}s, o limite deste formato. Encurte o roteiro.")
     if gravar_registro:
         registrar(roteiro)
 

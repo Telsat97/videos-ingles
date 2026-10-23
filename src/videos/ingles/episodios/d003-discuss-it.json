@@ -1,0 +1,338 @@
+{
+ "slug": "d003-discuss-it",
+ "episodio": 203,
+ "titulo": "Discuss it",
+ "formato": "dica",
+ "cenario": [],
+ "duracao": 25.104,
+ "audio": "014. ingles-d003-discuss-it/audio/narracao.wav",
+ "fotos": [
+  "014. ingles-d003-discuss-it/prints/foto1.webp",
+  "014. ingles-d003-discuss-it/prints/foto2.webp",
+  "014. ingles-d003-discuss-it/prints/foto3.webp",
+  "014. ingles-d003-discuss-it/prints/foto4.webp",
+  "014. ingles-d003-discuss-it/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "tela",
+   "visual": "erro",
+   "grande": "Let's discuss\nabout it",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Almost every English learner adds one extra word here.",
+     "mostra": "grande",
+     "inicio": 0.1,
+     "palavras": [
+      {
+       "w": "Almost",
+       "s": 0.204,
+       "e": 0.582
+      },
+      {
+       "w": "every",
+       "s": 0.777,
+       "e": 1.103
+      },
+      {
+       "w": "English",
+       "s": 1.103,
+       "e": 1.415
+      },
+      {
+       "w": "learner",
+       "s": 1.415,
+       "e": 1.793
+      },
+      {
+       "w": "adds",
+       "s": 1.91,
+       "e": 2.314
+      },
+      {
+       "w": "one",
+       "s": 2.431,
+       "e": 2.86
+      },
+      {
+       "w": "extra",
+       "s": 3.004,
+       "e": 3.394
+      },
+      {
+       "w": "word",
+       "s": 3.394,
+       "e": 3.616
+      },
+      {
+       "w": "here",
+       "s": 3.616,
+       "e": 4.006
+      }
+     ],
+     "fim": 4.592
+    }
+   ],
+   "inicio": 0.1,
+   "fim": 4.742
+  },
+  {
+   "tipo": "tela",
+   "visual": "certo",
+   "grande": "Let's discuss it.",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Native speakers say:",
+     "inicio": 4.742,
+     "palavras": [
+      {
+       "w": "Native",
+       "s": 4.833,
+       "e": 5.081
+      },
+      {
+       "w": "speakers",
+       "s": 5.094,
+       "e": 5.575
+      },
+      {
+       "w": "say",
+       "s": 5.575,
+       "e": 6.018
+      }
+     ],
+     "fim": 6.834
+    },
+    {
+     "voz": "en",
+     "texto": "Let's discuss it.",
+     "mostra": "grande",
+     "inicio": 6.834,
+     "palavras": [
+      {
+       "w": "Let's",
+       "s": 6.934,
+       "e": 7.219
+      },
+      {
+       "w": "discuss",
+       "s": 7.233,
+       "e": 7.708
+      },
+      {
+       "w": "it",
+       "s": 7.722,
+       "e": 7.994
+      }
+     ],
+     "fim": 8.926
+    }
+   ],
+   "pequeno": "discuss = talk about",
+   "inicio": 4.742,
+   "fim": 9.076
+  },
+  {
+   "tipo": "tela",
+   "visual": "regra",
+   "grande": "discuss ✗ about\ntalk ✓ about",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Discuss already means talk about. So after discuss, no about.",
+     "mostra": "grande",
+     "inicio": 9.076,
+     "palavras": [
+      {
+       "w": "Discuss",
+       "s": 9.18,
+       "e": 9.558
+      },
+      {
+       "w": "already",
+       "s": 9.558,
+       "e": 9.779
+      },
+      {
+       "w": "means",
+       "s": 9.779,
+       "e": 10.001
+      },
+      {
+       "w": "talk",
+       "s": 10.014,
+       "e": 10.287
+      },
+      {
+       "w": "about",
+       "s": 10.287,
+       "e": 10.678
+      },
+      {
+       "w": "So",
+       "s": 11.107,
+       "e": 11.264
+      },
+      {
+       "w": "after",
+       "s": 11.264,
+       "e": 11.485
+      },
+      {
+       "w": "discuss",
+       "s": 11.485,
+       "e": 12.045
+      },
+      {
+       "w": "no",
+       "s": 12.058,
+       "e": 12.279
+      },
+      {
+       "w": "about",
+       "s": 12.292,
+       "e": 12.696
+      }
+     ],
+     "fim": 13.304
+    }
+   ],
+   "inicio": 9.076,
+   "fim": 13.454
+  },
+  {
+   "tipo": "tela",
+   "visual": "vez",
+   "grande": "Your turn!",
+   "falas": [
+    {
+     "voz": "en",
+     "texto": "Let's discuss the plan.",
+     "mostra": "grande",
+     "inicio": 13.454,
+     "palavras": [
+      {
+       "w": "Let's",
+       "s": 13.554,
+       "e": 13.867
+      },
+      {
+       "w": "discuss",
+       "s": 13.88,
+       "e": 14.328
+      },
+      {
+       "w": "the",
+       "s": 14.342,
+       "e": 14.464
+      },
+      {
+       "w": "plan",
+       "s": 14.478,
+       "e": 15.008
+      }
+     ],
+     "fim": 15.642
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "suavez",
+     "inicio": 15.642,
+     "fim": 18.242
+    }
+   ],
+   "inicio": 13.454,
+   "fim": 18.392
+  },
+  {
+   "tipo": "tela",
+   "visual": "quiz",
+   "grande": "Which sounds natural?",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Which one sounds natural? Tell me in the comments: A or B?",
+     "mostra": "grande",
+     "inicio": 18.392,
+     "palavras": [
+      {
+       "w": "Which",
+       "s": 18.496,
+       "e": 18.626
+      },
+      {
+       "w": "one",
+       "s": 18.626,
+       "e": 18.978
+      },
+      {
+       "w": "sounds",
+       "s": 18.991,
+       "e": 19.369
+      },
+      {
+       "w": "natural",
+       "s": 19.369,
+       "e": 19.915
+      },
+      {
+       "w": "Tell",
+       "s": 20.345,
+       "e": 20.501
+      },
+      {
+       "w": "me",
+       "s": 20.501,
+       "e": 20.619
+      },
+      {
+       "w": "in",
+       "s": 20.619,
+       "e": 20.671
+      },
+      {
+       "w": "the",
+       "s": 20.671,
+       "e": 20.723
+      },
+      {
+       "w": "comments",
+       "s": 20.723,
+       "e": 21.374
+      },
+      {
+       "w": "A",
+       "s": 21.921,
+       "e": 22.246
+      },
+      {
+       "w": "or",
+       "s": 22.428,
+       "e": 22.637
+      },
+      {
+       "w": "B",
+       "s": 22.637,
+       "e": 23.014
+      }
+     ],
+     "fim": 23.604
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "opcoes",
+     "inicio": 23.604,
+     "fim": 24.804
+    }
+   ],
+   "opcoes": [
+    "We discussed about money.",
+    "We discussed money."
+   ],
+   "inicio": 18.392,
+   "fim": 25.104
+  }
+ ]
+}

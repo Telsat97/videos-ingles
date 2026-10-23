@@ -1,0 +1,501 @@
+{
+ "slug": "s001-on-monday",
+ "episodio": 101,
+ "titulo": "IN ou ON antes do dia da semana?",
+ "formato": "short",
+ "cenario": [
+  "📅",
+  "🗓️",
+  "⏰"
+ ],
+ "duracao": 36.118,
+ "audio": "009. ingles-s001-on-monday/audio/narracao.wav",
+ "fotos": [
+  "009. ingles-s001-on-monday/prints/foto1.webp",
+  "009. ingles-s001-on-monday/prints/foto2.webp",
+  "009. ingles-s001-on-monday/prints/foto3.webp",
+  "009. ingles-s001-on-monday/prints/foto4.webp",
+  "009. ingles-s001-on-monday/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "IN ou ON?",
+    "antes do dia",
+    "da semana"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Tem uma palavrinha que quase todo brasileiro erra antes do dia da semana.",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Tem",
+       "s": 0.445,
+       "e": 0.593
+      },
+      {
+       "w": "uma",
+       "s": 0.605,
+       "e": 0.775
+      },
+      {
+       "w": "palavrinha",
+       "s": 0.786,
+       "e": 1.286
+      },
+      {
+       "w": "que",
+       "s": 1.298,
+       "e": 1.423
+      },
+      {
+       "w": "quase",
+       "s": 1.434,
+       "e": 1.764
+      },
+      {
+       "w": "todo",
+       "s": 1.775,
+       "e": 2.002
+      },
+      {
+       "w": "brasileiro",
+       "s": 2.014,
+       "e": 2.548
+      },
+      {
+       "w": "erra",
+       "s": 2.559,
+       "e": 2.798
+      },
+      {
+       "w": "antes",
+       "s": 2.809,
+       "e": 3.116
+      },
+      {
+       "w": "do",
+       "s": 3.127,
+       "e": 3.252
+      },
+      {
+       "w": "dia",
+       "s": 3.264,
+       "e": 3.502
+      },
+      {
+       "w": "da",
+       "s": 3.514,
+       "e": 3.593
+      },
+      {
+       "w": "semana",
+       "s": 3.605,
+       "e": 4.093
+      }
+     ],
+     "fim": 5.106
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 5.556
+  },
+  {
+   "tipo": "erro",
+   "manchete": "IN ou ON?",
+   "rotulo": "DIA DA SEMANA",
+   "errado": "in Monday",
+   "dica": "dia da semana pede ON 📅",
+   "certo": "on Monday",
+   "imagem": "📅",
+   "exemplo": {
+    "en": "See you on Monday!",
+    "pt": "Te vejo na segunda!"
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Pra falar do dia da semana, não escreve assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 5.556,
+     "palavras": [
+      {
+       "w": "Pra",
+       "s": 5.651,
+       "e": 5.799
+      },
+      {
+       "w": "falar",
+       "s": 5.811,
+       "e": 6.151
+      },
+      {
+       "w": "do",
+       "s": 6.163,
+       "e": 6.276
+      },
+      {
+       "w": "dia",
+       "s": 6.288,
+       "e": 6.492
+      },
+      {
+       "w": "da",
+       "s": 6.504,
+       "e": 6.583
+      },
+      {
+       "w": "semana",
+       "s": 6.595,
+       "e": 7.061
+      },
+      {
+       "w": "não",
+       "s": 7.276,
+       "e": 7.526
+      },
+      {
+       "w": "escreve",
+       "s": 7.538,
+       "e": 7.924
+      },
+      {
+       "w": "assim",
+       "s": 7.936,
+       "e": 8.254
+      }
+     ],
+     "fim": 9.256
+    },
+    {
+     "voz": "pt",
+     "texto": "Com dia da semana, a palavra certa é on. Eu lembro assim: o dia fica em cima do calendário.",
+     "mostra": "dica",
+     "inicio": 9.256,
+     "palavras": [
+      {
+       "w": "Com",
+       "s": 9.351,
+       "e": 9.556
+      },
+      {
+       "w": "dia",
+       "s": 9.567,
+       "e": 9.772
+      },
+      {
+       "w": "da",
+       "s": 9.783,
+       "e": 9.863
+      },
+      {
+       "w": "semana",
+       "s": 9.874,
+       "e": 10.363
+      },
+      {
+       "w": "a",
+       "s": 10.499,
+       "e": 10.579
+      },
+      {
+       "w": "palavra",
+       "s": 10.59,
+       "e": 10.988
+      },
+      {
+       "w": "certa",
+       "s": 10.999,
+       "e": 11.374
+      },
+      {
+       "w": "é",
+       "s": 11.386,
+       "e": 11.465
+      },
+      {
+       "w": "on",
+       "s": 11.476,
+       "e": 11.681
+      },
+      {
+       "w": "Eu",
+       "s": 12.461,
+       "e": 12.597
+      },
+      {
+       "w": "lembro",
+       "s": 12.608,
+       "e": 12.904
+      },
+      {
+       "w": "assim",
+       "s": 12.915,
+       "e": 13.233
+      },
+      {
+       "w": "o",
+       "s": 13.551,
+       "e": 13.62
+      },
+      {
+       "w": "dia",
+       "s": 13.631,
+       "e": 13.858
+      },
+      {
+       "w": "fica",
+       "s": 13.87,
+       "e": 14.12
+      },
+      {
+       "w": "em",
+       "s": 14.131,
+       "e": 14.199
+      },
+      {
+       "w": "cima",
+       "s": 14.211,
+       "e": 14.529
+      },
+      {
+       "w": "do",
+       "s": 14.54,
+       "e": 14.654
+      },
+      {
+       "w": "calendário",
+       "s": 14.665,
+       "e": 15.245
+      }
+     ],
+     "fim": 16.268
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta a americana:",
+     "inicio": 16.268,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 16.363,
+       "e": 16.841
+      },
+      {
+       "w": "a",
+       "s": 16.852,
+       "e": 16.875
+      },
+      {
+       "w": "americana",
+       "s": 16.886,
+       "e": 17.466
+      }
+     ],
+     "fim": 18.48
+    },
+    {
+     "voz": "en",
+     "texto": "On Monday.",
+     "mostra": "certo",
+     "inicio": 18.48,
+     "palavras": [
+      {
+       "w": "On",
+       "s": 18.58,
+       "e": 18.878
+      },
+      {
+       "w": "Monday",
+       "s": 18.893,
+       "e": 19.461
+      }
+     ],
+     "fim": 20.572
+    },
+    {
+     "voz": "en",
+     "texto": "See you on Monday!",
+     "mostra": "exemplo",
+     "inicio": 20.572,
+     "palavras": [
+      {
+       "w": "See",
+       "s": 20.672,
+       "e": 21.056
+      },
+      {
+       "w": "you",
+       "s": 21.07,
+       "e": 21.212
+      },
+      {
+       "w": "on",
+       "s": 21.226,
+       "e": 21.382
+      },
+      {
+       "w": "Monday",
+       "s": 21.396,
+       "e": 21.965
+      }
+     ],
+     "fim": 22.664
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 22.664,
+     "fim": 24.164
+    },
+    {
+     "voz": "pt",
+     "texto": "Te vejo na segunda! In fica pro mês, on fica pro dia. Volta e escuta de novo!",
+     "inicio": 24.164,
+     "palavras": [
+      {
+       "w": "Te",
+       "s": 24.259,
+       "e": 24.43
+      },
+      {
+       "w": "vejo",
+       "s": 24.441,
+       "e": 24.794
+      },
+      {
+       "w": "na",
+       "s": 24.805,
+       "e": 24.907
+      },
+      {
+       "w": "segunda",
+       "s": 24.919,
+       "e": 25.464
+      },
+      {
+       "w": "In",
+       "s": 26.244,
+       "e": 26.357
+      },
+      {
+       "w": "fica",
+       "s": 26.369,
+       "e": 26.641
+      },
+      {
+       "w": "pro",
+       "s": 26.653,
+       "e": 26.8
+      },
+      {
+       "w": "mês",
+       "s": 26.812,
+       "e": 27.153
+      },
+      {
+       "w": "on",
+       "s": 27.369,
+       "e": 27.494
+      },
+      {
+       "w": "fica",
+       "s": 27.505,
+       "e": 27.766
+      },
+      {
+       "w": "pro",
+       "s": 27.778,
+       "e": 27.925
+      },
+      {
+       "w": "dia",
+       "s": 27.937,
+       "e": 28.244
+      },
+      {
+       "w": "Volta",
+       "s": 29.028,
+       "e": 29.437
+      },
+      {
+       "w": "e",
+       "s": 29.448,
+       "e": 29.482
+      },
+      {
+       "w": "escuta",
+       "s": 29.494,
+       "e": 29.891
+      },
+      {
+       "w": "de",
+       "s": 29.903,
+       "e": 30.005
+      },
+      {
+       "w": "novo",
+       "s": 30.016,
+       "e": 30.369
+      }
+     ],
+     "fim": 31.392
+    }
+   ],
+   "inicio": 5.556,
+   "fim": 31.842
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica por dia 🔔",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Segue, que amanhã tem mais uma!",
+     "mostra": "chamada",
+     "inicio": 31.842,
+     "palavras": [
+      {
+       "w": "Segue",
+       "s": 31.937,
+       "e": 32.472
+      },
+      {
+       "w": "que",
+       "s": 32.665,
+       "e": 32.756
+      },
+      {
+       "w": "amanhã",
+       "s": 32.767,
+       "e": 33.165
+      },
+      {
+       "w": "tem",
+       "s": 33.176,
+       "e": 33.347
+      },
+      {
+       "w": "mais",
+       "s": 33.358,
+       "e": 33.551
+      },
+      {
+       "w": "uma",
+       "s": 33.562,
+       "e": 33.903
+      }
+     ],
+     "fim": 34.918
+    }
+   ],
+   "inicio": 31.842,
+   "fim": 36.118
+  }
+ ]
+}

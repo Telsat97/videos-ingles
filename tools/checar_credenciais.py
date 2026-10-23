@@ -52,6 +52,8 @@ def main() -> None:
             falhou = falhou or nome != "DRIVE_REFRESH_TOKEN"
             continue
         avisos = formato(nome, valor)
+        if nome == "YT_CLIENT_ID":  # o ID do cliente não é segredo (aparece na URL de login); o começo basta para comparar
+            avisos.insert(0, f"começa com {valor.strip()[:16]}… (compare com o ID no Google Cloud e no Playground)")
         print(f"{nome}: presente ({len(valor.strip())} caracteres)" + "".join(f"\n  ! {a}" for a in avisos))
     for nome in ("YT_REFRESH_TOKEN", "DRIVE_REFRESH_TOKEN"):
         if os.environ.get(nome) and os.environ.get("YT_CLIENT_ID") and os.environ.get("YT_CLIENT_SECRET"):

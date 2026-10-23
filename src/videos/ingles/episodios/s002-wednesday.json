@@ -1,0 +1,462 @@
+{
+ "slug": "s002-wednesday",
+ "episodio": 102,
+ "titulo": "Como se pronuncia Wednesday",
+ "formato": "short",
+ "cenario": [
+  "🗓️",
+  "🤫",
+  "🎧"
+ ],
+ "duracao": 35.47,
+ "audio": "010. ingles-s002-wednesday/audio/narracao.wav",
+ "fotos": [
+  "010. ingles-s002-wednesday/prints/foto1.webp",
+  "010. ingles-s002-wednesday/prints/foto2.webp",
+  "010. ingles-s002-wednesday/prints/foto3.webp",
+  "010. ingles-s002-wednesday/prints/foto4.webp",
+  "010. ingles-s002-wednesday/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "abertura",
+   "titulo": [
+    "WEDNESDAY",
+    "você fala",
+    "errado?"
+   ],
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Noventa e nove por cento dos brasileiros falam esse dia da semana errado.",
+     "mostra": "titulo",
+     "inicio": 0.35,
+     "palavras": [
+      {
+       "w": "Noventa",
+       "s": 0.445,
+       "e": 0.9
+      },
+      {
+       "w": "e",
+       "s": 0.911,
+       "e": 0.934
+      },
+      {
+       "w": "nove",
+       "s": 0.945,
+       "e": 1.161
+      },
+      {
+       "w": "por",
+       "s": 1.173,
+       "e": 1.286
+      },
+      {
+       "w": "cento",
+       "s": 1.298,
+       "e": 1.605
+      },
+      {
+       "w": "dos",
+       "s": 1.616,
+       "e": 1.752
+      },
+      {
+       "w": "brasileiros",
+       "s": 1.764,
+       "e": 2.32
+      },
+      {
+       "w": "falam",
+       "s": 2.332,
+       "e": 2.661
+      },
+      {
+       "w": "esse",
+       "s": 2.673,
+       "e": 2.855
+      },
+      {
+       "w": "dia",
+       "s": 2.866,
+       "e": 3.07
+      },
+      {
+       "w": "da",
+       "s": 3.082,
+       "e": 3.173
+      },
+      {
+       "w": "semana",
+       "s": 3.184,
+       "e": 3.536
+      },
+      {
+       "w": "errado",
+       "s": 3.548,
+       "e": 3.957
+      }
+     ],
+     "fim": 4.962
+    }
+   ],
+   "inicio": 0.35,
+   "fim": 5.412
+  },
+  {
+   "tipo": "erro",
+   "manchete": "LETRA MUDA",
+   "rotulo": "PRONÚNCIA",
+   "errado": "ué-dnes-dei",
+   "dica": "o primeiro D é mudo 🤫",
+   "certo": "Wednesday",
+   "pronuncia": "UÉNZ-dei",
+   "imagem": "🤫",
+   "exemplo": {
+    "en": "Wednesday is my favorite day.",
+    "pt": "Quarta-feira é o meu dia favorito."
+   },
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Muita gente lê letra por letra, assim:",
+     "mostra": "errado",
+     "gatilho": "assim",
+     "inicio": 5.412,
+     "palavras": [
+      {
+       "w": "Muita",
+       "s": 5.507,
+       "e": 5.848
+      },
+      {
+       "w": "gente",
+       "s": 5.86,
+       "e": 6.144
+      },
+      {
+       "w": "lê",
+       "s": 6.155,
+       "e": 6.269
+      },
+      {
+       "w": "letra",
+       "s": 6.28,
+       "e": 6.576
+      },
+      {
+       "w": "por",
+       "s": 6.587,
+       "e": 6.746
+      },
+      {
+       "w": "letra",
+       "s": 6.757,
+       "e": 7.121
+      },
+      {
+       "w": "assim",
+       "s": 7.223,
+       "e": 7.587
+      }
+     ],
+     "fim": 8.608
+    },
+    {
+     "voz": "pt",
+     "texto": "Mas o primeiro D não tem som nenhum. São só duas sílabas. Eu demorei anos pra perceber isso.",
+     "mostra": "dica",
+     "inicio": 8.608,
+     "palavras": [
+      {
+       "w": "Mas",
+       "s": 8.703,
+       "e": 8.897
+      },
+      {
+       "w": "o",
+       "s": 8.908,
+       "e": 9.022
+      },
+      {
+       "w": "primeiro",
+       "s": 9.033,
+       "e": 9.419
+      },
+      {
+       "w": "D",
+       "s": 9.431,
+       "e": 9.556
+      },
+      {
+       "w": "não",
+       "s": 9.567,
+       "e": 9.738
+      },
+      {
+       "w": "tem",
+       "s": 9.749,
+       "e": 9.908
+      },
+      {
+       "w": "som",
+       "s": 9.919,
+       "e": 10.124
+      },
+      {
+       "w": "nenhum",
+       "s": 10.135,
+       "e": 10.499
+      },
+      {
+       "w": "São",
+       "s": 11.278,
+       "e": 11.574
+      },
+      {
+       "w": "só",
+       "s": 11.585,
+       "e": 11.767
+      },
+      {
+       "w": "duas",
+       "s": 11.778,
+       "e": 12.119
+      },
+      {
+       "w": "sílabas",
+       "s": 12.131,
+       "e": 12.71
+      },
+      {
+       "w": "Eu",
+       "s": 13.494,
+       "e": 13.653
+      },
+      {
+       "w": "demorei",
+       "s": 13.665,
+       "e": 14.074
+      },
+      {
+       "w": "anos",
+       "s": 14.085,
+       "e": 14.369
+      },
+      {
+       "w": "pra",
+       "s": 14.381,
+       "e": 14.517
+      },
+      {
+       "w": "perceber",
+       "s": 14.528,
+       "e": 15.006
+      },
+      {
+       "w": "isso",
+       "s": 15.017,
+       "e": 15.335
+      }
+     ],
+     "fim": 16.364
+    },
+    {
+     "voz": "pt",
+     "texto": "Escuta:",
+     "inicio": 16.364,
+     "palavras": [
+      {
+       "w": "Escuta",
+       "s": 16.459,
+       "e": 17.016
+      }
+     ],
+     "fim": 18.456
+    },
+    {
+     "voz": "en",
+     "texto": "Wednesday.",
+     "mostra": "certo",
+     "inicio": 18.456,
+     "palavras": [
+      {
+       "w": "Wednesday",
+       "s": 18.556,
+       "e": 19.295
+      }
+     ],
+     "fim": 20.548
+    },
+    {
+     "voz": "en",
+     "texto": "Wednesday is my favorite day.",
+     "mostra": "exemplo",
+     "inicio": 20.548,
+     "palavras": [
+      {
+       "w": "Wednesday",
+       "s": 20.648,
+       "e": 21.301
+      },
+      {
+       "w": "is",
+       "s": 21.316,
+       "e": 21.514
+      },
+      {
+       "w": "my",
+       "s": 21.529,
+       "e": 21.742
+      },
+      {
+       "w": "favorite",
+       "s": 21.756,
+       "e": 22.21
+      },
+      {
+       "w": "day",
+       "s": 22.225,
+       "e": 22.679
+      }
+     ],
+     "fim": 23.336
+    },
+    {
+     "pausa": 1.5,
+     "mostra": "suavez",
+     "inicio": 23.336,
+     "fim": 24.836
+    },
+    {
+     "voz": "pt",
+     "texto": "Quarta-feira é o meu dia favorito. Ouve de novo e repete até sair natural!",
+     "inicio": 24.836,
+     "palavras": [
+      {
+       "w": "Quarta-feira",
+       "s": 24.931,
+       "e": 25.625
+      },
+      {
+       "w": "é",
+       "s": 25.636,
+       "e": 25.681
+      },
+      {
+       "w": "o",
+       "s": 25.693,
+       "e": 25.727
+      },
+      {
+       "w": "meu",
+       "s": 25.738,
+       "e": 25.886
+      },
+      {
+       "w": "dia",
+       "s": 25.897,
+       "e": 26.102
+      },
+      {
+       "w": "favorito",
+       "s": 26.113,
+       "e": 26.659
+      },
+      {
+       "w": "Ouve",
+       "s": 27.438,
+       "e": 27.722
+      },
+      {
+       "w": "de",
+       "s": 27.734,
+       "e": 27.825
+      },
+      {
+       "w": "novo",
+       "s": 27.836,
+       "e": 28.177
+      },
+      {
+       "w": "e",
+       "s": 28.188,
+       "e": 28.211
+      },
+      {
+       "w": "repete",
+       "s": 28.222,
+       "e": 28.677
+      },
+      {
+       "w": "até",
+       "s": 28.688,
+       "e": 28.893
+      },
+      {
+       "w": "sair",
+       "s": 28.904,
+       "e": 29.256
+      },
+      {
+       "w": "natural",
+       "s": 29.268,
+       "e": 29.825
+      }
+     ],
+     "fim": 30.84
+    }
+   ],
+   "inicio": 5.412,
+   "fim": 31.29
+  },
+  {
+   "tipo": "final",
+   "chamada": "Uma dica por dia 🔔",
+   "falas": [
+    {
+     "voz": "pt",
+     "texto": "Segue pra mais dicas de pronúncia!",
+     "mostra": "chamada",
+     "inicio": 31.29,
+     "palavras": [
+      {
+       "w": "Segue",
+       "s": 31.385,
+       "e": 31.806
+      },
+      {
+       "w": "pra",
+       "s": 31.817,
+       "e": 31.976
+      },
+      {
+       "w": "mais",
+       "s": 31.988,
+       "e": 32.249
+      },
+      {
+       "w": "dicas",
+       "s": 32.26,
+       "e": 32.567
+      },
+      {
+       "w": "de",
+       "s": 32.579,
+       "e": 32.681
+      },
+      {
+       "w": "pronúncia",
+       "s": 32.692,
+       "e": 33.249
+      }
+     ],
+     "fim": 34.27
+    }
+   ],
+   "inicio": 31.29,
+   "fim": 35.47
+  }
+ ]
+}

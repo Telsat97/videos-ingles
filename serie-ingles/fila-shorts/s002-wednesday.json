@@ -1,0 +1,109 @@
+{
+  "slug": "s002-wednesday",
+  "episodio": 102,
+  "formato": "short",
+  "titulo": "Como se pronuncia Wednesday",
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "🗓️",
+    "🤫",
+    "🎧"
+  ],
+  "post": {
+    "titulo": "Quase todo brasileiro fala WEDNESDAY errado 🤫 #shorts",
+    "descricao": "Em Wednesday, o primeiro D e o E do meio somem: a pronúncia tem só duas sílabas, UÉNZ-dei. Uma dica de inglês por dia.",
+    "hashtags": [
+      "#ingles",
+      "#pronuncia",
+      "#inglesfacil",
+      "#aprenderingles",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "WEDNESDAY",
+        "você fala",
+        "errado?"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Quase todo brasileiro fala esse dia da semana errado. Você também?",
+          "mostra": "titulo"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "manchete": "LETRA MUDA",
+      "rotulo": "PRONÚNCIA",
+      "errado": "uéd-nes-dei",
+      "dica": "o 1º D e o E do meio somem 🤫",
+      "certo": "Wednesday",
+      "pronuncia": "UÉNZ-dei",
+      "imagem": "🤫",
+      "exemplo": {
+        "en": "Wednesday is my favorite day.",
+        "pt": "Quarta-feira é o meu dia favorito."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Muita gente lê letra por letra, assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mas o primeiro D e o E do meio não têm som. Sobram só duas sílabas.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escuta:"
+        },
+        {
+          "voz": "en",
+          "texto": "Wednesday.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "en",
+          "texto": "Wednesday is my favorite day.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Quarta-feira é o meu dia favorito. Ouve de novo e repete até sair natural!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica por dia 🔔",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Segue pra mais dicas de pronúncia!",
+          "mostra": "chamada"
+        }
+      ]
+    }
+  ]
+}

@@ -20,15 +20,13 @@
     }
   },
   "post": {
-    "titulo": "Inglês pra crianças: cores e frutas 🍎🍌🍇 (adulto também aprende!)",
-    "descricao": "Maçã vermelha, banana amarela, uva roxa, laranja e melancia: aprenda cores e frutas em frases completas, do jeito mais divertido. No final tem desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "titulo": "Ensine ao seu filho: 5 frutas e cores em inglês 🍎",
+    "descricao": "Para pais, avós e professores: maçã vermelha, banana amarela, uva roxa, laranja e melancia em frases completas, com dicas de como praticar com a criança na hora do lanche. No final tem desafio.",
     "hashtags": [
       "#ingles",
       "#inglesparacriancas",
       "#aprenderingles",
-      "#inglesfacil",
-      "#cores",
-      "#shorts"
+      "#inglesfacil"
     ]
   },
   "cenas": [
@@ -42,12 +40,12 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Banana, maçã, uva... Você sabe a cor de cada fruta em inglês?",
+          "texto": "Pai, mãe, vô, vó: quer ensinar inglês pro seu filho ou neto hoje, em casa?",
           "mostra": "titulo"
         },
         {
           "voz": "pt",
-          "texto": "Hoje é aula divertida: cores e frutas, em frases completas. Serve pra criança e pra gente grande também! Chama a família toda pra aprender junto."
+          "texto": "Cinco frutas e cinco cores, em frases completas. Você aprende primeiro e depois ensina na hora do lanche, com a fruta na mão."
         },
         {
           "voz": "pt",
@@ -64,7 +62,7 @@
         "en": "I eat a red apple.",
         "pt": "Eu como uma maçã vermelha."
       },
-      "pronuncia": "di ápol iz réd",
+      "pronuncia": "dâ É-pou iz RÉD",
       "falas": [
         {
           "voz": "pt",
@@ -95,7 +93,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Eu como uma maçã vermelha. Gostoso! Agora olha pra uma fruta perto de você e tenta falar a cor dela em inglês."
+          "texto": "Eu como uma maçã vermelha. Dica pra ensinar: mostre a fruta e pergunte a cor em inglês."
         }
       ],
       "imagem": "🍎",
@@ -104,13 +102,13 @@
     {
       "tipo": "erro",
       "numero": 2,
-      "dica": "banana é igualzinha, só muda o som 🍌",
+      "dica": "banana: escreve igual, mas o som muda 🍌",
       "certo": "The banana is yellow.",
       "exemplo": {
         "en": "Monkeys love yellow bananas.",
         "pt": "Macacos adoram bananas amarelas."
       },
-      "pronuncia": "di banána iz iélou",
+      "pronuncia": "dâ bâ-NÉ-nâ iz IÉ-lou",
       "falas": [
         {
           "voz": "pt",
@@ -137,7 +135,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Macacos adoram bananas amarelas. Hi hi hi! Dica: imite um macaquinho enquanto repete, fica mais fácil de lembrar!"
+          "texto": "Macacos adoram bananas amarelas. Criança adora essa: faça um gesto de macaco junto, ajuda a lembrar."
         }
       ],
       "imagem": "🍌",
@@ -152,7 +150,7 @@
         "en": "These grapes are purple.",
         "pt": "Estas uvas são roxas."
       },
-      "pronuncia": "di grêip iz pârpol",
+      "pronuncia": "dâ GRÊIP iz PÂR-pou",
       "falas": [
         {
           "voz": "pt",
@@ -166,7 +164,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Quando são várias uvas, o verbo muda:"
+          "texto": "Quando são várias uvas, muda tudo: grapes, these e are:"
         },
         {
           "voz": "en",
@@ -179,7 +177,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Estas uvas são roxas. Repete de novo, bem devagarinho, e tenta não rir da palavra purple!"
+          "texto": "Estas uvas são roxas. Repita devagar com a criança, uma palavra de cada vez."
         }
       ],
       "imagem": "🍇",
@@ -194,7 +192,7 @@
         "en": "This orange is sweet.",
         "pt": "Esta laranja é doce."
       },
-      "pronuncia": "di ôrindj iz ôrindj",
+      "pronuncia": "di ÓR-indj iz ÓR-indj",
       "falas": [
         {
           "voz": "pt",
@@ -225,7 +223,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Esta laranja é doce. Hummm! Quem acertou a pronúncia ganha uma laranja de prêmio."
+          "texto": "Esta laranja é doce. Vale um prêmio pra quem acertar a pronúncia em casa!"
         }
       ],
       "imagem": "🍊",
@@ -237,10 +235,10 @@
       "dica": "watermelon = melancia: verde por fora, vermelha por dentro 🍉",
       "certo": "The watermelon is green.",
       "exemplo": {
-        "en": "It is green outside and red inside.",
+        "en": "It's green on the outside and red on the inside.",
         "pt": "É verde por fora e vermelha por dentro."
       },
-      "pronuncia": "di uóter-mélon iz grín",
+      "pronuncia": "dâ UÓ-rer-mé-lân iz GRÍN",
       "falas": [
         {
           "voz": "pt",
@@ -258,7 +256,7 @@
         },
         {
           "voz": "en",
-          "texto": "It is green outside and red inside.",
+          "texto": "It's green on the outside and red on the inside.",
           "mostra": "exemplo"
         },
         {
@@ -323,7 +321,7 @@
         },
         {
           "voz": "pt",
-          "texto": "E me conta nos comentários: qual é a sua fruta favorita?"
+          "texto": "E me conta nos comentários: qual fruta você vai ensinar primeiro?"
         },
         {
           "voz": "en",

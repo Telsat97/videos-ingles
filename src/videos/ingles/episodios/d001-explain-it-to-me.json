@@ -1,0 +1,430 @@
+{
+ "slug": "d001-explain-it-to-me",
+ "episodio": 201,
+ "titulo": "Explain it to me",
+ "formato": "dica",
+ "cenario": [],
+ "duracao": 29.342,
+ "audio": "012. ingles-d001-explain-it-to-me/audio/narracao.wav",
+ "fotos": [
+  "012. ingles-d001-explain-it-to-me/prints/foto1.webp",
+  "012. ingles-d001-explain-it-to-me/prints/foto2.webp",
+  "012. ingles-d001-explain-it-to-me/prints/foto3.webp",
+  "012. ingles-d001-explain-it-to-me/prints/foto4.webp",
+  "012. ingles-d001-explain-it-to-me/prints/foto5.webp"
+ ],
+ "cenas": [
+  {
+   "tipo": "tela",
+   "visual": "erro",
+   "grande": "Explain me…",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Stop saying this. It sounds wrong to native speakers.",
+     "mostra": "grande",
+     "inicio": 0.1,
+     "palavras": [
+      {
+       "w": "Stop",
+       "s": 0.204,
+       "e": 0.439
+      },
+      {
+       "w": "saying",
+       "s": 0.439,
+       "e": 0.829
+      },
+      {
+       "w": "this",
+       "s": 0.829,
+       "e": 1.233
+      },
+      {
+       "w": "It",
+       "s": 1.663,
+       "e": 1.728
+      },
+      {
+       "w": "sounds",
+       "s": 1.741,
+       "e": 2.04
+      },
+      {
+       "w": "wrong",
+       "s": 2.04,
+       "e": 2.483
+      },
+      {
+       "w": "to",
+       "s": 2.483,
+       "e": 2.587
+      },
+      {
+       "w": "native",
+       "s": 2.587,
+       "e": 2.847
+      },
+      {
+       "w": "speakers",
+       "s": 2.847,
+       "e": 3.603
+      }
+     ],
+     "fim": 4.232
+    }
+   ],
+   "inicio": 0.1,
+   "fim": 4.382
+  },
+  {
+   "tipo": "tela",
+   "visual": "certo",
+   "grande": "Explain it\nto me.",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Say it like this:",
+     "inicio": 4.382,
+     "palavras": [
+      {
+       "w": "Say",
+       "s": 4.473,
+       "e": 4.629
+      },
+      {
+       "w": "it",
+       "s": 4.629,
+       "e": 4.681
+      },
+      {
+       "w": "like",
+       "s": 4.681,
+       "e": 4.916
+      },
+      {
+       "w": "this",
+       "s": 4.929,
+       "e": 5.424
+      }
+     ],
+     "fim": 6.474
+    },
+    {
+     "voz": "en",
+     "texto": "Explain it to me.",
+     "mostra": "grande",
+     "inicio": 6.474,
+     "palavras": [
+      {
+       "w": "Explain",
+       "s": 6.574,
+       "e": 7.158
+      },
+      {
+       "w": "it",
+       "s": 7.172,
+       "e": 7.267
+      },
+      {
+       "w": "to",
+       "s": 7.281,
+       "e": 7.376
+      },
+      {
+       "w": "me",
+       "s": 7.389,
+       "e": 7.688
+      }
+     ],
+     "fim": 8.566
+    },
+    {
+     "voz": "en",
+     "texto": "Can you explain this to me?",
+     "mostra": "pequeno",
+     "inicio": 8.566,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 8.666,
+       "e": 8.87
+      },
+      {
+       "w": "you",
+       "s": 8.883,
+       "e": 8.979
+      },
+      {
+       "w": "explain",
+       "s": 8.992,
+       "e": 9.386
+      },
+      {
+       "w": "this",
+       "s": 9.4,
+       "e": 9.576
+      },
+      {
+       "w": "to",
+       "s": 9.59,
+       "e": 9.699
+      },
+      {
+       "w": "me",
+       "s": 9.712,
+       "e": 9.957
+      }
+     ],
+     "fim": 10.586
+    }
+   ],
+   "pequeno": "Can you explain this to me?",
+   "inicio": 4.382,
+   "fim": 10.736
+  },
+  {
+   "tipo": "tela",
+   "visual": "regra",
+   "grande": "explain + thing\n+ TO + person",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Remember: you explain something to someone.",
+     "mostra": "grande",
+     "inicio": 10.736,
+     "palavras": [
+      {
+       "w": "Remember",
+       "s": 10.827,
+       "e": 11.4
+      },
+      {
+       "w": "you",
+       "s": 11.856,
+       "e": 11.986
+      },
+      {
+       "w": "explain",
+       "s": 11.986,
+       "e": 12.546
+      },
+      {
+       "w": "something",
+       "s": 12.546,
+       "e": 12.858
+      },
+      {
+       "w": "to",
+       "s": 12.858,
+       "e": 12.897
+      },
+      {
+       "w": "someone",
+       "s": 12.897,
+       "e": 13.431
+      }
+     ],
+     "fim": 14.028
+    }
+   ],
+   "inicio": 10.736,
+   "fim": 14.178
+  },
+  {
+   "tipo": "tela",
+   "visual": "bonus",
+   "grande": "say it TO me\ndescribe it TO me",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Bonus: the same rule works with say and describe.",
+     "mostra": "grande",
+     "inicio": 14.178,
+     "palavras": [
+      {
+       "w": "Bonus",
+       "s": 14.282,
+       "e": 14.855
+      },
+      {
+       "w": "the",
+       "s": 15.129,
+       "e": 15.233
+      },
+      {
+       "w": "same",
+       "s": 15.233,
+       "e": 15.519
+      },
+      {
+       "w": "rule",
+       "s": 15.519,
+       "e": 15.78
+      },
+      {
+       "w": "works",
+       "s": 15.78,
+       "e": 16.079
+      },
+      {
+       "w": "with",
+       "s": 16.079,
+       "e": 16.235
+      },
+      {
+       "w": "say",
+       "s": 16.235,
+       "e": 16.873
+      },
+      {
+       "w": "and",
+       "s": 17.017,
+       "e": 17.121
+      },
+      {
+       "w": "describe",
+       "s": 17.134,
+       "e": 17.746
+      }
+     ],
+     "fim": 18.334
+    }
+   ],
+   "inicio": 14.178,
+   "fim": 18.484
+  },
+  {
+   "tipo": "tela",
+   "visual": "vez",
+   "grande": "Your turn!",
+   "falas": [
+    {
+     "voz": "en",
+     "texto": "Can you explain this to me?",
+     "mostra": "grande",
+     "inicio": 18.484,
+     "palavras": [
+      {
+       "w": "Can",
+       "s": 18.584,
+       "e": 18.788
+      },
+      {
+       "w": "you",
+       "s": 18.801,
+       "e": 18.896
+      },
+      {
+       "w": "explain",
+       "s": 18.91,
+       "e": 19.304
+      },
+      {
+       "w": "this",
+       "s": 19.318,
+       "e": 19.494
+      },
+      {
+       "w": "to",
+       "s": 19.508,
+       "e": 19.617
+      },
+      {
+       "w": "me",
+       "s": 19.63,
+       "e": 19.875
+      }
+     ],
+     "fim": 20.576
+    },
+    {
+     "pausa": 2.6,
+     "mostra": "suavez",
+     "inicio": 20.576,
+     "fim": 23.176
+    }
+   ],
+   "inicio": 18.484,
+   "fim": 23.326
+  },
+  {
+   "tipo": "tela",
+   "visual": "quiz",
+   "grande": "Which is right?",
+   "falas": [
+    {
+     "voz": "narr",
+     "texto": "Quick test. Which one is right? Comment A or B!",
+     "mostra": "grande",
+     "inicio": 23.326,
+     "palavras": [
+      {
+       "w": "Quick",
+       "s": 23.417,
+       "e": 23.625
+      },
+      {
+       "w": "test",
+       "s": 23.625,
+       "e": 24.133
+      },
+      {
+       "w": "Which",
+       "s": 24.563,
+       "e": 24.68
+      },
+      {
+       "w": "one",
+       "s": 24.68,
+       "e": 24.823
+      },
+      {
+       "w": "is",
+       "s": 24.836,
+       "e": 24.954
+      },
+      {
+       "w": "right",
+       "s": 24.954,
+       "e": 25.305
+      },
+      {
+       "w": "Comment",
+       "s": 25.735,
+       "e": 26.034
+      },
+      {
+       "w": "A",
+       "s": 26.165,
+       "e": 26.529
+      },
+      {
+       "w": "or",
+       "s": 26.672,
+       "e": 26.855
+      },
+      {
+       "w": "B",
+       "s": 26.868,
+       "e": 27.232
+      }
+     ],
+     "fim": 27.842
+    },
+    {
+     "pausa": 1.2,
+     "mostra": "opcoes",
+     "inicio": 27.842,
+     "fim": 29.042
+    }
+   ],
+   "opcoes": [
+    "Explain me the plan.",
+    "Explain the plan to me."
+   ],
+   "inicio": 23.326,
+   "fim": 29.342
+  }
+ ]
+}

@@ -21,7 +21,6 @@ import narrar  # noqa: E402
 RAIZ = Path(__file__).resolve().parent.parent
 FOTOS = RAIZ / "serie-ingles" / "fotos"
 SFX = RAIZ / "projetos" / "_sfx"
-LIMITE = 178.5  # segundos
 NPX = "npx.cmd" if sys.platform == "win32" else "npx"
 # O Remotion recusa mais processos que núcleos (o runner de repositório privado do GitHub tem 2).
 CONCORRENCIA = f"--concurrency={min(4, os.cpu_count() or 1)}"
@@ -77,12 +76,14 @@ def main() -> None:
         roteiro["fotos"].append(f"prints/{nome}")
     (proj / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    formato = roteiro.get("formato", "episodio")
+    limite = narrar.FORMATOS[formato]["limite"]
     gerar_sfx()
     # Cabe no YouTube Shorts (< 3:00): se passar, acelera um pouco as vozes e encurta as pausas, até 3 vezes.
     for tentativa in range(4):
         asyncio.run(narrar.main(proj, False))
         dur = json.loads((proj / "transcricao" / "episodio.json").read_text(encoding="utf-8"))["duracao"]
-        if dur <= LIMITE or tentativa == 3:
+        if limite is None or dur <= limite or tentativa == 3:
             break
         for v in roteiro["vozes"].values():
             v["rate"] = f"{int(v['rate'].rstrip('%')) + 4:+d}%"
@@ -90,20 +91,22 @@ def main() -> None:
             for f in c["falas"]:
                 if "pausa" in f:
                     f["pausa"] = round(max(1.2, f["pausa"] * 0.88), 2)
-        print(f"{dur:.1f}s passou de {LIMITE}s: tentando de novo com {roteiro['vozes']}")
+        print(f"{dur:.1f}s passou de {limite}s: tentando de novo com {roteiro['vozes']}")
         (proj / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
-    if dur > LIMITE:
-        print(f"AVISO: {dur:.1f}s ainda passa de {LIMITE}s; no YouTube vira vídeo comum, não Short.")
+    if limite and dur > limite:
+        print(f"AVISO: {dur:.1f}s ainda passa de {limite}s, o limite do formato {formato}.")
 
     saida = RAIZ / "edicoes" / proj.name
     saida.mkdir(parents=True, exist_ok=True)
     mp4 = saida / f"{roteiro['slug']}.mp4"
-    post = {**roteiro["post"], "episodio": roteiro["episodio"], "slug": roteiro["slug"], "arquivo": str(mp4.relative_to(RAIZ))}
+    post = {**roteiro["post"], "episodio": roteiro["episodio"], "slug": roteiro["slug"], "formato": formato,
+            "arquivo": str(mp4.relative_to(RAIZ))}
     (saida / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if "--sem-render" not in sys.argv:
         subprocess.run(
-            [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}", str(mp4),
+            # O longo sai só em 16:9 (YouTube tradicional); short e episódio saem em 9:16.
+            [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}{'-h' if formato == 'longo' else ''}", str(mp4),
              "--codec=h264", "--crf=20", "--audio-codec=aac", "--log=error", "--timeout=120000", CONCORRENCIA],
             cwd=RAIZ, check=True,
         )

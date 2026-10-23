@@ -5,6 +5,7 @@ import {TerminalTecnico} from './estilos/TerminalTecnico';
 import {VerticalDados} from './estilos/VerticalDados';
 import {VerticalLegendas} from './estilos/VerticalLegendas';
 import {VerticalPrint} from './estilos/VerticalPrint';
+import {Dica} from './videos/ingles/Dica';
 import {Episodio} from './videos/ingles/Episodio';
 import {episodios} from './videos/ingles/episodios.gen';
 
@@ -29,7 +30,7 @@ export const RemotionRoot: React.FC = () => (
         <React.Fragment key={ep.slug}>
           <Composition
             id={`ingles-${ep.slug}`}
-            component={Episodio}
+            component={ep.formato === 'dica' ? Dica : Episodio}
             defaultProps={{ep, formato: 'vertical' as const}}
             width={1080}
             height={1920}

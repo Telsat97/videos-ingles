@@ -47,7 +47,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Hoje eu explico cinco gírias que os jovens americanos usam todo dia, e todas servem pra qualquer idade."
+          "texto": "Hoje eu explico cinco gírias que os jovens americanos usam todo dia, pra você entender o que eles falam. Usar? Só entre amigos."
         },
         {
           "voz": "pt",
@@ -129,7 +129,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Dá pra usar em quase toda frase. Olha outro exemplo:"
+          "texto": "É muito comum pra falar do que você sente. Olha outro exemplo:"
         },
         {
           "voz": "en",
@@ -199,7 +199,7 @@
       "dica": "slay = arrasar 💅",
       "rotulo": "GÍRIA",
       "certo": "You did great today. Slay!",
-      "pronuncia": "sleî",
+      "pronuncia": "SLÊI",
       "exemplo": {
         "en": "Her dress is amazing. She slayed!",
         "pt": "O vestido dela é incrível. Ela arrasou!"
