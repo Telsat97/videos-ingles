@@ -1,0 +1,131 @@
+{
+  "slug": "d010-th-sound",
+  "episodio": 210,
+  "formato": "dica",
+  "titulo": "TH sound",
+  "post": {
+    "titulo": "TH sound: the tongue trick for “thank you”",
+    "descricao": "TH sound: put the tip of your tongue between your teeth and blow air softly: thank you.\n❌ “tank you” ✅ “thank you”",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "tank you",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Is your thank you clear? Here's a quick fix.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "Tongue between\nyour teeth",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Put the tip of your tongue between your teeth.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Then blow air out softly.",
+          "mostra": "pequeno"
+        },
+        {
+          "voz": "narr",
+          "texto": "Your tongue should touch your top teeth lightly."
+        }
+      ],
+      "pequeno": "then blow air out softly"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Thank you\nso much.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Now try it slowly:"
+        },
+        {
+          "voz": "en",
+          "texto": "Thank you so much.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "tongue out, then air"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Thank you so much.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "think · three\nthing · Thursday",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: use the same trick here:"
+        },
+        {
+          "voz": "en",
+          "texto": "Think. Three. Thing. Thursday.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Tongue between\nyour teeth?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word needs your tongue between your teeth? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "tree",
+        "three"
+      ]
+    }
+  ]
+}

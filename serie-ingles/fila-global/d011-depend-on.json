@@ -1,0 +1,138 @@
+{
+  "slug": "d011-depend-on",
+  "episodio": 211,
+  "formato": "dica",
+  "titulo": "Depend on",
+  "post": {
+    "titulo": "Depend on or depend of? Say it right",
+    "descricao": "Depend on or depend of? In English, depend goes with “on”: It depends on you.\n❌ It depends of you. ✅ It depends on you.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "It depends\nof you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The little word after depends is wrong.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "depend + ON",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "In English, depend goes with on.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Just like rely on and count on.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "rely on · count on"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "It depends\non you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Listen to two examples:"
+        },
+        {
+          "voz": "en",
+          "texto": "It depends on you.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "It depends on the weather.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "It depends on the weather."
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "It depends!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: you can also say it alone, as a full answer:"
+        },
+        {
+          "voz": "en",
+          "texto": "It depends!",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "It means the answer can change.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "= the answer can change"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "It depends on you.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Our trip depends…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which ending is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "on the price.",
+        "of the price."
+      ]
+    }
+  ]
+}

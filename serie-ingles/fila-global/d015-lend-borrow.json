@@ -1,0 +1,127 @@
+{
+  "slug": "d015-lend-borrow",
+  "episodio": 215,
+  "formato": "dica",
+  "titulo": "Lend vs Borrow",
+  "post": {
+    "titulo": "Lend vs Borrow: which one do you need?",
+    "descricao": "Lend vs Borrow: lend means you give something for a while, borrow means you take it: Can you lend me your pen?\n❌ Can you borrow me your pen? ✅ Can you lend me your pen?",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Can you borrow\nme your pen?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You need a pen, but the verb is backwards.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "LEND = you give\nBORROW = you take",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Lend means you give something for a while.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Borrow means you take it, and you give it back later.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "and you give it back later"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Can you lend me\nyour pen?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So ask:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can you lend me your pen?",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "they give → lend"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Can you lend me your pen?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Can I borrow\nyour pen?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: from your side, you can also say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I borrow your pen?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "The bank can…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "lend you money.",
+        "borrow you money."
+      ]
+    }
+  ]
+}

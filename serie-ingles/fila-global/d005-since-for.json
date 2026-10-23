@@ -1,0 +1,116 @@
+{
+  "slug": "d005-since-for",
+  "episodio": 205,
+  "formato": "dica",
+  "titulo": "Since vs For",
+  "post": {
+    "titulo": "Since vs For: stop mixing them up",
+    "descricao": "Since vs For: use “for” with a length of time and “since” with a starting point: I've lived here for 3 years.\n❌ I live here since 3 years. ✅ I've lived here for 3 years.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I live here\nsince 3 years.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Two small mistakes in one sentence. Let's fix both.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I've lived here\nfor 3 years.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say it like this:"
+        },
+        {
+          "voz": "en",
+          "texto": "I've lived here for three years.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You started in the past, and it's still true now.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "started in the past, still true"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "FOR + a length of time\nSINCE + a start",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Use for with a length of time, like three years.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Use since with a starting point, like 2023.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "for 3 years · since 2023"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I've lived here for three years.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "I've worked here…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which ending is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "since Monday.",
+        "for Monday."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "d008-used-to",
+  "episodio": 208,
+  "formato": "dica",
+  "titulo": "Used to vs Would",
+  "post": {
+    "titulo": "Used to vs Would: when “would” is wrong",
+    "descricao": "Used to vs Would: for past states like live, have or like, use “used to”: I used to live in Paris.\n❌ As a kid, I would live in Paris. ✅ I used to live in Paris.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "As a kid, I would\nlive in Paris.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Talking about your past? This verb doesn't work here.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I used to live\nin Paris.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I used to live in Paris.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "For past states, use used to.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "past state → used to"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "would + past habit ✓\nwould + past state ✗",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Would works for actions you repeated, like: every summer, we would swim. But not for states, like live, have, or like.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "For live, have, and like, choose used to.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "live, have, like → used to"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I used to live in Paris.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "When I was a kid…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one sounds right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "I would have a dog.",
+        "I used to have a dog."
+      ]
+    }
+  ]
+}

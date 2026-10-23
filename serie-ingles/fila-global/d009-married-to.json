@@ -1,0 +1,124 @@
+{
+  "slug": "d009-married-to",
+  "episodio": 209,
+  "formato": "dica",
+  "titulo": "Married to",
+  "post": {
+    "titulo": "Married to or married with? Quick fix",
+    "descricao": "Married to or married with? You are married to someone: She's married to a doctor. Use “with” for kids: married with two kids.\n❌ She's married with a doctor. ✅ She's married to a doctor.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "She's married\nwith a doctor.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Careful! One little word here is wrong.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "She's married\nto a doctor.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The right way:"
+        },
+        {
+          "voz": "en",
+          "texto": "She's married to a doctor.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You are married to someone.",
+          "mostra": "pequeno"
+        },
+        {
+          "voz": "narr",
+          "texto": "The same goes for engaged: she's engaged to him."
+        }
+      ],
+      "pequeno": "married TO someone"
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "He's married\nwith three kids.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "But careful! With is right for children:"
+        },
+        {
+          "voz": "en",
+          "texto": "He's married with three kids.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "It means he's married, and he has kids.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "= married + has kids"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "She's married to a doctor.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "I'm married…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Last one. Which is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "to Anna.",
+        "with Anna."
+      ]
+    }
+  ]
+}

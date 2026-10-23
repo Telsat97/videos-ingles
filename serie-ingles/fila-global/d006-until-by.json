@@ -1,0 +1,126 @@
+{
+  "slug": "d006-until-by",
+  "episodio": 206,
+  "formato": "dica",
+  "titulo": "Until vs By",
+  "post": {
+    "titulo": "Until vs By: say your deadline right",
+    "descricao": "Until vs By: for a deadline, use “by”: Send it by Friday (Friday or earlier). “Until” means all the time up to that moment.\n❌ Send it until Friday. ✅ Send it by Friday.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#businessenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Send it\nuntil Friday.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Your boss reads this and feels confused. Here's why.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Send it\nby Friday.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "For a deadline, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Send it by Friday.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "That means Friday or earlier.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "= Friday or earlier"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "BY = a deadline\nUNTIL = all the time\nup to then",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "By is a deadline: one action, at that time or before. Until means something continues the whole time, up to that moment.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "I'll wait until 5.\nFinish it by 5.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Hear both together:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'll wait until five. Finish it by five.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Send it by Friday.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Please reply…",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one works for a deadline? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "by Monday.",
+        "until Monday."
+      ]
+    }
+  ]
+}
