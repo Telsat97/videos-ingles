@@ -64,7 +64,7 @@
         "en": "I eat a red apple.",
         "pt": "Eu como uma maçã vermelha."
       },
-      "pronuncia": "di ápol iz réd",
+      "pronuncia": "dâ É-pou iz RÉD",
       "falas": [
         {
           "voz": "pt",
@@ -104,13 +104,13 @@
     {
       "tipo": "erro",
       "numero": 2,
-      "dica": "banana é igualzinha, só muda o som 🍌",
+      "dica": "banana: escreve igual, mas o som muda 🍌",
       "certo": "The banana is yellow.",
       "exemplo": {
         "en": "Monkeys love yellow bananas.",
         "pt": "Macacos adoram bananas amarelas."
       },
-      "pronuncia": "di banána iz iélou",
+      "pronuncia": "dâ bâ-NÉ-nâ iz IÉ-lou",
       "falas": [
         {
           "voz": "pt",
@@ -152,7 +152,7 @@
         "en": "These grapes are purple.",
         "pt": "Estas uvas são roxas."
       },
-      "pronuncia": "di grêip iz pârpol",
+      "pronuncia": "dâ GRÊIP iz PÂR-pou",
       "falas": [
         {
           "voz": "pt",
@@ -166,7 +166,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Quando são várias uvas, o verbo muda:"
+          "texto": "Quando são várias uvas, muda tudo: grapes, these e are:"
         },
         {
           "voz": "en",
@@ -194,7 +194,7 @@
         "en": "This orange is sweet.",
         "pt": "Esta laranja é doce."
       },
-      "pronuncia": "di ôrindj iz ôrindj",
+      "pronuncia": "di ÓR-indj iz ÓR-indj",
       "falas": [
         {
           "voz": "pt",
@@ -237,10 +237,10 @@
       "dica": "watermelon = melancia: verde por fora, vermelha por dentro 🍉",
       "certo": "The watermelon is green.",
       "exemplo": {
-        "en": "It is green outside and red inside.",
+        "en": "It's green on the outside and red on the inside.",
         "pt": "É verde por fora e vermelha por dentro."
       },
-      "pronuncia": "di uóter-mélon iz grín",
+      "pronuncia": "dâ UÓ-rer-mé-lân iz GRÍN",
       "falas": [
         {
           "voz": "pt",
@@ -258,7 +258,7 @@
         },
         {
           "voz": "en",
-          "texto": "It is green outside and red inside.",
+          "texto": "It's green on the outside and red on the inside.",
           "mostra": "exemplo"
         },
         {

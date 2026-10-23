@@ -60,7 +60,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Pra falar do dia da semana, não escreve assim:",
+          "texto": "Pra falar do dia da semana, não fala assim:",
           "mostra": "errado",
           "gatilho": "assim"
         },
@@ -89,7 +89,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Te vejo na segunda! In fica pro mês, on fica pro dia. Volta e escuta de novo!"
+          "texto": "Te vejo na segunda! On pro dia e pra data, in pro mês e pro ano. Volta e escuta de novo!"
         }
       ]
     },

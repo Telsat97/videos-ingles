@@ -60,7 +60,7 @@ Uma ideia por vídeo. Estrutura: **gancho (0–3 s) → ensinamento → prova (n
 |---|---|
 | Não fale X, fale Y | "Se você fala *X*, o americano entende outra coisa…" |
 | Como o americano fala de verdade | "Na escola você aprendeu *X*. Na rua ninguém fala assim." |
-| Pronúncia em 30 s | "99% dos brasileiros pronunciam essa palavra errado." |
+| Pronúncia em 30 s | "Quase todo brasileiro pronuncia essa palavra errado." |
 | Você sabe dizer…? | "Como se diz *saudade* em inglês? (não é o que você pensa)" |
 | Desafio relâmpago | "Só quem é bom de inglês acerta essa. 3 segundos." |
 | Situação real | "Você no aeroporto e o agente pergunta isso. O que você responde?" |

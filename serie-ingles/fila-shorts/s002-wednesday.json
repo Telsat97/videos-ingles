@@ -19,8 +19,8 @@
     "🎧"
   ],
   "post": {
-    "titulo": "99% dos brasileiros falam WEDNESDAY errado 🤫 #shorts",
-    "descricao": "O primeiro D de Wednesday é mudo: a pronúncia tem só duas sílabas, UÉNZ-dei. Uma dica de inglês por dia.",
+    "titulo": "Quase todo brasileiro fala WEDNESDAY errado 🤫 #shorts",
+    "descricao": "Em Wednesday, o primeiro D e o E do meio somem: a pronúncia tem só duas sílabas, UÉNZ-dei. Uma dica de inglês por dia.",
     "hashtags": [
       "#ingles",
       "#pronuncia",
@@ -40,7 +40,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Noventa e nove por cento dos brasileiros falam esse dia da semana errado.",
+          "texto": "Quase todo brasileiro fala esse dia da semana errado. Você também?",
           "mostra": "titulo"
         }
       ]
@@ -49,8 +49,8 @@
       "tipo": "erro",
       "manchete": "LETRA MUDA",
       "rotulo": "PRONÚNCIA",
-      "errado": "ué-dnes-dei",
-      "dica": "o primeiro D é mudo 🤫",
+      "errado": "uéd-nes-dei",
+      "dica": "o 1º D e o E do meio somem 🤫",
       "certo": "Wednesday",
       "pronuncia": "UÉNZ-dei",
       "imagem": "🤫",
@@ -67,7 +67,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Mas o primeiro D não tem som nenhum. São só duas sílabas. Eu demorei anos pra perceber isso.",
+          "texto": "Mas o primeiro D e o E do meio não têm som. Sobram só duas sílabas.",
           "mostra": "dica"
         },
         {

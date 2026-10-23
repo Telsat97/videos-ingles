@@ -105,13 +105,13 @@
       "tipo": "erro",
       "numero": 2,
       "errado": "I want a burger",
-      "dica": "“I want” soa como ordem: peça com “Can I get…?”",
+      "dica": "“I want” soa direto demais: peça com “Can I get…?”",
       "rotulo": "NO RESTAURANTE",
       "certo": "Can I get a burger, please?",
-      "pronuncia": "kén ai guét a BÂR-guer",
+      "pronuncia": "kân ai GUÉ-râ BÂR-guer",
       "exemplo": {
         "en": "Can I get the chicken salad?",
-        "pt": "Eu posso pedir a salada de frango?"
+        "pt": "Me vê a salada de frango?"
       },
       "falas": [
         {
@@ -122,7 +122,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Só que soa meio seco, como uma ordem. Os americanos preferem um pedido gentil.",
+          "texto": "Só que soa direto demais. Os americanos preferem um pedido gentil.",
           "mostra": "dica"
         },
         {
@@ -149,7 +149,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Eu posso pedir a salada de frango?"
+          "texto": "Me vê a salada de frango?"
         }
       ],
       "imagem": "🍔"
@@ -160,7 +160,7 @@
       "dica": "no + ingrediente, ou “without” = sem 🧅",
       "rotulo": "NO RESTAURANTE",
       "certo": "No onions, please.",
-      "pronuncia": "NOU Â-nions, pliz",
+      "pronuncia": "NOU Â-niânz, plíz",
       "exemplo": {
         "en": "Can I get it without cheese?",
         "pt": "Posso pedir sem queijo?"
@@ -204,10 +204,10 @@
       "tipo": "erro",
       "numero": 4,
       "errado": "I want the account",
-      "dica": "account = conta de banco. Restaurante = check",
+      "dica": "account = conta de banco. Restaurante = check (EUA) ou bill (Inglaterra)",
       "rotulo": "NO RESTAURANTE",
       "certo": "Can we get the check, please?",
-      "pronuncia": "kén ui guét dhe tchék, pliz",
+      "pronuncia": "kân uí GUÉT dâ TCHÉK, plíz",
       "exemplo": {
         "en": "Could we have the check, please?",
         "pt": "Poderíamos pedir a conta, por favor?"
@@ -301,7 +301,7 @@
       "opcoes": [
         "I want the account",
         "Can we get the check, please?",
-        "Give me the bill now"
+        "Can I pay the account?"
       ],
       "correta": 1,
       "falas": [
