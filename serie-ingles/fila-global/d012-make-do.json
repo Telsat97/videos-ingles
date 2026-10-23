@@ -1,0 +1,127 @@
+{
+  "slug": "d012-make-do",
+  "episodio": 212,
+  "formato": "dica",
+  "titulo": "Make vs Do",
+  "post": {
+    "titulo": "Make vs Do: the rule in 30 seconds",
+    "descricao": "Make vs Do: usually, “do” is for tasks and work, and “make” is for creating something: I need to do my homework.\n❌ I need to make my homework. ✅ I need to do my homework.",
+    "hashtags": [
+      "#englishgrammar",
+      "#englishvocabulary",
+      "#learnenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I need to make\nmy homework.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Make or do? Here the verb is wrong.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I need to do\nmy homework.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I need to do my homework.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "homework = a task"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "DO = tasks, work\nMAKE = create\nsomething new",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Usually, do is for tasks and work. Make is for creating something new.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You do a job, but you make a mistake.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "do a job · make a mistake"
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "make a cake\ndo the dishes",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: hear the difference:"
+        },
+        {
+          "voz": "en",
+          "texto": "Make a cake. Do the dishes.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I need to do my homework.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Can you ___\nme a favor?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which verb fits here? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "do",
+        "make"
+      ]
+    }
+  ]
+}

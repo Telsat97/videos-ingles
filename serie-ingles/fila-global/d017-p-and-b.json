@@ -1,0 +1,127 @@
+{
+  "slug": "d017-p-and-b",
+  "episodio": 217,
+  "formato": "dica",
+  "titulo": "P and B",
+  "post": {
+    "titulo": "P and B pronunciation: park or bark?",
+    "descricao": "P and B pronunciation: both start with closed lips, but P has a small puff of air and B uses your voice: I want to park here.\n❌ I want to bark here. ✅ I want to park here.",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I want to\nbark here.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "This sentence is about a dog, not a car!",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I want to\npark here.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You mean:"
+        },
+        {
+          "voz": "en",
+          "texto": "I want to park here.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "P = park your car"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "P = puff of air\nB = voice, no puff",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Both start with closed lips. For P, push out a small puff of air. For B, use your voice and almost no air.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Test it with your hand in front of your mouth.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "hand near your mouth: feel the air"
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "pie · buy\npeach · beach",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: practice these pairs:"
+        },
+        {
+          "voz": "en",
+          "texto": "Pie, buy. Peach, beach.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I want to park here.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Puff of air?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word has a puff of air? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "bear",
+        "pear"
+      ]
+    }
+  ]
+}

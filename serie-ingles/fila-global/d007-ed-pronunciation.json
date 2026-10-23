@@ -1,0 +1,111 @@
+{
+  "slug": "d007-ed-pronunciation",
+  "episodio": 207,
+  "formato": "dica",
+  "titulo": "ED pronunciation",
+  "post": {
+    "titulo": "Past tense ED pronunciation in 30 seconds",
+    "descricao": "Past tense ED pronunciation: “-ed” usually sounds like T (worked), D (played) or an extra syllable ID only after T or D (wanted).\n❌ “work-ed” ✅ “workt”",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "work-ed",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "One syllable, not two. Here's the secret.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "worked → T\nplayed → D\nwanted → ID",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "E D has three sounds. After sounds like K, P, S, or S H, it sounds like T.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "After most other sounds, it sounds like D. After T or D, you add a syllable: I D.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "extra syllable only after T or D"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I worked late\nyesterday.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say it like this:"
+        },
+        {
+          "voz": "en",
+          "texto": "I worked late yesterday.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "worked = one syllable"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I worked late yesterday.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Extra syllable?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word has an extra syllable at the end? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "needed",
+        "cleaned"
+      ]
+    }
+  ]
+}

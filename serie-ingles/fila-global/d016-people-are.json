@@ -1,0 +1,132 @@
+{
+  "slug": "d016-people-are",
+  "episodio": 216,
+  "formato": "dica",
+  "titulo": "People are",
+  "post": {
+    "titulo": "People is or people are? Quick answer",
+    "descricao": "People is or people are? “People” is usually plural, so say: People are nice here.\n❌ People is nice here. ✅ People are nice here.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "People is\nnice here.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "A quick verb fix that makes you sound natural.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "people = plural\n→ are, were, have",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "In English, people usually works as a plural. So use are, were, and have.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "One person, two people.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "one person · two people"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "People are\nnice here.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "People are nice here.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Use are, even without an S at the end.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "people + are"
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "a person is\npeople are",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: for just one, say person:"
+        },
+        {
+          "voz": "en",
+          "texto": "This person is nice. These people are nice.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "People are nice here.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "The people\n___ very kind.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which verb fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "were",
+        "was"
+      ]
+    }
+  ]
+}

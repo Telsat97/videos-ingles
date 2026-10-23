@@ -1,0 +1,127 @@
+{
+  "slug": "d004-v-and-w",
+  "episodio": 204,
+  "formato": "dica",
+  "titulo": "V and W",
+  "post": {
+    "titulo": "V and W pronunciation: the lip trick",
+    "descricao": "V and W pronunciation: for V, put your top teeth on your lower lip; for W, round your lips with no teeth.\n❌ “wery well” ✅ “very well”",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "wery well",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Does your V sound like a W? Try this trick.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "V = top teeth\non your lower lip",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "For V, put your top teeth on your lower lip and push air out.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "For W, make your lips round, like a small circle. No teeth.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "W = round lips, no teeth"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Very well,\nthank you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Now listen:"
+        },
+        {
+          "voz": "en",
+          "texto": "Very well, thank you.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "V: teeth on lip"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Very well, thank you.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "vine · wine\nvest · west",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: practice these pairs and feel your lips change."
+        },
+        {
+          "voz": "en",
+          "texto": "Vine, wine. Vest, west.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Teeth on your lip?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word needs your top teeth on your lip? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "wet",
+        "vet"
+      ]
+    }
+  ]
+}

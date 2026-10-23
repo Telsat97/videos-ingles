@@ -1,0 +1,119 @@
+{
+  "slug": "d014-say-tell",
+  "episodio": 214,
+  "formato": "dica",
+  "titulo": "Say vs Tell",
+  "post": {
+    "titulo": "Say vs Tell: the easy rule to remember",
+    "descricao": "Say vs Tell: you tell someone something, but you say something: She told me the truth.\n❌ She said me the truth. ✅ She told me the truth.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "She said me\nthe truth.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Said or told? In this sentence, only one works.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "She told me\nthe truth.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say it like this:"
+        },
+        {
+          "voz": "en",
+          "texto": "She told me the truth.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You tell someone. You say something.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "TELL + person · SAY + words"
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "say something\nTO someone",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: with say, add to before the person:"
+        },
+        {
+          "voz": "en",
+          "texto": "She said hello to me.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "And remember: tell me, but say to me."
+        }
+      ],
+      "pequeno": "She said hello to me."
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "She told me the truth.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "He ___ me\na secret.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Your turn to choose. Which verb is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "told",
+        "said"
+      ]
+    }
+  ]
+}
