@@ -1,0 +1,138 @@
+{
+  "slug": "d018-my-age",
+  "episodio": 218,
+  "formato": "dica",
+  "titulo": "Say your age",
+  "post": {
+    "titulo": "I have 20 years? Say your age right",
+    "descricao": "I have 20 years? In English, say your age with “be”, not “have”: I'm 20 years old.\n❌ I have 20 years. ✅ I'm 20 years old.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I have\n20 years.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Do you have twenty years? In English, you don't have an age. You are your age.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "AGE = BE\nnot HAVE",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "For age, English uses the verb be, not have.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "I'm twenty. She's thirty-five.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "I'm 20 · She's 35"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I'm 20\nyears old.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm twenty years old.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Or keep it short: I'm twenty.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "short: I'm 20."
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I'm twenty years old.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "How old\nare you?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: to ask about age, don't use have. Say:"
+        },
+        {
+          "voz": "en",
+          "texto": "How old are you?",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "And answer: I'm twenty years old.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "I'm 20 years old."
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "My sister ___ 18.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which verb fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "is",
+        "has"
+      ]
+    }
+  ]
+}

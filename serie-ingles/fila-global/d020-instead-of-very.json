@@ -1,0 +1,138 @@
+{
+  "slug": "d020-instead-of-very",
+  "episodio": 220,
+  "formato": "dica",
+  "titulo": "Instead of very",
+  "post": {
+    "titulo": "Instead of very: 5 stronger words to use",
+    "descricao": "Instead of very: “very tired” is not wrong, but one strong word is stronger: exhausted, starving, freezing.\n💡 I'm very, very tired. → ✅ I'm exhausted.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "I'm very,\nvery tired.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Very tired? That's not wrong. But there's a stronger way to say it.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "very + word\n→ one strong word",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Swap very plus a word for one strong word.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Exhausted means very, very tired.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "exhausted = very, very tired"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I'm exhausted.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm exhausted.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "One strong word. It sounds great.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "one strong word"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I'm exhausted.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "starving · freezing\nhuge · delighted",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: very hungry is starving. Very cold is freezing. Very big is huge. Very happy is delighted."
+        },
+        {
+          "voz": "en",
+          "texto": "Starving. Freezing. Huge. Delighted.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "And after a long day? I'm exhausted.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "I'm exhausted."
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "very small = ?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "What's a stronger way to say very small? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "tiny",
+        "huge"
+      ]
+    }
+  ]
+}

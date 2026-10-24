@@ -1,0 +1,133 @@
+{
+  "slug": "d024-listen-hear",
+  "episodio": 224,
+  "formato": "dica",
+  "titulo": "Listen vs Hear",
+  "post": {
+    "titulo": "Listen vs Hear: the real difference",
+    "descricao": "Listen vs Hear: you hear sounds without trying, but you listen to something on purpose: I heard a noise.\n❌ I listened a noise. ✅ I heard a noise.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I listened\na noise.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Did you try to hear that noise? No? Then the verb is wrong.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "HEAR = it just happens\nLISTEN = you try",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Hear just happens. A sound comes to your ears.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Listen means you pay attention. Before a thing, add the word to: listen to music.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "LISTEN + TO"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I heard a noise.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I heard a noise.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You didn't plan it. It just happened.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "no plan → hear"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I heard a noise.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "I heard you, but I\nwasn't listening.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: you can hear without listening:"
+        },
+        {
+          "voz": "en",
+          "texto": "I heard you, but I wasn't listening.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "hear ≠ listen"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "I love ___\nto podcasts.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "hearing",
+        "listening"
+      ]
+    }
+  ]
+}

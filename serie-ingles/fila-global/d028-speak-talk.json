@@ -1,0 +1,138 @@
+{
+  "slug": "d028-speak-talk",
+  "episodio": 228,
+  "formato": "dica",
+  "titulo": "Speak vs Talk",
+  "post": {
+    "titulo": "Speak vs Talk: which one is right?",
+    "descricao": "Speak vs Talk: use “speak” with languages and “talk” for conversations: She speaks three languages.\n❌ She talks three languages. ✅ She speaks three languages.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "She talks three\nlanguages.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Talk three languages? Here's the verb you need.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "SPEAK + a language\nTALK = have a chat",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Use speak with languages: speak English, speak Spanish.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Talk is for a conversation: talk to a friend.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "talk to a friend"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "She speaks three\nlanguages.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "She speaks three languages.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "To say you know a language, use speak.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "languages → speak"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "She speaks three languages.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Can I talk\nto you?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: to start a chat, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I talk to you?",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "But for languages: she speaks three languages.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "She speaks 3 languages."
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Do you ___\nFrench?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which verb fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "talk",
+        "speak"
+      ]
+    }
+  ]
+}

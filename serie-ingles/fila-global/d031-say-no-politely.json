@@ -1,0 +1,133 @@
+{
+  "slug": "d031-say-no-politely",
+  "episodio": 231,
+  "formato": "dica",
+  "titulo": "Say no politely",
+  "post": {
+    "titulo": "Say no politely in English: easy phrases",
+    "descricao": "Say no politely in English: start with thanks, then give a soft no: Thanks, but I'll pass.\n❌ No, I don't want. ✅ Thanks, but I'll pass.",
+    "hashtags": [
+      "#spokenenglish",
+      "#learnenglish",
+      "#englishphrases",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "No, I don't want.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Is this how you say no? It can sound rude.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "THANKS + a soft no",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Start with thanks, then give a soft no.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Short, friendly, and clear.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "Thanks, but…"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Thanks, but\nI'll pass.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "With friends, for small offers, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Thanks, but I'll pass.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "friendly and clear"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Thanks, but I'll pass.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "No, thank you.\nMaybe next time.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: for a more polite way, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "No, thank you. Maybe next time.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Or, with friends: thanks, but I'll pass.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "Thanks, but I'll pass."
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Want more cake?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which answer is polite? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "No, I don't want.",
+        "Thanks, but I'm full."
+      ]
+    }
+  ]
+}

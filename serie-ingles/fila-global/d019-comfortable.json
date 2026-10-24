@@ -1,0 +1,135 @@
+{
+  "slug": "d019-comfortable",
+  "episodio": 219,
+  "formato": "dica",
+  "titulo": "Comfortable",
+  "post": {
+    "titulo": "Comfortable pronunciation: stress the first part",
+    "descricao": "Comfortable pronunciation: stress the first part; the middle sound almost disappears: KUMF-tuh-bul.\n❌ “com-FOR-ta-ble” ✅ “KUMF-tuh-bul”",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "com-FOR-ta-ble",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Is this how you say this word? The stress is in the wrong place.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "KUMF · tuh · bul",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say it in three parts, and stress the first one.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "The middle part, for, almost disappears.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "the middle “for” almost disappears"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "This chair is\nso comfortable.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Listen:"
+        },
+        {
+          "voz": "en",
+          "texto": "Comfortable."
+        },
+        {
+          "voz": "en",
+          "texto": "This chair is so comfortable.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "KUMF-tuh-bul"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "This chair is so comfortable.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "uncomfortable\n= un + KUMF-tuh-bul",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: the opposite word keeps the same short sound:"
+        },
+        {
+          "voz": "en",
+          "texto": "Uncomfortable.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "But this chair? So comfortable."
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "interesting:\nwhere's the stress?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Same trick, new word. Which one sounds natural? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "IN-tres-ting",
+        "in-ter-EST-ing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "d022-actually-currently",
+  "episodio": 222,
+  "formato": "dica",
+  "titulo": "Actually vs Currently",
+  "post": {
+    "titulo": "Actually vs Currently: a false friend",
+    "descricao": "Actually vs Currently: if you mean “now”, say “currently”; “actually” means “in fact”: Currently, I work at a bank.\n❌ Actually, I work at a bank. (= now) ✅ Currently, I work at a bank.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Actually, I work\nat a bank. (= now)",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Do you use actually to mean now? It's a false friend.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "CURRENTLY = now\nACTUALLY = in fact",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "In Spanish, Portuguese, French or Italian, a word like actual means now. In English, currently means now.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Actually means in fact, or really.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "actually = in fact, really"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Currently, I work\nat a bank.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So if you mean now, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Currently, I work at a bank.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "now = currently"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Currently, I work at a bank.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "He looks young, but\nactually, he's 50.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: use actually for a surprise:"
+        },
+        {
+          "voz": "en",
+          "texto": "He looks young, but actually, he's fifty.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "But for right now? Currently.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "right now → currently"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Which one\nmeans now?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Quick check. Which word means at this time? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "actually",
+        "currently"
+      ]
+    }
+  ]
+}

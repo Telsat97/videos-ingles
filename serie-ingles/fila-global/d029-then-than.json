@@ -1,0 +1,133 @@
+{
+  "slug": "d029-then-than",
+  "episodio": 229,
+  "formato": "dica",
+  "titulo": "Then vs Than",
+  "post": {
+    "titulo": "Then vs Than: the spelling trap",
+    "descricao": "Then vs Than: use “than” to compare and “then” for time: She is taller than me.\n❌ She is taller then me. ✅ She is taller than me.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "She is taller\nthen me.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "This one is a spelling trap. Can you see the mistake?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "THAN = compare\nTHEN = time, next",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Use than to compare: bigger than, better than.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Use then for time: first lunch, then coffee.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "first lunch, then coffee"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "She is taller\nthan me.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "We're comparing, so write:"
+        },
+        {
+          "voz": "en",
+          "texto": "She is taller than me.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "compare → than"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "She is taller than me.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "then ↔ when\nboth = time",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus trick: then rhymes with when, and both are about time.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "To compare? Use than:"
+        },
+        {
+          "voz": "en",
+          "texto": "She is taller than me.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "compare → than"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "This is better\n___ before.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "then",
+        "than"
+      ]
+    }
+  ]
+}

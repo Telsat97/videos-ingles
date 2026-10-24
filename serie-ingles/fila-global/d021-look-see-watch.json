@@ -1,0 +1,132 @@
+{
+  "slug": "d021-look-see-watch",
+  "episodio": 221,
+  "formato": "dica",
+  "titulo": "Look, See or Watch",
+  "post": {
+    "titulo": "Look, See or Watch? Use the right verb",
+    "descricao": "Look, see or watch? Use “watch” for something that moves for a while, like TV: I watched TV last night.\n❌ I saw TV last night. ✅ I watched TV last night.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I saw TV\nlast night.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Did you see TV, or watch it? Only one sounds natural.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "WATCH = for a while\nSEE = it just happens",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Watch means you look at something that moves, for a while.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "See just happens when your eyes are open. Look means you turn your eyes to something.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "LOOK = turn your eyes to it"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I watched TV\nlast night.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I watched TV last night.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "TV moves, for a while → watch"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I watched TV last night.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Look at\nthis photo!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: with look, add at before the thing:"
+        },
+        {
+          "voz": "en",
+          "texto": "Look at this photo!",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "But for TV? I watched TV."
+        }
+      ],
+      "pequeno": "LOOK + AT"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "I ___ at the clock.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which verb fits here? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "looked",
+        "saw"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "d025-i-agree",
+  "episodio": 225,
+  "formato": "dica",
+  "titulo": "I agree",
+  "post": {
+    "titulo": "I am agree or I agree? Quick fix",
+    "descricao": "I am agree or I agree? “Agree” is a verb, so don't add “am”: I agree with that.\n❌ I am agree with that. ✅ I agree with that.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I am agree\nwith that.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "I am agree? One word here is too many.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "AGREE is a verb\n→ no AM",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Agree is a verb, like want or need.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You don't say I am want, so don't say I am agree.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "I want · I agree"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I agree\nwith that.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I agree with that.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "no “am”"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I agree with that.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "I don't agree.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: for the opposite, use don't, not am not:"
+        },
+        {
+          "voz": "en",
+          "texto": "I don't agree.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "But when you're on their side: I agree.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "on their side? I agree."
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "She ___ with me.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "is agree",
+        "agrees"
+      ]
+    }
+  ]
+}

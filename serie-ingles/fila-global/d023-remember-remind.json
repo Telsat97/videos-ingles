@@ -1,0 +1,137 @@
+{
+  "slug": "d023-remember-remind",
+  "episodio": 223,
+  "formato": "dica",
+  "titulo": "Remember vs Remind",
+  "post": {
+    "titulo": "Remember vs Remind: don't mix them up",
+    "descricao": "Remember vs Remind: “remind” means you help someone remember: Remind me to call Mom.\n❌ Remember me to call Mom. ✅ Remind me to call Mom.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Remember me\nto call Mom.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You want someone to help you not forget. So which verb do you need?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "REMIND = help someone\nremember",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Remind means you help someone remember.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Remember happens in your own head.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "remember = in your own head"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Remind me\nto call Mom.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Remind me to call Mom.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Someone helps you, so: remind.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "someone helps you → remind"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Remind me to call Mom.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "You remind me\nof my brother.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: if someone is like another person, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "You remind me of my brother.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Remind me of, not remember me of."
+        }
+      ],
+      "pequeno": "remind + me + of"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Please ___ me\nabout the meeting.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Your turn to choose. Which verb is right? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "remember",
+        "remind"
+      ]
+    }
+  ]
+}
