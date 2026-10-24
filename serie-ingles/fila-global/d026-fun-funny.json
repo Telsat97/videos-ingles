@@ -1,0 +1,132 @@
+{
+  "slug": "d026-fun-funny",
+  "episodio": 226,
+  "formato": "dica",
+  "titulo": "Fun vs Funny",
+  "post": {
+    "titulo": "Fun vs Funny: not the same thing",
+    "descricao": "Fun vs Funny: “fun” means you enjoy it, “funny” means it makes you laugh: The party was fun.\n❌ The party was funny. (= I enjoyed it) ✅ The party was fun.",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "The party was funny.\n(= I enjoyed it)",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Did the party make you laugh, or did you enjoy it? It's not the same.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "FUN = you enjoy it\nFUNNY = you laugh",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Fun means you have a good time.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Funny means it makes you laugh, like a joke.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "funny = like a joke"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "The party\nwas fun.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "If you enjoyed it, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "The party was fun.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "good time → fun"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "The party was fun.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "This milk\ntastes funny.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: funny can also mean strange:"
+        },
+        {
+          "voz": "en",
+          "texto": "This milk tastes funny.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Not a joke. Something is wrong!"
+        }
+      ],
+      "pequeno": "funny = strange"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "We had a great time.\nIt was so much ___!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "fun",
+        "funny"
+      ]
+    }
+  ]
+}

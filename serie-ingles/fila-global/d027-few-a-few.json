@@ -1,0 +1,128 @@
+{
+  "slug": "d027-few-a-few",
+  "episodio": 227,
+  "formato": "dica",
+  "titulo": "Few vs A few",
+  "post": {
+    "titulo": "Few vs A few: one tiny word, big change",
+    "descricao": "Few vs A few: “a few” means some (positive), “few” means not many (negative): I have a few ideas.\n❌ I have few ideas. (= some) ✅ I have a few ideas.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I have few ideas.\n(= some)",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Do you have ideas or not? One tiny word changes the message.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "A FEW = some\nFEW = not many",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "A few means some. It sounds positive.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Few, alone, means not many, maybe not enough. It sounds negative.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "few = not many, not enough"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I have\na few ideas.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So if you have some, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a few ideas.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "some → a few"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I have a few ideas.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "a little = some\nlittle = not enough",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: little works the same way, with things you can't count:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a little time.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "I have a little time."
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Good news! I made\n___ new friends.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one fits the good news? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "few",
+        "a few"
+      ]
+    }
+  ]
+}

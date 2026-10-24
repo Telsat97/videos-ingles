@@ -1,0 +1,132 @@
+{
+  "slug": "d030-bring-take",
+  "episodio": 230,
+  "formato": "dica",
+  "titulo": "Bring vs Take",
+  "post": {
+    "titulo": "Bring vs Take: it depends where you are",
+    "descricao": "Bring vs Take: “bring” means toward the speaker (where you are or will be), “take” means away from the speaker: Bring your friend to my party!\n❌ Take your friend to my party! ✅ Bring your friend to my party!",
+    "hashtags": [
+      "#englishvocabulary",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Take your friend\nto my party!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "It's your party. So is it take or bring?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "BRING = toward me\nTAKE = away from me",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bring means toward the speaker: where you are, or where you will be.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Take means away from the speaker.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "take = away from me"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Bring your friend\nto my party!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You will be at the party, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Bring your friend to my party!",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "to me → bring"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Bring your friend to my party!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Take an umbrella\nwith you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: when someone is leaving, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Take an umbrella with you.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "It goes away from you, so: take."
+        }
+      ],
+      "pequeno": "away from me → take"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Come to my house\nand ___ a snack!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which verb fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "take",
+        "bring"
+      ]
+    }
+  ]
+}
