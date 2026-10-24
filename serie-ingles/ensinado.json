@@ -95,6 +95,15 @@
         "recipe",
         "Can I have the recipe?"
       ]
+    },
+    {
+      "slug": "d001-explain-it-to-me",
+      "episodio": 201,
+      "titulo": "Explain it to me",
+      "temas": [],
+      "ensina": [
+        "Explain it\nto me."
+      ]
     }
   ]
 }
