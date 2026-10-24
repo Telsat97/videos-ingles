@@ -137,6 +137,15 @@
       "ensina": [
         "I'm bored."
       ]
+    },
+    {
+      "slug": "d003-discuss-it",
+      "episodio": 203,
+      "titulo": "Discuss it",
+      "temas": [],
+      "ensina": [
+        "Let's discuss it."
+      ]
     }
   ]
 }
