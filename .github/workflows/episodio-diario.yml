@@ -108,7 +108,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add serie-ingles/
           if git diff --cached --quiet; then echo "Nada saiu da fila."; else
-            git commit -m "Publica: $(git diff --cached --name-only --diff-filter=A | xargs -n1 basename | tr '\n' ' ')"
+            # Os roteiros saem da fila por "git mv" (renomeação): pega o nome dos que chegaram em publicados*/
+            git commit -m "Publica: $(git diff --cached --name-only --diff-filter=AR -- 'serie-ingles/publicados*' | xargs -r -n1 basename | tr '\n' ' ')"
             git push
           fi
 
