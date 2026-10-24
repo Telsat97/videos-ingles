@@ -97,12 +97,45 @@
       ]
     },
     {
+      "slug": "ep005-como-dizer",
+      "episodio": 5,
+      "titulo": "Como dizer 5 expressões brasileiras em inglês",
+      "temas": [
+        "I have saudade of you -> I miss you",
+        "So much makes -> I don't mind.",
+        "Stay at will -> Make yourself at home",
+        "Good appetite -> Enjoy your meal",
+        "I have laziness -> I feel lazy"
+      ],
+      "ensina": [
+        "I miss you",
+        "I miss you so much.",
+        "I don't mind.",
+        "Pizza or pasta? Either is fine.",
+        "Make yourself at home",
+        "Please make yourself comfortable.",
+        "Enjoy your meal",
+        "Dinner is ready. Enjoy!",
+        "I feel lazy",
+        "I feel lazy today."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
       "temas": [],
       "ensina": [
         "Explain it\nto me."
+      ]
+    },
+    {
+      "slug": "d002-bored-boring",
+      "episodio": 202,
+      "titulo": "Bored or boring",
+      "temas": [],
+      "ensina": [
+        "I'm bored."
       ]
     }
   ]
