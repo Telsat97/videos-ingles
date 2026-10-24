@@ -1,5 +1,5 @@
 # Robô diário da série (GitHub Actions, sem o seu PC). Ver serie-ingles/PLANO-DO-TIME.md.
-# - 2 rodadas por dia: cada uma publica o próximo micro-Short GLOBAL (serie-ingles/fila-global/) no YouTube
+# - 2 rodadas por dia (~13 e ~23 UTC): cada uma publica o próximo micro-Short GLOBAL (serie-ingles/fila-global/) no YouTube
 #   e guarda a cópia no Google Drive.
 # - Na 1ª rodada do dia também sai o episódio em PORTUGUÊS (serie-ingles/fila/), só para o Drive
 #   (o dono reposta no TikTok e no Facebook; o YouTube agora é global).
@@ -8,8 +8,9 @@ name: Episódio diário
 
 on:
   schedule:
-    - cron: '17 13 * * *' # 13:17 UTC: noite na Índia, tarde na Europa, manhã nas Américas
-    - cron: '17 23 * * *' # 23:17 UTC: noite nas Américas
+    # O GitHub atrasa agendamentos em horário de pico (medido: 3-5 h). Marcamos ~4 h antes do horário-alvo:
+    - cron: '17 9 * * *'  # alvo ~13 UTC: noite na Índia, tarde na Europa, manhã nas Américas
+    - cron: '17 19 * * *' # alvo ~23 UTC: noite nas Américas
   workflow_dispatch:
     inputs:
       rodada:
@@ -34,8 +35,8 @@ jobs:
       TEM_YT: ${{ secrets.YT_REFRESH_TOKEN != '' }}
       TEM_DRIVE: ${{ secrets.RCLONE_CONF != '' || secrets.DRIVE_REFRESH_TOKEN != '' || secrets.YT_REFRESH_TOKEN != '' }}
       PYTHONIOENCODING: utf-8
-      # Agendamento: a rodada das 13:17 UTC faz global + pt; a das 23:17 só global.
-      RODADA: ${{ inputs.rodada || (github.event.schedule == '17 13 * * *' && 'ambos') || 'global' }}
+      # Agendamento: a 1ª rodada do dia faz global + pt; a 2ª só global.
+      RODADA: ${{ inputs.rodada || (github.event.schedule == '17 9 * * *' && 'ambos') || 'global' }}
       YT_PRIVACIDADE: ${{ inputs.privacidade || 'public' }}
     steps:
       - uses: actions/checkout@v4
