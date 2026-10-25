@@ -40,6 +40,7 @@ export type Episodio = {
   slug: string;
   episodio: number;
   titulo: string;
+  tema?: string; // dica: etiqueta fixa do topo (padrão: titulo); use uma pergunta quando o título entrega a resposta
   formato?: 'short' | 'episodio' | 'longo' | 'dica'; // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
   duracao: number;
   audio: string;

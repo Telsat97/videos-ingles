@@ -254,6 +254,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
     ep = {
         **{k: roteiro[k] for k in ("slug", "episodio", "titulo")},
         "formato": roteiro.get("formato", "episodio"),
+        "tema": roteiro.get("tema", roteiro["titulo"]),
         "cenario": roteiro.get("cenario", []),
         "duracao": round(t, 3),
         "audio": f"{nome}/audio/narracao.wav",
