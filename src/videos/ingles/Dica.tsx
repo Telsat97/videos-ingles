@@ -177,6 +177,22 @@ const Legenda: React.FC<{falas: Fala[]}> = ({falas}) => {
   );
 };
 
+// Etiqueta fixa com o tema no topo, igual em todas as telas: qualquer quadro que o YouTube escolha
+// como capa do Short (na grade do canal) mostra o assunto, não só "Your turn!".
+const Tema: React.FC<{texto: string}> = ({texto}) => (
+  <div style={{position: 'absolute', left: 64, right: 180, top: 120, display: 'flex', justifyContent: 'center'}}>
+    <div
+      style={{
+        fontFamily: TITULO, fontWeight: 700, fontSize: Math.min(76, Math.floor(820 / (texto.length * 0.6))), color: '#FFFFFF',
+        background: 'rgba(0,0,0,.38)', border: '3px solid rgba(255,255,255,.35)', borderRadius: 999, padding: '8px 34px',
+        whiteSpace: 'nowrap',
+      }}
+    >
+      {texto}
+    </div>
+  </div>
+);
+
 // Barra de progresso em segmentos (uma por tela).
 const Progresso: React.FC<{ep: Ep}> = ({ep}) => {
   const {t} = useT();
@@ -204,6 +220,7 @@ export const Dica: React.FC<{ep: Ep}> = ({ep}) => {
     <AbsoluteFill style={{background: '#000'}}>
       {/* A primeira tela "começa" 0,4 s antes do vídeo: no quadro 0 o gancho já está inteiro na tela. */}
       <Tela cena={atual <= 0 ? {...cena, inicio: -0.4} : cena} />
+      <Tema texto={ep.tema ?? ep.titulo} />
       <Progresso ep={ep} />
       <Legenda falas={cena.falas} />
       <Audio src={staticFile(ep.audio)} />
