@@ -1,0 +1,420 @@
+{
+  "slug": "ep009-in-on-at",
+  "episodio": 9,
+  "titulo": "5 erros com in, on e at que todo brasileiro comete",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "⏰",
+    "📅",
+    "🏠",
+    "🌅"
+  ],
+  "post": {
+    "titulo": "5 ERROS com IN, ON e AT que todo brasileiro comete 😬",
+    "descricao": "Aprenda de vez quando usar in, on e at em inglês: dias, horas, meses, lugares e partes do dia. No final tem um desafio! Uma dica nova de inglês todo dia, fácil e rapidinha.",
+    "hashtags": [
+      "#ingles",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#gramatica",
+      "#englishgrammar",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "IN, ON, AT",
+        "os 5 erros que",
+        "todo mundo comete"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Você já disse in Monday e ficou na dúvida? Todo brasileiro erra isso, e hoje você para de errar!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje: cinco erros com in, on e at, as três palavrinhas que mais confundem. Com uma regra bem simples pra cada um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "in Monday",
+      "dica": "dia da semana → on",
+      "rotulo": "erro",
+      "certo": "on Monday",
+      "pronuncia": "on MÃN-dêi",
+      "exemplo": {
+        "en": "I have class on Monday.",
+        "pt": "Eu tenho aula na segunda."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Dia da semana pede on. Segunda, sexta, domingo: sempre on.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "É só decorar: dias da semana sempre combinam com on. Segunda, sexta, domingo, sempre a mesma palavrinha."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "On Monday.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have class on Monday.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu tenho aula na segunda."
+        }
+      ],
+      "imagem": "📅"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "in eight o'clock",
+      "dica": "hora exata → at",
+      "rotulo": "erro",
+      "certo": "at eight o'clock",
+      "pronuncia": "ét êit o-CLÓC",
+      "exemplo": {
+        "en": "The movie starts at eight.",
+        "pt": "O filme começa às oito."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Na hora de falar horas, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Horário exato pede at. Oito horas, meio-dia, meia-noite.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pense num relógio: hora marcada é um ponto no tempo, e para pontos usamos at. Simples assim."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "At eight o'clock.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "The movie starts at eight.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O filme começa às oito."
+        }
+      ],
+      "imagem": "⏰"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "on July",
+      "dica": "mês e ano → in",
+      "rotulo": "erro",
+      "certo": "in July",
+      "pronuncia": "in djú-LÁI",
+      "exemplo": {
+        "en": "My birthday is in July.",
+        "pt": "Meu aniversário é em julho."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar de meses, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mês, ano e estação pedem in. Julho, dois mil e vinte, verão.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pense em algo grande, como um mês ou um ano, onde cabem muitos dias. Para esses, usamos in."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "In July.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "My birthday is in July.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Meu aniversário é em julho."
+        }
+      ],
+      "imagem": "🎂"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "in home",
+      "dica": "em casa → at home",
+      "rotulo": "erro",
+      "certo": "at home",
+      "pronuncia": "ét RÔUM",
+      "exemplo": {
+        "en": "I'm at home now.",
+        "pt": "Eu estou em casa agora."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para dizer que está em casa, muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Casa é um caso especial. Dizemos at home, sem artigo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "At home.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm at home now.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu estou em casa agora."
+        }
+      ],
+      "imagem": "🏠"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "at the morning",
+      "dica": "manhã/tarde/noite → in the",
+      "rotulo": "erro",
+      "certo": "in the morning",
+      "pronuncia": "in dâ MÓR-nin",
+      "exemplo": {
+        "en": "I run in the morning.",
+        "pt": "Eu corro de manhã."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Erro número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar da manhã, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Manhã, tarde e noite pedem in the. A exceção é at night, à noite.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "In the morning.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I run in the morning.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu corro de manhã. Fácil, né?"
+        }
+      ],
+      "imagem": "🌅"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Qual está certa? ___ Friday",
+      "opcoes": [
+        "in Friday",
+        "on Friday",
+        "at Friday"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Qual frase está certa? A: in Friday. B: on Friday. C: at Friday.",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B! Dia da semana pede on.",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "On Friday!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual desses erros você mais cometia? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

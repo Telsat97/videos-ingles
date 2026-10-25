@@ -1,0 +1,419 @@
+{
+  "slug": "ep013-falsos-amigos-2",
+  "episodio": 13,
+  "titulo": "5 falsos amigos do inglês, parte 2",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "😮",
+    "📖",
+    "🍽️",
+    "🤝"
+  ],
+  "post": {
+    "titulo": "5 FALSOS AMIGOS do inglês que enganam você (parte 2) 😮",
+    "descricao": "Lunch, pull, novel, assist e realize parecem português, mas têm outro sentido. Descubra o que cada um quer dizer. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#falsosamigos",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#vocabulario",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "FALSOS",
+        "AMIGOS do inglês",
+        "parte 2"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Assist não é assistir! Quer saber por quê? Fica comigo!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje tem mais cinco falsos amigos: palavras que parecem português, mas querem dizer outra coisa."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "lunch = lanche",
+      "dica": "lunch = almoço 🍽️ · lanche = snack",
+      "rotulo": "falso amigo",
+      "certo": "Lunch = almoço",
+      "exemplo": {
+        "en": "We have lunch at noon.",
+        "pt": "Nós almoçamos ao meio-dia."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente acha que lunch é lanche, assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Lunch é o almoço, a refeição do meio-dia. Lanche é snack.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Lunch. The midday meal.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "We have lunch at noon.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Nós almoçamos ao meio-dia."
+        }
+      ],
+      "imagem": "🍽️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "pull = pular",
+      "dica": "pull = puxar 🚪 · pular = jump",
+      "rotulo": "falso amigo",
+      "certo": "Pull = puxar",
+      "exemplo": {
+        "en": "Pull the door to open it.",
+        "pt": "Puxe a porta para abrir."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente lê pull como pular, assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pull quer dizer puxar. Pular é jump.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Essa confusão acontece porque o som lembra o nosso verbo. Mas o sentido é bem diferente."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Pull.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Pull the door to open it.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Puxe a porta para abrir."
+        }
+      ],
+      "imagem": "🚪"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "novel = novela",
+      "dica": "novel = romance 📖 · novela = soap opera",
+      "rotulo": "falso amigo",
+      "certo": "Novel = romance",
+      "exemplo": {
+        "en": "I'm reading a great novel.",
+        "pt": "Estou lendo um ótimo romance."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente pensa que novel é novela, assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Novel é um romance, um livro grande. Novela de TV é soap opera.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Livro grande e cheio de capítulos. Na hora de falar de livro, essa é a palavra certa."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Novel. A long book.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm reading a great novel.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou lendo um ótimo romance."
+        }
+      ],
+      "imagem": "📖"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "assist = assistir",
+      "dica": "assist = ajudar 🤝 · assistir = watch",
+      "rotulo": "falso amigo",
+      "certo": "Assist = ajudar",
+      "exemplo": {
+        "en": "Can I assist you?",
+        "pt": "Posso ajudar você?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente entende assist como assistir, assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Assist quer dizer ajudar. Assistir à TV é watch.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Esse é o falso amigo mais famoso, e quase todo mundo já caiu nessa pelo menos uma vez."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Assist. It means help.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I assist you?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Posso ajudar você?"
+        }
+      ],
+      "imagem": "🤝"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "realize = realizar",
+      "dica": "realize = perceber 💡 · realizar = achieve",
+      "rotulo": "falso amigo",
+      "certo": "Realize = perceber",
+      "exemplo": {
+        "en": "I didn't realize it was so late.",
+        "pt": "Eu não percebi que era tão tarde."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Falso amigo número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Muita gente traduz realize como realizar, assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Realize quer dizer perceber, se dar conta. Realizar um sonho é achieve.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Tem a ver com perceber algo de repente. Vale muito pra conversa do dia a dia."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Realize. To notice something.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I didn't realize it was so late.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu não percebi que era tão tarde. Fácil, né?"
+        }
+      ],
+      "imagem": "💡"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "O que significa “assist”?",
+      "opcoes": [
+        "Assistir",
+        "Ajudar",
+        "Realizar"
+      ],
+      "correta": 1,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! O que significa assist?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra B, ajudar!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Assist means help. Can I assist you?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual falso amigo já te enganou? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

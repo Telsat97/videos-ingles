@@ -1,0 +1,373 @@
+{
+  "slug": "ep012-criancas-animais-sons",
+  "episodio": 12,
+  "titulo": "Animais e sons em inglês para crianças",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "🐶",
+    "🐱",
+    "🐮",
+    "🐷"
+  ],
+  "post": {
+    "titulo": "ANIMAIS e SONS em inglês para CRIANÇAS 🐶🐮",
+    "descricao": "Aprenda com as crianças como os animais falam em inglês: dog, cat, cow, duck e pig. Frases completinhas e divertidas! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#ingles",
+      "#animais",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "ANIMAIS",
+        "e seus sons",
+        "em inglês"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Au au, miau, muuu! Sabia que em inglês os bichinhos falam diferente?",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje vamos aprender cinco animais e o som que cada um faz. Repete comigo bem alto, e chama a criançada!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "dog = cachorro · woof = au au",
+      "rotulo": "animal",
+      "certo": "The dog says woof.",
+      "pronuncia": "dâ dóg séz uúf",
+      "exemplo": {
+        "en": "I have a big dog.",
+        "pt": "Eu tenho um cachorro grande."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Animal número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Cachorro é dog. E o au au dele, em inglês, é woof.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Pode falar bem alto e com voz de bicho, porque a criançada adora esse momento. Vamos lá!"
+        },
+        {
+          "voz": "en",
+          "texto": "The dog says woof.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a big dog.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu tenho um cachorro grande."
+        }
+      ],
+      "imagem": "🐶"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "dica": "cat = gato · meow = miau",
+      "rotulo": "animal",
+      "certo": "The cat says meow.",
+      "pronuncia": "dâ két séz miáu",
+      "exemplo": {
+        "en": "The cat is sleeping.",
+        "pt": "O gato está dormindo."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Animal número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Gato é cat. E o miau dele é meow.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repare como o som é bem diferente do nosso miau. Os americanos ouvem os bichos de outro jeito."
+        },
+        {
+          "voz": "en",
+          "texto": "The cat says meow.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "The cat is sleeping.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O gato está dormindo."
+        }
+      ],
+      "imagem": "🐱"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "cow = vaca · moo = muuu",
+      "rotulo": "animal",
+      "certo": "The cow says moo.",
+      "pronuncia": "dâ cáu séz mú",
+      "exemplo": {
+        "en": "The cow lives on a farm.",
+        "pt": "A vaca mora numa fazenda."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Animal número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Vaca é cow. E o muuu dela é moo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O muuu da vaca também é diferente. Ela é a rainha da fazenda, e as crianças adoram imitar."
+        },
+        {
+          "voz": "en",
+          "texto": "The cow says moo.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "The cow lives on a farm.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "A vaca mora numa fazenda."
+        }
+      ],
+      "imagem": "🐮"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "dica": "duck = pato · quack = quá quá",
+      "rotulo": "animal",
+      "certo": "The duck says quack.",
+      "pronuncia": "dâ dâc séz cuéc",
+      "exemplo": {
+        "en": "The duck swims in the lake.",
+        "pt": "O pato nada no lago."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Animal número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Pato é duck. E o quá quá dele é quack.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repara como o som é engraçado na boca. A gente quase nunca fala o c e o k tão forte assim."
+        },
+        {
+          "voz": "en",
+          "texto": "The duck says quack.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "The duck swims in the lake.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O pato nada no lago."
+        }
+      ],
+      "imagem": "🦆"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "pig = porco · oink = oinc",
+      "rotulo": "animal",
+      "certo": "The pig says oink.",
+      "pronuncia": "dâ pig séz óinc",
+      "exemplo": {
+        "en": "The pig is pink.",
+        "pt": "O porquinho é rosa."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Animal número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Porquinho é pig. E o oinc dele é oink.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O porquinho é famoso, e o som dele é curtinho. Dá pra imitar fazendo biquinho com a boca."
+        },
+        {
+          "voz": "en",
+          "texto": "The pig says oink.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "The pig is pink.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O porquinho é rosa. Muito bem!"
+        }
+      ],
+      "imagem": "🐷"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Qual animal faz “moo”?",
+      "opcoes": [
+        "A vaca",
+        "O porco",
+        "O pato"
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Qual animal faz moo?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A, a vaca!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "The cow says moo!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual é o seu bichinho preferido? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

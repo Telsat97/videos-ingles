@@ -1,0 +1,373 @@
+{
+  "slug": "ep011-entrevista-emprego",
+  "episodio": 11,
+  "titulo": "5 frases para arrasar na entrevista de emprego em inglês",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "💼",
+    "🤝",
+    "📄",
+    "⭐"
+  ],
+  "post": {
+    "titulo": "5 FRASES para ARRASAR na entrevista de emprego em inglês 💼",
+    "descricao": "Aprenda as perguntas mais comuns de uma entrevista em inglês e como responder: Tell me about yourself, strengths, e mais. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#entrevistadeemprego",
+      "#inglesparatrabalho",
+      "#aprenderingles",
+      "#carreira",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "ENTREVISTA",
+        "de emprego",
+        "em inglês"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Entrevista de emprego em inglês dá frio na barriga? Hoje isso acaba!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Vou te mostrar cinco perguntas que quase todo recrutador faz, e um jeito simples de responder cada uma."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "Tell me about yourself = fale sobre você",
+      "rotulo": "pergunta",
+      "certo": "Tell me about yourself.",
+      "pronuncia": "têl mi abáut iôr-SÉLF",
+      "exemplo": {
+        "en": "I'm a nurse with five years of experience.",
+        "pt": "Sou enfermeira, com cinco anos de experiência."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Pergunta número um. Quase toda entrevista começa assim:"
+        },
+        {
+          "voz": "pt",
+          "texto": "Quer dizer: fale um pouco sobre você. Responda com sua profissão e experiência.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Responda curtinho e com firmeza. Duas frases já bastam, sem inventar história."
+        },
+        {
+          "voz": "en",
+          "texto": "Tell me about yourself.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Uma boa resposta é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm a nurse with five years of experience.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sou enfermeira, com cinco anos de experiência."
+        }
+      ],
+      "imagem": "🙋"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "dica": "strengths = pontos fortes 💪",
+      "rotulo": "pergunta",
+      "certo": "What are your strengths?",
+      "pronuncia": "uót ár iôr STRÊNGTHS",
+      "exemplo": {
+        "en": "I'm organized and I learn fast.",
+        "pt": "Sou organizado e aprendo rápido."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Pergunta número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Strengths são seus pontos fortes, o que você faz de melhor.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Escolha dois pontos fortes e dê um exemplo real. Isso passa confiança de verdade."
+        },
+        {
+          "voz": "en",
+          "texto": "What are your strengths?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Você pode responder:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm organized and I learn fast.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sou organizado e aprendo rápido."
+        }
+      ],
+      "imagem": "💪"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "Why this job? = por que essa vaga?",
+      "rotulo": "pergunta",
+      "certo": "Why do you want this job?",
+      "pronuncia": "uai du iú uónt dis djób",
+      "exemplo": {
+        "en": "I want to grow with your team.",
+        "pt": "Quero crescer junto com a sua equipe."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Pergunta número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "O recrutador quer saber o que te motiva. Fale de crescer e aprender.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Mostre que você pesquisou a empresa. Isso causa uma ótima impressão no recrutador."
+        },
+        {
+          "voz": "en",
+          "texto": "Why do you want this job?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Uma resposta simples:"
+        },
+        {
+          "voz": "en",
+          "texto": "I want to grow with your team.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Quero crescer junto com a sua equipe."
+        }
+      ],
+      "imagem": "🎯"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "dica": "start = começar 🗓️",
+      "rotulo": "pergunta",
+      "certo": "When can you start?",
+      "pronuncia": "uén cén iú start",
+      "exemplo": {
+        "en": "I can start in two weeks.",
+        "pt": "Posso começar em duas semanas."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Pergunta número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Aqui ele quer saber quando você pode começar a trabalhar.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Seja sincero, e dê uma data que realmente funcione pra você. Isso mostra organização."
+        },
+        {
+          "voz": "en",
+          "texto": "When can you start?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Você responde:"
+        },
+        {
+          "voz": "en",
+          "texto": "I can start in two weeks.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Posso começar em duas semanas."
+        }
+      ],
+      "imagem": "🗓️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "questions = perguntas ❓",
+      "rotulo": "pergunta",
+      "certo": "Do you have any questions?",
+      "pronuncia": "du iú rév éni QUÉS-chuns",
+      "exemplo": {
+        "en": "Yes. What does a typical day look like?",
+        "pt": "Sim. Como é um dia típico aqui?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Pergunta número cinco, a última."
+        },
+        {
+          "voz": "pt",
+          "texto": "No fim, ele pergunta se você tem dúvidas. Sempre faça uma pergunta!",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Perguntar mostra interesse de verdade. Quem não pergunta nada parece desanimado."
+        },
+        {
+          "voz": "en",
+          "texto": "Do you have any questions?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Boa pergunta pra fazer:"
+        },
+        {
+          "voz": "en",
+          "texto": "Yes. What does a typical day look like?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sim. Como é um dia típico aqui? Boa sorte!"
+        }
+      ],
+      "imagem": "❓"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "“When can you start?” significa...",
+      "opcoes": [
+        "Quando você pode começar?",
+        "Onde você mora?",
+        "Quanto você quer ganhar?"
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! When can you start? O que ele quer saber?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A! Quando você pode começar.",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "When can you start? I can start next week!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual dessas perguntas é a mais difícil pra você? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

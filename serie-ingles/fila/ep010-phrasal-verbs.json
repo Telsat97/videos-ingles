@@ -1,0 +1,373 @@
+{
+  "slug": "ep010-phrasal-verbs",
+  "episodio": 10,
+  "titulo": "5 phrasal verbs que os americanos usam todo dia",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "🗣️",
+    "📚",
+    "💡",
+    "⏰"
+  ],
+  "post": {
+    "titulo": "5 PHRASAL VERBS que os americanos usam todo dia 🗣️",
+    "descricao": "Aprenda get up, give up, look for, find out e turn off, cinco verbos com preposição que você ouve o tempo todo. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#phrasalverbs",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#verbosemingles",
+      "#shorts"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "PHRASAL",
+        "VERBS",
+        "que você ouve todo dia"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Phrasal verb parece nome difícil, mas é só um verbo com uma palavrinha junto!",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje eu mostro cinco que os americanos usam o tempo todo. Cada um tem um sentido novo, e você vai pegar rapidinho."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "dica": "get up = levantar da cama ⏰",
+      "rotulo": "phrasal verb",
+      "certo": "I get up at six.",
+      "pronuncia": "ai guét âp",
+      "exemplo": {
+        "en": "Get up, we are late!",
+        "pt": "Levanta, estamos atrasados!"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Phrasal verb número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Get up quer dizer levantar da cama, quando você acorda.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Você vai ouvir esse verbo em casa, em filmes e em séries. É bem do dia a dia."
+        },
+        {
+          "voz": "en",
+          "texto": "I get up at six.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Get up, we are late!",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Levanta, estamos atrasados!"
+        }
+      ],
+      "imagem": "⏰"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "dica": "give up = desistir 💪",
+      "rotulo": "phrasal verb",
+      "certo": "Never give up.",
+      "pronuncia": "NÉ-vâr guiv âp",
+      "exemplo": {
+        "en": "I don't want to give up.",
+        "pt": "Eu não quero desistir."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Phrasal verb número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Give up é desistir. Quando alguém quer parar e você diz: não desiste!",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Essa frase é um incentivo bem comum em inglês. Serve pra qualquer pessoa, de qualquer idade."
+        },
+        {
+          "voz": "en",
+          "texto": "Never give up.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I don't want to give up.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu não quero desistir."
+        }
+      ],
+      "imagem": "💪"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "dica": "look for = procurar 🔍",
+      "rotulo": "phrasal verb",
+      "certo": "I'm looking for my keys.",
+      "pronuncia": "aim LÚ-quin fór mai quíz",
+      "exemplo": {
+        "en": "She is looking for a job.",
+        "pt": "Ela está procurando emprego."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Phrasal verb número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Look for é procurar alguma coisa que você perdeu ou quer achar.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repara que o verbo vem com a palavrinha for. As duas andam sempre juntas, como um casal."
+        },
+        {
+          "voz": "en",
+          "texto": "I'm looking for my keys.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "She is looking for a job.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Ela está procurando emprego."
+        }
+      ],
+      "imagem": "🔍"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "dica": "find out = descobrir 🕵️",
+      "rotulo": "phrasal verb",
+      "certo": "Let's find out the truth.",
+      "pronuncia": "léts fáind áut",
+      "exemplo": {
+        "en": "I found out yesterday.",
+        "pt": "Eu descobri ontem."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Phrasal verb número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Find out é descobrir, ficar sabendo de uma informação nova.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Atenção: o sentido é diferente de procurar. Aqui você fica sabendo de algo que não sabia."
+        },
+        {
+          "voz": "en",
+          "texto": "Let's find out the truth.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I found out yesterday.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Eu descobri ontem."
+        }
+      ],
+      "imagem": "🕵️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "dica": "turn off = desligar 💡",
+      "rotulo": "phrasal verb",
+      "certo": "Please turn off the light.",
+      "pronuncia": "pliz târn óf",
+      "exemplo": {
+        "en": "Turn off your phone, please.",
+        "pt": "Desligue o celular, por favor."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Phrasal verb número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Turn off é desligar: a luz, a televisão, o celular.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Esse é fácil de lembrar, porque off lembra apagar. Use sempre que mandar alguém desligar algo."
+        },
+        {
+          "voz": "en",
+          "texto": "Please turn off the light.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Turn off your phone, please.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Desligue o celular, por favor. Fácil, né?"
+        }
+      ],
+      "imagem": "💡"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "O que significa “give up”?",
+      "opcoes": [
+        "Desistir",
+        "Dar um presente",
+        "Levantar"
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! O que significa give up?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A, desistir!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "Give up means stop trying. Never give up!"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual phrasal verb você já conhecia? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}
