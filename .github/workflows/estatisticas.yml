@@ -1,0 +1,41 @@
+# Raio-X semanal do canal (só leitura): grava serie-ingles/analise/estatisticas.md para o analista do time.
+# Também roda à mão: Actions → Estatísticas do canal → Run workflow.
+name: Estatísticas do canal
+
+on:
+  schedule:
+    - cron: '41 10 * * 1'  # segunda de manhã (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: episodio-diario  # não disputa o push com o robô diário
+  cancel-in-progress: false
+
+jobs:
+  raio-x:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -q requests
+      - name: Ler estatísticas
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_ANALYTICS_REFRESH_TOKEN: ${{ secrets.YT_ANALYTICS_REFRESH_TOKEN }}
+        run: python tools/estatisticas.py
+      - name: Guardar o relatório
+        run: |
+          git config user.name "inglês-fácil bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add serie-ingles/analise/
+          if git diff --cached --quiet; then echo "Sem mudanças."; else
+            git commit -m "Raio-X do canal: $(date -u +%F)"
+            git push
+          fi
