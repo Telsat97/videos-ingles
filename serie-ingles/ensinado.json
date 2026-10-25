@@ -121,6 +121,30 @@
       ]
     },
     {
+      "slug": "ep006-criancas-cores-frutas",
+      "episodio": 6,
+      "titulo": "Inglês para crianças: cores e frutas",
+      "temas": [
+        "apple = maçã, red = vermelho 🍎 -> The apple is red.",
+        "banana: escreve igual, mas o som muda 🍌 -> The banana is yellow.",
+        "grape = uva, purple = roxo 🍇 -> The grape is purple.",
+        "orange é a fruta E a cor. Duas coisas numa palavra só! 🍊 -> The orange is orange.",
+        "watermelon = melancia: verde por fora, vermelha por dentro 🍉 -> The watermelon is green."
+      ],
+      "ensina": [
+        "The apple is red.",
+        "I eat a red apple.",
+        "The banana is yellow.",
+        "Monkeys love yellow bananas.",
+        "The grape is purple.",
+        "These grapes are purple.",
+        "The orange is orange.",
+        "This orange is sweet.",
+        "The watermelon is green.",
+        "It's green on the outside and red on the inside."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -145,6 +169,15 @@
       "temas": [],
       "ensina": [
         "Let's discuss it."
+      ]
+    },
+    {
+      "slug": "d004-v-and-w",
+      "episodio": 204,
+      "titulo": "V and W",
+      "temas": [],
+      "ensina": [
+        "Very well,\nthank you."
       ]
     }
   ]
