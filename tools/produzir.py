@@ -118,6 +118,15 @@ def main() -> None:
             capture_output=True, text=True, check=True,
         ).stdout)
         print(f"render ok: {dur:.1f}s")
+        if formato == "dica":  # capa do Short: o erro em destaque (1 s), com a etiqueta do tema e o selo FIX #
+            capa = saida / "capa.jpg"
+            subprocess.run(
+                [NPX, "remotion", "still", "src/index.ts", f"ingles-{roteiro['slug']}", str(capa), "--frame=30", '--props={"capa": true}',
+                 "--image-format=jpeg", "--log=error", "--timeout=120000"],
+                cwd=RAIZ, check=True,
+            )
+            post["capa"] = str(capa.relative_to(RAIZ))
+            (saida / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
         if "--horizontal" in sys.argv:  # versão 16:9 para o YouTube tradicional
             subprocess.run(
                 [NPX, "remotion", "render", "src/index.ts", f"ingles-{roteiro['slug']}-h", str(saida / f"{roteiro['slug']}-16x9.mp4"),

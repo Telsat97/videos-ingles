@@ -214,7 +214,8 @@ const Progresso: React.FC<{ep: Ep}> = ({ep}) => {
   );
 };
 
-export const Dica: React.FC<{ep: Ep}> = ({ep}) => {
+// capa=true: quadro para a capa do Short (sem legenda; ver tools/produzir.py).
+export const Dica: React.FC<{ep: Ep; formato?: 'horizontal' | 'vertical'; capa?: boolean}> = ({ep, capa}) => {
   const {fps} = useVideoConfig();
   const {frame} = useT();
   const f = (s: number) => Math.round(s * fps);
@@ -226,7 +227,7 @@ export const Dica: React.FC<{ep: Ep}> = ({ep}) => {
       <Tela cena={atual <= 0 ? {...cena, inicio: -0.4} : cena} />
       <Tema texto={ep.tema ?? ep.titulo} dia={Number(/^d(\d+)-/.exec(ep.slug)?.[1]) || null} />
       <Progresso ep={ep} />
-      <Legenda falas={cena.falas} />
+      {!capa && <Legenda falas={cena.falas} />}
       <Audio src={staticFile(ep.audio)} />
       {ep.cenas.map((c, i) => (
         <Sequence key={`sfx${i}`} from={f(c.visual === 'erro' ? c.inicio : momento(c, 'grande') ?? c.inicio)} durationInFrames={f(1)} layout="none">

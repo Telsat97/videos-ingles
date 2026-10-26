@@ -78,6 +78,12 @@ def youtube(post: dict) -> str:
     resp = None
     while resp is None:
         _, resp = req.next_chunk()
+    if post.get("capa"):  # capa personalizada (exige canal verificado); falhar aqui não derruba a publicação
+        try:
+            yt.thumbnails().set(videoId=resp["id"], media_body=MediaFileUpload(str(RAIZ / post["capa"]), mimetype="image/jpeg")).execute()
+            print("capa personalizada enviada")
+        except Exception as erro:  # noqa: BLE001
+            print(f"::warning::Não consegui enviar a capa: {erro}"[:500])
     comentar(resp["id"], post)
     if post.get("formato") == "longo":
         return f"https://www.youtube.com/watch?v={resp['id']}"
