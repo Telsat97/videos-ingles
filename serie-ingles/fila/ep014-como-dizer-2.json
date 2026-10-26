@@ -33,8 +33,7 @@
       "#comodizer",
       "#aprenderingles",
       "#inglesfacil",
-      "#dicasdeingles",
-      "#shorts"
+      "#dicasdeingles"
     ]
   },
   "cenas": [
@@ -125,7 +124,7 @@
     {
       "tipo": "erro",
       "numero": 2,
-      "errado": "What a pity",
+      "errado": "What a feather!",
       "dica": "Que pena = That's too bad",
       "rotulo": "como dizer",
       "certo": "That's too bad.",
@@ -147,7 +146,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Os americanos preferem dizer que é uma pena, de um jeitinho bem simples.",
+          "texto": "Aqui pena não é pena de passarinho! Os americanos dizem assim, de um jeitinho bem simples.",
           "mostra": "dica"
         },
         {
@@ -209,7 +208,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Perguntar de novo não tem problema nenhum. Todo mundo faz, até os americanos."
+          "texto": "Pedir para repetir não tem problema nenhum. Até os nativos fazem isso."
         },
         {
           "voz": "pt",
@@ -306,8 +305,8 @@
       "certo": "It worked!",
       "pronuncia": "it uôrkt",
       "exemplo": {
-        "en": "I fixed my phone. It worked!",
-        "pt": "Consertei meu celular. Deu certo!"
+        "en": "I restarted my phone, and it worked!",
+        "pt": "Reiniciei o celular e deu certo!"
       },
       "falas": [
         {
@@ -322,7 +321,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Em inglês, a coisa simplesmente funcionou. Uma palavra só no passado resolve.",
+          "texto": "Em inglês, a coisa simplesmente funcionou. Basta o verbo work no passado.",
           "mostra": "dica"
         },
         {
@@ -344,7 +343,7 @@
         },
         {
           "voz": "en",
-          "texto": "I fixed my phone. It worked!",
+          "texto": "I restarted my phone, and it worked!",
           "mostra": "exemplo"
         },
         {
@@ -353,7 +352,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Consertei meu celular. Deu certo! Fácil, né?"
+          "texto": "Reiniciei o celular e deu certo! Fácil, né?"
         }
       ],
       "imagem": "🎉"
@@ -364,7 +363,7 @@
       "opcoes": [
         "I'll think about it.",
         "I go to think.",
-        "I think pity."
+        "I'm on my way."
       ],
       "correta": 0,
       "falas": [
