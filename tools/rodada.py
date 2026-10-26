@@ -12,11 +12,16 @@ import json
 import os
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import narrar  # noqa: E402
+
+# Intervalo mínimo entre duas publicações do mesmo tipo. O GitHub atrasa (e às vezes junta) agendamentos: sem esta
+# trava, um agendamento atrasado somado a um disparo manual publicaria 3 Shorts no mesmo dia (risco de política).
+INTERVALO_H = {"global": 6, "pt": 18}
 
 FILAS = {
     "global": (RAIZ / "serie-ingles" / "fila-global", RAIZ / "serie-ingles" / "publicados-global"),
@@ -36,6 +41,13 @@ def main() -> None:
     if not roteiros:
         print(f"::warning::Fila {fila.relative_to(RAIZ)} vazia: nada a produzir nesta rodada.")
         return
+    ultimo = subprocess.run(["git", "log", "-1", "--format=%ct", "--", str(publicados)], cwd=RAIZ, text=True,
+                            capture_output=True).stdout.strip()
+    if ultimo and os.environ.get("FORCAR") != "true":
+        horas = (time.time() - int(ultimo)) / 3600
+        if horas < INTERVALO_H[tipo]:
+            print(f"::notice::A última publicação {tipo} foi há {horas:.1f} h (mínimo {INTERVALO_H[tipo]} h): rodada pulada.")
+            return
     roteiro = roteiros[0]
     print(f"Roteiro desta rodada: {roteiro.relative_to(RAIZ)}")
 
