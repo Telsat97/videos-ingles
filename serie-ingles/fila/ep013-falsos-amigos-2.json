@@ -33,8 +33,7 @@
       "#falsosamigos",
       "#aprenderingles",
       "#inglesfacil",
-      "#vocabulario",
-      "#shorts"
+      "#vocabulario"
     ]
   },
   "cenas": [
@@ -181,7 +180,7 @@
       "tipo": "erro",
       "numero": 3,
       "errado": "novel = novela",
-      "dica": "novel = romance 📖 · novela = soap opera",
+      "dica": "novel = romance (livro de ficção) 📖 · novela = soap opera",
       "rotulo": "falso amigo",
       "certo": "Novel = romance",
       "exemplo": {
@@ -201,12 +200,12 @@
         },
         {
           "voz": "pt",
-          "texto": "Novel é um romance, um livro grande. Novela de TV é soap opera.",
+          "texto": "Novel é um romance: uma história inventada, longa, contada num livro. Novela de TV é soap opera.",
           "mostra": "dica"
         },
         {
           "voz": "pt",
-          "texto": "Livro grande e cheio de capítulos. Na hora de falar de livro, essa é a palavra certa."
+          "texto": "É a palavra certa pra livro de ficção, com personagens e capítulos."
         },
         {
           "voz": "pt",
@@ -214,7 +213,7 @@
         },
         {
           "voz": "en",
-          "texto": "Novel. A long book.",
+          "texto": "Novel. A long story.",
           "mostra": "certo"
         },
         {
@@ -266,7 +265,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Esse é o falso amigo mais famoso, e quase todo mundo já caiu nessa pelo menos uma vez."
+          "texto": "Esse é um dos falsos amigos mais famosos. Muita gente já caiu nessa."
         },
         {
           "voz": "pt",
@@ -301,7 +300,7 @@
       "tipo": "erro",
       "numero": 5,
       "errado": "realize = realizar",
-      "dica": "realize = perceber 💡 · realizar = achieve",
+      "dica": "realize = perceber 💡 · realizar um sonho = achieve",
       "rotulo": "falso amigo",
       "certo": "Realize = perceber",
       "exemplo": {
@@ -321,7 +320,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Realize quer dizer perceber, se dar conta. Realizar um sonho é achieve.",
+          "texto": "Realize quer dizer perceber, se dar conta. Pra realizar um sonho, o mais comum é achieve.",
           "mostra": "dica"
         },
         {
@@ -334,7 +333,7 @@
         },
         {
           "voz": "en",
-          "texto": "Realize. To notice something.",
+          "texto": "Realize. To suddenly understand.",
           "mostra": "certo"
         },
         {

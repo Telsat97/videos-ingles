@@ -33,8 +33,7 @@
       "#entrevistadeemprego",
       "#inglesparatrabalho",
       "#aprenderingles",
-      "#carreira",
-      "#shorts"
+      "#carreira"
     ]
   },
   "cenas": [
@@ -53,7 +52,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Vou te mostrar cinco perguntas que quase todo recrutador faz, e um jeito simples de responder cada uma."
+          "texto": "Vou te mostrar cinco perguntas muito comuns em entrevistas, e um jeito simples de responder cada uma."
         },
         {
           "voz": "pt",
@@ -75,7 +74,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Pergunta número um. Quase toda entrevista começa assim:"
+          "texto": "Pergunta número um. Muitas entrevistas começam com ela:"
         },
         {
           "voz": "pt",
@@ -117,7 +116,7 @@
       "dica": "strengths = pontos fortes 💪",
       "rotulo": "pergunta",
       "certo": "What are your strengths?",
-      "pronuncia": "uót ár iôr STRÊNGTHS",
+      "pronuncia": "uót ár iór STRÉNGS (th com a língua entre os dentes)",
       "exemplo": {
         "en": "I'm organized and I learn fast.",
         "pt": "Sou organizado e aprendo rápido."
@@ -284,7 +283,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Perguntar mostra interesse de verdade. Quem não pergunta nada parece desanimado."
+          "texto": "Perguntar mostra interesse de verdade. Quem não pergunta nada pode parecer desinteressado."
         },
         {
           "voz": "en",
