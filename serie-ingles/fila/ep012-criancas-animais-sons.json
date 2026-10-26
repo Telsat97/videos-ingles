@@ -1,7 +1,7 @@
 {
   "slug": "ep012-criancas-animais-sons",
   "episodio": 12,
-  "titulo": "Animais e sons em inglês para crianças",
+  "titulo": "Ensine ao seu filho: animais e sons em inglês",
   "fotos": [
     "prints/foto1.jpg",
     "prints/foto2.jpg",
@@ -26,15 +26,14 @@
     "🐷"
   ],
   "post": {
-    "titulo": "ANIMAIS e SONS em inglês para CRIANÇAS 🐶🐮",
-    "descricao": "Aprenda com as crianças como os animais falam em inglês: dog, cat, cow, duck e pig. Frases completinhas e divertidas! Uma dica nova de inglês todo dia.",
+    "titulo": "Ensine ao seu filho: animais e sons em inglês 🐶🐮",
+    "descricao": "Para pais, avós e professores: cachorro, gato, vaca, pato e porco em inglês, com o som de cada um em frases completas e dicas de como brincar de imitar com a criança. No final tem desafio.",
     "hashtags": [
       "#inglesparacriancas",
       "#ingles",
       "#animais",
       "#aprenderingles",
-      "#inglesfacil",
-      "#shorts"
+      "#inglesfacil"
     ]
   },
   "cenas": [
@@ -48,16 +47,16 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Au au, miau, muuu! Sabia que em inglês os bichinhos falam diferente?",
+          "texto": "Pai, mãe, vô, vó: sabia que em inglês o au au do cachorro vira woof?",
           "mostra": "titulo"
         },
         {
           "voz": "pt",
-          "texto": "Hoje vamos aprender cinco animais e o som que cada um faz. Repete comigo bem alto, e chama a criançada!"
+          "texto": "Hoje são cinco animais e o som de cada um, em frases completas. Você aprende primeiro e depois brinca de imitar com a criança."
         },
         {
           "voz": "pt",
-          "texto": "Fica até o final: tem desafio pra você!"
+          "texto": "Fica até o final: tem desafio!"
         }
       ]
     },
@@ -84,7 +83,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Pode falar bem alto e com voz de bicho, porque a criançada adora esse momento. Vamos lá!"
+          "texto": "Dica pra ensinar: fale com voz de bicho e deixe a criança imitar junto. Vamos lá!"
         },
         {
           "voz": "en",
@@ -134,7 +133,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Repare como o som é bem diferente do nosso miau. Os americanos ouvem os bichos de outro jeito."
+          "texto": "Esse é fácil: o som é quase igual ao nosso, só muda a escrita. Mostre um gato e peça pra criança miar."
         },
         {
           "voz": "en",
@@ -184,7 +183,7 @@
         },
         {
           "voz": "pt",
-          "texto": "O muuu da vaca também é diferente. Ela é a rainha da fazenda, e as crianças adoram imitar."
+          "texto": "O muuu também é parecido com o nosso. Dica pra ensinar: mostre a figura de uma vaca e deixe a criança fazer o som."
         },
         {
           "voz": "en",
@@ -234,7 +233,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Repara como o som é engraçado na boca. A gente quase nunca fala o c e o k tão forte assim."
+          "texto": "Quack se fala cuéc, bem rapidinho. Dica pra ensinar: imite o pato batendo os braços, o gesto ajuda a lembrar."
         },
         {
           "voz": "en",
@@ -284,7 +283,7 @@
         },
         {
           "voz": "pt",
-          "texto": "O porquinho é famoso, e o som dele é curtinho. Dá pra imitar fazendo biquinho com a boca."
+          "texto": "O som dele é curtinho. Dica pra ensinar: brinquem juntos de imitar o porquinho, fazendo biquinho com a boca."
         },
         {
           "voz": "en",
@@ -346,7 +345,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Acertou? Então comenta aí: acertei!"
+          "texto": "Acertou? Então comenta aí: acertei! E faça essa pergunta pra criança também."
         }
       ]
     },
@@ -361,7 +360,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Qual é o seu bichinho preferido? Comenta aí!"
+          "texto": "E me conta nos comentários: qual bichinho seu filho mais gosta de imitar?"
         },
         {
           "voz": "en",

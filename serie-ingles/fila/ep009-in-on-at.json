@@ -33,8 +33,7 @@
       "#aprenderingles",
       "#inglesfacil",
       "#gramatica",
-      "#englishgrammar",
-      "#shorts"
+      "#englishgrammar"
     ]
   },
   "cenas": [
@@ -48,7 +47,7 @@
       "falas": [
         {
           "voz": "pt",
-          "texto": "Você já disse in Monday e ficou na dúvida? Todo brasileiro erra isso, e hoje você para de errar!",
+          "texto": "Você já disse in Monday e ficou na dúvida? Muita gente erra isso, e hoje você para de errar!",
           "mostra": "titulo"
         },
         {
@@ -86,12 +85,12 @@
         },
         {
           "voz": "pt",
-          "texto": "Dia da semana pede on. Segunda, sexta, domingo: sempre on.",
+          "texto": "Dia da semana pede on. Segunda, sexta, domingo: on.",
           "mostra": "dica"
         },
         {
           "voz": "pt",
-          "texto": "É só decorar: dias da semana sempre combinam com on. Segunda, sexta, domingo, sempre a mesma palavrinha."
+          "texto": "É só lembrar: dia da semana combina com on. Só com next, last ou every não vai nada: next Monday."
         },
         {
           "voz": "pt",
@@ -305,7 +304,7 @@
       "tipo": "erro",
       "numero": 5,
       "errado": "at the morning",
-      "dica": "manhã/tarde/noite → in the",
+      "dica": "morning/afternoon/evening → in the · night → at",
       "rotulo": "erro",
       "certo": "in the morning",
       "pronuncia": "in dâ MÓR-nin",
@@ -326,7 +325,7 @@
         },
         {
           "voz": "pt",
-          "texto": "Manhã, tarde e noite pedem in the. A exceção é at night, à noite.",
+          "texto": "Manhã, tarde e começo da noite pedem in the: in the morning, in the evening. Mas pra noite em geral, a gente diz at night.",
           "mostra": "dica"
         },
         {
