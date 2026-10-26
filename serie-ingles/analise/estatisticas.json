@@ -1,18 +1,44 @@
 {
- "gerado": "2026-10-25",
+ "gerado": "2026-10-26",
  "videos": [
   {
    "video": "L2w1BIbwklI",
-   "views": 6891,
-   "estimatedMinutesWatched": 2218,
+   "views": 7289,
+   "estimatedMinutesWatched": 2330,
    "averageViewDuration": 43,
-   "averageViewPercentage": 71.91,
+   "averageViewPercentage": 71.32,
    "subscribersGained": 1,
-   "likes": 22,
+   "likes": 23,
    "comments": 0,
    "shares": 11,
    "titulo": "Espelhar a tela do celular na central Multimídia do Fiat Pulse #som #espelhar",
    "roteiro": ""
+  },
+  {
+   "video": "klChyOVxaKk",
+   "views": 437,
+   "estimatedMinutesWatched": 30,
+   "averageViewDuration": 12,
+   "averageViewPercentage": 42.28,
+   "subscribersGained": 0,
+   "likes": 6,
+   "comments": 1,
+   "shares": 0,
+   "titulo": "Stop saying “explain me” in English",
+   "roteiro": "d001-explain-it-to-me"
+  },
+  {
+   "video": "u3lMHoKrlp8",
+   "views": 122,
+   "estimatedMinutesWatched": 70,
+   "averageViewDuration": 81,
+   "averageViewPercentage": 46.95,
+   "subscribersGained": 0,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Você fala ERRADO essas 5 palavras em inglês 😬 (comfortable?)",
+   "roteiro": "ep004-pronuncia"
   },
   {
    "video": "xMvNkyBMEuE",
@@ -28,6 +54,32 @@
    "roteiro": "ep001-cinco-erros"
   },
   {
+   "video": "uPJxm_TwONc",
+   "views": 35,
+   "estimatedMinutesWatched": 10,
+   "averageViewDuration": 76,
+   "averageViewPercentage": 12.08,
+   "subscribersGained": 0,
+   "likes": 1,
+   "comments": 1,
+   "shares": 0,
+   "titulo": "Praticando Listening 👂 and Shadowing 🗣️@Slow_English_Podcast  @englishbyjay.official",
+   "roteiro": ""
+  },
+  {
+   "video": "AR7tr5TXF1I",
+   "views": 29,
+   "estimatedMinutesWatched": 12,
+   "averageViewDuration": 74,
+   "averageViewPercentage": 42.27,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "VIAJA pro exterior? 5 frases de inglês pro aeroporto ✈️",
+   "roteiro": "ep003-frases-aeroporto"
+  },
+  {
    "video": "McWXlfvmbwo",
    "views": 26,
    "estimatedMinutesWatched": 5,
@@ -41,29 +93,16 @@
    "roteiro": "ep002-falsos-amigos"
   },
   {
-   "video": "AR7tr5TXF1I",
-   "views": 23,
-   "estimatedMinutesWatched": 7,
-   "averageViewDuration": 60,
-   "averageViewPercentage": 34.53,
+   "video": "nXP3BQhSBhA",
+   "views": 19,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 7,
+   "averageViewPercentage": 112.57999999999998,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
-   "titulo": "VIAJA pro exterior? 5 frases de inglês pro aeroporto ✈️",
-   "roteiro": "ep003-frases-aeroporto"
-  },
-  {
-   "video": "uPJxm_TwONc",
-   "views": 21,
-   "estimatedMinutesWatched": 9,
-   "averageViewDuration": 77,
-   "averageViewPercentage": 12.33,
-   "subscribersGained": 0,
-   "likes": 1,
-   "comments": 1,
-   "shares": 0,
-   "titulo": "Praticando Listening 👂 and Shadowing 🗣️@Slow_English_Podcast  @englishbyjay.official",
+   "titulo": "O NOVO Milkshake do Bobs, e aí já Experimentou?",
    "roteiro": ""
   },
   {
@@ -77,19 +116,6 @@
    "comments": 0,
    "shares": 0,
    "titulo": "Açaí congelado nunca mais! Venda com qualidade. #acaì #loja #trafego #cremoso",
-   "roteiro": ""
-  },
-  {
-   "video": "nXP3BQhSBhA",
-   "views": 18,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 7,
-   "averageViewPercentage": 112.57999999999998,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "O NOVO Milkshake do Bobs, e aí já Experimentou?",
    "roteiro": ""
   },
   {
@@ -119,6 +145,32 @@
    "roteiro": ""
   },
   {
+   "video": "AD7NFMhukC8",
+   "views": 8,
+   "estimatedMinutesWatched": 1,
+   "averageViewDuration": 10,
+   "averageViewPercentage": 17.33,
+   "subscribersGained": 0,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "😭🤬Pior Combo do McDonald’s na Edição Minecraft #mcdonalds #mincraft",
+   "roteiro": ""
+  },
+  {
+   "video": "p68u-1ZW0GU",
+   "views": 8,
+   "estimatedMinutesWatched": 2,
+   "averageViewDuration": 33,
+   "averageViewPercentage": 3.95,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Em busca da Casa Pequena & Moderna",
+   "roteiro": ""
+  },
+  {
    "video": "ftBHzQuOlBY",
    "views": 8,
    "estimatedMinutesWatched": 0,
@@ -142,32 +194,6 @@
    "comments": 0,
    "shares": 0,
    "titulo": "Receita Federal e agora ? Rifas! #rifa #sorteios #receitafederal",
-   "roteiro": ""
-  },
-  {
-   "video": "AD7NFMhukC8",
-   "views": 6,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 10,
-   "averageViewPercentage": 17.98,
-   "subscribersGained": 0,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "😭🤬Pior Combo do McDonald’s na Edição Minecraft #mcdonalds #mincraft",
-   "roteiro": ""
-  },
-  {
-   "video": "p68u-1ZW0GU",
-   "views": 5,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 33,
-   "averageViewPercentage": 3.95,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Em busca da Casa Pequena & Moderna",
    "roteiro": ""
   },
   {
@@ -210,6 +236,19 @@
    "roteiro": ""
   },
   {
+   "video": "n8Ym-pyiHvM",
+   "views": 2,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 0,
+   "averageViewPercentage": 0,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Resolvido-Hp 2676 Piscando / Saco Kraft",
+   "roteiro": ""
+  },
+  {
    "video": "luxZLToQ0Ss",
    "views": 2,
    "estimatedMinutesWatched": 0,
@@ -246,19 +285,6 @@
    "comments": 0,
    "shares": 0,
    "titulo": "Estou sobrevivendo! Panela elétrica de arroz - morar sozinho - Onde tudo começa na nossa vida",
-   "roteiro": ""
-  },
-  {
-   "video": "n8Ym-pyiHvM",
-   "views": 1,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 0,
-   "averageViewPercentage": 0,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Resolvido-Hp 2676 Piscando / Saco Kraft",
    "roteiro": ""
   },
   {
@@ -485,6 +511,12 @@
    "views": 429,
    "subscribersGained": 0,
    "estimatedMinutesWatched": 132
+  },
+  {
+   "day": "2026-10-23",
+   "views": 985,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 220
   }
  ]
 }
