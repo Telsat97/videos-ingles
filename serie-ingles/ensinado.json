@@ -145,6 +145,30 @@
       ]
     },
     {
+      "slug": "ep007-restaurante",
+      "episodio": 7,
+      "titulo": "Inglês no restaurante: peça tudo sem passar vergonha",
+      "temas": [
+        "diga quantas pessoas são + please 😊 -> Table for two, please.",
+        "I want a burger -> Can I get a burger, please?",
+        "no + ingrediente, ou “without” = sem 🧅 -> No onions, please.",
+        "I want the account -> Can we get the check, please?",
+        "to go = pra viagem 🥡 -> To go, please."
+      ],
+      "ensina": [
+        "Table for two, please.",
+        "Do you have a table by the window?",
+        "Can I get a burger, please?",
+        "Can I get the chicken salad?",
+        "No onions, please.",
+        "Can I get it without cheese?",
+        "Can we get the check, please?",
+        "Could we have the check, please?",
+        "To go, please.",
+        "Can I get a box for my leftovers?"
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -187,6 +211,15 @@
       "temas": [],
       "ensina": [
         "I've lived here\nfor 3 years."
+      ]
+    },
+    {
+      "slug": "d006-until-by",
+      "episodio": 206,
+      "titulo": "Until vs By",
+      "temas": [],
+      "ensina": [
+        "Send it\nby Friday."
       ]
     }
   ]
