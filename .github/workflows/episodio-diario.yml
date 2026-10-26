@@ -19,6 +19,9 @@ on:
       privacidade:
         description: 'Privacidade no YouTube (public, unlisted, private)'
         default: 'public'
+      forcar:
+        description: 'Publicar mesmo que a última publicação seja recente (true/false)'
+        default: 'false'
 
 permissions:
   contents: write
@@ -38,8 +41,11 @@ jobs:
       # Agendamento: a 1ª rodada do dia faz global + pt; a 2ª só global.
       RODADA: ${{ inputs.rodada || (github.event.schedule == '17 9 * * *' && 'ambos') || 'global' }}
       YT_PRIVACIDADE: ${{ inputs.privacidade || 'public' }}
+      FORCAR: ${{ inputs.forcar || 'false' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 100  # tools/rodada.py lê no histórico a hora da última publicação
 
       - uses: actions/setup-node@v4
         with:
