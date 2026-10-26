@@ -4,6 +4,7 @@ Uso:  python tools/publicar.py youtube  "edicoes/<projeto>/post.json"
       python tools/publicar.py facebook "edicoes/<projeto>/post.json"
 
 YouTube  : YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN  (gere com tools/autorizar_youtube.py)
+           YT_COMMENT_REFRESH_TOKEN (opcional, escopo youtube.force-ssl): comenta o quiz no vídeo recém-publicado
 Facebook : FB_PAGE_ID, FB_PAGE_TOKEN                         (token de página, permissão pages_manage_posts)
 TikTok   : a API só publica em modo privado até o app ser auditado; por enquanto o vídeo vai ao Drive.
 """
@@ -77,9 +78,35 @@ def youtube(post: dict) -> str:
     resp = None
     while resp is None:
         _, resp = req.next_chunk()
+    comentar(resp["id"], post)
     if post.get("formato") == "longo":
         return f"https://www.youtube.com/watch?v={resp['id']}"
     return f"https://youtube.com/shorts/{resp['id']}"
+
+
+def comentar(video: str, post: dict) -> None:
+    """Comentário do canal com o quiz do vídeo: puxa respostas (comentários fazem o YouTube mostrar o Short a mais gente).
+    Nunca derruba a publicação: sem a autorização própria ou com erro, só avisa."""
+    token = os.environ.get("YT_COMMENT_REFRESH_TOKEN", "").strip()
+    quiz = post.get("quiz")
+    if not token or not quiz or len(quiz.get("opcoes", [])) < 2:
+        return
+    a, b = quiz["opcoes"][:2]
+    texto_comentario = f"🤔 {' '.join(quiz['pergunta'].split())}\nA) {a}\nB) {b}\n\nComment A or B 👇"
+    try:
+        r = requests.post("https://oauth2.googleapis.com/token", data={
+            "client_id": os.environ["YT_CLIENT_ID"].strip(), "client_secret": os.environ["YT_CLIENT_SECRET"].strip(),
+            "refresh_token": token, "grant_type": "refresh_token"}, timeout=30)
+        r.raise_for_status()
+        c = requests.post(
+            "https://www.googleapis.com/youtube/v3/commentThreads", params={"part": "snippet"},
+            headers={"Authorization": f"Bearer {r.json()['access_token']}"},
+            json={"snippet": {"videoId": video, "topLevelComment": {"snippet": {"textOriginal": texto_comentario}}}}, timeout=30,
+        )
+        c.raise_for_status()
+        print("comentário do quiz publicado")
+    except Exception as erro:  # noqa: BLE001
+        print(f"::warning::Não consegui comentar o quiz: {getattr(getattr(erro, 'response', None), 'text', erro)}"[:500])
 
 
 def facebook(post: dict) -> str:
