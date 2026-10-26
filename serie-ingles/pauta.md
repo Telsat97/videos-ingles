@@ -18,7 +18,7 @@ Público: 🧒 crianças · 🧑 jovens · 🧑‍💼 adultos · 👵 melhor id
 | [f] 11 | Trabalho | entrevista de emprego: "Tell me about yourself" | 🧑‍💼 |
 | [f] 12 | Inglês para crianças | animais e sons: "The dog says woof" | 🧒 |
 | [f] 13 | Falsos amigos | lunch, pull, novel, assist, realize | 🌎 |
-| [ ] 14 | Como dizer | "Vou pensar", "Que pena", "Tô com preguiça" | 🌎 |
+| [f] 14 | Como dizer | "Vou pensar", "Que pena", "Pode repetir?", "Estou chegando", "Deu certo" | 🌎 |
 | [ ] 15 | Médico e farmácia | "I have a headache", "I need a prescription" | 👵 🧑‍💼 |
 | [ ] 16 | Pronúncia | o "th": think, three, mother, this | 🌎 |
 | [ ] 17 | 5 erros | "people is" → "people are", "the life" → "life" | 🌎 |
