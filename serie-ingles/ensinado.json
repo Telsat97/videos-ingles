@@ -169,6 +169,30 @@
       ]
     },
     {
+      "slug": "ep008-girias",
+      "episodio": 8,
+      "titulo": "5 gírias que os jovens americanos usam",
+      "temas": [
+        "no cap = sem mentira, de verdade 🧢 -> No cap, this pizza is amazing.",
+        "lowkey = meio que, no fundo 🤫 -> I'm lowkey tired today.",
+        "vibe = clima, energia ✨ -> I like the vibe here.",
+        "slay = arrasar 💅 -> You did great today. Slay!",
+        "bet = fechado, combinado 🤝 -> Bet! See you at six."
+      ],
+      "ensina": [
+        "No cap, this pizza is amazing.",
+        "No cap, that movie was great.",
+        "I'm lowkey tired today.",
+        "I lowkey love this song.",
+        "I like the vibe here.",
+        "This place has a great vibe.",
+        "You did great today. Slay!",
+        "Her dress is amazing. She slayed!",
+        "Bet! See you at six.",
+        "Dinner at seven? Bet."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -229,6 +253,15 @@
       "temas": [],
       "ensina": [
         "I worked late\nyesterday."
+      ]
+    },
+    {
+      "slug": "d008-used-to",
+      "episodio": 208,
+      "titulo": "Used to vs Would",
+      "temas": [],
+      "ensina": [
+        "I used to live\nin Paris."
       ]
     }
   ]
