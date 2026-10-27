@@ -61,7 +61,7 @@ const Tela: React.FC<{cena: Cena}> = ({cena}) => {
       >
         <div
           style={{
-            position: 'absolute', left: 64, right: 180, top: 300, height: 960, display: 'flex', flexDirection: 'column',
+            position: 'absolute', left: 64, right: 180, top: 410, height: 860, display: 'flex', flexDirection: 'column',
             alignItems: 'center', justifyContent: 'center', gap: 34,
           }}
         >
@@ -177,12 +177,12 @@ const Legenda: React.FC<{falas: Fala[]}> = ({falas}) => {
   );
 };
 
-// Etiqueta fixa no topo, igual em todas as telas: "FIX #12" (série numerada, casa com o nome English Mistake Fix: quem vê um procura os outros)
+// Etiqueta fixa no topo (abaixo da barra do app do YouTube, que cobre y < ~220), igual em todas as telas: "FIX #12" (série numerada, casa com o nome English Mistake Fix: quem vê um procura os outros)
 // + o tema. Qualquer quadro que o YouTube escolha como capa do Short mostra o assunto.
 const Tema: React.FC<{texto: string; dia: number | null}> = ({texto, dia}) => {
   const fs = Math.min(70, Math.floor(820 / ((texto.length + (dia ? 7 : 0)) * 0.6)));
   return (
-    <div style={{position: 'absolute', left: 64, right: 180, top: 120, display: 'flex', justifyContent: 'center'}}>
+    <div style={{position: 'absolute', left: 64, right: 180, top: 250, display: 'flex', justifyContent: 'center'}}>
       <div
         style={{
           display: 'flex', alignItems: 'center', gap: 16, fontFamily: TITULO, fontWeight: 700, fontSize: fs, color: '#FFFFFF',
@@ -201,7 +201,7 @@ const Tema: React.FC<{texto: string; dia: number | null}> = ({texto, dia}) => {
 const Progresso: React.FC<{ep: Ep}> = ({ep}) => {
   const {t} = useT();
   return (
-    <div style={{position: 'absolute', left: 64, right: 180, top: 250, display: 'flex', gap: 10}}>
+    <div style={{position: 'absolute', left: 64, right: 180, top: 372, display: 'flex', gap: 10}}>
       {ep.cenas.map((c, i) => {
         const p = interpolate(t, [c.inicio, c.fim], [0, 1], clamp);
         return (
