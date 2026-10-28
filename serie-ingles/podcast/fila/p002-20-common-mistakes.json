@@ -1,0 +1,1410 @@
+{
+  "slug": "p002-20-common-mistakes",
+  "episodio": 302,
+  "formato": "podcast",
+  "nivel": "A2-B1",
+  "serie": "Lesson",
+  "ep": 2,
+  "titulo": "20 Common English Mistakes",
+  "capa": "20 COMMON\nMISTAKES",
+  "vozes": {
+    "mia": {
+      "voz": "en-US-EmmaNeural",
+      "rate": "-12%"
+    },
+    "leo": {
+      "voz": "en-US-BrianNeural",
+      "rate": "-12%"
+    },
+    "mia_normal": {
+      "voz": "en-US-EmmaNeural",
+      "rate": "+0%"
+    },
+    "leo_normal": {
+      "voz": "en-US-BrianNeural",
+      "rate": "+0%"
+    }
+  },
+  "post": {
+    "titulo": "20 Common English Mistakes (and How to Fix Them) | English Lesson A2-B1 | Ep. 2",
+    "descricao": "20 Common English Mistakes and how to fix them: a clear A2–B1 English lesson with simple rules, new examples and speaking practice with Mia and Leo.\n\nThe 20 fixes in this lesson:\nGrammar traps\n1. I work there since three weeks → I've worked there for three weeks.\n2. He don't drink coffee → He doesn't drink coffee.\n3. Did you went? → Did you go?\n4. When I was a kid, I would live… → I used to live…\n5. A lot of advices → A lot of advice.\nConfusing word pairs\n6. I was so boring → I was so bored.\n7. I did a mistake → I made a mistake.\n8. Can you borrow me…? → Can you lend me…?\n9. I need it until Thursday → I need it by Thursday.\n10. I don't win a lot of money → I don't earn a lot of money.\nTricky verbs & false friends\n11. Explained me the problem → Explained the problem to me.\n12. Discuss about the project → Discuss the project.\n13. I assisted a meeting → I attended a meeting.\n14. My boss is very sympathetic → My boss is very nice.\n15. I arrived to work → I arrived at work.\nPronunciation & sounds\n16. V and W: a very warm winter\n17. TH: Thursday, I think\n18. Wednesday (WENZ-day)\n19. -ED endings: cooked, watched, wanted\n20. Live vs leave\n\nMini quiz after every group, shadowing (repeat out loud) and a quiz from the first 30 seconds answered at the end: how many mistakes did Mia make?\n\nTell us in the comments: write one sentence using one of today's fixes.\n\nMia and Leo are fictional characters.\nVoices are AI-generated; lessons written and reviewed by our team.",
+    "hashtags": [
+      "#learnenglish",
+      "#englishmistakes",
+      "#englishlesson",
+      "#englishgrammar",
+      "#speakenglish"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "bloco",
+      "titulo": "Three mistakes, one sentence",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "mia",
+          "texto": "Leo, I need help. Listen to this. I did a big mistake at work, my boss explained me the problem, and now I'm so boring."
+        },
+        {
+          "voz": "leo",
+          "texto": "Hmm. You're not boring, Mia. But that sentence is very interesting."
+        },
+        {
+          "voz": "mia",
+          "texto": "Interesting good, or interesting bad?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Interesting for our quiz.",
+          "card": {
+            "tipo": "quiz",
+            "pergunta": "How many mistakes did Mia make in her sentence?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "How many mistakes did Mia make? One? Two? Three? Count them. The answer comes at the end of the lesson."
+        },
+        {
+          "voz": "mia",
+          "texto": "Wait. More than one?"
+        },
+        {
+          "voz": "leo",
+          "texto": "No comment."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Welcome to the lesson",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Hi, everyone, and welcome back to English Mistake Fix. I'm Leo. I'm your teacher."
+        },
+        {
+          "voz": "mia",
+          "texto": "And I'm Mia. I'm the student. And, as you just heard, I'm the mistake expert."
+        },
+        {
+          "voz": "leo",
+          "texto": "Today is a lesson episode. Level A2 to B1. We're going to fix twenty common English mistakes. Learners all over the world make them. So if you make them too, you are in very good company."
+        },
+        {
+          "voz": "mia",
+          "texto": "Twenty? In one episode? That's a lot of mistakes."
+        },
+        {
+          "voz": "leo",
+          "texto": "Don't worry. We have four groups. Five mistakes in each group.",
+          "card": {
+            "tipo": "lista",
+            "titulo": "Today: 20 mistakes in 4 groups",
+            "itens": [
+              "Grammar traps",
+              "Confusing word pairs",
+              "Tricky verbs & false friends",
+              "Pronunciation & sounds"
+            ]
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Group one. Grammar traps. Group two. Confusing word pairs. Group three. Tricky verbs and false friends. And group four. Pronunciation and sounds."
+        },
+        {
+          "voz": "leo",
+          "texto": "For every mistake, you get the wrong sentence, the right sentence, a simple rule, and a new example. Then you say it out loud. And after every group, there's a mini quiz."
+        },
+        {
+          "voz": "mia",
+          "texto": "And some of these mistakes have their own short videos on our channel, right?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Right. If you saw our Shorts, today you'll see those mistakes again, with new examples and a little more explanation. Good for your memory."
+        },
+        {
+          "voz": "mia",
+          "texto": "Okay. I have my tea. Biscuit is here, too."
+        },
+        {
+          "voz": "leo",
+          "texto": "Biscuit is my cat, Mia. He's at my place. Asleep on my keyboard, as usual."
+        },
+        {
+          "voz": "mia",
+          "texto": "I know. I just miss him. Let's start!"
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Group 1: Grammar traps",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Group one. Grammar traps. These are small grammar mistakes. People understand you, but they sound a little strange."
+        },
+        {
+          "voz": "mia",
+          "texto": "Small mistakes. I like small."
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number one. Mia, how long have you worked at your new job?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I work there since three weeks."
+        },
+        {
+          "voz": "leo",
+          "texto": "Perfect timing.",
+          "card": {
+            "tipo": "erro",
+            "errado": "I work there since three weeks.",
+            "certo": "I've worked there for three weeks."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "There are two problems here. First, the action started in the past, and it's still true now. So we use have plus the past participle. I've worked. Second, three weeks is a length of time. So we use for. Since is for a starting point, like since Monday, or since September."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I've worked there for three weeks. Or, I've worked there since October."
+        },
+        {
+          "voz": "leo",
+          "texto": "Exactly. Here's a new example. My brother has played the guitar for ten years."
+        },
+        {
+          "voz": "mia",
+          "texto": "I've worked there for three weeks."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number two. This one is about Sam, Mia's coworker."
+        },
+        {
+          "voz": "mia",
+          "texto": "Sam is nice. But he don't drink coffee. Only water. All day."
+        },
+        {
+          "voz": "leo",
+          "texto": "And there it is.",
+          "card": {
+            "tipo": "erro",
+            "errado": "He don't drink coffee.",
+            "certo": "He doesn't drink coffee."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "In standard English, with he, she, and it, we use does in the present. So the negative is doesn't. He doesn't, she doesn't, it doesn't. And after doesn't, the verb has no s. He doesn't drink. Not, he doesn't drinks."
+        },
+        {
+          "voz": "mia",
+          "texto": "I don't drink coffee. You don't. But he doesn't. Biscuit doesn't."
+        },
+        {
+          "voz": "leo",
+          "texto": "Correct. Biscuit doesn't do anything. A new example. My neighbor doesn't have a car. She takes the train."
+        },
+        {
+          "voz": "mia",
+          "texto": "He doesn't drink coffee."
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number three. Mia, ask me about my weekend."
+        },
+        {
+          "voz": "mia",
+          "texto": "Leo, did you went to the farmers market on Saturday?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Thank you. That's mistake number three.",
+          "card": {
+            "tipo": "erro",
+            "errado": "Did you went to the market?",
+            "certo": "Did you go to the market?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "In a past question, the word did already shows the past. So the main verb goes back to the simple form. Did you go? Did she eat? Did they call? One past word is enough."
+        },
+        {
+          "voz": "mia",
+          "texto": "Did you go to the market? Did you buy anything?"
+        },
+        {
+          "voz": "leo",
+          "texto": "I did. I bought very expensive tomatoes. A new example. Did you see the email from your boss?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Did you go to the market?"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number four. Mia, where did you live when you were a kid?"
+        },
+        {
+          "voz": "mia",
+          "texto": "When I was a kid, I would live near the sea."
+        },
+        {
+          "voz": "leo",
+          "texto": "Almost.",
+          "card": {
+            "tipo": "erro",
+            "errado": "When I was a kid, I would live near the sea.",
+            "certo": "When I was a kid, I used to live near the sea."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Used to and would both talk about the past. But would is only for actions that happened again and again. Not for states, like live, have, or be. For states, use used to."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I used to live near the sea. And every summer, we would swim in the morning."
+        },
+        {
+          "voz": "leo",
+          "texto": "Beautiful. The first is a state. The second is a repeated action. A new example. I used to have long hair. Yes, really."
+        },
+        {
+          "voz": "mia",
+          "texto": "Leo! With long hair? I need a photo."
+        },
+        {
+          "voz": "leo",
+          "texto": "No photos. Say it with me. When I was a kid, I used to live near the sea."
+        },
+        {
+          "pausa": 7.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number five. Mia, what did your boss say on your first day?"
+        },
+        {
+          "voz": "mia",
+          "texto": "She gave me a lot of advices. Like, ask questions, and don't be shy."
+        },
+        {
+          "voz": "leo",
+          "texto": "Good advice. But one word is wrong.",
+          "card": {
+            "tipo": "erro",
+            "errado": "She gave me a lot of advices.",
+            "certo": "She gave me a lot of advice."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Advice is an uncountable noun. You can't count it, so it has no s. And we don't say an advice. We say some advice, or a piece of advice. Information and furniture work the same way."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, some advice, some information, some furniture. My new apartment has no furniture, by the way. Only a bed and a lamp."
+        },
+        {
+          "voz": "leo",
+          "texto": "Then you need some advice about furniture. A new example. Can I give you a piece of advice? Buy a chair."
+        },
+        {
+          "voz": "mia",
+          "texto": "She gave me a lot of advice."
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Group one is done! Now, a mini quiz. Fix this sentence.",
+          "card": {
+            "tipo": "quiz",
+            "pergunta": "Fix it: \"She don't live here since two years.\""
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "She don't live here since two years. Two mistakes. Think for a moment."
+        },
+        {
+          "voz": "mia",
+          "texto": "Hmm. She doesn't... no, wait. She hasn't lived here for two years!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Wow. Correct.",
+          "card": {
+            "tipo": "resposta",
+            "texto": "She hasn't lived here for two years."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "She hasn't lived here for two years. Has, because the time continues until now. And for, because two years is a length of time."
+        },
+        {
+          "voz": "mia",
+          "texto": "I'm so good at this. Now, when I make mistakes, it's for the show."
+        },
+        {
+          "voz": "leo",
+          "texto": "Now, shadowing. Listen, and then say it out loud. Three sentences."
+        },
+        {
+          "voz": "leo",
+          "texto": "One.",
+          "card": {
+            "tipo": "frase",
+            "en": "I've lived in this city for three weeks."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "I've lived in this city for three weeks."
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Two.",
+          "card": {
+            "tipo": "frase",
+            "en": "My coworker doesn't drink coffee."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "My coworker doesn't drink coffee."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Three.",
+          "card": {
+            "tipo": "frase",
+            "en": "Did you get my message?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Did you get my message?"
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Great job. Group one is finished."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Group 2: Confusing word pairs",
+      "cenario": "trabalho",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Group two. Confusing word pairs. Two words that look similar, or feel similar. But they're not the same."
+        },
+        {
+          "voz": "mia",
+          "texto": "Like Biscuit and a pillow. They look the same. One is a cat."
+        },
+        {
+          "voz": "leo",
+          "texto": "Yes. Very similar. Mistake number six. Mia, how was your team meeting yesterday?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Two hours. About printers. I was so boring."
+        },
+        {
+          "voz": "leo",
+          "texto": "Mia, you're not boring. The meeting was boring.",
+          "card": {
+            "tipo": "erro",
+            "errado": "The meeting was long. I was so boring.",
+            "certo": "The meeting was long. I was so bored."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Words with ing describe the person or thing that causes the feeling. The meeting was boring. Words with ed describe how you feel. I was bored. The same is true for tired and tiring, and interested and interesting."
+        },
+        {
+          "voz": "mia",
+          "texto": "The meeting was boring, so I was bored. And the printers were... confusing. And I was confused."
+        },
+        {
+          "voz": "leo",
+          "texto": "Perfect. A new example. This book is interesting. I'm very interested in it."
+        },
+        {
+          "voz": "mia",
+          "texto": "The meeting was long. I was so bored."
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number seven. This one is very important for this show."
+        },
+        {
+          "voz": "mia",
+          "texto": "Why?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Because of our name. What do you do with a mistake?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I do a mistake. I do a lot of mistakes!"
+        },
+        {
+          "voz": "leo",
+          "texto": "And here we go.",
+          "card": {
+            "tipo": "erro",
+            "errado": "I did a mistake.",
+            "certo": "I made a mistake."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "We make a mistake. Never do a mistake. A simple rule. Make is usually for creating something. A cake, a plan. And some words just go with make, like a mistake, or a decision. Do is for work, tasks, and jobs. Do your homework, do the dishes, do your best."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I make a lot of mistakes. But I do my best."
+        },
+        {
+          "voz": "leo",
+          "texto": "That's you, Mia. A new example. I made a decision. I'm going to learn Spanish."
+        },
+        {
+          "voz": "mia",
+          "texto": "I made a mistake."
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number eight. Mia, your phone is almost dead. What do you say to Sam?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Sam, can you borrow me your charger?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Close. But no.",
+          "card": {
+            "tipo": "erro",
+            "errado": "Can you borrow me your charger?",
+            "certo": "Can you lend me your charger?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Lend means give something for a short time. Borrow means take something for a short time. So, Sam lends. Mia borrows. You can say, can you lend me your charger? Or, can I borrow your charger?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Lend is give. Borrow is take. Can I borrow your charger? And, Sam, can you lend me five dollars for lunch?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Careful. Sam will stop sitting next to you. A new example. My sister lent me her car for the weekend."
+        },
+        {
+          "voz": "mia",
+          "texto": "Can you lend me your charger?"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number nine. A work email. Mia, what did your boss ask for?"
+        },
+        {
+          "voz": "mia",
+          "texto": "She said, Mia, I need the report until Thursday."
+        },
+        {
+          "voz": "leo",
+          "texto": "I'm sure she said it a little differently.",
+          "card": {
+            "tipo": "erro",
+            "errado": "I need the report until Thursday.",
+            "certo": "I need the report by Thursday."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Until means a situation continues, and then it stops. I'll be at the office until six. By means a deadline. Not later than that time. Thursday or before."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I need the report by Thursday. And I'll work on it until late tonight."
+        },
+        {
+          "voz": "leo",
+          "texto": "Two words, two jobs. A new example. The store is open until nine. Please be here by eight."
+        },
+        {
+          "voz": "mia",
+          "texto": "I need the report by Thursday."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number ten. Mia, is the money good at your new job?"
+        },
+        {
+          "voz": "mia",
+          "texto": "It's okay. I don't win a lot of money. But I like it."
+        },
+        {
+          "voz": "leo",
+          "texto": "You win money in a game, Mia. Is your job a game?",
+          "card": {
+            "tipo": "erro",
+            "errado": "I don't win a lot of money.",
+            "certo": "I don't earn a lot of money."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Win is for games, prizes, and competitions. You win a game, or win a prize. Earn is for money from your work. You earn a salary. You earn money."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I earn money at my job. And maybe one day, I'll win the lottery."
+        },
+        {
+          "voz": "leo",
+          "texto": "Good luck with that. A new example. She earns more money at her new job."
+        },
+        {
+          "voz": "mia",
+          "texto": "I don't earn a lot of money."
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mini quiz time. Which word is correct?",
+          "card": {
+            "tipo": "quiz",
+            "pergunta": "Choose: \"Please pay the bill (until / by) Monday.\""
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Please pay the bill, until Monday, or by Monday?"
+        },
+        {
+          "voz": "mia",
+          "texto": "It's a deadline. So, by! Please pay the bill by Monday."
+        },
+        {
+          "voz": "leo",
+          "texto": "Correct.",
+          "card": {
+            "tipo": "resposta",
+            "texto": "Please pay the bill by Monday."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "By Monday. A deadline. Until is for something that continues. Like, I'll wait until Monday."
+        },
+        {
+          "voz": "leo",
+          "texto": "Shadowing. Say it with us."
+        },
+        {
+          "voz": "mia",
+          "texto": "One.",
+          "card": {
+            "tipo": "frase",
+            "en": "That movie was boring. I was so bored."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "That movie was boring. I was so bored."
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Two.",
+          "card": {
+            "tipo": "frase",
+            "en": "Sorry, I made a mistake."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Sorry, I made a mistake."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Three.",
+          "card": {
+            "tipo": "frase",
+            "en": "Can I borrow your pen for a minute?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Can I borrow your pen for a minute?"
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "I was not bored at all in this group."
+        },
+        {
+          "voz": "leo",
+          "texto": "Good. Because you were not boring."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Group 3: Verbs & false friends",
+      "cenario": "trabalho",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Group three. Tricky verbs and false friends. A false friend is an English word that looks like a word in your language. But the meaning is different."
+        },
+        {
+          "voz": "mia",
+          "texto": "Like a friend who says, I'll help you move, and then doesn't come."
+        },
+        {
+          "voz": "leo",
+          "texto": "Exactly like that. But first, two tricky verbs. Mistake number eleven. Mia, you said it at the start of the show."
+        },
+        {
+          "voz": "mia",
+          "texto": "My boss explained me the problem."
+        },
+        {
+          "voz": "leo",
+          "texto": "That's the one.",
+          "card": {
+            "tipo": "erro",
+            "errado": "My boss explained me the problem.",
+            "certo": "My boss explained the problem to me."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "With explain, the thing usually comes first. Then to and the person. Explain the problem to me. Explain the rules to them. You can also say, explain it to me. But never, explain me."
+        },
+        {
+          "voz": "mia",
+          "texto": "My boss explained the problem to me. Can you explain the plan to me?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Yes. A new example. Can you explain the homework to us?"
+        },
+        {
+          "voz": "mia",
+          "texto": "My boss explained the problem to me."
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number twelve. Another verb."
+        },
+        {
+          "voz": "mia",
+          "texto": "Next week, my team will discuss about the new project."
+        },
+        {
+          "voz": "leo",
+          "texto": "I hear a little extra word.",
+          "card": {
+            "tipo": "erro",
+            "errado": "We will discuss about the project.",
+            "certo": "We will discuss the project."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Discuss already means talk about. So we don't need about. Discuss the project. Discuss the problem. If you want to use about, say talk about. We'll talk about the project."
+        },
+        {
+          "voz": "mia",
+          "texto": "We will discuss the project. Or, we will talk about the project. Not both together."
+        },
+        {
+          "voz": "leo",
+          "texto": "Right. A new example. Let's discuss your ideas after lunch."
+        },
+        {
+          "voz": "mia",
+          "texto": "We will discuss the project."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Now, the false friends. Mistake number thirteen. Mia, what did you do yesterday morning?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I assisted a meeting with the marketing team."
+        },
+        {
+          "voz": "leo",
+          "texto": "Did you help them? Did you bring them coffee?",
+          "card": {
+            "tipo": "erro",
+            "errado": "I assisted a meeting.",
+            "certo": "I attended a meeting."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "In English, assist means help. You assist a person. If you go to a meeting, a class, or a wedding, you attend it. I attended a meeting."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I attended the meeting. And I assisted Sam with his slides."
+        },
+        {
+          "voz": "leo",
+          "texto": "Nice. A new example. More than fifty people attended the concert."
+        },
+        {
+          "voz": "mia",
+          "texto": "I attended a meeting."
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number fourteen. Mia, what is your boss like?"
+        },
+        {
+          "voz": "mia",
+          "texto": "She's very sympathetic. She always smiles and says hello."
+        },
+        {
+          "voz": "leo",
+          "texto": "Hmm. Does she feel sorry for you?",
+          "card": {
+            "tipo": "erro",
+            "errado": "My boss is very sympathetic.",
+            "certo": "My boss is very nice."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "In many languages, a word like sympathetic means nice or friendly. But in English, sympathetic means you understand when someone is sad or has a problem. For a person who is pleasant and friendly, say nice, friendly, or kind."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, my boss is very nice. And when I had a bad day, Sam was very sympathetic."
+        },
+        {
+          "voz": "leo",
+          "texto": "Exactly right. A new example. Our new neighbors are really friendly."
+        },
+        {
+          "voz": "mia",
+          "texto": "Like Frank! And Peanut!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Peanut is a dog, Mia."
+        },
+        {
+          "voz": "mia",
+          "texto": "A very friendly dog. My boss is very nice."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number fifteen. Mia, what time did you get to the office today?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I arrived to work at eight twenty. Early! Ten minutes early!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Congratulations. But one small word.",
+          "card": {
+            "tipo": "erro",
+            "errado": "I arrived to work early.",
+            "certo": "I arrived at work early."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "We don't usually say arrive to. Use arrive at for a building or a place, like work, the airport, or the station. Use arrive in for a city or a country. Or you can say got to. I got to work early."
+        },
+        {
+          "voz": "mia",
+          "texto": "I arrived at work early. I arrived in this city three weeks ago. And I got to the office at eight twenty."
+        },
+        {
+          "voz": "leo",
+          "texto": "Three weeks already. Time flies. A new example. Our plane arrived in Toronto at midnight."
+        },
+        {
+          "voz": "mia",
+          "texto": "I arrived at work early."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mini quiz. Two sentences. Two mistakes. Fix them.",
+          "card": {
+            "tipo": "quiz",
+            "pergunta": "Fix it: \"I assisted a class. The teacher explained me the rules.\""
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I assisted a class. The teacher explained me the rules."
+        },
+        {
+          "voz": "mia",
+          "texto": "Easy. I attended a class. The teacher explained the rules to me."
+        },
+        {
+          "voz": "leo",
+          "texto": "Perfect.",
+          "card": {
+            "tipo": "resposta",
+            "texto": "I attended a class. The teacher explained the rules to me."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Attended, because you went to the class. And explained the rules to me."
+        },
+        {
+          "voz": "leo",
+          "texto": "Shadowing. Three sentences. Out loud, please."
+        },
+        {
+          "voz": "leo",
+          "texto": "One.",
+          "card": {
+            "tipo": "frase",
+            "en": "Can you explain it to me again?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Can you explain it to me again?"
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Two.",
+          "card": {
+            "tipo": "frase",
+            "en": "I attended a meeting this morning."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I attended a meeting this morning."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Three.",
+          "card": {
+            "tipo": "frase",
+            "en": "My new coworkers are really nice."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "My new coworkers are really nice."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Group 4: Pronunciation & sounds",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Group four. Pronunciation and sounds. For this group, really listen. And use your mouth."
+        },
+        {
+          "voz": "mia",
+          "texto": "My mouth is ready. Let's go."
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number sixteen. The sounds V and W. Mia, say this. A very warm winter."
+        },
+        {
+          "voz": "mia",
+          "texto": "A wery warm winter."
+        },
+        {
+          "voz": "leo",
+          "texto": "One sound is changing.",
+          "card": {
+            "tipo": "erro",
+            "errado": "A \"wery\" warm winter",
+            "certo": "A very warm winter"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "For V, put your top teeth on your bottom lip. Then push air, and use your voice. Vvv. For W, make your lips small and round, like a kiss. No teeth. Www. Very. Warm."
+        },
+        {
+          "voz": "mia",
+          "texto": "Vvv. Very. Www. Warm. A very warm winter."
+        },
+        {
+          "voz": "leo",
+          "texto": "Much better. A new example. We visited a village in the west."
+        },
+        {
+          "voz": "mia",
+          "texto": "A very warm winter."
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number seventeen. The TH sound. Mia, what day is it tomorrow?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Tomorrow is Tursday. I tink."
+        },
+        {
+          "voz": "leo",
+          "texto": "I think you mean Thursday.",
+          "card": {
+            "tipo": "erro",
+            "errado": "\"Tursday\" / \"I tink\"",
+            "certo": "Thursday / I think"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "For TH, put the tip of your tongue between your teeth. Just a little. Then push air out. Don't close your mouth. Thursday. Think. Three."
+        },
+        {
+          "voz": "mia",
+          "texto": "Th, th. Thursday. I think. I think it's Thursday."
+        },
+        {
+          "voz": "leo",
+          "texto": "Good. Around the world, many speakers, even some native speakers, say this sound differently, and people understand them. So it's not a big problem. But this sound can help you be clear. Think, not tink. A new example. I think there are three things on the list."
+        },
+        {
+          "voz": "mia",
+          "texto": "I think it's Thursday."
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number eighteen. And it's the day before Thursday."
+        },
+        {
+          "voz": "mia",
+          "texto": "Wed, nes, day. Wednesday."
+        },
+        {
+          "voz": "leo",
+          "texto": "You said three parts.",
+          "card": {
+            "tipo": "erro",
+            "errado": "\"Wed-nes-day\"",
+            "certo": "Wednesday (sounds like \"WENZ-day\")"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "The spelling is strange. But Wednesday has only two parts. The first d is silent. It sounds like WENZ, day. Wednesday."
+        },
+        {
+          "voz": "mia",
+          "texto": "Wenz, day. Wednesday. Why is English like this?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Old spelling, new sound. A new example. Let's have lunch on Wednesday."
+        },
+        {
+          "voz": "mia",
+          "texto": "See you on Wednesday."
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number nineteen. The ed at the end of past verbs. Mia, what did you do last night?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I cook-ed dinner, and I watch-ed a show."
+        },
+        {
+          "voz": "leo",
+          "texto": "Too many sounds.",
+          "card": {
+            "tipo": "erro",
+            "errado": "I cook-ed, I watch-ed",
+            "certo": "I cooked (t), I watched (t)"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Most ed endings are not a new syllable. After sounds like k, p, s, sh, and ch, ed sounds like t. Cooked. Watched. Helped. After other sounds, like n, l, or a vowel, it sounds like d. Played. Called. And after t or d, it's a new syllable, id. Wanted. Needed."
+        },
+        {
+          "voz": "mia",
+          "texto": "Cooked. Watched. And, wanted. I wanted pizza, but I cooked pasta."
+        },
+        {
+          "voz": "leo",
+          "texto": "Very good. A new example. I walked to work and finished early."
+        },
+        {
+          "voz": "mia",
+          "texto": "I cooked dinner and watched a show."
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number twenty. The last one! Mia, where do you live now?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I leave on Oak Street. Near the bus stop."
+        },
+        {
+          "voz": "leo",
+          "texto": "You leave? Are you moving again?",
+          "card": {
+            "tipo": "erro",
+            "errado": "I \"leave\" on Oak Street.",
+            "certo": "I live on Oak Street."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Live has a short sound. Your mouth is relaxed. Live. Leave has a long sound. Smile a little, and make it longer. Leave. Live is about your home. Leave means go away."
+        },
+        {
+          "voz": "mia",
+          "texto": "Live. Leave. I live on Oak Street. And I leave home at eight."
+        },
+        {
+          "voz": "leo",
+          "texto": "Perfect. A new example. I live near the park, but I leave early for work."
+        },
+        {
+          "voz": "mia",
+          "texto": "I live on Oak Street."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "The last mini quiz. Listen carefully.",
+          "card": {
+            "tipo": "quiz",
+            "pergunta": "Cooked, wanted, watched: which one has an extra syllable?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Cooked, wanted, watched. Which one has an extra syllable?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Wanted! Because there's a t before the ed. Want, id. Wanted."
+        },
+        {
+          "voz": "leo",
+          "texto": "Correct.",
+          "card": {
+            "tipo": "resposta",
+            "texto": "Wanted (want-id). Cooked and watched end in a \"t\" sound."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Wanted. The others end in a short t sound. Cooked. Watched."
+        },
+        {
+          "voz": "leo",
+          "texto": "And the last shadowing of the day. Three sentences."
+        },
+        {
+          "voz": "mia",
+          "texto": "One.",
+          "card": {
+            "tipo": "frase",
+            "en": "I think it's very warm today."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I think it's very warm today."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Two.",
+          "card": {
+            "tipo": "frase",
+            "en": "I live near the station."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "I live near the station."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Three.",
+          "card": {
+            "tipo": "frase",
+            "en": "I walked home on Wednesday."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I walked home on Wednesday."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Recap and quiz answer",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "We did it. Twenty mistakes. Let's do a quick recap of the eight most important ones.",
+          "card": {
+            "tipo": "lista",
+            "titulo": "Top 8 fixes",
+            "itens": [
+              "I've worked here for 3 weeks.",
+              "He doesn't drink coffee.",
+              "Did you go?",
+              "I made a mistake.",
+              "Can you lend me...?",
+              "by Thursday (deadline)",
+              "Explain the problem to me.",
+              "I attended a meeting."
+            ]
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I've worked here for three weeks. He doesn't drink coffee. Did you go? I made a mistake. Can you lend me? By Thursday, for a deadline. Explain the problem to me. And, I attended a meeting."
+        },
+        {
+          "voz": "mia",
+          "texto": "My brain is full. But it's a happy brain."
+        },
+        {
+          "voz": "leo",
+          "texto": "And now, the quiz from the beginning. Mia said, I did a big mistake at work, my boss explained me the problem, and now I'm so boring. How many mistakes?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I know now. I counted. Three!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Three. Correct. Now fix them."
+        },
+        {
+          "voz": "mia",
+          "texto": "I made a big mistake at work. My boss explained the problem to me. And now I'm so bored.",
+          "card": {
+            "tipo": "resposta",
+            "texto": "3 mistakes: I made a big mistake. My boss explained the problem to me. Now I'm so bored."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Perfect. Made a mistake, not did. Explained the problem to me, not explained me. And bored, not boring. Because you are not boring, Mia."
+        },
+        {
+          "voz": "mia",
+          "texto": "Thank you. And what was my mistake at work? I sent an email to the whole team. With a photo of a dog."
+        },
+        {
+          "voz": "leo",
+          "texto": "Of course you did."
+        },
+        {
+          "voz": "mia",
+          "texto": "It was Peanut! Everybody loved it. My boss replied with a heart."
+        },
+        {
+          "voz": "leo",
+          "texto": "So maybe it wasn't a mistake. Say it with me. I made a mistake, but it was okay."
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Now your task. In the comments, write one sentence with one of today's fixes. For example, I've studied English for two years. Or, I made a mistake today. We read the comments."
+        },
+        {
+          "voz": "mia",
+          "texto": "And if you make a mistake in the comment, that's okay. We can fix it together."
+        },
+        {
+          "voz": "leo",
+          "texto": "Next week, in episode three, it's our Real Talk series. Level B1. It's Mia's big day. She has to introduce herself to the whole team."
+        },
+        {
+          "voz": "mia",
+          "texto": "Twenty people. In English. My boss said it's on Monday. Leo, I'm nervous."
+        },
+        {
+          "voz": "leo",
+          "texto": "We'll practice together. You'll learn how to talk about yourself, your job, and your city, in natural English."
+        },
+        {
+          "voz": "mia",
+          "texto": "And no photos of dogs."
+        },
+        {
+          "voz": "leo",
+          "texto": "Maybe one. See you next week, everyone. Keep practicing, and don't worry about mistakes."
+        },
+        {
+          "voz": "mia",
+          "texto": "Bye, everyone! See you next week!"
+        }
+      ]
+    }
+  ]
+}
