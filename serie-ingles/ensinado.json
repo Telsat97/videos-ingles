@@ -193,6 +193,30 @@
       ]
     },
     {
+      "slug": "ep009-in-on-at",
+      "episodio": 9,
+      "titulo": "5 erros com in, on e at que todo brasileiro comete",
+      "temas": [
+        "in Monday -> on Monday",
+        "in eight o'clock -> at eight o'clock",
+        "on July -> in July",
+        "in home -> at home",
+        "at the morning -> in the morning"
+      ],
+      "ensina": [
+        "on Monday",
+        "I have class on Monday.",
+        "at eight o'clock",
+        "The movie starts at eight.",
+        "in July",
+        "My birthday is in July.",
+        "at home",
+        "I'm at home now.",
+        "in the morning",
+        "I run in the morning."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -271,6 +295,15 @@
       "temas": [],
       "ensina": [
         "She's married\nto a doctor."
+      ]
+    },
+    {
+      "slug": "d010-th-sound",
+      "episodio": 210,
+      "titulo": "TH sound",
+      "temas": [],
+      "ensina": [
+        "Thank you\nso much."
       ]
     }
   ]
