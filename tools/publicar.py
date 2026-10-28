@@ -30,7 +30,7 @@ RODAPE = {
 
 
 def idioma(post: dict) -> str:
-    return "en" if post.get("formato") == "dica" else post.get("idioma", "pt")
+    return "en" if post.get("formato") in ("dica", "podcast") else post.get("idioma", "pt")
 
 
 def texto(post: dict, plataforma: str) -> str:
@@ -68,6 +68,8 @@ def youtube(post: dict) -> str:
         },
         "status": {
             "privacyStatus": os.environ.get("YT_PRIVACIDADE", "public"),
+            # Estreia agendada (ex.: podcast de domingo): o YouTube exige privacyStatus "private" junto.
+            **({"publishAt": os.environ["YT_PUBLICAR_EM"]} if os.environ.get("YT_PUBLICAR_EM") else {}),
             # Decidido por vídeo no roteiro (post.para_criancas); o padrão é público geral (ver PLANO-DO-TIME.md).
             "selfDeclaredMadeForKids": bool(post.get("para_criancas", False)),
             "containsSyntheticMedia": True,  # voz gerada por IA: declaração exigida pelo YouTube
@@ -85,7 +87,7 @@ def youtube(post: dict) -> str:
         except Exception as erro:  # noqa: BLE001
             print(f"::warning::Não consegui enviar a capa: {erro}"[:500])
     comentar(resp["id"], post)
-    if post.get("formato") == "longo":
+    if post.get("formato") in ("longo", "podcast"):
         return f"https://www.youtube.com/watch?v={resp['id']}"
     return f"https://youtube.com/shorts/{resp['id']}"
 

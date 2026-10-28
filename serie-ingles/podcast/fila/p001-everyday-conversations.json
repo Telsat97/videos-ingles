@@ -1,0 +1,1302 @@
+{
+  "slug": "p001-everyday-conversations",
+  "episodio": 301,
+  "formato": "podcast",
+  "nivel": "A2",
+  "serie": "Easy",
+  "ep": 1,
+  "titulo": "Everyday English Conversations",
+  "capa": "EVERYDAY\nENGLISH",
+  "vozes": {
+    "mia": {
+      "voz": "en-US-EmmaNeural",
+      "rate": "-12%"
+    },
+    "leo": {
+      "voz": "en-US-BrianNeural",
+      "rate": "-12%"
+    },
+    "mia_normal": {
+      "voz": "en-US-EmmaNeural",
+      "rate": "+0%"
+    },
+    "leo_normal": {
+      "voz": "en-US-BrianNeural",
+      "rate": "+0%"
+    }
+  },
+  "post": {
+    "titulo": "Everyday English Conversation Practice | A2 English Podcast | Ep. 1 — Mia's Busy Day",
+    "descricao": "Everyday English Conversation Practice for A2 learners: follow Mia's busy day and speak real English with easy, slow conversations.\n\nIn this episode you will learn:\n- 5 everyday expressions: How's it going? · I just moved here. · I'd like... · How do I get to...? · Sounds good!\n- 3 common mistakes and how to fix them: people is/are · said me/told me · How much costs it?\n- 10 sentences to repeat out loud (shadowing)\n- The coffee shop scene again at natural speed\n- Quiz: what is wrong with \"I lost the bus\"? (answer at the end)\n\nReal-life situations: greeting a neighbor, ordering coffee, asking for directions, taking the bus, small talk at work, the supermarket checkout and making plans on the phone.\n\nTell us in the comments: what did you do this morning? Use one expression from today.\n\nMia and Leo are fictional characters.\nVoices are AI-generated; story and lessons written and reviewed by our team.",
+    "hashtags": [
+      "#learnenglish",
+      "#englishpodcast",
+      "#englishconversation",
+      "#englishlistening",
+      "#speakenglish"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "bloco",
+      "titulo": "The bus mistake",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "mia",
+          "texto": "Leo! Leo! You won't believe my day. This morning, I lost the bus!"
+        },
+        {
+          "voz": "leo",
+          "texto": "You lost the bus? Wow. It's very big. Did you check under your bed?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Very funny. You know what I mean."
+        },
+        {
+          "voz": "leo",
+          "texto": "I do. But one word is wrong. That's today's quiz.",
+          "card": {
+            "tipo": "quiz",
+            "pergunta": "\"This morning, I lost the bus.\" What should Mia say?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "What should Mia say? Think about it. The answer comes at the end."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Welcome to Mistake Fix",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Hi, everyone, and welcome to the English Mistake Fix Podcast. I'm Leo. I'm your teacher, and I fix mistakes. Gently."
+        },
+        {
+          "voz": "mia",
+          "texto": "And I'm Mia. I make the mistakes. A lot of mistakes."
+        },
+        {
+          "voz": "leo",
+          "texto": "That's why we're a good team. This is our Easy series, level A2. Today's topic is everyday English conversations."
+        },
+        {
+          "voz": "mia",
+          "texto": "Small, normal conversations. Like with a neighbor, or at a coffee shop, or on the bus."
+        },
+        {
+          "voz": "leo",
+          "texto": "Exactly. Today you will learn three things.",
+          "card": {
+            "tipo": "lista",
+            "titulo": "Today you will learn",
+            "itens": [
+              "5 everyday expressions",
+              "3 common mistakes and how to fix them",
+              "10 sentences to say out loud"
+            ]
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "One. Five everyday expressions. Two. Three common mistakes, and how to fix them. Three. Ten useful sentences. You will say them out loud with us."
+        },
+        {
+          "voz": "mia",
+          "texto": "So get your coffee, or your tea, and relax."
+        },
+        {
+          "voz": "leo",
+          "texto": "Tea for me. Always tea. My cat, Biscuit, is already asleep on my keyboard. So let's start before he wakes up."
+        },
+        {
+          "voz": "mia",
+          "texto": "Biscuit never wakes up, Leo."
+        },
+        {
+          "voz": "leo",
+          "texto": "True. He is a very lazy cat. Okay, Mia. You just moved to a new city, right?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Yes! Two weeks ago. New city, new apartment, new job. Everything is new."
+        },
+        {
+          "voz": "leo",
+          "texto": "Then tell us about your day. From the beginning. And I will play the other people in your story."
+        },
+        {
+          "voz": "mia",
+          "texto": "Great. So, it was seven thirty in the morning. I opened my door, and..."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Hello, neighbor!",
+      "cenario": "casa",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Okay. I'll be your neighbor. An older man with a small dog. Ready?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Ready."
+        },
+        {
+          "voz": "leo",
+          "texto": "Good morning! How's it going?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Oh! Good morning! It's going well, thanks. And you?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Not bad, not bad. I'm Frank. I live next door, in apartment four. Are you new here?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Yes. I just moved here. Two weeks ago. My name is Mia."
+        },
+        {
+          "voz": "leo",
+          "texto": "Nice to meet you, Mia. Welcome to the building. Do you like the neighborhood?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I love it. People is very friendly here."
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake alert. But don't worry. We will fix that one later. Back to the story. Frank smiles and says, \"That's nice to hear. This is my dog, Peanut.\""
+        },
+        {
+          "voz": "mia",
+          "texto": "Oh, he's so cute! Hi, Peanut! Can I take a photo of him?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Sure. He loves the camera."
+        },
+        {
+          "voz": "mia",
+          "texto": "So I took a photo. Then another photo. Then ten more photos."
+        },
+        {
+          "voz": "leo",
+          "texto": "Ten photos of a dog. At seven thirty in the morning."
+        },
+        {
+          "voz": "mia",
+          "texto": "He was very cute, Leo! Then I said, \"Have a good day, Frank!\""
+        },
+        {
+          "voz": "leo",
+          "texto": "And Frank says, \"You too, Mia. See you around.\" So, Mia, what did you do next?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I was hungry, and I needed coffee. A lot of coffee. So I walked to the coffee shop on my street."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "At the coffee shop",
+      "cenario": "cafe",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Okay. Now I'll be the barista. Hi there! What can I get for you?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Hi! I'd like a medium latte, please."
+        },
+        {
+          "voz": "leo",
+          "texto": "Sure. Hot or iced?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Hot, please. It's cold this morning."
+        },
+        {
+          "voz": "leo",
+          "texto": "It sure is. Anything else?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Hmm. Yes. I'd like a blueberry muffin, too."
+        },
+        {
+          "voz": "leo",
+          "texto": "Good choice. They're fresh. Is that for here or to go?"
+        },
+        {
+          "voz": "mia",
+          "texto": "To go, please. I'm a little late."
+        },
+        {
+          "voz": "leo",
+          "texto": "No problem. Can I get a name for the cup?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Mia. M, I, A."
+        },
+        {
+          "voz": "leo",
+          "texto": "Thanks, Mia. That's seven fifty. Your latte will be ready in two minutes."
+        },
+        {
+          "voz": "mia",
+          "texto": "Sounds good! Can I pay with my card?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Of course. Just tap it here."
+        },
+        {
+          "voz": "mia",
+          "texto": "So I paid, and I waited. And then the barista called my name. But he said, \"Maya!\""
+        },
+        {
+          "voz": "leo",
+          "texto": "A small mistake. It happens a lot with names."
+        },
+        {
+          "voz": "mia",
+          "texto": "I didn't care. The coffee was perfect. Then I looked at my phone, and I saw the time. Seven fifty-five!"
+        },
+        {
+          "voz": "leo",
+          "texto": "And your new job starts at what time?"
+        },
+        {
+          "voz": "mia",
+          "texto": "At eight thirty. And I didn't know the way to the office by bus. It was my first time taking the bus there."
+        },
+        {
+          "voz": "leo",
+          "texto": "Okay. So you needed directions."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "How do I get there?",
+      "cenario": "rua",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Now I'll be a woman on the street. She is waiting at the corner."
+        },
+        {
+          "voz": "mia",
+          "texto": "Excuse me. Sorry to bother you. How do I get to Green Street?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Green Street? Hmm. It's a little far to walk. You can take the number twelve bus."
+        },
+        {
+          "voz": "mia",
+          "texto": "The number twelve. Okay. Where is the bus stop?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Go straight, and turn left at the bank. The bus stop is across from the pharmacy."
+        },
+        {
+          "voz": "mia",
+          "texto": "Go straight, and turn left at the bank. Across from the pharmacy. Thank you so much!"
+        },
+        {
+          "voz": "leo",
+          "texto": "No problem. But hurry! The bus comes every fifteen minutes."
+        },
+        {
+          "voz": "mia",
+          "texto": "So I walked fast. I turned left at the bank, and I saw the bus stop. And I saw the number twelve bus. It was right there!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Great!"
+        },
+        {
+          "voz": "mia",
+          "texto": "No, not great. Because then I saw a dog. A big, fluffy, white dog. And I stopped."
+        },
+        {
+          "voz": "leo",
+          "texto": "Let me guess. You took a photo."
+        },
+        {
+          "voz": "mia",
+          "texto": "Just one! Okay, maybe three. And when I looked up, the bus was leaving. Bye bye, bus."
+        },
+        {
+          "voz": "leo",
+          "texto": "Oh no."
+        },
+        {
+          "voz": "mia",
+          "texto": "So I waited for the next bus. Fifteen minutes. In the cold. With my coffee."
+        },
+        {
+          "voz": "leo",
+          "texto": "And then?"
+        },
+        {
+          "voz": "mia",
+          "texto": "The next bus came. I got on and asked the driver, \"Does this bus go to Green Street?\""
+        },
+        {
+          "voz": "leo",
+          "texto": "I'll be the driver. Yes, it does. It's the fourth stop."
+        },
+        {
+          "voz": "mia",
+          "texto": "Great, thank you. And then I counted the stops. One, two, three, four. And I got off."
+        },
+        {
+          "voz": "leo",
+          "texto": "And what time did you get to work?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Eight forty-five. Fifteen minutes late. On my second week."
+        },
+        {
+          "voz": "leo",
+          "texto": "Well, now you know why Mia said, \"I lost the bus.\" But we still won't tell you the right answer. Not yet."
+        },
+        {
+          "voz": "mia",
+          "texto": "Wait for it!"
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Word focus",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Okay. Let's stop the story for a moment. It's time for word focus. Five everyday expressions from Mia's morning."
+        },
+        {
+          "voz": "mia",
+          "texto": "Number one is from my neighbor, Frank."
+        },
+        {
+          "voz": "leo",
+          "texto": "How's it going?",
+          "card": {
+            "tipo": "palavra",
+            "termo": "How's it going?",
+            "significado": "A friendly way to say \"How are you?\"",
+            "exemplo": "Hey, Sam! How's it going?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "How's it going? It means, how are you? It's friendly and very common. You can answer, \"Good, thanks!\" or \"Not bad.\" Here are two examples."
+        },
+        {
+          "voz": "mia",
+          "texto": "Hey, Sam! How's it going?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Hi, Mia! How's it going? Good to see you."
+        },
+        {
+          "voz": "leo",
+          "texto": "Now you. Say it with me. How's it going?",
+          "card": {
+            "tipo": "frase",
+            "en": "How's it going?"
+          }
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Number two. I said this to Frank, too."
+        },
+        {
+          "voz": "leo",
+          "texto": "I just moved here.",
+          "card": {
+            "tipo": "palavra",
+            "termo": "I just moved here.",
+            "significado": "I came to live here a short time ago.",
+            "exemplo": "I just moved here, so I don't know the city."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I just moved here. Just means a short time ago. So, I came to live here very recently. Two examples."
+        },
+        {
+          "voz": "mia",
+          "texto": "I just moved here, so I don't know the city very well."
+        },
+        {
+          "voz": "leo",
+          "texto": "Welcome! Did you just move here from another country?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Say it with me. I just moved here.",
+          "card": {
+            "tipo": "frase",
+            "en": "I just moved here."
+          }
+        },
+        {
+          "pausa": 3.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Number three is from the coffee shop."
+        },
+        {
+          "voz": "leo",
+          "texto": "I'd like...",
+          "card": {
+            "tipo": "palavra",
+            "termo": "I'd like...",
+            "significado": "A polite way to say what you want.",
+            "exemplo": "I'd like a medium latte, please."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "I'd like. It's short for I would like. It's a polite way to say what you want. Use it in shops, cafes, and restaurants. Two examples."
+        },
+        {
+          "voz": "mia",
+          "texto": "I'd like a medium latte, please."
+        },
+        {
+          "voz": "leo",
+          "texto": "I'd like a ticket to the city center, please."
+        },
+        {
+          "voz": "leo",
+          "texto": "Say it with me. I'd like a medium latte, please.",
+          "card": {
+            "tipo": "frase",
+            "en": "I'd like a medium latte, please."
+          }
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Number four. I asked a woman on the street."
+        },
+        {
+          "voz": "leo",
+          "texto": "How do I get to...?",
+          "card": {
+            "tipo": "palavra",
+            "termo": "How do I get to...?",
+            "significado": "A question to ask for directions to a place.",
+            "exemplo": "Excuse me, how do I get to Green Street?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "How do I get to? We use it to ask for directions. After to, say the place. Two examples."
+        },
+        {
+          "voz": "mia",
+          "texto": "Excuse me, how do I get to Green Street?"
+        },
+        {
+          "voz": "leo",
+          "texto": "How do I get to the train station from here?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Say it with me. How do I get to the train station?",
+          "card": {
+            "tipo": "frase",
+            "en": "How do I get to the train station?"
+          }
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "And number five. I said it to the barista."
+        },
+        {
+          "voz": "leo",
+          "texto": "Sounds good!",
+          "card": {
+            "tipo": "palavra",
+            "termo": "Sounds good!",
+            "significado": "Okay, I like that idea. I agree with that plan.",
+            "exemplo": "Coffee at three? Sounds good!"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Sounds good. It means, okay, that's a good idea, or, I agree with that plan. Two examples."
+        },
+        {
+          "voz": "mia",
+          "texto": "Lunch at twelve thirty? Sounds good!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Let's meet at the park at ten. Sounds good!"
+        },
+        {
+          "voz": "leo",
+          "texto": "Say it with me. Sounds good!",
+          "card": {
+            "tipo": "frase",
+            "en": "Sounds good!"
+          }
+        },
+        {
+          "pausa": 2.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Great job. Five expressions. How's it going. I just moved here. I'd like. How do I get to. And sounds good. Listen for them in part two of the story."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Small talk at work",
+      "cenario": "trabalho",
+      "falas": [
+        {
+          "voz": "mia",
+          "texto": "Okay, so I got to the office. Fifteen minutes late. I was very nervous."
+        },
+        {
+          "voz": "leo",
+          "texto": "I'll be your coworker. What's his name?"
+        },
+        {
+          "voz": "mia",
+          "texto": "His name is Sam. He sits next to me. He's really nice."
+        },
+        {
+          "voz": "leo",
+          "texto": "Okay. I'm Sam. Hey, Mia! How's it going?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Hi, Sam! Not great. I'm late. I'm so sorry."
+        },
+        {
+          "voz": "leo",
+          "texto": "Don't worry. The boss isn't here yet. She's on a call. Coffee?"
+        },
+        {
+          "voz": "mia",
+          "texto": "No, thanks. I already have one. I'd like some water, though."
+        },
+        {
+          "voz": "leo",
+          "texto": "Sure. The water is in the kitchen. So, how do you like the city?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I like it a lot. But it's big. I just moved here, so I get lost a lot."
+        },
+        {
+          "voz": "leo",
+          "texto": "Ha. I did too, when I first moved here. Did you do anything fun last weekend?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Not really. On Saturday, I cleaned my new apartment. On Sunday, I went to a museum. And you?"
+        },
+        {
+          "voz": "leo",
+          "texto": "I went hiking with my brother. It rained the whole time."
+        },
+        {
+          "voz": "mia",
+          "texto": "Oh no! Did you have fun?"
+        },
+        {
+          "voz": "leo",
+          "texto": "We did, actually. We got very wet, but it was fun."
+        },
+        {
+          "voz": "mia",
+          "texto": "And then Sam asked me something important."
+        },
+        {
+          "voz": "leo",
+          "texto": "Hey, did the boss send you a message about the meeting?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Yes. She said me the meeting is at ten."
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake alert number two. We'll fix it later. Okay, Sam says, \"Ten? Great. That gives us time. Do you want to get lunch together later?\""
+        },
+        {
+          "voz": "mia",
+          "texto": "Sure! I'd love to. Where do people eat around here?"
+        },
+        {
+          "voz": "leo",
+          "texto": "There's a good taco place across the street. Twelve thirty?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Sounds good!"
+        },
+        {
+          "voz": "leo",
+          "texto": "And how was the meeting?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Long. Very long. But I understood almost everything. I was happy."
+        },
+        {
+          "voz": "leo",
+          "texto": "That's great, Mia. And after work?"
+        },
+        {
+          "voz": "mia",
+          "texto": "After work, I went to the supermarket. My fridge was empty. Only one old lemon."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Checkout and a phone call",
+      "cenario": "mercado",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Okay. I'll be the cashier. Hi! Did you find everything okay?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Yes, thank you. Oh, wait. There's no price on these avocados. How much costs it?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake alert number three. Last one, I promise. The cashier says, \"Let me check. They're a dollar fifty each.\""
+        },
+        {
+          "voz": "mia",
+          "texto": "Okay. I'd like three, please."
+        },
+        {
+          "voz": "leo",
+          "texto": "Sure. Do you need a bag?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Yes, please. A paper bag, if you have one."
+        },
+        {
+          "voz": "leo",
+          "texto": "Here you go. Do you have our store card?"
+        },
+        {
+          "voz": "mia",
+          "texto": "No, I don't. I just moved here."
+        },
+        {
+          "voz": "leo",
+          "texto": "No problem. You can get one online. It's free. Okay, your total is twenty-three dollars and forty cents."
+        },
+        {
+          "voz": "mia",
+          "texto": "Here you go. Can I pay with cash?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Of course. And here's your change. Have a good one!"
+        },
+        {
+          "voz": "mia",
+          "texto": "You too! And then, when I walked out of the store, my phone rang. It was my friend Nora. She lives here, too."
+        },
+        {
+          "voz": "leo",
+          "texto": "Okay. I'll be Nora. Hey, Mia! How's it going? How was your day?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Hi, Nora! It was a busy day. A really busy day. I'll tell you everything later."
+        },
+        {
+          "voz": "leo",
+          "texto": "Ha. Okay. Listen, are you free on Saturday?"
+        },
+        {
+          "voz": "mia",
+          "texto": "Saturday? Yes, I'm free. Why?"
+        },
+        {
+          "voz": "leo",
+          "texto": "There's a big farmers market in the park. Do you want to go with me? We can get breakfast there."
+        },
+        {
+          "voz": "mia",
+          "texto": "I'd love to! What time?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Let's meet at nine thirty. At the main gate of the park."
+        },
+        {
+          "voz": "mia",
+          "texto": "Nine thirty. Okay. But wait. How do I get to the park from my apartment?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Take the number twelve bus. Get off at the fifth stop. The gate is right there."
+        },
+        {
+          "voz": "mia",
+          "texto": "The number twelve bus. Again! Okay. Sounds good!"
+        },
+        {
+          "voz": "leo",
+          "texto": "And Mia, please. Don't stop for any dogs this time."
+        },
+        {
+          "voz": "mia",
+          "texto": "Ha ha. How do you know about the dogs?"
+        },
+        {
+          "voz": "leo",
+          "texto": "I know you, Mia. See you Saturday!"
+        },
+        {
+          "voz": "mia",
+          "texto": "See you Saturday, Nora! And then I went home, and I called you, Leo."
+        },
+        {
+          "voz": "leo",
+          "texto": "And here we are. What a day. Okay, Mia. You made a few mistakes today. Let's fix them."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Mistake fix",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Welcome to my favorite part. Mistake fix. Three mistakes from Mia's day. Don't worry, Mia. Everybody makes these."
+        },
+        {
+          "voz": "mia",
+          "texto": "Okay. I'm ready. Be nice."
+        },
+        {
+          "voz": "leo",
+          "texto": "Always. Mistake number one. Mia said to her neighbor, \"People is very friendly here.\"",
+          "card": {
+            "tipo": "erro",
+            "errado": "People is very friendly here.",
+            "certo": "People are very friendly here."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "What's wrong with that?"
+        },
+        {
+          "voz": "leo",
+          "texto": "People is a plural word. It means more than one person. So we say people are, not people is. People are very friendly here."
+        },
+        {
+          "voz": "mia",
+          "texto": "People are very friendly here. Oh, like, the people are nice, the people are busy."
+        },
+        {
+          "voz": "leo",
+          "texto": "Exactly. One person is. Two or more people are. Say it with me. People are very friendly here."
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number two. Mia said to Sam, \"She said me the meeting is at ten.\"",
+          "card": {
+            "tipo": "erro",
+            "errado": "She said me the meeting is at ten.",
+            "certo": "She told me the meeting is at ten."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Hmm. Is it told?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Yes! Here is the simple rule. Tell, then a person. Told me. Told Sam. Told her. But never say, then a person. She said the meeting is at ten."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, she told me the meeting is at ten. Or, she said the meeting is at ten."
+        },
+        {
+          "voz": "leo",
+          "texto": "Perfect. Both are correct. Just don't say, she said me. Say it with me. She told me the meeting is at ten."
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Mistake number three. At the supermarket, Mia asked, \"How much costs it?\"",
+          "card": {
+            "tipo": "erro",
+            "errado": "How much costs it?",
+            "certo": "How much does it cost?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "I know, I know. In my language, it sounds okay."
+        },
+        {
+          "voz": "leo",
+          "texto": "It does in many languages. But in English, questions often need do or does. So we say, how much does it cost? Or the easy way. How much is it?"
+        },
+        {
+          "voz": "mia",
+          "texto": "How much does it cost? How much is it? And for avocados, it's more than one. So, how much are they?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Wow. That's a great point, Mia. How much are they? Yes. Say it with me. How much does it cost?"
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "So, three mistakes. People are. She told me. And how much does it cost. Fixed!",
+          "card": {
+            "tipo": "lista",
+            "titulo": "Mistake fix",
+            "itens": [
+              "People are very friendly.",
+              "She told me...",
+              "How much does it cost?"
+            ]
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Mistakes fixed!"
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Shadowing: say it with me",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Now it's your turn to speak. This is shadowing. You hear a sentence, and then you say it. Out loud. Don't just think it. Say it."
+        },
+        {
+          "voz": "mia",
+          "texto": "Even if you're on the bus?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Especially on the bus. Okay, maybe whisper. Ten sentences. Let's go."
+        },
+        {
+          "voz": "mia",
+          "texto": "Number one.",
+          "card": {
+            "tipo": "frase",
+            "en": "Good morning! How's it going?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Good morning! How's it going?"
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number two.",
+          "card": {
+            "tipo": "frase",
+            "en": "I just moved here two weeks ago."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "I just moved here two weeks ago."
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number three.",
+          "card": {
+            "tipo": "frase",
+            "en": "I'd like a medium latte, please."
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "I'd like a medium latte, please."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number four.",
+          "card": {
+            "tipo": "frase",
+            "en": "Can I pay with my card?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Can I pay with my card?"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number five.",
+          "card": {
+            "tipo": "frase",
+            "en": "Excuse me. How do I get to Green Street?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Excuse me. How do I get to Green Street?"
+        },
+        {
+          "pausa": 6.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Number six.",
+          "card": {
+            "tipo": "frase",
+            "en": "Go straight, and turn left at the bank."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Go straight, and turn left at the bank."
+        },
+        {
+          "pausa": 5.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number seven.",
+          "card": {
+            "tipo": "frase",
+            "en": "Does this bus go to Green Street?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Does this bus go to Green Street?"
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "mia",
+          "texto": "Number eight.",
+          "card": {
+            "tipo": "frase",
+            "en": "Do you want to get lunch together?"
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Do you want to get lunch together?"
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number nine.",
+          "card": {
+            "tipo": "frase",
+            "en": "Are you free on Saturday?"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Are you free on Saturday?"
+        },
+        {
+          "pausa": 4.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Number ten.",
+          "card": {
+            "tipo": "frase",
+            "en": "Let's meet at nine thirty. Sounds good!"
+          }
+        },
+        {
+          "voz": "mia",
+          "texto": "Let's meet at nine thirty. Sounds good!"
+        },
+        {
+          "pausa": 5.0,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Wonderful. If that was hard, go back and do it one more time. It gets easier every time."
+        },
+        {
+          "voz": "mia",
+          "texto": "I did it with you. My mouth is tired now."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Listen again",
+      "cenario": "cafe",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "Now let's listen to the coffee shop scene again. This time, at natural speed. This is how people really talk. Don't read. Just listen."
+        },
+        {
+          "voz": "mia",
+          "texto": "Ready? Here we go."
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "Hi there! What can I get for you?"
+        },
+        {
+          "voz": "mia_normal",
+          "texto": "Hi! I'd like a medium latte, please."
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "Sure. Hot or iced?"
+        },
+        {
+          "voz": "mia_normal",
+          "texto": "Hot, please. It's cold this morning."
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "It sure is. Anything else?"
+        },
+        {
+          "voz": "mia_normal",
+          "texto": "Hmm. Yes. I'd like a blueberry muffin, too."
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "Good choice. They're fresh. Is that for here or to go?"
+        },
+        {
+          "voz": "mia_normal",
+          "texto": "To go, please. I'm a little late."
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "No problem. Can I get a name for the cup?"
+        },
+        {
+          "voz": "mia_normal",
+          "texto": "Mia. M, I, A."
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "Thanks, Mia. That's seven fifty. Your latte will be ready in two minutes."
+        },
+        {
+          "voz": "mia_normal",
+          "texto": "Sounds good! Can I pay with my card?"
+        },
+        {
+          "voz": "leo_normal",
+          "texto": "Of course. Just tap it here."
+        },
+        {
+          "voz": "leo",
+          "texto": "Did you understand it all? If not, that's okay. Go back and listen one more time. Your ears learn fast."
+        }
+      ]
+    },
+    {
+      "tipo": "bloco",
+      "titulo": "Quiz answer and next time",
+      "cenario": "estudio",
+      "falas": [
+        {
+          "voz": "leo",
+          "texto": "And now, the quiz. At the start, Mia said, \"This morning, I lost the bus.\" What should she say?"
+        },
+        {
+          "voz": "mia",
+          "texto": "I know it now. I thought about it all day."
+        },
+        {
+          "voz": "leo",
+          "texto": "Go on, then."
+        },
+        {
+          "voz": "mia",
+          "texto": "This morning, I missed the bus.",
+          "card": {
+            "tipo": "resposta",
+            "texto": "This morning, I missed the bus."
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "Correct! You miss a bus, a train, or a plane. That means you are too late, and it goes without you. You lose things like your keys or your phone. That means you can't find them."
+        },
+        {
+          "voz": "mia",
+          "texto": "So, I missed the bus, but I didn't lose my phone. Because I was using it to take photos of a dog."
+        },
+        {
+          "voz": "leo",
+          "texto": "Exactly. I missed the bus. I lost my keys. Say it with me. This morning, I missed the bus."
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        },
+        {
+          "voz": "leo",
+          "texto": "Let's do a quick recap of today.",
+          "card": {
+            "tipo": "lista",
+            "titulo": "Today's recap",
+            "itens": [
+              "How's it going?",
+              "I just moved here.",
+              "I'd like a medium latte, please.",
+              "How do I get to Green Street?",
+              "Sounds good!",
+              "People are very friendly.",
+              "She told me... / How much does it cost?",
+              "I missed the bus."
+            ]
+          }
+        },
+        {
+          "voz": "leo",
+          "texto": "How's it going. I just moved here. I'd like. How do I get to. Sounds good. People are, not people is. She told me. How much does it cost. And, I missed the bus."
+        },
+        {
+          "voz": "mia",
+          "texto": "That's a lot for one day!"
+        },
+        {
+          "voz": "leo",
+          "texto": "It was a busy day. Now, your task. Tell us in the comments: what did you do this morning? Use one expression from today. For example, \"I'd like a hot tea, please.\" Or, \"I missed the bus!\""
+        },
+        {
+          "voz": "mia",
+          "texto": "I will read the comments. And I will reply. With no mistakes. Maybe."
+        },
+        {
+          "voz": "leo",
+          "texto": "Next week, in episode two, it's Monday at the office. And Mia's boss has a surprise for her."
+        },
+        {
+          "voz": "mia",
+          "texto": "Wait. What surprise? Leo, what surprise?"
+        },
+        {
+          "voz": "leo",
+          "texto": "She has to introduce herself to the whole team. In English. In front of twenty people."
+        },
+        {
+          "voz": "mia",
+          "texto": "Twenty people? Oh no. What do I say? Where do I start?"
+        },
+        {
+          "voz": "leo",
+          "texto": "We'll practice together. You'll learn how to talk about yourself in simple, natural English."
+        },
+        {
+          "voz": "mia",
+          "texto": "Okay. And can Biscuit help me?"
+        },
+        {
+          "voz": "leo",
+          "texto": "Biscuit is asleep. As always. See you next week, everyone. Keep practicing, and don't worry about mistakes. We fix them together."
+        },
+        {
+          "voz": "mia",
+          "texto": "Bye, everyone! See you next week!"
+        }
+      ]
+    }
+  ]
+}

@@ -42,7 +42,7 @@ export const Episodio: React.FC<{ep: Ep; formato?: 'vertical' | 'horizontal'}> =
     <AbsoluteFill style={{background: '#000'}}>
       <Fundo cenario={ep.cenario} />
       {ep.cenas.map((c, i) => {
-        if (c.tipo === 'tela') return null; // telas são do formato dica (Dica.tsx)
+        if (c.tipo === 'tela' || c.tipo === 'bloco') return null; // telas: Dica.tsx · blocos: Podcast.tsx
         const Comp = {abertura: Abertura, erro: Erro, quiz: Quiz, final: Final}[c.tipo];
         const ini = i === 0 ? 0 : f(c.inicio);
         const fim = i === ep.cenas.length - 1 ? Infinity : f(c.fim);

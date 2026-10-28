@@ -36,11 +36,16 @@ FORMATOS = {
     "longo": {"palavras": (900, 12000, "1.400+ para passar de 10 min"), "limite": None},  # YouTube, horizontal
     # Versão global (narrada em inglês simples): uma ideia por tela, cortes secos (ver serie-ingles/PLANO-DO-TIME.md)
     "dica": {"palavras": (40, 120, "60-100 para dar 25-45 s"), "limite": 58.0},
+    # Podcast semanal 16:9 (ver serie-ingles/podcast/FORMATO.md): diálogo Mia + Leo em blocos/capítulos
+    "podcast": {"palavras": (1800, 4500, "2.300-3.200 para dar 22-28 min"), "limite": None},
 }
 
 
 TWEMOJI = "https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/{}.svg"
 EMOJIS_FIXOS = ["🎤", "🎉", "🔔", "📚", "✏️", "💬", "⭐", "❌", "✅", "💡", "🎁", "🤔"]  # usados pelo modelo visual (src/videos/ingles)
+# Cenários do podcast (CENARIO em src/videos/ingles/Podcast.tsx)
+EMOJIS_FIXOS += ["🎙️", "🎧", "☕", "🥐", "🍰", "🧁", "🛒", "🍎", "🥖", "🧀", "🚌", "🏙️", "🚦", "🗺️", "🏠", "🛋️", "🪴", "🐈",
+                 "💼", "💻", "📞", "✈️", "🧳", "🏨"]
 
 
 def codigo_twemoji(e: str) -> str:
@@ -133,10 +138,15 @@ def validar(roteiro: dict) -> list[str]:
     if roteiro.get("formato") == "dica":
         if any(t != "tela" for t in tipos):
             erros.append("no formato dica todas as cenas são 'tela'")
+    elif roteiro.get("formato") == "podcast":
+        if any(t != "bloco" for t in tipos):
+            erros.append("no formato podcast todas as cenas são 'bloco'")
+        if any(not c.get("titulo") for c in roteiro.get("cenas", [])):
+            erros.append("todo bloco do podcast precisa de 'titulo' (vira capítulo)")
     elif tipos[:1] != ["abertura"] or tipos[-1:] != ["final"]:
         erros.append("a primeira cena deve ser 'abertura' e a última 'final'")
     for i, c in enumerate(roteiro.get("cenas", [])):
-        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela"):
+        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela", "bloco"):
             erros.append(f"cena {i}: tipo inválido {c.get('tipo')}")
         chaves = {f.get("mostra") for f in c.get("falas", [])}
         exige = {"abertura": {"titulo"}, "erro": {"certo", "exemplo", "suavez"}, "quiz": {"pergunta", "opcoes", "contagem", "resposta"},
@@ -255,6 +265,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
         **{k: roteiro[k] for k in ("slug", "episodio", "titulo")},
         "formato": roteiro.get("formato", "episodio"),
         "tema": roteiro.get("tema", roteiro["titulo"]),
+        **{k: roteiro[k] for k in ("nivel", "serie", "ep", "capa") if k in roteiro},
         "cenario": roteiro.get("cenario", []),
         "duracao": round(t, 3),
         "audio": f"{nome}/audio/narracao.wav",
