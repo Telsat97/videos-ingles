@@ -3,7 +3,7 @@ import {Easing, interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 
 export type Palavra = {w: string; s: number; e: number};
 export type Expressao = 'neutro' | 'feliz' | 'surpreso' | 'bravo' | 'confuso';
-export type Visual = {pele: string; cabelo: string; roupa: string; detalhe: string; contorno: string};
+export type Visual = {pele: string; cabelo: string; roupa: string; detalhe: string; contorno: string; cabeloLongo?: boolean};
 
 // ---------- Boca: 6 visemas descritos por parâmetros (interpolar números é mais estável que morphing de path)
 type Boca = {abre: number; larg: number; redondo: number; dentes: number};
@@ -123,7 +123,8 @@ export const Personagem: React.FC<{
       <circle cx={olhar * 7} cy={2} r={10 * r.pupila} fill="#1b1b26" />
       <circle cx={olhar * 7 + 4} cy={-3} r={3.5} fill="#fff" />
       {/* pálpebra: retângulo da cor da pele que desce */}
-      <rect x={-23} y={-28} width={46} height={52 * palp} fill={visual.pele} stroke={visual.contorno} strokeWidth={palp > 0.9 ? 4 : 0} />
+      <rect x={-23} y={-28} width={46} height={52 * palp} fill={visual.pele} />
+      {palp > 0.9 && <path d="M -18 4 Q 0 14 18 4" fill="none" stroke={visual.contorno} strokeWidth={4} strokeLinecap="round" />}
       <path d={`M -22 ${yS} L 22 ${yS}`} stroke={visual.cabelo} strokeWidth={9} strokeLinecap="round"
         transform={`rotate(${lado * -r.sobr} 0 ${yS})`} />
     </g>
@@ -140,6 +141,10 @@ export const Personagem: React.FC<{
         <path d="M -30 97 L 0 135 L 30 97" fill="none" stroke={visual.detalhe} strokeWidth={8} strokeLinejoin="round" />
       </g>
       <g transform={`translate(0 ${2 * resp}) rotate(${cabeca} 0 80)`}>
+        {visual.cabeloLongo && (
+          <path d="M -108 -40 C -126 40 -122 90 -100 108 L -40 108 L -40 70 L 40 70 L 40 108 L 100 108 C 122 90 126 40 108 -40 Z" fill={visual.cabelo}
+            stroke={visual.contorno} strokeWidth={5} />
+        )}
         <rect x={-18} y={60} width={36} height={40} fill={visual.pele} />
         <circle cx={-98} cy={-5} r={18} fill={visual.pele} stroke={visual.contorno} strokeWidth={4} />
         <circle cx={98} cy={-5} r={18} fill={visual.pele} stroke={visual.contorno} strokeWidth={4} />

@@ -11,7 +11,7 @@ import type {CardPodcast, Cena, Episodio as Ep, Fala} from './tipos';
 
 const PERSONAGENS: Record<'mia' | 'leo', {nome: string; cor: string; visual: Visual; x: number}> = {
   mia: {nome: 'Mia', cor: COR.coral, x: 300,
-    visual: {pele: '#F2C6A0', cabelo: '#5B2E1F', roupa: COR.coral, detalhe: '#FFFFFF', contorno: '#2A1B14'}},
+    visual: {pele: '#F2C6A0', cabelo: '#5B2E1F', roupa: COR.coral, detalhe: '#FFFFFF', contorno: '#2A1B14', cabeloLongo: true}},
   leo: {nome: 'Leo', cor: COR.azul, x: 680,
     visual: {pele: '#C98E64', cabelo: '#1E1E28', roupa: '#2F4B7C', detalhe: COR.amarelo, contorno: '#1A1410'}},
 };
@@ -160,7 +160,7 @@ const Painel: React.FC<{ep: Ep; ci: number}> = ({ep, ci}) => {
   const comCard = cena.falas.filter((f) => f.card && f.inicio <= t);
   const f = comCard[comCard.length - 1];
   const repita = cena.falas.find((x) => x.mostra === 'repita' && t >= x.inicio && t < x.fim);
-  if (!f?.card && !repita) return null;
+  if (!f?.card && !repita) return <Cena ep={ep} ci={ci} />;
   const m = f ? spring({frame: frame - Math.round(f.inicio * fps), fps, config: {damping: 15}}) : 1;
   return (
     <div style={{position: 'absolute', left: 1010, top: 190, width: 850, height: 560, borderRadius: 36,
@@ -168,6 +168,24 @@ const Painel: React.FC<{ep: Ep; ci: number}> = ({ep, ci}) => {
       display: 'flex', flexDirection: 'column', gap: 22, justifyContent: 'center', opacity: m, transform: `scale(${0.94 + 0.06 * m})`}}>
       {f?.card && <CardView card={f.card} />}
       {repita && <Repita fala={repita} />}
+    </div>
+  );
+};
+
+// Blocos de história (sem card): quadro da cena com o desenho grande do cenário, para a tela nunca ficar vazia.
+const Cena: React.FC<{ep: Ep; ci: number}> = ({ep, ci}) => {
+  const {t, frame, fps} = useT();
+  const cena = ep.cenas[ci];
+  const c = CENARIO[cena.cenario ?? 'estudio'] ?? CENARIO.estudio;
+  const m = spring({frame: frame - Math.round(cena.inicio * fps), fps, config: {damping: 15}});
+  const i = Math.floor(Math.max(0, t - cena.inicio) / 6) % c.emojis.length; // troca o desenho a cada 6 s
+  return (
+    <div style={{position: 'absolute', left: 1010, top: 190, width: 850, height: 560, borderRadius: 36,
+      background: 'rgba(10,14,30,.45)', border: '3px solid rgba(255,255,255,.12)', display: 'flex', flexDirection: 'column',
+      alignItems: 'center', justifyContent: 'center', gap: 24, opacity: m}}>
+      <div style={{fontFamily: TITULO, fontWeight: 700, fontSize: 34, color: COR.amarelo, letterSpacing: 2}}>📖 STORY TIME</div>
+      <div style={{transform: `scale(${1 + 0.04 * Math.sin(t * 1.2)})`}}><Ilustracao emoji={c.emojis[i]} tam={260} /></div>
+      <div style={{fontFamily: TITULO, fontWeight: 700, fontSize: 48, color: '#fff', textAlign: 'center', padding: '0 30px'}}>{cena.titulo}</div>
     </div>
   );
 };
@@ -188,6 +206,22 @@ const Repita: React.FC<{fala: Fala}> = ({fala}) => {
   );
 };
 
+// O TTS devolve as palavras sem pontuação: recupera a palavra escrita (com vírgula, ponto, aspas) do texto do roteiro.
+const norm = (w: string) => w.toLowerCase().replace(/[^a-z0-9']/g, '');
+const comPontuacao = (texto: string, palavras: Palavra[]) => {
+  const tokens = texto.split(/\s+/).filter(Boolean);
+  let j = 0;
+  return palavras.map((p) => {
+    for (let k = j; k < Math.min(tokens.length, j + 4); k++) {
+      if (norm(tokens[k]).startsWith(norm(p.w)) || norm(p.w).startsWith(norm(tokens[k]))) {
+        j = k + 1;
+        return {...p, w: tokens[k]};
+      }
+    }
+    return p;
+  });
+};
+
 // Legenda grande: a fala atual, palavra dita em destaque, cor de quem fala.
 const Legenda: React.FC<{ep: Ep}> = ({ep}) => {
   const {t} = useT();
@@ -195,7 +229,7 @@ const Legenda: React.FC<{ep: Ep}> = ({ep}) => {
   const fala = falas.find((f) => f.palavras?.length && t >= f.inicio - 0.05 && t < f.fim);
   if (!fala?.palavras) return null;
   // Falas longas: janela de até 14 palavras em volta da atual (quebra em pontuação quando dá).
-  const ws = fala.palavras;
+  const ws = comPontuacao(fala.texto ?? '', fala.palavras);
   const blocos: (typeof ws)[] = [[]];
   ws.forEach((w, i) => {
     const b = blocos[blocos.length - 1];
@@ -257,7 +291,8 @@ export const PodcastCapa: React.FC<{ep: Ep}> = ({ep}) => {
           <span style={{background: '#fff', color: COR.tinta, borderRadius: 999, padding: '4px 26px', fontFamily: TITULO,
             fontWeight: 700, fontSize: 56}}>🎧 PODCAST</span>
         </div>
-        <div style={{fontFamily: TITULO, fontWeight: 700, fontSize: 104, lineHeight: 1.0, color: '#fff', whiteSpace: 'pre-line',
+        <div style={{fontFamily: TITULO, fontWeight: 700, lineHeight: 1.0,
+          fontSize: Math.min(110, Math.floor(600 / (Math.max(...palavras.split('\n').map((l) => l.length)) * 0.66))), color: '#fff', whiteSpace: 'pre-line',
           textShadow: '0 6px 24px rgba(0,0,0,.45)'}}>{palavras}</div>
         <div style={{fontFamily: TITULO, fontWeight: 700, fontSize: 44, color: COR.amarelo}}>EP. {ep.ep ?? 1}</div>
       </div>
