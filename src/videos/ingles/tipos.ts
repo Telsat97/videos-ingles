@@ -1,6 +1,16 @@
 export type Palavra = {w: string; s: number; e: number};
 
+// Card do painel do podcast (ver serie-ingles/podcast/FORMATO.md).
+export type CardPodcast =
+  | {tipo: 'palavra'; termo: string; significado: string; exemplo?: string}
+  | {tipo: 'erro'; errado: string; certo: string}
+  | {tipo: 'frase'; en: string}
+  | {tipo: 'quiz'; pergunta: string}
+  | {tipo: 'resposta'; texto: string}
+  | {tipo: 'lista'; titulo?: string; itens: string[]};
+
 export type Fala = {
+  card?: CardPodcast; // podcast: aparece no painel a partir desta fala
   voz?: string; // chave de roteiro.vozes: 'pt' | 'en' | 'narr' (narrador em inglês da versão global)
   texto?: string;
   pausa?: number;
@@ -12,8 +22,9 @@ export type Fala = {
 };
 
 export type Cena = {
-  tipo: 'abertura' | 'erro' | 'quiz' | 'final' | 'tela';
+  tipo: 'abertura' | 'erro' | 'quiz' | 'final' | 'tela' | 'bloco'; // 'bloco': capítulo do podcast
   // 'tela' (formato dica): uma ideia em tela cheia
+  cenario?: string; // podcast: estudio | cafe | mercado | rua | casa | trabalho | viagem
   visual?: 'erro' | 'certo' | 'regra' | 'vez' | 'bonus' | 'quiz';
   grande?: string;
   pequeno?: string;
@@ -41,7 +52,11 @@ export type Episodio = {
   episodio: number;
   titulo: string;
   tema?: string; // dica: etiqueta fixa do topo (padrão: titulo); use uma pergunta quando o título entrega a resposta
-  formato?: 'short' | 'episodio' | 'longo' | 'dica'; // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
+  formato?: 'short' | 'episodio' | 'longo' | 'dica' | 'podcast';
+  nivel?: string; // podcast: A1, A2, B1, B2
+  serie?: string; // podcast: Easy | Real Talk
+  ep?: number; // podcast: número do episódio na série
+  capa?: string; // podcast: 2-4 palavras grandes da miniatura (\n quebra linha) // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
   duracao: number;
   audio: string;
   fotos: string[];

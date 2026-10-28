@@ -101,6 +101,10 @@ def main() -> None:
     mp4 = saida / f"{roteiro['slug']}.mp4"
     post = {**roteiro["post"], "episodio": roteiro["episodio"], "slug": roteiro["slug"], "formato": formato,
             "arquivo": str(mp4.relative_to(RAIZ))}
+    if formato == "podcast":  # capítulos do YouTube: um por bloco (o primeiro sempre em 00:00)
+        ep = json.loads((proj / "transcricao" / "episodio.json").read_text(encoding="utf-8"))
+        mmss = lambda s: f"{int(s // 60):02d}:{int(s % 60):02d}"
+        post["capitulos"] = [f"{mmss(0 if i == 0 else c['inicio'])} {c['titulo']}" for i, c in enumerate(ep["cenas"])]
     quiz = next((c for c in roteiro["cenas"] if c.get("visual") == "quiz" and c.get("opcoes")), None)
     if quiz:  # vira o comentário automático do vídeo (tools/publicar.py)
         post["quiz"] = {"pergunta": quiz["grande"], "opcoes": quiz["opcoes"]}
