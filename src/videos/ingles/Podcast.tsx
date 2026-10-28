@@ -289,7 +289,7 @@ export const PodcastCapa: React.FC<{ep: Ep}> = ({ep}) => {
           <span style={{background: COR.amarelo, color: COR.tinta, borderRadius: 999, padding: '4px 26px', fontFamily: TITULO,
             fontWeight: 700, fontSize: 56}}>{ep.nivel ?? 'A2'}</span>
           <span style={{background: '#fff', color: COR.tinta, borderRadius: 999, padding: '4px 26px', fontFamily: TITULO,
-            fontWeight: 700, fontSize: 56}}>🎧 PODCAST</span>
+            fontWeight: 700, fontSize: 56}}>{ep.serie === 'Lesson' ? '📚 LESSON' : '🎧 PODCAST'}</span>
         </div>
         <div style={{fontFamily: TITULO, fontWeight: 700, lineHeight: 1.0,
           fontSize: Math.min(110, Math.floor(600 / (Math.max(...palavras.split('\n').map((l) => l.length)) * 0.66))), color: '#fff', whiteSpace: 'pre-line',
