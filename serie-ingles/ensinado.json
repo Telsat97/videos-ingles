@@ -217,6 +217,30 @@
       ]
     },
     {
+      "slug": "ep010-phrasal-verbs",
+      "episodio": 10,
+      "titulo": "5 phrasal verbs que os americanos usam todo dia",
+      "temas": [
+        "get up = levantar da cama ⏰ -> I get up at six.",
+        "give up = desistir 💪 -> Never give up.",
+        "look for = procurar 🔍 -> I'm looking for my keys.",
+        "find out = descobrir 🕵️ -> Let's find out the truth.",
+        "turn off = desligar 💡 -> Please turn off the light."
+      ],
+      "ensina": [
+        "I get up at six.",
+        "Get up, we're late!",
+        "Never give up.",
+        "I don't want to give up.",
+        "I'm looking for my keys.",
+        "She is looking for a job.",
+        "Let's find out the truth.",
+        "I found out yesterday.",
+        "Please turn off the light.",
+        "Turn off your phone, please."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -313,6 +337,15 @@
       "temas": [],
       "ensina": [
         "It depends\non you."
+      ]
+    },
+    {
+      "slug": "d012-make-do",
+      "episodio": 212,
+      "titulo": "Make vs Do",
+      "temas": [],
+      "ensina": [
+        "I need to do\nmy homework."
       ]
     }
   ]
