@@ -180,14 +180,15 @@ def validar(roteiro: dict) -> list[str]:
 
 
 async def sintetizar(texto: str, voz: str, rate: str, destino: Path) -> list[dict]:
-    # O serviço de voz às vezes não devolve áudio (falha intermitente): tenta de novo antes de desistir.
-    for tentativa in range(4):
+    # O serviço de voz às vezes falha (sem áudio, ou recusa a conexão com 503): tenta de novo antes de desistir.
+    import aiohttp
+    for tentativa in range(6):
         try:
             return await _sintetizar(texto, voz, rate, destino)
-        except edge_tts.exceptions.NoAudioReceived:
-            if tentativa == 3:
+        except (edge_tts.exceptions.NoAudioReceived, aiohttp.ClientError):
+            if tentativa == 5:
                 raise
-            await asyncio.sleep(2 * (tentativa + 1))
+            await asyncio.sleep(3 * (tentativa + 1))
     raise AssertionError("inalcançável")
 
 
