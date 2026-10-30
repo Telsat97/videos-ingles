@@ -241,6 +241,30 @@
       ]
     },
     {
+      "slug": "ep011-entrevista-emprego",
+      "episodio": 11,
+      "titulo": "5 frases para arrasar na entrevista de emprego em inglês",
+      "temas": [
+        "Tell me about yourself = fale sobre você -> Tell me about yourself.",
+        "strengths = pontos fortes 💪 -> What are your strengths?",
+        "Why this job? = por que essa vaga? -> Why do you want this job?",
+        "start = começar 🗓️ -> When can you start?",
+        "questions = perguntas ❓ -> Do you have any questions?"
+      ],
+      "ensina": [
+        "Tell me about yourself.",
+        "I'm a nurse with five years of experience.",
+        "What are your strengths?",
+        "I'm organized and I learn fast.",
+        "Why do you want this job?",
+        "I want to grow with your team.",
+        "When can you start?",
+        "I can start in two weeks.",
+        "Do you have any questions?",
+        "Yes. What does a typical day look like?"
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -355,6 +379,15 @@
       "temas": [],
       "ensina": [
         "How many\npeople came?"
+      ]
+    },
+    {
+      "slug": "d014-say-tell",
+      "episodio": 214,
+      "titulo": "Say vs Tell",
+      "temas": [],
+      "ensina": [
+        "She told me\nthe truth."
       ]
     }
   ]
