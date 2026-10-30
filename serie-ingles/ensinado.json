@@ -389,6 +389,15 @@
       "ensina": [
         "She told me\nthe truth."
       ]
+    },
+    {
+      "slug": "d015-lend-borrow",
+      "episodio": 215,
+      "titulo": "Lend vs Borrow",
+      "temas": [],
+      "ensina": [
+        "Can you lend me\nyour pen?"
+      ]
     }
   ]
 }
