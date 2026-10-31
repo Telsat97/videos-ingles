@@ -265,6 +265,30 @@
       ]
     },
     {
+      "slug": "ep012-criancas-animais-sons",
+      "episodio": 12,
+      "titulo": "Ensine ao seu filho: animais e sons em inglês",
+      "temas": [
+        "dog = cachorro · woof = au au -> The dog says woof.",
+        "cat = gato · meow = miau -> The cat says meow.",
+        "cow = vaca · moo = muuu -> The cow says moo.",
+        "duck = pato · quack = quá quá -> The duck says quack.",
+        "pig = porco · oink = oinc -> The pig says oink."
+      ],
+      "ensina": [
+        "The dog says woof.",
+        "I have a big dog.",
+        "The cat says meow.",
+        "The cat is sleeping.",
+        "The cow says moo.",
+        "The cow lives on a farm.",
+        "The duck says quack.",
+        "The duck swims in the lake.",
+        "The pig says oink.",
+        "The pig is pink."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -397,6 +421,15 @@
       "temas": [],
       "ensina": [
         "Can you lend me\nyour pen?"
+      ]
+    },
+    {
+      "slug": "d016-people-are",
+      "episodio": 216,
+      "titulo": "People are",
+      "temas": [],
+      "ensina": [
+        "People are\nnice here."
       ]
     }
   ]
