@@ -289,6 +289,30 @@
       ]
     },
     {
+      "slug": "ep013-falsos-amigos-2",
+      "episodio": 13,
+      "titulo": "5 falsos amigos do inglês, parte 2",
+      "temas": [
+        "lunch = lanche -> Lunch = almoço",
+        "pull = pular -> Pull = puxar",
+        "novel = novela -> Novel = romance",
+        "assist = assistir -> Assist = ajudar",
+        "realize = realizar -> Realize = perceber"
+      ],
+      "ensina": [
+        "Lunch = almoço",
+        "We have lunch at noon.",
+        "Pull = puxar",
+        "Pull the door to open it.",
+        "Novel = romance",
+        "I'm reading a great novel.",
+        "Assist = ajudar",
+        "Can I assist you?",
+        "Realize = perceber",
+        "I didn't realize it was so late."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
