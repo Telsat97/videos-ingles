@@ -464,6 +464,15 @@
       "ensina": [
         "I want to\npark here."
       ]
+    },
+    {
+      "slug": "d018-my-age",
+      "episodio": 218,
+      "titulo": "Say your age",
+      "temas": [],
+      "ensina": [
+        "I'm 20\nyears old."
+      ]
     }
   ]
 }
