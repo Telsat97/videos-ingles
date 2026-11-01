@@ -1,0 +1,415 @@
+{
+  "slug": "ep015-medico-farmacia",
+  "episodio": 15,
+  "titulo": "Inglês no médico e na farmácia: diga o que você sente",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "🩺",
+    "💊",
+    "🤒",
+    "🏥"
+  ],
+  "post": {
+    "titulo": "Como falar com o MÉDICO em inglês 🩺 (e NÃO dizer “recipe”)",
+    "descricao": "Cinco frases para explicar o que você sente no médico ou na farmácia em inglês: dor de cabeça, febre, resfriado, alergia e receita médica. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#inglesparaviagem",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#dicasdeingles"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "NO MÉDICO",
+        "e na farmácia",
+        "em inglês"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Está viajando e passou mal? Saber dizer o que você sente em inglês pode ajudar muito.",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje são cinco frases simples para o médico e para a farmácia."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "I have pain in the head",
+      "dica": "Dor de cabeça = a headache",
+      "rotulo": "no médico",
+      "certo": "I have a headache.",
+      "pronuncia": "ai rév a rédeik",
+      "exemplo": {
+        "en": "I have a headache. Can I take something?",
+        "pt": "Estou com dor de cabeça. Posso tomar algo?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para dizer que está com dor de cabeça, muita gente traduz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Em inglês, dor de cabeça vira uma palavra só: headache. Lembre do a antes dela.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a headache.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a headache. Can I take something?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou com dor de cabeça. Posso tomar algo?"
+        }
+      ],
+      "imagem": "🤕"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "I have fever",
+      "dica": "Febre = a fever",
+      "rotulo": "no médico",
+      "certo": "I have a fever.",
+      "pronuncia": "ai rév a fíver",
+      "exemplo": {
+        "en": "I have a fever and a cough.",
+        "pt": "Estou com febre e tosse."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para dizer que está com febre, muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Falta uma palavrinha: fever pede o a na frente. É um erro pequeno, mas que denuncia quem está aprendendo.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a fever.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a fever and a cough.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou com febre e tosse."
+        }
+      ],
+      "imagem": "🌡️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "I need a recipe",
+      "dica": "Receita médica = prescription",
+      "rotulo": "falso amigo",
+      "certo": "I need a prescription.",
+      "pronuncia": "ai níd a priscrípchon",
+      "exemplo": {
+        "en": "The doctor gave me a prescription.",
+        "pt": "O médico me deu uma receita."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Na farmácia, para pedir a receita médica, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Cuidado! Recipe é receita de comida, como a de bolo. Receita do médico é prescription.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Parece difícil de falar, mas é só ir devagar: pri-scrip-tion."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I need a prescription.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "The doctor gave me a prescription.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "O médico me deu uma receita."
+        }
+      ],
+      "imagem": "📝"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "I am allergic of penicillin",
+      "dica": "Alérgico a = allergic to",
+      "rotulo": "no médico",
+      "certo": "I'm allergic to penicillin.",
+      "pronuncia": "aim alérdjic tu penissílin",
+      "exemplo": {
+        "en": "I'm allergic to penicillin.",
+        "pt": "Sou alérgico a penicilina."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar de alergia, muita gente escolhe a preposição errada e diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Em português a gente é alérgico a alguma coisa. Em inglês é igual: allergic to.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Essa frase é importante. Avisar sobre alergia pode proteger a sua saúde."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm allergic to penicillin.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm allergic to penicillin.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sou alérgico a penicilina."
+        }
+      ],
+      "imagem": "⚠️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "I am with a cold",
+      "dica": "Estou resfriado = I have a cold",
+      "rotulo": "no médico",
+      "certo": "I have a cold.",
+      "pronuncia": "ai rév a cold",
+      "exemplo": {
+        "en": "I have a cold and a sore throat.",
+        "pt": "Estou resfriado e com dor de garganta."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para dizer que está resfriado, muita gente traduz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Em inglês, não se está com um resfriado: você tem um resfriado. Use o verbo have.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a cold.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a cold and a sore throat.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou resfriado e com dor de garganta."
+        }
+      ],
+      "imagem": "🤧"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como pedir uma receita médica?",
+      "opcoes": [
+        "I need a prescription.",
+        "I need a recipe.",
+        "I need a receipt."
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Como se diz receita médica em inglês?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "I need a prescription."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual dessas frases você nunca quer precisar usar? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

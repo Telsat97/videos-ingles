@@ -1,0 +1,137 @@
+{
+  "slug": "d035-wednesday",
+  "episodio": 235,
+  "formato": "dica",
+  "titulo": "Wednesday",
+  "post": {
+    "titulo": "How to pronounce Wednesday: say it like this",
+    "descricao": "How to pronounce Wednesday: say WENZ-day, and skip the first D.\n❌ WED-nes-day ✅ WENZ-day",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "WED-nes-day?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Is this how you say Wednesday? Many learners say every letter.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "skip the\nfirst D",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The first D is silent. The word has two parts, not three.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Wenz, then day.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "WENZ · day"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "WENZ-day",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Wednesday.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Say it slowly: wenz, day.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "wenz + day"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Wednesday.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "See you on\nWednesday!",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: use it in a sentence."
+        },
+        {
+          "voz": "en",
+          "texto": "See you on Wednesday!",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Wenz-day, two parts.",
+          "mostra": "pequeno"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Which is the\ncorrect sound?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which sound is correct? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "WED-nes-day",
+        "WENZ-day"
+      ]
+    }
+  ]
+}

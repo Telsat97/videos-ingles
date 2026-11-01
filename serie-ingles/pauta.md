@@ -19,17 +19,17 @@ Público: 🧒 crianças · 🧑 jovens · 🧑‍💼 adultos · 👵 melhor id
 | [f] 12 | Inglês para crianças | animais e sons: "The dog says woof" | 🧒 |
 | [f] 13 | Falsos amigos | lunch, pull, novel, assist, realize | 🌎 |
 | [f] 14 | Como dizer | "Vou pensar", "Que pena", "Pode repetir?", "Estou chegando", "Deu certo" | 🌎 |
-| [ ] 15 | Médico e farmácia | "I have a headache", "I need a prescription" | 👵 🧑‍💼 |
+| [f] 15 | Médico e farmácia | "I have a headache", "I need a prescription" | 👵 🧑‍💼 |
 | [ ] 16 | Pronúncia | o "th": think, three, mother, this | 🌎 |
 | [ ] 17 | 5 erros | "people is" → "people are", "the life" → "life" | 🌎 |
-| [ ] 18 | Pequena conversa | small talk: tempo, fim de semana, "How's it going?" | 🧑‍💼 |
-| [ ] 19 | Inglês para crianças | rotina: "I wake up", "I brush my teeth" | 🧒 |
-| [ ] 20 | Phrasal verbs | com "take": take off, take care, take after | 🧑 🧑‍💼 |
-| [ ] 21 | Compras | "How much is it?", "Do you have a smaller size?" | 🌎 |
+| [f] 18 | Pequena conversa | small talk: tempo, fim de semana, "How's it going?" | 🧑‍💼 |
+| [f] 19 | Inglês para crianças | rotina: "I wake up", "I brush my teeth" | 🧒 |
+| [f] 20 | Phrasal verbs | com "take": take off, take care, take after | 🧑 🧑‍💼 |
+| [f] 21 | Compras | "How much is it?", "Do you have a smaller size?" | 🌎 |
 | [ ] 22 | Telefone e mensagem | "Can you hear me?", abreviações BRB, ASAP | 🧑 🧑‍💼 |
 | [ ] 23 | Como dizer | "Dar um jeito", "Pagar mico", "Cair a ficha" | 🌎 |
 | [ ] 24 | Falsos amigos | costume, legend, sensible, eventually, fabric | 🌎 |
-| [ ] 25 | Família | family members: grandson, in-laws, cousin | 👵 🧒 |
+| [f] 25 | Família | family members: grandson, in-laws, cousin | 👵 🧒 |
 | [ ] 26 | 5 erros | "I'm boring" × "I'm bored" e adjetivos -ed/-ing | 🌎 |
 | [ ] 27 | Hotel | check-in, "Is breakfast included?" | 🧑‍💼 👵 |
 | [ ] 28 | Pronúncia | palavras com letra muda: knife, island, Wednesday | 🌎 |

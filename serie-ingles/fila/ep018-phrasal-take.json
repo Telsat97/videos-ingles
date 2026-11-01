@@ -1,0 +1,419 @@
+{
+  "slug": "ep018-phrasal-take",
+  "episodio": 18,
+  "titulo": "5 expressões com TAKE que os americanos usam todo dia",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "✈️",
+    "👋",
+    "👨‍👧",
+    "⏸️"
+  ],
+  "post": {
+    "titulo": "5 expressões com TAKE em inglês: take off, take care e mais ✈️",
+    "descricao": "Cinco phrasal verbs com take: take off, take care, take after, take a break e take out, com exemplos do dia a dia. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#phrasalverbs",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#dicasdeingles"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "EXPRESSÕES",
+        "com TAKE",
+        "do dia a dia"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "O verbo take é um dos mais usados do inglês, e muda de sentido conforme a palavra que vem depois.",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje são cinco expressões com take que os americanos usam todo dia."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "The plane is going up",
+      "dica": "Decolar = take off",
+      "rotulo": "expressão",
+      "certo": "The plane is taking off.",
+      "pronuncia": "dê plêin iz têikin óf",
+      "exemplo": {
+        "en": "Our plane takes off at noon.",
+        "pt": "Nosso avião decola ao meio-dia."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Expressão número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para dizer que o avião vai decolar, muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Take off é decolar. Também serve para tirar uma roupa ou um sapato.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repare que o off fica no final da expressão."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "The plane is taking off.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Our plane takes off at noon.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Nosso avião decola ao meio-dia."
+        }
+      ],
+      "imagem": "✈️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "Care yourself",
+      "dica": "Se cuide = Take care",
+      "rotulo": "expressão",
+      "certo": "Take care!",
+      "pronuncia": "têik quér",
+      "exemplo": {
+        "en": "See you soon. Take care!",
+        "pt": "Até logo. Se cuide!"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Expressão número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para se despedir de alguém com carinho, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Take care é uma despedida simpática. Dá para usar com amigos, colegas e família.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Take care!",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "See you soon. Take care!",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Até logo. Se cuide!"
+        }
+      ],
+      "imagem": "👋"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "He pulled his father",
+      "dica": "Puxar a alguém = take after",
+      "rotulo": "expressão",
+      "certo": "He takes after his father.",
+      "pronuncia": "rí têiks áfter rís fáder",
+      "exemplo": {
+        "en": "She takes after her mother.",
+        "pt": "Ela puxou a mãe."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Expressão número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para dizer que o filho puxou o pai, muita gente traduz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Take after é parecer com alguém da família, no jeito ou na aparência.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Serve também para o jeito de ser, e não só para o rosto."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "He takes after his father.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "She takes after her mother.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Ela puxou a mãe."
+        }
+      ],
+      "imagem": "👨‍👧"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "Let's do a pause",
+      "dica": "Fazer uma pausa = take a break",
+      "rotulo": "expressão",
+      "certo": "Let's take a break.",
+      "pronuncia": "léts têik a brêik",
+      "exemplo": {
+        "en": "I'm tired. Let's take a break.",
+        "pt": "Estou cansado. Vamos fazer uma pausa."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Expressão número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para sugerir um descanso, muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Em inglês a pausa não é feita: ela é tomada. Take a break.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "É muito usado no trabalho e na escola."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Let's take a break.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm tired. Let's take a break.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Estou cansado. Vamos fazer uma pausa."
+        }
+      ],
+      "imagem": "⏸️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "Can you remove the trash?",
+      "dica": "Levar o lixo para fora = take out the trash",
+      "rotulo": "expressão",
+      "certo": "Can you take out the trash?",
+      "pronuncia": "cén iú têik áut dê trésh",
+      "exemplo": {
+        "en": "Can you take out the trash, please?",
+        "pt": "Você pode levar o lixo para fora, por favor?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Expressão número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para pedir que alguém leve o lixo para fora, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Take out é tirar algo de dentro e levar para fora. Esse é o jeito americano de falar.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can you take out the trash?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can you take out the trash, please?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Você pode levar o lixo para fora, por favor?"
+        }
+      ],
+      "imagem": "🗑️"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Qual expressão quer dizer decolar?",
+      "opcoes": [
+        "take off",
+        "take care",
+        "take after"
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Qual expressão quer dizer decolar?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "The plane is taking off."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual dessas você vai usar primeiro? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

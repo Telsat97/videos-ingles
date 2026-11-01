@@ -1,0 +1,419 @@
+{
+  "slug": "ep019-compras",
+  "episodio": 19,
+  "titulo": "Inglês nas compras: pergunte preço, tamanho e prove",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "🛍️",
+    "👕",
+    "💳",
+    "🏷️"
+  ],
+  "post": {
+    "titulo": "Como comprar roupa em INGLÊS 🛍️ preço, tamanho e provador",
+    "descricao": "Cinco frases para fazer compras em inglês: perguntar o preço, pedir outro tamanho, provar a roupa, dizer que está só olhando e fechar a compra. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#inglesparaviagem",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#dicasdeingles"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "INGLÊS",
+        "nas compras",
+        "5 frases"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Vai fazer compras no exterior? Com cinco frases simples, você compra com tranquilidade.",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje são frases para perguntar o preço, pedir outro tamanho e provar a roupa."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "How much it costs?",
+      "dica": "Quanto custa? = How much is it?",
+      "rotulo": "nas compras",
+      "certo": "How much is it?",
+      "pronuncia": "rau mátch iz it",
+      "exemplo": {
+        "en": "Excuse me, how much is it?",
+        "pt": "Com licença, quanto custa?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para perguntar o preço, muita gente monta a frase assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "O jeito mais simples é how much is it. Para mais de um item, troque por how much are they.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "How much is it?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "Excuse me, how much is it?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Com licença, quanto custa?"
+        }
+      ],
+      "imagem": "🏷️"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "Do you have one more small?",
+      "dica": "Um tamanho menor = a smaller size",
+      "rotulo": "nas compras",
+      "certo": "Do you have a smaller size?",
+      "pronuncia": "dú iú rév a smóler sáiz",
+      "exemplo": {
+        "en": "This is too big. Do you have a smaller size?",
+        "pt": "Este está grande demais. Você tem um tamanho menor?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para pedir um tamanho menor, muita gente traduz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Smaller é menor, e size é tamanho. Para maior, diga a larger size.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Too big quer dizer grande demais."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Do you have a smaller size?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "This is too big. Do you have a smaller size?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Este está grande demais. Você tem um tamanho menor?"
+        }
+      ],
+      "imagem": "👕"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "Can I try?",
+      "dica": "Provar a roupa = try it on",
+      "rotulo": "nas compras",
+      "certo": "Can I try it on?",
+      "pronuncia": "cén ai trái it on",
+      "exemplo": {
+        "en": "I like this jacket. Can I try it on?",
+        "pt": "Gostei desta jaqueta. Posso provar?"
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para pedir para provar a roupa, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Try it on é vestir para ver se serve. Sem o on, a frase fica incompleta.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "O provador, por sinal, é fitting room."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can I try it on?",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I like this jacket. Can I try it on?",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Gostei desta jaqueta. Posso provar?"
+        }
+      ],
+      "imagem": "🧥"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "I'm only seeing",
+      "dica": "Só estou olhando = I'm just looking",
+      "rotulo": "nas compras",
+      "certo": "I'm just looking, thanks.",
+      "pronuncia": "aim djást lúquin fenks",
+      "exemplo": {
+        "en": "I'm just looking, thanks.",
+        "pt": "Só estou olhando, obrigado."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Quando o vendedor se aproxima e você só quer olhar, muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "O verbo é look, de olhar. E o just suaviza a frase: só isso, nada mais.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "É educado e todo vendedor entende."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm just looking, thanks.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'm just looking, thanks.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Só estou olhando, obrigado."
+        }
+      ],
+      "imagem": "👀"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "I take",
+      "dica": "Vou levar = I'll take it",
+      "rotulo": "nas compras",
+      "certo": "I'll take it.",
+      "pronuncia": "áil têik it",
+      "exemplo": {
+        "en": "It fits well. I'll take it.",
+        "pt": "Serviu bem. Vou levar."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Frase número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Quando decidir comprar, muita gente simplesmente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Para fechar a compra, use will, na forma curta I'll. Quer dizer vou levar agora.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "I'll take it.",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "It fits well. I'll take it.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Serviu bem. Vou levar."
+        }
+      ],
+      "imagem": "💳"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como perguntar o preço?",
+      "opcoes": [
+        "How much is it?",
+        "How much it costs?",
+        "How many is it?"
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Qual é a forma certa de perguntar o preço?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "How much is it?"
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Qual dessas você vai usar na próxima viagem? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

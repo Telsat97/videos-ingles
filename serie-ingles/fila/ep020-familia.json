@@ -1,0 +1,423 @@
+{
+  "slug": "ep020-familia",
+  "episodio": 20,
+  "titulo": "A família em inglês: neto, sobrinho, sogra e mais",
+  "fotos": [
+    "prints/foto1.jpg",
+    "prints/foto2.jpg",
+    "prints/foto3.jpg",
+    "prints/foto4.jpg",
+    "prints/foto5.jpg"
+  ],
+  "vozes": {
+    "pt": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+10%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-12%"
+    }
+  },
+  "cenario": [
+    "👨‍👩‍👧",
+    "👵",
+    "👶",
+    "🏡"
+  ],
+  "post": {
+    "titulo": "A FAMÍLIA em inglês: neto NÃO é nephew! 👵",
+    "descricao": "Cinco palavras da família em inglês: neto, sobrinho, sogra, primo e padrasto, com exemplos para apresentar quem você ama. No final tem um desafio! Uma dica nova de inglês todo dia.",
+    "hashtags": [
+      "#ingles",
+      "#familia",
+      "#aprenderingles",
+      "#inglesfacil",
+      "#dicasdeingles"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "titulo": [
+        "A FAMÍLIA",
+        "em inglês",
+        "5 palavras"
+      ],
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Você sabe apresentar a sua família em inglês? Tem palavra que engana até quem já estudou.",
+          "mostra": "titulo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Hoje são cinco palavras para falar de quem você ama."
+        },
+        {
+          "voz": "pt",
+          "texto": "Fica até o final: tem desafio pra você!"
+        }
+      ]
+    },
+    {
+      "tipo": "erro",
+      "numero": 1,
+      "errado": "my nephew",
+      "dica": "Neto = grandson",
+      "rotulo": "família",
+      "certo": "my grandson",
+      "pronuncia": "mai grénd-san",
+      "exemplo": {
+        "en": "This is my grandson, Pedro.",
+        "pt": "Este é meu neto, Pedro."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número um."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar do filho do seu filho, muita gente escolhe a palavra errada e diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Nephew é sobrinho, e não neto. Neto é grandson, e neta é granddaughter.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "my grandson",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "This is my grandson, Pedro.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Este é meu neto, Pedro."
+        }
+      ],
+      "imagem": "👶"
+    },
+    {
+      "tipo": "erro",
+      "numero": 2,
+      "errado": "my little nephew of my brother",
+      "dica": "Sobrinho = nephew · sobrinha = niece",
+      "rotulo": "família",
+      "certo": "my nephew",
+      "pronuncia": "mai néfiu",
+      "exemplo": {
+        "en": "My nephew is five years old.",
+        "pt": "Meu sobrinho tem cinco anos."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número dois."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar do filho do seu irmão, muita gente complica e diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sobrinho é nephew e sobrinha é niece. A palavra é uma só, sem explicar de quem é.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Niece fala-se níis, bem longo."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "my nephew",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "My nephew is five years old.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Meu sobrinho tem cinco anos."
+        }
+      ],
+      "imagem": "👦"
+    },
+    {
+      "tipo": "erro",
+      "numero": 3,
+      "errado": "my mother of law",
+      "dica": "Sogra = mother-in-law",
+      "rotulo": "família",
+      "certo": "my mother-in-law",
+      "pronuncia": "mai máder in lô",
+      "exemplo": {
+        "en": "My mother-in-law makes great cake.",
+        "pt": "Minha sogra faz bolo ótimo."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número três."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar da mãe do seu marido ou da sua esposa, muita gente fala assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "A palavra tem in-law no final, que quer dizer pela lei, pelo casamento. Vale para sogro, genro e nora também.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Sogro é father-in-law."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "my mother-in-law",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "My mother-in-law makes great cake.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Minha sogra faz bolo ótimo."
+        }
+      ],
+      "imagem": "👵"
+    },
+    {
+      "tipo": "erro",
+      "numero": 4,
+      "errado": "my uncle's son",
+      "dica": "Primo = cousin",
+      "rotulo": "família",
+      "certo": "my cousin",
+      "pronuncia": "mai cázin",
+      "exemplo": {
+        "en": "My cousin lives in Texas.",
+        "pt": "Meu primo mora no Texas."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número quatro."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar do filho do seu tio, muita gente descreve assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Existe uma palavra só: cousin. Serve para primo e prima, sem mudar.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Atenção: cousin se lê cázin, e não cósin."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "my cousin",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "My cousin lives in Texas.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Meu primo mora no Texas."
+        }
+      ],
+      "imagem": "🧑"
+    },
+    {
+      "tipo": "erro",
+      "numero": 5,
+      "errado": "my second father",
+      "dica": "Padrasto = stepfather",
+      "rotulo": "família",
+      "certo": "my stepfather",
+      "pronuncia": "mai stép-fáder",
+      "exemplo": {
+        "en": "My stepfather is very kind.",
+        "pt": "Meu padrasto é muito gentil."
+      },
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Palavra número cinco."
+        },
+        {
+          "voz": "pt",
+          "texto": "Para falar do marido da sua mãe, quando ele não é seu pai, muita gente diz assim:",
+          "mostra": "errado",
+          "gatilho": "assim"
+        },
+        {
+          "voz": "pt",
+          "texto": "Step é a palavra que marca a família que se forma depois. Madrasta é stepmother.",
+          "mostra": "dica"
+        },
+        {
+          "voz": "pt",
+          "texto": "Filho do padrasto é stepbrother."
+        },
+        {
+          "voz": "pt",
+          "texto": "Então o certo é:"
+        },
+        {
+          "voz": "en",
+          "texto": "my stepfather",
+          "mostra": "certo"
+        },
+        {
+          "voz": "pt",
+          "texto": "Repete comigo:"
+        },
+        {
+          "voz": "en",
+          "texto": "My stepfather is very kind.",
+          "mostra": "exemplo"
+        },
+        {
+          "pausa": 1.5,
+          "mostra": "suavez"
+        },
+        {
+          "voz": "pt",
+          "texto": "Meu padrasto é muito gentil."
+        }
+      ],
+      "imagem": "🏡"
+    },
+    {
+      "tipo": "quiz",
+      "pergunta": "Como se diz “neto” em inglês?",
+      "opcoes": [
+        "grandson",
+        "nephew",
+        "cousin"
+      ],
+      "correta": 0,
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Hora do desafio! Como se diz neto em inglês?",
+          "mostra": "pergunta"
+        },
+        {
+          "voz": "pt",
+          "texto": "Letra A, letra B ou letra C? Pensa rápido!",
+          "mostra": "opcoes"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "pt",
+          "texto": "Resposta certa: letra A, grandson!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "en",
+          "texto": "This is my grandson."
+        },
+        {
+          "voz": "pt",
+          "texto": "Acertou? Então comenta aí: acertei!"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "chamada": "Uma dica nova de inglês TODO DIA",
+      "falas": [
+        {
+          "voz": "pt",
+          "texto": "Todo dia tem dica nova de inglês, fácil e rapidinha. Segue pra não perder!",
+          "mostra": "chamada"
+        },
+        {
+          "voz": "pt",
+          "texto": "Quem da sua família você vai apresentar em inglês primeiro? Comenta aí!"
+        },
+        {
+          "voz": "en",
+          "texto": "See you tomorrow!"
+        }
+      ]
+    }
+  ]
+}

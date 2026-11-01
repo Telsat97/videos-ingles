@@ -1,0 +1,132 @@
+{
+  "slug": "d032-lose-loose",
+  "episodio": 232,
+  "formato": "dica",
+  "titulo": "Lose vs Loose",
+  "post": {
+    "titulo": "Lose vs Loose: the spelling trap in English",
+    "descricao": "Lose vs loose: lose is a verb (you can't find it or you don't win), loose means not tight: Don't lose your keys.\n❌ I don't want to loose my keys. ✅ I don't want to lose my keys.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I don't want to\nloose my keys.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Look closely. Can you see the spelling mistake?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "LOSE = can't find it\nLOOSE = not tight",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Lose, with one O, is a verb. You lose keys, or you lose a game.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Loose, with two Os, means not tight.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "one O = verb · two Os = not tight"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I don't want to\nlose my keys.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So write:"
+        },
+        {
+          "voz": "en",
+          "texto": "I don't want to lose my keys.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Lose has one O.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "lose = one O"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I don't want to lose my keys.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "lose = shoes\nloose = goose",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: lose sounds like shoes. Loose sounds like goose."
+        },
+        {
+          "voz": "en",
+          "texto": "My shirt is loose. Don't lose it!",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "My shoe is ___.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "lose",
+        "loose"
+      ]
+    }
+  ]
+}

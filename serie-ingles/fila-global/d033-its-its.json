@@ -1,0 +1,128 @@
+{
+  "slug": "d033-its-its",
+  "episodio": 233,
+  "formato": "dica",
+  "titulo": "Its vs It's",
+  "tema": "Its or it's?",
+  "post": {
+    "titulo": "Its or it's? The easy test to use",
+    "descricao": "Its or it's? It's means \"it is\"; its shows that something belongs to it: The dog wagged its tail.\n❌ The dog wagged it's tail. ✅ The dog wagged its tail.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "The dog wagged\nit's tail.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "These two words sound the same, so watch the spelling. Is this right?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "IT'S = it is\nITS = belongs to it",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "It's, with an apostrophe, means it is.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Its, without one, shows that something belongs to it.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "apostrophe = it is"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "The dog wagged\nits tail.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The tail belongs to the dog, so write:"
+        },
+        {
+          "voz": "en",
+          "texto": "The dog wagged its tail.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "its = belongs to it"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "The dog wagged its tail.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "it is? → it's\nno? → its",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus test: say it is in the sentence. If it works, write it's."
+        },
+        {
+          "voz": "en",
+          "texto": "It's cold, and the cat wants its dinner.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "___ raining today.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "Its",
+        "It's"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "d034-everyone-is",
+  "episodio": 234,
+  "formato": "dica",
+  "titulo": "Everyone is",
+  "tema": "Everyone is or are?",
+  "post": {
+    "titulo": "Everyone is or are? Quick answer",
+    "descricao": "Everyone is or are? Use is, because everyone counts as one group: Everyone is here.\n❌ Everyone are here. ✅ Everyone is here.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Everyone are\nhere.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Everyone means many people. But does it take are?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "everyone + IS\neveryone + WAS",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "In grammar, everyone counts as one group. So use is or was.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Not are.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "one group = singular"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Everyone is\nhere.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Everyone is here.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "everyone + is"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Everyone is here.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "everybody is\nnobody is",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: it works the same with everybody, someone, and nobody."
+        },
+        {
+          "voz": "en",
+          "texto": "Everybody is happy. Nobody is late.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Everyone ___ happy.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "is",
+        "are"
+      ]
+    }
+  ]
+}
