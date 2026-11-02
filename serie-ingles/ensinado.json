@@ -313,6 +313,30 @@
       ]
     },
     {
+      "slug": "ep014-como-dizer-2",
+      "episodio": 14,
+      "titulo": "Como dizer 5 expressões do dia a dia em inglês",
+      "temas": [
+        "I go to think -> I'll think about it.",
+        "What a feather! -> That's too bad.",
+        "Repeat, please -> Could you say that again?",
+        "I'm arriving -> I'm on my way.",
+        "It gave right -> It worked!"
+      ],
+      "ensina": [
+        "I'll think about it.",
+        "Great offer! I'll think about it.",
+        "That's too bad.",
+        "You missed the bus? That's too bad.",
+        "Could you say that again?",
+        "Sorry, could you say that again?",
+        "I'm on my way.",
+        "Don't worry, I'm on my way.",
+        "It worked!",
+        "I restarted my phone, and it worked!"
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -472,6 +496,15 @@
       "temas": [],
       "ensina": [
         "I'm 20\nyears old."
+      ]
+    },
+    {
+      "slug": "d019-comfortable",
+      "episodio": 219,
+      "titulo": "Comfortable",
+      "temas": [],
+      "ensina": [
+        "This chair is\nso comfortable."
       ]
     }
   ]
