@@ -337,6 +337,30 @@
       ]
     },
     {
+      "slug": "ep015-medico-farmacia",
+      "episodio": 15,
+      "titulo": "Inglês no médico e na farmácia: diga o que você sente",
+      "temas": [
+        "I have pain in the head -> I have a headache.",
+        "I have fever -> I have a fever.",
+        "I need a recipe -> I need a prescription.",
+        "I am allergic of penicillin -> I'm allergic to penicillin.",
+        "I am with a cold -> I have a cold."
+      ],
+      "ensina": [
+        "I have a headache.",
+        "I have a headache. Can I take something?",
+        "I have a fever.",
+        "I have a fever and a cough.",
+        "I need a prescription.",
+        "The doctor gave me a prescription.",
+        "I'm allergic to penicillin.",
+        "I'm allergic to penicillin.",
+        "I have a cold.",
+        "I have a cold and a sore throat."
+      ]
+    },
+    {
       "slug": "d001-explain-it-to-me",
       "episodio": 201,
       "titulo": "Explain it to me",
@@ -505,6 +529,15 @@
       "temas": [],
       "ensina": [
         "This chair is\nso comfortable."
+      ]
+    },
+    {
+      "slug": "d020-instead-of-very",
+      "episodio": 220,
+      "titulo": "Instead of very",
+      "temas": [],
+      "ensina": [
+        "I'm exhausted."
       ]
     }
   ]
