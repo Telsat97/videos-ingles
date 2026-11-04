@@ -40,7 +40,7 @@ const geometrias = () => {
     capsula([0, -0.08, 0], [0, -0.36, 0], 0.056, 0.05),
     esfera([0, -0.42, 0.01], 0.068), esfera([0.045, -0.39, 0.04], 0.03));
   const manga = elipsoide([0, -0.05, 0], [0.1, 0.13, 0.1]);
-  const p = 0.011;
+  const p = 0.015; // resolução da malha: mais fino = mais lento para renderizar
   return {
     rosto: malha(rosto, [-0.62, -0.5, -0.6], [0.62, 0.6, 0.62], p),
     cabelo: malha(cabelo, [-0.62, -0.5, -0.62], [0.62, 0.65, 0.62], p),
