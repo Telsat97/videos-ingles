@@ -38,6 +38,8 @@ FORMATOS = {
     "dica": {"palavras": (40, 120, "60-100 para dar 25-45 s"), "limite": 58.0},
     # Podcast semanal 16:9 (ver serie-ingles/podcast/FORMATO.md): diálogo Mia + Leo em blocos/capítulos
     "podcast": {"palavras": (1800, 4500, "2.300-3.200 para dar 22-28 min"), "limite": None},
+    # Desenho 3D para crianças (TikTok/Facebook, ver serie-ingles/kids/): Louro (pt) + Lili (en)
+    "kids": {"palavras": (40, 600, "100-450 para dar 1-3 min"), "limite": 178.5},
 }
 
 
@@ -138,6 +140,9 @@ def validar(roteiro: dict) -> list[str]:
     if roteiro.get("formato") == "dica":
         if any(t != "tela" for t in tipos):
             erros.append("no formato dica todas as cenas são 'tela'")
+    elif roteiro.get("formato") == "kids":
+        if any(t != "kids" for t in tipos):
+            erros.append("no formato kids todas as cenas são 'kids'")
     elif roteiro.get("formato") == "podcast":
         if any(t != "bloco" for t in tipos):
             erros.append("no formato podcast todas as cenas são 'bloco'")
@@ -146,7 +151,7 @@ def validar(roteiro: dict) -> list[str]:
     elif tipos[:1] != ["abertura"] or tipos[-1:] != ["final"]:
         erros.append("a primeira cena deve ser 'abertura' e a última 'final'")
     for i, c in enumerate(roteiro.get("cenas", [])):
-        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela", "bloco"):
+        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela", "bloco", "kids"):
             erros.append(f"cena {i}: tipo inválido {c.get('tipo')}")
         chaves = {f.get("mostra") for f in c.get("falas", [])}
         exige = {"abertura": {"titulo"}, "erro": {"certo", "exemplo", "suavez"}, "quiz": {"pergunta", "opcoes", "contagem", "resposta"},

@@ -1,0 +1,247 @@
+{
+  "slug": "k001-numeros",
+  "episodio": 401,
+  "formato": "kids",
+  "titulo": "Números de 1 a 5 em inglês",
+  "vozes": {
+    "louro": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "lili": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%"
+    }
+  },
+  "post": {
+    "titulo": "Contando até 5 em INGLÊS com o Louro e a Lili 🎈",
+    "descricao": "Aprenda os números de 1 a 5 em inglês com balões coloridos: one, two, three, four, five! Animação para crianças.",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#numerosemingles",
+      "#aprenderingles",
+      "#desenhoeducativo"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Oi, criançada! Eu sou o Louro!"
+        },
+        {
+          "voz": "lili",
+          "texto": "Hello! I'm Lili!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "louro",
+          "texto": "Hoje a gente vai contar até cinco em inglês. Vamos juntos?"
+        }
+      ],
+      "baloes": 0
+    },
+    {
+      "tipo": "kids",
+      "numero": 1,
+      "en": "one",
+      "pt": "um",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Um balão!",
+          "mostra": "balao"
+        },
+        {
+          "voz": "lili",
+          "texto": "One!",
+          "mostra": "numero"
+        },
+        {
+          "voz": "louro",
+          "texto": "Fala comigo: one!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ],
+      "baloes": 1
+    },
+    {
+      "tipo": "kids",
+      "numero": 2,
+      "en": "two",
+      "pt": "dois",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Dois balões!",
+          "mostra": "balao"
+        },
+        {
+          "voz": "lili",
+          "texto": "Two!",
+          "mostra": "numero"
+        },
+        {
+          "voz": "louro",
+          "texto": "Fala comigo: two!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ],
+      "baloes": 2
+    },
+    {
+      "tipo": "kids",
+      "numero": 3,
+      "en": "three",
+      "pt": "três",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Três balões!",
+          "mostra": "balao"
+        },
+        {
+          "voz": "lili",
+          "texto": "Three!",
+          "mostra": "numero"
+        },
+        {
+          "voz": "louro",
+          "texto": "Fala comigo: three!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ],
+      "baloes": 3
+    },
+    {
+      "tipo": "kids",
+      "numero": 4,
+      "en": "four",
+      "pt": "quatro",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Quatro balões!",
+          "mostra": "balao"
+        },
+        {
+          "voz": "lili",
+          "texto": "Four!",
+          "mostra": "numero"
+        },
+        {
+          "voz": "louro",
+          "texto": "Fala comigo: four!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ],
+      "baloes": 4
+    },
+    {
+      "tipo": "kids",
+      "numero": 5,
+      "en": "five",
+      "pt": "cinco",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Cinco balões!",
+          "mostra": "balao"
+        },
+        {
+          "voz": "lili",
+          "texto": "Five!",
+          "mostra": "numero"
+        },
+        {
+          "voz": "louro",
+          "texto": "Fala comigo: five!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ],
+      "baloes": 5
+    },
+    {
+      "tipo": "kids",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Agora tudo junto! Bem alto!"
+        },
+        {
+          "voz": "lili",
+          "texto": "One, two, three, four, five!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "louro",
+          "texto": "Sua vez!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ],
+      "baloes": 5
+    },
+    {
+      "tipo": "kids",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Desafio! Quantos balões tem aqui? Fala em inglês!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "lili",
+          "texto": "Three!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "louro",
+          "texto": "Isso! Três é three! Parabéns!"
+        }
+      ],
+      "baloes": 3,
+      "desafio": true
+    },
+    {
+      "tipo": "kids",
+      "falas": [
+        {
+          "voz": "louro",
+          "texto": "Tchau, criançada! Até a próxima!"
+        },
+        {
+          "voz": "lili",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ],
+      "baloes": 5,
+      "encerramento": true
+    }
+  ]
+}

@@ -22,8 +22,15 @@ export type Fala = {
 };
 
 export type Cena = {
-  tipo: 'abertura' | 'erro' | 'quiz' | 'final' | 'tela' | 'bloco'; // 'bloco': capítulo do podcast
+  tipo: 'abertura' | 'erro' | 'quiz' | 'final' | 'tela' | 'bloco' | 'kids'; // 'bloco': podcast · 'kids': desenho 3D
   // 'tela' (formato dica): uma ideia em tela cheia
+  // kids (desenho 3D): palavra em inglês/português, quantos balões na cena e o tipo de momento
+  en?: string;
+  pt?: string;
+  baloes?: number;
+  revisao?: boolean;
+  desafio?: boolean;
+  encerramento?: boolean;
   cenario?: string; // podcast: estudio | cafe | mercado | rua | casa | trabalho | viagem
   visual?: 'erro' | 'certo' | 'regra' | 'vez' | 'bonus' | 'quiz';
   grande?: string;
@@ -52,7 +59,7 @@ export type Episodio = {
   episodio: number;
   titulo: string;
   tema?: string; // dica: etiqueta fixa do topo (padrão: titulo); use uma pergunta quando o título entrega a resposta
-  formato?: 'short' | 'episodio' | 'longo' | 'dica' | 'podcast';
+  formato?: 'short' | 'episodio' | 'longo' | 'dica' | 'podcast' | 'kids';
   nivel?: string; // podcast: A1, A2, B1, B2
   serie?: string; // podcast: Easy | Real Talk
   ep?: number; // podcast: número do episódio na série
