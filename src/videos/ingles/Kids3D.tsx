@@ -3,6 +3,7 @@ import {ThreeCanvas} from '@remotion/three';
 import React, {useMemo} from 'react';
 import {AbsoluteFill, interpolate, spring, staticFile, useVideoConfig} from 'remotion';
 import {clamp, useT} from './comuns';
+import {Ambiente, LiliModelo} from './LiliModelo';
 import {COR, TEXTO, TITULO} from './tema';
 import type {Cena, Episodio as Ep, Fala, Palavra} from './tipos';
 
@@ -268,12 +269,17 @@ export const Kids3D: React.FC<{ep: Ep}> = ({ep}) => {
   const aceno = cena.falas.some((f) => f.mostra === 'aceno' && t >= f.inicio && t < f.fim) ? 1 : 0;
   const lili = cena.falas.find((f) => f.voz === 'lili' && t >= f.inicio && t < f.fim + 0.6);
   const pulo = lili && (lili.mostra === 'numero' || lili.mostra === 'resposta') ? interpolate(t, [lili.inicio, lili.inicio + 0.6], [0, 1], clamp) : 0;
+  // Lili olha para o Louro quando ele fala (vira o rosto em ~0,3 s) e volta para a câmera depois.
+  const falaLouro = falas.find((f) => f.voz === 'louro' && t >= f.inicio - 0.3 && t < f.fim + 0.3);
+  const olharLouro = falaLouro ? Math.min(interpolate(t, [falaLouro.inicio - 0.3, falaLouro.inicio], [0, 1], clamp), interpolate(t, [falaLouro.fim, falaLouro.fim + 0.3], [1, 0], clamp)) : 0;
   // Câmera: aproxima devagar e balança de leve (sensação de câmera de desenho animado).
   const zoom = interpolate(t - cena.inicio, [0, 3], [0, 1], clamp);
   return (
     <AbsoluteFill style={{background: 'linear-gradient(180deg, #7CC8FF 0%, #BDE7FF 60%, #E8F7FF 100%)'}}>
       <ThreeCanvas width={width} height={height} camera={{position: [0.25 * Math.sin(t * 0.25), 1.35, 7.6 - 0.4 * zoom], fov: 40}}>
-        <ambientLight intensity={0.45} />
+        <Ambiente />
+        <ambientLight intensity={0.25} />
+        <pointLight position={[-0.6, 2.2, 3.5]} intensity={6} distance={9} color="#FFE8D6" />
         <hemisphereLight args={['#EAF6FF', '#7ED957', 0.75]} />
         <directionalLight position={[3, 6, 5]} intensity={1.7} color="#FFF3E0" />
         <directionalLight position={[-4, 3, -3]} intensity={1.1} color="#CDE7FF" />
@@ -283,7 +289,7 @@ export const Kids3D: React.FC<{ep: Ep}> = ({ep}) => {
             i < visiveis && t >= entradas[i] - 0.05 || (cena.revisao || cena.encerramento) && i < visiveis
               ? <Balao key={i} i={i} entrada={cena.numero ? entradas[i] : -1} t={t} fps={fps} frame={frame} /> : null
           ))}
-          <Lili boca={aberturaBoca(palavras.lili, t)} t={t} aceno={aceno} pulo={pulo} />
+          <LiliModelo boca={aberturaBoca(palavras.lili, t)} t={t} aceno={aceno} pulo={pulo} olharPara={olharLouro} />
           <Louro boca={aberturaBoca(palavras.louro, t)} t={t} />
         </group>
       </ThreeCanvas>
