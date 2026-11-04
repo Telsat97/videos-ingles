@@ -36,7 +36,7 @@
   },
   "post": {
     "titulo": "Vamos nos vestir em INGLÊS com o Theo e o Mingau 👕",
-    "descricao": "Aprenda as roupas em inglês: shirt, pants, shoes, hat e socks! Animação para crianças, assista junto com seu filho!",
+    "descricao": "Aprenda as roupas em inglês: T-shirt, pants, shoes, hat e socks! Animação para crianças, assista junto com seu filho!",
     "hashtags": [
       "#inglesparacriancas",
       "#aprenderingles",
@@ -69,7 +69,7 @@
       "cenario": "quarto",
       "imagem": "👕",
       "quantidade": 1,
-      "en": "shirt",
+      "en": "T-shirt",
       "pt": "camiseta",
       "falas": [
         {
@@ -79,12 +79,12 @@
         },
         {
           "voz": "crianca",
-          "texto": "Shirt!",
+          "texto": "T-shirt!",
           "mostra": "palavra"
         },
         {
           "voz": "animal",
-          "texto": "Muito bem! Agora fala comigo: shirt!"
+          "texto": "Muito bem! Agora é a sua vez de falar!"
         },
         {
           "pausa": 2.2,
@@ -123,8 +123,8 @@
     {
       "tipo": "kids",
       "cenario": "quarto",
-      "imagem": "👟",
-      "quantidade": 1,
+      "imagem": "👞",
+      "quantidade": 2,
       "en": "shoes",
       "pt": "sapatos",
       "falas": [
@@ -215,7 +215,7 @@
         },
         {
           "voz": "crianca",
-          "texto": "Shirt, pants, shoes, hat, socks!",
+          "texto": "T-shirt, pants, shoes, hat, socks!",
           "mostra": "todos"
         },
         {
@@ -251,7 +251,7 @@
         },
         {
           "voz": "animal",
-          "texto": "Isso! Meias é socks! Parabéns!"
+          "texto": "Isso! Em inglês, meias são socks! Parabéns!"
         }
       ]
     },
@@ -262,7 +262,7 @@
       "falas": [
         {
           "voz": "animal",
-          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual roupa seu filho mais gostou de aprender! Até a próxima! Beijo!"
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários de qual roupa seu filho mais gostou! Até a próxima! Beijo!"
         },
         {
           "voz": "crianca",

@@ -67,7 +67,7 @@
     {
       "tipo": "kids",
       "cenario": "cozinha",
-      "imagem": "👩",
+      "imagem": "👩‍👧",
       "quantidade": 1,
       "en": "mom",
       "pt": "mamãe",
@@ -95,7 +95,7 @@
     {
       "tipo": "kids",
       "cenario": "cozinha",
-      "imagem": "👨",
+      "imagem": "👨‍👦",
       "quantidade": 1,
       "en": "dad",
       "pt": "papai",
