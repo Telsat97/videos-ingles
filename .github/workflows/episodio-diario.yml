@@ -1,16 +1,13 @@
 # Robô diário da série (GitHub Actions, sem o seu PC). Ver serie-ingles/PLANO-DO-TIME.md.
-# - 2 rodadas por dia (~13 e ~23 UTC): cada uma publica o próximo micro-Short GLOBAL (serie-ingles/fila-global/) no YouTube
-#   e guarda a cópia no Google Drive.
-# - Na 1ª rodada do dia também sai o episódio em PORTUGUÊS (serie-ingles/fila/), só para o Drive
-#   (o dono reposta no TikTok e no Facebook; o YouTube agora é global).
+# - Acorda a cada 2 h e tools/agenda.py decide se está "na hora" (o GitHub atrasa e pula agendamentos fixos):
+#   2 micro-Shorts GLOBAIS por dia (serie-ingles/fila-global/, YouTube + Drive), 9 h entre eles, janela 11-02 UTC;
+#   1 episódio em PORTUGUÊS por dia (serie-ingles/fila/), só para o Drive (o dono reposta no TikTok e no Facebook).
 # Quem sai da fila vai para publicados-global/ ou publicados/. Segredos: serie-ingles/SETUP.md.
 name: Episódio diário
 
 on:
   schedule:
-    # O GitHub atrasa agendamentos em horário de pico (medido: 3-5 h). Marcamos ~4 h antes do horário-alvo:
-    - cron: '17 9 * * *'  # alvo ~13 UTC: noite na Índia, tarde na Europa, manhã nas Américas
-    - cron: '17 19 * * *' # alvo ~23 UTC: noite nas Américas
+    - cron: '17 */2 * * *'  # quase sempre só confere a agenda e termina em segundos
   workflow_dispatch:
     inputs:
       rodada:
@@ -38,24 +35,31 @@ jobs:
       TEM_YT: ${{ secrets.YT_REFRESH_TOKEN != '' }}
       TEM_DRIVE: ${{ secrets.RCLONE_CONF != '' || secrets.DRIVE_REFRESH_TOKEN != '' || secrets.YT_REFRESH_TOKEN != '' }}
       PYTHONIOENCODING: utf-8
-      # Agendamento: a 1ª rodada do dia faz global + pt; a 2ª só global.
-      RODADA: ${{ inputs.rodada || (github.event.schedule == '17 9 * * *' && 'ambos') || 'global' }}
       YT_PRIVACIDADE: ${{ inputs.privacidade || 'public' }}
       FORCAR: ${{ inputs.forcar || 'false' }}
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 100  # tools/rodada.py lê no histórico a hora da última publicação
+          fetch-depth: 100  # tools/agenda.py e tools/rodada.py leem no histórico a hora das últimas publicações
+
+      - name: Está na hora?
+        run: |
+          if [ -n "${{ inputs.rodada }}" ]; then echo "RODADA=${{ inputs.rodada }}" >> "$GITHUB_ENV"
+          else python3 tools/agenda.py | sed 's/^rodada=/RODADA=/' >> "$GITHUB_ENV"; fi
+          tail -1 "$GITHUB_ENV"
 
       - uses: actions/setup-node@v4
+        if: env.RODADA != 'nenhuma'
         with:
           node-version: 20
           cache: npm
       - uses: actions/setup-python@v5
+        if: env.RODADA != 'nenhuma'
         with:
           python-version: '3.12'
 
       - name: Dependências
+        if: env.RODADA != 'nenhuma'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji rclone
@@ -63,7 +67,7 @@ jobs:
           python -m pip install -q edge-tts numpy requests google-api-python-client google-auth
 
       - name: Acesso ao Google Drive
-        if: env.TEM_DRIVE == 'true'
+        if: env.TEM_DRIVE == 'true' && env.RODADA != 'nenhuma'
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
           DRIVE_REFRESH_TOKEN: ${{ secrets.DRIVE_REFRESH_TOKEN }}
