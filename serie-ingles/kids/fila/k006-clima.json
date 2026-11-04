@@ -1,0 +1,275 @@
+{
+  "slug": "k006-clima",
+  "episodio": 406,
+  "formato": "kids",
+  "titulo": "O tempo e o clima em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Aiko",
+      "tipo": "menina",
+      "pele": "#F3D2B3",
+      "cabelo": {
+        "cor": "#111111",
+        "estilo": "rabo"
+      },
+      "roupa": "#FFCA3A",
+      "roupa2": "#1982C4",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "sapo",
+      "nome": "Jujuba",
+      "cor": "#4CAF50",
+      "cor2": "#C5E1A5"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "post": {
+    "titulo": "Sol, chuva e neve em INGLÊS com a Aiko e a Jujuba ☀️",
+    "descricao": "Aprenda o tempo em inglês: sun, rain, cloud, snow e wind! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#clima"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Jujuba! E essa é a minha amiga Aiko!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Aiko!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai olhar para o céu e aprender o tempo em inglês. Vamos?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "☀️",
+      "quantidade": 1,
+      "en": "sun",
+      "pt": "sol",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha o sol lá no céu! Que calor!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Sun!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: sun!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🌧️",
+      "quantidade": 1,
+      "en": "rain",
+      "pt": "chuva",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ih, começou a chuva! Pega o guarda-chuva!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Rain!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: rain!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "☁️",
+      "quantidade": 1,
+      "en": "cloud",
+      "pt": "nuvem",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha uma nuvem branquinha, parece algodão!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Cloud!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: cloud!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "❄️",
+      "quantidade": 1,
+      "en": "snow",
+      "pt": "neve",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Brrr, que frio! Tudo branquinho! É neve!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Snow!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: snow!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🌬️",
+      "quantidade": 1,
+      "en": "wind",
+      "pt": "vento",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Fuuu! Sente o vento no cabelo!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Wind!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: wind!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Sun, rain, cloud, snow, wind!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "desafio": true,
+      "imagem": "🌧️",
+      "en": "rain",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz chuva em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Rain!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Chuva é rain! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários como está o tempo aí hoje! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

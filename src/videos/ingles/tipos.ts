@@ -28,6 +28,7 @@ export type Cena = {
   en?: string;
   pt?: string;
   baloes?: number;
+  quantidade?: number; // kids: quantas cópias do desenho (imagem) aparecem
   revisao?: boolean;
   desafio?: boolean;
   encerramento?: boolean;
@@ -63,6 +64,7 @@ export type Episodio = {
   nivel?: string; // podcast: A1, A2, B1, B2
   serie?: string; // podcast: Easy | Real Talk
   ep?: number; // podcast: número do episódio na série
+  personagens?: Personagens; // kids: criança e animal do episódio
   capa?: string; // podcast: 2-4 palavras grandes da miniatura (\n quebra linha) // ver serie-ingles/ESTRATEGIA.md (padrão: episodio)
   duracao: number;
   audio: string;
@@ -84,3 +86,16 @@ export const momento = (cena: Cena, chave: string): number | null => {
   }
   return p[0]?.s ?? fala.inicio;
 };
+
+// Desenho 3D para crianças: cada episódio tem uma criança (fala inglês) e um animal (fala português) diferentes.
+export type Crianca = {
+  nome: string;
+  tipo: 'menina' | 'menino';
+  pele: string;
+  cabelo: {cor: string; estilo: 'curto' | 'cacheado' | 'marias' | 'rabo' | 'black'};
+  roupa: string;
+  roupa2?: string;
+  olhos?: string;
+};
+export type Animal = {tipo: 'papagaio' | 'gato' | 'cachorro' | 'coelho' | 'sapo' | 'urso'; nome: string; cor: string; cor2?: string};
+export type Personagens = {crianca: Crianca; animal: Animal};

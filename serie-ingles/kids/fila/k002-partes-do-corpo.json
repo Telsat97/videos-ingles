@@ -1,0 +1,275 @@
+{
+  "slug": "k002-partes-do-corpo",
+  "episodio": 402,
+  "formato": "kids",
+  "titulo": "Partes do corpo em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Maya",
+      "tipo": "menina",
+      "pele": "#8D5524",
+      "cabelo": {
+        "cor": "#1B1B1B",
+        "estilo": "black"
+      },
+      "roupa": "#FF7A59",
+      "roupa2": "#FFD166",
+      "olhos": "#3B2314"
+    },
+    "animal": {
+      "tipo": "coelho",
+      "nome": "Pipoca",
+      "cor": "#F5F0E8",
+      "cor2": "#F7B6C8"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-FranciscaNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "post": {
+    "titulo": "Partes do corpo em INGLÊS com a Maya e a Pipoca 👃",
+    "descricao": "Aprenda as partes do corpo em inglês: head, eyes, nose, mouth e hands! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#partesdocorpo"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Pipoca! E essa é a minha amiga Maya!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Maya!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai aprender as partes do corpo em inglês. Vamos juntos?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "🙂",
+      "quantidade": 1,
+      "en": "head",
+      "pt": "cabeça",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha a minha cabeça! Mexe a cabeça assim!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Head!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: head!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👀",
+      "quantidade": 1,
+      "en": "eyes",
+      "pt": "olhos",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha os meus olhos! Pisca, pisca!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Eyes!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: eyes!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👃",
+      "quantidade": 1,
+      "en": "nose",
+      "pt": "nariz",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha o meu nariz! Aponta pro seu nariz!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Nose!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: nose!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👄",
+      "quantidade": 1,
+      "en": "mouth",
+      "pt": "boca",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha a minha boca! Faz um sorriso bem grande!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Mouth!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: mouth!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👐",
+      "quantidade": 1,
+      "en": "hands",
+      "pt": "mãos",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha as minhas mãos! Bate palmas comigo!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hands!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: hands!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Head, eyes, nose, mouth, hands!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "desafio": true,
+      "imagem": "👃",
+      "en": "nose",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz nariz em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Nose!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Nariz é nose! Muito bem!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários de qual palavra seu filho mais gostou! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

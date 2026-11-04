@@ -1,0 +1,275 @@
+{
+  "slug": "k005-familia",
+  "episodio": 405,
+  "formato": "kids",
+  "titulo": "A família em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Davi",
+      "tipo": "menino",
+      "pele": "#5C3A21",
+      "cabelo": {
+        "cor": "#141414",
+        "estilo": "cacheado"
+      },
+      "roupa": "#2A9D8F",
+      "roupa2": "#E9C46A",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "urso",
+      "nome": "Bento",
+      "cor": "#8B5A2B",
+      "cor2": "#D2A679"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "-12Hz"
+    }
+  },
+  "post": {
+    "titulo": "A família em INGLÊS com o Davi e o Bento 👨‍👩‍👧",
+    "descricao": "Aprenda a família em inglês: mom, dad, baby, grandma e grandpa! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#familia"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou o Bento! E esse é o meu amigo Davi!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Davi!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai conhecer a família em inglês. Vamos juntos?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "👩",
+      "quantidade": 1,
+      "en": "mom",
+      "pt": "mamãe",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Essa é a mamãe! Ela dá um beijinho!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Mom!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: mom!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "👨",
+      "quantidade": 1,
+      "en": "dad",
+      "pt": "papai",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Esse é o papai! Ele brinca com a gente!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Dad!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: dad!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "👶",
+      "quantidade": 1,
+      "en": "baby",
+      "pt": "bebê",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha o bebê! Bem pequenininho!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Baby!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: baby!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "👵",
+      "quantidade": 1,
+      "en": "grandma",
+      "pt": "vovó",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Essa é a vovó! Ela faz bolo gostoso!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Grandma!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: grandma!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "👴",
+      "quantidade": 1,
+      "en": "grandpa",
+      "pt": "vovô",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "E esse é o vovô! Ele conta histórias!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Grandpa!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: grandpa!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Mom, dad, baby, grandma, grandpa!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "desafio": true,
+      "imagem": "👵",
+      "en": "grandma",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz vovó em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Grandma!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Vovó é grandma! Que orgulho!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Deem um abraço na família! E contem nos comentários de qual palavra seu filho mais gostou! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

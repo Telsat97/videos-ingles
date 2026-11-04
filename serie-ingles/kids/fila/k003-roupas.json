@@ -1,0 +1,275 @@
+{
+  "slug": "k003-roupas",
+  "episodio": 403,
+  "formato": "kids",
+  "titulo": "Roupas em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Theo",
+      "tipo": "menino",
+      "pele": "#F1C27D",
+      "cabelo": {
+        "cor": "#6B4423",
+        "estilo": "curto"
+      },
+      "roupa": "#3A86FF",
+      "roupa2": "#FFBE0B",
+      "olhos": "#4E7A3A"
+    },
+    "animal": {
+      "tipo": "gato",
+      "nome": "Mingau",
+      "cor": "#F2A65A",
+      "cor2": "#FFFFFF"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "-12Hz"
+    }
+  },
+  "post": {
+    "titulo": "Vamos nos vestir em INGLÊS com o Theo e o Mingau 👕",
+    "descricao": "Aprenda as roupas em inglês: shirt, pants, shoes, hat e socks! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#roupasemingles"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou o Mingau! E esse é o meu amigo Theo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Theo!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai se vestir em inglês. Vamos escolher as roupas juntos?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👕",
+      "quantidade": 1,
+      "en": "shirt",
+      "pt": "camiseta",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Primeiro, a camiseta! Bem colorida!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Shirt!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: shirt!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👖",
+      "quantidade": 1,
+      "en": "pants",
+      "pt": "calça",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora, a calça! Uma perna, depois a outra!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Pants!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: pants!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👟",
+      "quantidade": 1,
+      "en": "shoes",
+      "pt": "sapatos",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha os sapatos! Um em cada pé!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Shoes!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: shoes!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "👒",
+      "quantidade": 1,
+      "en": "hat",
+      "pt": "chapéu",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Um chapéu bem bonito, pra cabeça!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hat!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: hat!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "🧦",
+      "quantidade": 1,
+      "en": "socks",
+      "pt": "meias",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "E as meias bem quentinhas, pros pezinhos!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Socks!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: socks!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Shirt, pants, shoes, hat, socks!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "desafio": true,
+      "imagem": "🧦",
+      "en": "socks",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz meias em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Socks!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Meias é socks! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual roupa seu filho mais gostou de aprender! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}
