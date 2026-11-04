@@ -40,7 +40,7 @@ const geometrias = (estilo: Estilo, tipo: Crianca['tipo']) => {
   const cabelo =
     estilo === 'curto' ? uniao(0.06, calota(0.015, 0.05), capsula([-0.3, 0.42, 0.25], [0.25, 0.36, 0.37], 0.09, 0.06))
     : estilo === 'cacheado' ? uniao(0.05, calota(0.02, 0.0), ...cachos(0.1, 42, 0.04))
-    : estilo === 'black' ? uniao(0.1, calota(0.02, 0.0), elipsoide([0, 0.22, -0.1], [0.68, 0.6, 0.62]))
+    : estilo === 'black' ? uniao(0.1, calota(0.02, 0.0), intersecao(elipsoide([0, 0.26, -0.14], [0.68, 0.6, 0.62]), semiespaco([0, 1, -0.9], -0.045)))
     : uniao(0.06, calota(0.025, 0.0), elipsoide([0, 0.3, -0.05], [0.42, 0.28, 0.4]), ...franjaLado);
   const tranca = uniao(0.06, elipsoide([0, -0.12, 0], [0.15, 0.22, 0.14]), esfera([0, 0.06, 0], 0.08));
   const roupa = tipo === 'menina'
