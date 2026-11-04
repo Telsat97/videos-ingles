@@ -1,0 +1,275 @@
+{
+  "slug": "k004-brinquedos",
+  "episodio": 404,
+  "formato": "kids",
+  "titulo": "Brinquedos em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Sofia",
+      "tipo": "menina",
+      "pele": "#FFE0C4",
+      "cabelo": {
+        "cor": "#B5562B",
+        "estilo": "marias"
+      },
+      "roupa": "#8338EC",
+      "roupa2": "#F4F1DE",
+      "olhos": "#2E6BA6"
+    },
+    "animal": {
+      "tipo": "cachorro",
+      "nome": "Paçoca",
+      "cor": "#C68642",
+      "cor2": "#8B5A2B"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "post": {
+    "titulo": "Brinquedos em INGLÊS com a Sofia e a Paçoca 🧸",
+    "descricao": "Aprenda os brinquedos em inglês: ball, doll, car, teddy bear e blocks! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#brinquedos"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Paçoca! E essa é a minha amiga Sofia!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Sofia!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai brincar e aprender os brinquedos em inglês. Vamos?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "⚽",
+      "quantidade": 1,
+      "en": "ball",
+      "pt": "bola",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha a bola! Chuta pra mim!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Ball!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: ball!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🪆",
+      "quantidade": 1,
+      "en": "doll",
+      "pt": "boneca",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Que boneca linda! Ela tem um vestido!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Doll!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: doll!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🚗",
+      "quantidade": 1,
+      "en": "car",
+      "pt": "carrinho",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha o carrinho! Vrum, vrum, bem rápido!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Car!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: car!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🧸",
+      "quantidade": 1,
+      "en": "teddy bear",
+      "pt": "ursinho de pelúcia",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Um ursinho de pelúcia, bem fofinho! Dá um abraço!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Teddy bear!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: teddy bear!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🧱",
+      "quantidade": 1,
+      "en": "blocks",
+      "pt": "blocos de montar",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora os blocos de montar! Vamos fazer uma torre!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Blocks!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: blocks!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Ball, doll, car, teddy bear, blocks!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "desafio": true,
+      "imagem": "⚽",
+      "en": "ball",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz bola em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Ball!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Bola é ball! Mandou bem!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual é o brinquedo favorito do seu filho! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

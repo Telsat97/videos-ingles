@@ -38,6 +38,8 @@ FORMATOS = {
     "dica": {"palavras": (40, 120, "60-100 para dar 25-45 s"), "limite": 58.0},
     # Podcast semanal 16:9 (ver serie-ingles/podcast/FORMATO.md): diálogo Mia + Leo em blocos/capítulos
     "podcast": {"palavras": (1800, 4500, "2.300-3.200 para dar 22-28 min"), "limite": None},
+    # Desenho 3D para crianças (TikTok/Facebook, ver serie-ingles/kids/): Louro (pt) + Lili (en)
+    "kids": {"palavras": (40, 600, "100-450 para dar 1-3 min"), "limite": 178.5},
 }
 
 
@@ -138,6 +140,9 @@ def validar(roteiro: dict) -> list[str]:
     if roteiro.get("formato") == "dica":
         if any(t != "tela" for t in tipos):
             erros.append("no formato dica todas as cenas são 'tela'")
+    elif roteiro.get("formato") == "kids":
+        if any(t != "kids" for t in tipos):
+            erros.append("no formato kids todas as cenas são 'kids'")
     elif roteiro.get("formato") == "podcast":
         if any(t != "bloco" for t in tipos):
             erros.append("no formato podcast todas as cenas são 'bloco'")
@@ -146,7 +151,7 @@ def validar(roteiro: dict) -> list[str]:
     elif tipos[:1] != ["abertura"] or tipos[-1:] != ["final"]:
         erros.append("a primeira cena deve ser 'abertura' e a última 'final'")
     for i, c in enumerate(roteiro.get("cenas", [])):
-        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela", "bloco"):
+        if c.get("tipo") not in ("abertura", "erro", "quiz", "final", "tela", "bloco", "kids"):
             erros.append(f"cena {i}: tipo inválido {c.get('tipo')}")
         chaves = {f.get("mostra") for f in c.get("falas", [])}
         exige = {"abertura": {"titulo"}, "erro": {"certo", "exemplo", "suavez"}, "quiz": {"pergunta", "opcoes", "contagem", "resposta"},
@@ -179,12 +184,12 @@ def validar(roteiro: dict) -> list[str]:
     return erros
 
 
-async def sintetizar(texto: str, voz: str, rate: str, destino: Path) -> list[dict]:
+async def sintetizar(texto: str, voz: str, rate: str, destino: Path, pitch: str = "+0Hz") -> list[dict]:
     # O serviço de voz às vezes falha (sem áudio, ou recusa a conexão com 503): tenta de novo antes de desistir.
     import aiohttp
     for tentativa in range(6):
         try:
-            return await _sintetizar(texto, voz, rate, destino)
+            return await _sintetizar(texto, voz, rate, destino, pitch)
         except (edge_tts.exceptions.NoAudioReceived, aiohttp.ClientError):
             if tentativa == 5:
                 raise
@@ -192,8 +197,8 @@ async def sintetizar(texto: str, voz: str, rate: str, destino: Path) -> list[dic
     raise AssertionError("inalcançável")
 
 
-async def _sintetizar(texto: str, voz: str, rate: str, destino: Path) -> list[dict]:
-    com = edge_tts.Communicate(texto, voz, rate=rate, boundary="WordBoundary")
+async def _sintetizar(texto: str, voz: str, rate: str, destino: Path, pitch: str = "+0Hz") -> list[dict]:
+    com = edge_tts.Communicate(texto, voz, rate=rate, pitch=pitch, boundary="WordBoundary")
     palavras = []
     with open(destino, "wb") as f:
         async for ch in com.stream():
@@ -233,7 +238,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
             else:
                 cfg = roteiro["vozes"][fala["voz"]]
                 mp3 = tmp / f"{n:03d}-{fala['voz']}.mp3"
-                pal = await sintetizar(fala["texto"], cfg["voz"], cfg["rate"], mp3)
+                pal = await sintetizar(fala["texto"], cfg["voz"], cfg["rate"], mp3, cfg.get("pitch", "+0Hz"))
                 audio = decodificar(mp3)
                 dur = len(audio) / SR
                 fala["palavras"] = [{**p, "s": round(t + p["s"], 3), "e": round(t + p["e"], 3)} for p in pal]
@@ -266,7 +271,7 @@ async def main(proj: Path, gravar_registro: bool) -> None:
         **{k: roteiro[k] for k in ("slug", "episodio", "titulo")},
         "formato": roteiro.get("formato", "episodio"),
         "tema": roteiro.get("tema", roteiro["titulo"]),
-        **{k: roteiro[k] for k in ("nivel", "serie", "ep", "capa") if k in roteiro},
+        **{k: roteiro[k] for k in ("nivel", "serie", "ep", "capa", "personagens") if k in roteiro},
         "cenario": roteiro.get("cenario", []),
         "duracao": round(t, 3),
         "audio": f"{nome}/audio/narracao.wav",

@@ -1,0 +1,275 @@
+{
+  "slug": "k008-sentimentos",
+  "episodio": 408,
+  "formato": "kids",
+  "titulo": "Sentimentos em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Luna",
+      "tipo": "menina",
+      "pele": "#A0522D",
+      "cabelo": {
+        "cor": "#3B2314",
+        "estilo": "cacheado"
+      },
+      "roupa": "#06D6A0",
+      "roupa2": "#FFFFFF",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "gato",
+      "nome": "Nina",
+      "cor": "#9E9E9E",
+      "cor2": "#F5F5F5"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-FranciscaNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "post": {
+    "titulo": "Feliz, triste, com sono: sentimentos em INGLÊS com a Luna e a Nina 😊",
+    "descricao": "Aprenda os sentimentos em inglês: happy, sad, angry, scared e sleepy! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#sentimentos"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Nina! E essa é a minha amiga Luna!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Luna!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai falar dos sentimentos em inglês. Tudo bem sentir!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "😊",
+      "quantidade": 1,
+      "en": "happy",
+      "pt": "feliz",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Quando a gente brinca, fica feliz! Sorria!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Happy!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: happy!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "😢",
+      "quantidade": 1,
+      "en": "sad",
+      "pt": "triste",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Às vezes a gente fica triste. Tudo bem!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Sad!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: sad!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "😠",
+      "quantidade": 1,
+      "en": "angry",
+      "pt": "bravo",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Às vezes a gente fica bravo. Respira fundo!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Angry!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: angry!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "😨",
+      "quantidade": 1,
+      "en": "scared",
+      "pt": "com medo",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "No escuro dá medo? Um abraço ajuda!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Scared!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: scared!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "😴",
+      "quantidade": 1,
+      "en": "sleepy",
+      "pt": "com sono",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Uaaah! Que sono! Hora de dormir!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Sleepy!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: sleepy!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Happy, sad, angry, scared, sleepy!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "desafio": true,
+      "imagem": "😊",
+      "en": "happy",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz feliz em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Happy!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Feliz é happy! Que alegria!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários como seu filho está se sentindo hoje! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

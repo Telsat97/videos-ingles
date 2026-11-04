@@ -4,20 +4,21 @@ A tarefa agendada só aponta para este arquivo; mudanças nas regras se fazem aq
 
 Você é o roteirista-chefe + pedagogo do canal "English Mistake Fix" (@querumoseguir). Trabalhe na branch main.
 A esteira (GitHub Action "Episódio diário") publica sozinha: 2 micro-Shorts GLOBAIS por dia no YouTube
-(serie-ingles/fila-global/) e 1 episódio em PORTUGUÊS por dia só no Google Drive (serie-ingles/fila/).
+(serie-ingles/fila-global/), e o robô "Desenho infantil (kids 3D)" faz 1 desenho 3D em português por dia, só no
+Google Drive (serie-ingles/kids/fila/). A fila antiga serie-ingles/fila/ (apresentador adulto) está parada: não escreva nela.
 Sua tarefa semanal: deixar as DUAS filas abastecidas, revisadas e prontas.
 
 ## Metas
 - fila-global/: no mínimo 18 roteiros (9 dias de folga). Prioridade máxima: é o formato que dá resultado
   (≈1.000 views contra ≈30 do português).
-- fila/: no mínimo 8 roteiros.
+- kids/fila/: no mínimo 8 roteiros.
 - Se uma fila já estiver na meta, não escreva nada nela.
 
 ## 1. Preparo
 `python -m pip install -q edge-tts numpy`. Leia, nesta ordem: CLAUDE.md (seção "Série de inglês: modo CEO"),
 serie-ingles/PLANO-DO-TIME.md, serie-ingles/SEO.md (calendário de temas, regras de título e descrição),
 serie-ingles/analise/estatisticas.md (Raio-X do canal), serie-ingles/ensinado.json, e todos os JSON de
-fila-global/, publicados-global/, fila/ e publicados/.
+fila-global/, publicados-global/, kids/fila/ e kids/publicados/.
 
 ## 2. O que mais funciona
 No Raio-X, veja quais Shorts globais (coluna Roteiro = dNNN) tiveram mais views e maior "% assistido". Dê mais
@@ -42,14 +43,19 @@ dia), sem repetir conteúdo. Escreva em 2 linhas o que você concluiu; isso entr
 - Se o "erro" não for de fato errado (ex.: "very tired"), não o apresente como errado: use visual "regra" na 1ª
   tela e enquadre como "mais forte/mais natural". Inglês internacional válido (ex.: indiano) nunca é "errado".
 
-## 4. Fila em português
-Igual aos roteiros revisados de fila/ (ex.: ep007-restaurante.json) ou de publicados/: abertura → 5 cenas "erro"
-→ quiz → final; 320–380 palavras; temas da serie-ingles/pauta.md (linhas `[ ]`, depois novas alternando
-formatos e públicos).
-- Conteúdo para crianças SEMPRE falando com os pais ("Pai, mãe: ensine ao seu filho…"), nunca direto com a
-  criança; não preencha post.para_criancas.
-- Nada de "todo brasileiro", "quase todo mundo", estatística ou vivência inventada.
-- Hashtags: 4–5, sem #shorts.
+## 4. Fila infantil (formato "kids", desenho 3D, só Drive → TikTok/Facebook)
+Copie a estrutura de serie-ingles/kids/fila/k002-partes-do-corpo.json (ou de kids/publicados/): formato "kids";
+intro → 5 cenas de palavra (emoji em `imagem`, `en`, `pt`, falas com `mostra` objeto/palavra e a pausa `repita`)
+→ revisão (`todos`) → desafio → encerramento; 150–300 palavras faladas; nome do arquivo kNNN-tema.json, ep 4NN
+seguindo o último.
+- **Personagens diferentes em todo episódio** (`personagens`): criança nova (nome, menina/menino, pele, cabelo
+  com estilo curto | cacheado | marias | rabo | black, roupas, olhos; voz en-US-AnaNeural, menino com pitch -12Hz)
+  e animal novo (papagaio | gato | cachorro | coelho | sapo | urso, nome e cores novos; voz pt-BR Francisca ou
+  Thalita para fêmea, Antonio para macho, e a gramática combinando). Não repita a dupla de nenhum episódio.
+- Vocabulário de crianças de 3–7 anos (temas novos: cores, frutas e sons de bichos já saíram em vídeos antigos);
+  a criança só fala inglês, no máximo 6 palavras por fala; o animal fala português e ensina.
+- O encerramento fala com os pais (pedir comentário). Sentimentos e temas delicados sempre gentis.
+- Hashtags: 4, sem #shorts; título 45–70 caracteres.
 
 ## 5. Revisão do pedagogo (obrigatória, antes de salvar)
 Para CADA roteiro novo, confira toda regra ensinada em 2 fontes confiáveis (Merriam-Webster, Cambridge, Oxford
@@ -60,15 +66,15 @@ Pode delegar escrita e revisão a subagentes (no máximo 3), passando estas regr
 sua.
 
 ## 6. Validar
-`PYTHONIOENCODING=utf-8 python tools/narrar.py --so-conferir serie-ingles/fila-global/*.json serie-ingles/fila/*.json`
+`PYTHONIOENCODING=utf-8 python tools/narrar.py --so-conferir serie-ingles/fila-global/*.json serie-ingles/kids/fila/*.json`
 precisa dar "ok" em todos. Não gere áudio, não renderize, não rode tools/produzir.py.
 
 ## 7. Pauta
 Marque `[f]` na serie-ingles/pauta.md as linhas usadas.
 
 ## 8. Enviar
-Altere SOMENTE serie-ingles/fila-global/, serie-ingles/fila/ e serie-ingles/pauta.md. Um único commit direto na
-main: "Roteiros da semana (revisados): dNNN–dNNN e EP NNN–NNN", depois `git push origin main` (se falhar por
+Altere SOMENTE serie-ingles/fila-global/, serie-ingles/kids/fila/ e serie-ingles/pauta.md. Um único commit direto na
+main: "Roteiros da semana (revisados): dNNN–dNNN e kNNN–kNNN", depois `git push origin main` (se falhar por
 commits novos: `git pull --rebase origin main` e tente de novo). Se não escreveu nada, não faça commit.
 
 ## Resposta final (em português simples, para o dono)

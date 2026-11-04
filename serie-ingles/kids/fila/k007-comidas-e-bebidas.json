@@ -1,0 +1,275 @@
+{
+  "slug": "k007-comidas-e-bebidas",
+  "episodio": 407,
+  "formato": "kids",
+  "titulo": "Comidas e bebidas em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Noah",
+      "tipo": "menino",
+      "pele": "#C68642",
+      "cabelo": {
+        "cor": "#E6C15A",
+        "estilo": "curto"
+      },
+      "roupa": "#E63946",
+      "roupa2": "#F1FAEE",
+      "olhos": "#5A3A1E"
+    },
+    "animal": {
+      "tipo": "papagaio",
+      "nome": "Kiwi",
+      "cor": "#1E88E5",
+      "cor2": "#FFD54F"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "-12Hz"
+    }
+  },
+  "post": {
+    "titulo": "Hora do lanche em INGLÊS com o Noah e o Kiwi 🎂",
+    "descricao": "Aprenda comidas e bebidas em inglês: milk, water, bread, cake e juice! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#comidas"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou o Kiwi! E esse é o meu amigo Noah!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Noah!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai lanchar em inglês. Tá com fome? Então vem comigo!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "🥛",
+      "quantidade": 1,
+      "en": "milk",
+      "pt": "leite",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Um copo de leite, pra ficar forte!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Milk!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: milk!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "💧",
+      "quantidade": 1,
+      "en": "water",
+      "pt": "água",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Um copo de água fresquinha, pra matar a sede!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Water!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: water!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "🍞",
+      "quantidade": 1,
+      "en": "bread",
+      "pt": "pão",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Pão quentinho, saindo do forno!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bread!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: bread!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "🎂",
+      "quantidade": 1,
+      "en": "cake",
+      "pt": "bolo",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Hum, um bolo de aniversário!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Cake!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: cake!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "imagem": "🧃",
+      "quantidade": 1,
+      "en": "juice",
+      "pt": "suco",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "E um suco de laranja, bem gostoso!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Juice!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: juice!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Milk, water, bread, cake, juice!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "desafio": true,
+      "imagem": "🎂",
+      "en": "cake",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz bolo em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Cake!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Bolo é cake! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "cozinha",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual é o lanche favorito do seu filho! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

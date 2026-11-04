@@ -10,12 +10,16 @@
     "typecheck": "tsc --noEmit && node scripts/check-split-layouts.mjs"
   },
   "dependencies": {
+    "@react-three/fiber": "9.3.0",
     "@remotion/cli": "4.0.451",
     "@remotion/google-fonts": "4.0.451",
     "@remotion/media": "4.0.451",
+    "@remotion/three": "4.0.451",
+    "@types/three": "0.180.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "remotion": "4.0.451"
+    "remotion": "4.0.451",
+    "three": "0.180.0"
   },
   "devDependencies": {
     "@types/react": "19.2.14",

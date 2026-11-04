@@ -1,0 +1,173 @@
+# Desenho 3D infantil em português (formato "kids": criança que fala inglês + animal que fala português).
+# Substitui o episódio diário em português: 1 por dia, só para o Drive (o dono reposta no TikTok e no Facebook).
+# Acorda a cada 4 h e só produz se o último saiu há 20 h ou mais (o GitHub atrasa agendamentos).
+# O 3D é pesado (render por software, --gl=swangle): o vídeo é dividido em 8 partes renderizadas em paralelo.
+# Fila: serie-ingles/kids/fila/ (ordem alfabética) → serie-ingles/kids/publicados/.
+name: Desenho infantil (kids 3D)
+
+on:
+  schedule:
+    - cron: '43 */4 * * *'
+  workflow_dispatch:
+    inputs:
+      roteiro:
+        description: 'Roteiro (vazio = o próximo da fila)'
+        default: ''
+      forcar:
+        description: 'Produzir mesmo que o último seja recente (true/false)'
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kids
+  cancel-in-progress: false
+
+env:
+  PARTES: 8
+  PYTHONIOENCODING: utf-8
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      vai: ${{ steps.hora.outputs.vai }}
+      roteiro: ${{ steps.hora.outputs.roteiro }}
+      slug: ${{ steps.info.outputs.slug }}
+      projeto: ${{ steps.info.outputs.projeto }}
+      quadros: ${{ steps.info.outputs.quadros }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 100
+      - name: Está na hora?
+        id: hora
+        run: |
+          ROT="${{ inputs.roteiro }}"
+          [ -z "$ROT" ] && ROT=$(ls serie-ingles/kids/fila/*.json 2>/dev/null | sort | head -1)
+          ULT=$(git log -1 --format=%ct --diff-filter=AR -- serie-ingles/kids/publicados || true)
+          AGORA=$(date +%s)
+          VAI=true
+          if [ -z "$ROT" ]; then echo "::warning::Fila infantil vazia (serie-ingles/kids/fila/)."; VAI=false
+          elif [ "${{ inputs.forcar }}" != "true" ] && [ -n "$ULT" ] && [ $((AGORA - ULT)) -lt $((20 * 3600)) ]; then VAI=false; fi
+          echo "vai=$VAI" >> "$GITHUB_OUTPUT"; echo "roteiro=$ROT" >> "$GITHUB_OUTPUT"
+          echo "vai=$VAI roteiro=$ROT"
+      - uses: actions/setup-python@v5
+        if: steps.hora.outputs.vai == 'true'
+        with:
+          python-version: '3.12'
+      - name: Narração (sem render)
+        if: steps.hora.outputs.vai == 'true'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          python -m pip install -q edge-tts numpy
+          python tools/produzir.py "${{ steps.hora.outputs.roteiro }}" --sem-render
+      - name: Dados do episódio
+        id: info
+        if: steps.hora.outputs.vai == 'true'
+        run: |
+          python - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          r = json.load(open("${{ steps.hora.outputs.roteiro }}", encoding="utf-8"))
+          proj = next(p for p in pathlib.Path("projetos").glob(f"* ingles-{r['slug']}"))
+          dur = json.load(open(proj / "transcricao" / "episodio.json", encoding="utf-8"))["duracao"]
+          print(f"slug={r['slug']}\nprojeto={proj.name}\nquadros={int(-(-dur * 30 // 1))}")
+          EOF
+      - uses: actions/upload-artifact@v4
+        if: steps.hora.outputs.vai == 'true'
+        with:
+          name: base
+          retention-days: 3
+          path: |
+            projetos/
+            edicoes/
+            src/videos/ingles/episodios/
+            src/videos/ingles/episodios.gen.ts
+
+  render:
+    needs: preparar
+    if: needs.preparar.outputs.vai == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      matrix:
+        parte: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: |
+          npm ci
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji
+      - uses: actions/download-artifact@v4
+        with:
+          name: base
+      - name: Render da parte ${{ matrix.parte }}
+        env:
+          QUADROS: ${{ needs.preparar.outputs.quadros }}
+        run: |
+          N=$PARTES; P=${{ matrix.parte }}
+          INI=$(( QUADROS * P / N )); FIM=$(( QUADROS * (P + 1) / N - 1 ))
+          npx remotion render src/index.ts "ingles-${{ needs.preparar.outputs.slug }}" "parte-$P.mp4" \
+            --frames=$INI-$FIM --muted --gl=swangle --codec=h264 --crf=20 --log=error --timeout=240000 --concurrency=2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: parte-${{ matrix.parte }}
+          retention-days: 3
+          path: parte-${{ matrix.parte }}.mp4
+
+  juntar:
+    needs: [preparar, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TEM_DRIVE: ${{ secrets.DRIVE_REFRESH_TOKEN != '' || secrets.YT_REFRESH_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependências
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg rclone
+          python -m pip install -q requests google-auth
+      - uses: actions/download-artifact@v4
+        with:
+          path: baixado
+      - name: Juntar partes + narração
+        run: |
+          PROJ="${{ needs.preparar.outputs.projeto }}"; SLUG="${{ needs.preparar.outputs.slug }}"
+          mkdir -p "edicoes/$PROJ"
+          cp "baixado/base/edicoes/$PROJ/"*.txt "baixado/base/edicoes/$PROJ/"*.json "edicoes/$PROJ/" 2>/dev/null || true
+          for P in $(seq 0 $((PARTES - 1))); do echo "file '$PWD/baixado/parte-$P/parte-$P.mp4'"; done > lista.txt
+          ffmpeg -v error -y -f concat -safe 0 -i lista.txt -i "baixado/base/projetos/$PROJ/audio/narracao.wav" \
+            -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "edicoes/$PROJ/$SLUG.mp4"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "edicoes/$PROJ/$SLUG.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video
+          retention-days: 7
+          path: edicoes/
+      - name: Google Drive
+        if: env.TEM_DRIVE == 'true'
+        env:
+          DRIVE_REFRESH_TOKEN: ${{ secrets.DRIVE_REFRESH_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          mkdir -p ~/.config/rclone && python tools/drive_conf.py
+          PROJ="${{ needs.preparar.outputs.projeto }}"
+          rclone copy "edicoes/$PROJ" "gdrive:Ingles Facil/Kids/$PROJ"
+      - name: Registrar
+        run: |
+          git config user.name "inglês-fácil bot"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p serie-ingles/kids/publicados
+          git mv "${{ needs.preparar.outputs.roteiro }}" serie-ingles/kids/publicados/
+          git commit -m "Kids publicado: ${{ needs.preparar.outputs.slug }}"
+          git pull --rebase -q && git push
