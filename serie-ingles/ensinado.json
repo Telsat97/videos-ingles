@@ -548,6 +548,15 @@
       "ensina": [
         "I watched TV\nlast night."
       ]
+    },
+    {
+      "slug": "d022-actually-currently",
+      "episodio": 222,
+      "titulo": "Actually vs Currently",
+      "temas": [],
+      "ensina": [
+        "Currently, I work\nat a bank."
+      ]
     }
   ]
 }
