@@ -36,7 +36,7 @@
   },
   "post": {
     "titulo": "Brinquedos em INGLÊS com a Sofia e a Paçoca 🧸",
-    "descricao": "Aprenda os brinquedos em inglês: ball, doll, car, teddy bear e blocks! Animação para crianças, assista junto com seu filho!",
+    "descricao": "Aprenda os brinquedos em inglês: ball, kite, car, teddy bear e puzzle! Animação para crianças, assista junto com seu filho!",
     "hashtags": [
       "#inglesparacriancas",
       "#aprenderingles",
@@ -95,24 +95,24 @@
     {
       "tipo": "kids",
       "cenario": "jardim",
-      "imagem": "🪆",
+      "imagem": "🪁",
       "quantidade": 1,
-      "en": "doll",
-      "pt": "boneca",
+      "en": "kite",
+      "pt": "pipa",
       "falas": [
         {
           "voz": "animal",
-          "texto": "Que boneca linda! Ela tem um vestido!",
+          "texto": "Olha a pipa! Ela voa lá no alto, com o vento!",
           "mostra": "objeto"
         },
         {
           "voz": "crianca",
-          "texto": "Doll!",
+          "texto": "Kite!",
           "mostra": "palavra"
         },
         {
           "voz": "animal",
-          "texto": "Muito bem! Agora fala comigo: doll!"
+          "texto": "Muito bem! Agora fala comigo: kite!"
         },
         {
           "pausa": 2.2,
@@ -179,24 +179,24 @@
     {
       "tipo": "kids",
       "cenario": "jardim",
-      "imagem": "🧱",
+      "imagem": "🧩",
       "quantidade": 1,
-      "en": "blocks",
-      "pt": "blocos de montar",
+      "en": "puzzle",
+      "pt": "quebra-cabeça",
       "falas": [
         {
           "voz": "animal",
-          "texto": "Agora os blocos de montar! Vamos fazer uma torre!",
+          "texto": "Agora o quebra-cabeça! Vamos montar juntos, peça por peça!",
           "mostra": "objeto"
         },
         {
           "voz": "crianca",
-          "texto": "Blocks!",
+          "texto": "Puzzle!",
           "mostra": "palavra"
         },
         {
           "voz": "animal",
-          "texto": "Muito bem! Agora fala comigo: blocks!"
+          "texto": "Muito bem! Agora fala comigo: puzzle!"
         },
         {
           "pausa": 2.2,
@@ -215,7 +215,7 @@
         },
         {
           "voz": "crianca",
-          "texto": "Ball, doll, car, teddy bear, blocks!",
+          "texto": "Ball, kite, car, teddy bear, puzzle!",
           "mostra": "todos"
         },
         {

@@ -60,7 +60,7 @@
         },
         {
           "voz": "animal",
-          "texto": "Hoje a gente vai falar dos sentimentos em inglês. Tudo bem sentir!"
+          "texto": "Hoje a gente vai falar dos sentimentos em inglês. Todo mundo sente, e tudo bem!"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "falas": [
         {
           "voz": "animal",
-          "texto": "Quando a gente brinca, fica feliz! Sorria!",
+          "texto": "Quando a gente brinca, fica feliz! Dá um sorriso!",
           "mostra": "objeto"
         },
         {

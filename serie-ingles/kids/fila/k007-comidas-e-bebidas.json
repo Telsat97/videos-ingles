@@ -74,7 +74,7 @@
       "falas": [
         {
           "voz": "animal",
-          "texto": "Um copo de leite, pra ficar forte!",
+          "texto": "Um copo de leite, hum, que delícia!",
           "mostra": "objeto"
         },
         {
@@ -102,7 +102,7 @@
       "falas": [
         {
           "voz": "animal",
-          "texto": "Um copo de água fresquinha, pra matar a sede!",
+          "texto": "Olha a água fresquinha, pra matar a sede!",
           "mostra": "objeto"
         },
         {
@@ -186,7 +186,7 @@
       "falas": [
         {
           "voz": "animal",
-          "texto": "E um suco de laranja, bem gostoso!",
+          "texto": "E um suco de caixinha, bem geladinho e gostoso!",
           "mostra": "objeto"
         },
         {

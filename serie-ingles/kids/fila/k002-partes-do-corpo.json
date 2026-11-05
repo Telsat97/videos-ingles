@@ -36,7 +36,7 @@
   },
   "post": {
     "titulo": "Partes do corpo em INGLÊS com a Maya e a Pipoca 👃",
-    "descricao": "Aprenda as partes do corpo em inglês: head, eyes, nose, mouth e hands! Animação para crianças, assista junto com seu filho!",
+    "descricao": "Aprenda as partes do corpo em inglês: eyes, nose, mouth, ears e hands! Animação para crianças, assista junto com seu filho!",
     "hashtags": [
       "#inglesparacriancas",
       "#aprenderingles",
@@ -61,34 +61,6 @@
         {
           "voz": "animal",
           "texto": "Hoje a gente vai aprender as partes do corpo em inglês. Vamos juntos?"
-        }
-      ]
-    },
-    {
-      "tipo": "kids",
-      "cenario": "quarto",
-      "imagem": "🙂",
-      "quantidade": 1,
-      "en": "head",
-      "pt": "cabeça",
-      "falas": [
-        {
-          "voz": "animal",
-          "texto": "Olha a minha cabeça! Mexe a cabeça assim!",
-          "mostra": "objeto"
-        },
-        {
-          "voz": "crianca",
-          "texto": "Head!",
-          "mostra": "palavra"
-        },
-        {
-          "voz": "animal",
-          "texto": "Muito bem! Agora fala comigo: head!"
-        },
-        {
-          "pausa": 2.2,
-          "mostra": "repita"
         }
       ]
     },
@@ -179,6 +151,34 @@
     {
       "tipo": "kids",
       "cenario": "quarto",
+      "imagem": "👂",
+      "quantidade": 2,
+      "en": "ears",
+      "pt": "orelhas",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha as minhas orelhas! Orelhas bem compridas de coelho!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Ears!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo: ears!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
       "imagem": "👐",
       "quantidade": 1,
       "en": "hands",
@@ -215,7 +215,7 @@
         },
         {
           "voz": "crianca",
-          "texto": "Head, eyes, nose, mouth, hands!",
+          "texto": "Eyes, nose, mouth, ears, hands!",
           "mostra": "todos"
         },
         {
