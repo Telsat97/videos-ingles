@@ -575,6 +575,15 @@
       "ensina": [
         "I heard a noise."
       ]
+    },
+    {
+      "slug": "d025-i-agree",
+      "episodio": 225,
+      "titulo": "I agree",
+      "temas": [],
+      "ensina": [
+        "I agree\nwith that."
+      ]
     }
   ]
 }
