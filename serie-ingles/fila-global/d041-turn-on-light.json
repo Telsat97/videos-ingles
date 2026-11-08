@@ -1,0 +1,130 @@
+{
+  "slug": "d041-turn-on-light",
+  "episodio": 241,
+  "formato": "dica",
+  "titulo": "Turn on the light",
+  "tema": "Open the light?",
+  "post": {
+    "titulo": "Turn on the light, not “open the light”",
+    "descricao": "Turn on the light: in English, you open a door, but you turn on a light.\n❌ Open the light, please. ✅ Turn on the light, please.",
+    "hashtags": [
+      "#learnenglish",
+      "#everydayenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Open the light,\nplease.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Open the light? In English, this sounds strange. Do you know why?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "open = door\nturn on = light",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You open a door, a window or a book.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You turn on a light, a TV or a phone.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "turn on = start it"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Turn on the\nlight, please.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "For a light, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Turn on the light, please.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "turn on = light"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Turn on the light, please.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Turn it off.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: to stop it, say turn off.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "Turn off the light, please.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "on ↔ off"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "It's dark.\n___ the light.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "It is dark, and you need light. Which one fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "Open",
+        "Turn on"
+      ]
+    }
+  ]
+}

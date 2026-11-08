@@ -1,0 +1,130 @@
+{
+  "slug": "d036-doubt-question",
+  "episodio": 236,
+  "formato": "dica",
+  "titulo": "Doubt or question",
+  "tema": "I have a doubt?",
+  "post": {
+    "titulo": "I have a doubt or a question? Say it right",
+    "descricao": "I have a doubt or a question? In international English, use “question” when you want an answer: I have a question.\n🔄 I have a doubt. → ✅ I have a question.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "I have\na doubt.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Teacher, I have a doubt. This is common in India. Many people in other countries hear it differently.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "doubt = not sure\nquestion = ask",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "In most English, doubt means you are not sure about something.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "A question is when you want an answer.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "doubt = not sure"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I have a\nquestion.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "To ask for help in international English, say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I have a question.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "you want an answer"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I have a question.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "I doubt it.\n= not sure",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: doubt is still useful. It means you are not sure.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "I doubt it.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "doubt = not sure"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "You want help.\nI have a ___.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You want an answer from the teacher. Which is the international choice? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "doubt",
+        "question"
+      ]
+    }
+  ]
+}

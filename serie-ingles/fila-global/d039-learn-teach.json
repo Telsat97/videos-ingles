@@ -1,0 +1,130 @@
+{
+  "slug": "d039-learn-teach",
+  "episodio": 239,
+  "formato": "dica",
+  "titulo": "Learn vs Teach",
+  "tema": "Learn me?",
+  "post": {
+    "titulo": "Learn vs Teach: never say “learn me”",
+    "descricao": "Learn vs teach: you learn from someone, and someone teaches you. Can you teach me English?\n❌ Can you learn me English? ✅ Can you teach me English?",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Can you learn\nme English?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Can you learn me English? Wait. Something sounds wrong here.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "TEACH = give\nLEARN = get",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Teach means you give knowledge to someone.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Learn means you get knowledge yourself.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "teach = give · learn = get"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Can you teach\nme English?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You want someone to give you knowledge, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can you teach me English?",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "teach me"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Can you teach me English?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "I learn from you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: now you are the one who gets it.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "I learn a lot from you.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "learn = get"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "She ___ us\nEnglish.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Who gives the knowledge here? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "learns",
+        "teaches"
+      ]
+    }
+  ]
+}

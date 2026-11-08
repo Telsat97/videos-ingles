@@ -1,0 +1,275 @@
+{
+  "slug": "k010-transportes",
+  "episodio": 410,
+  "formato": "kids",
+  "titulo": "Meios de transporte em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Caio",
+      "tipo": "menino",
+      "pele": "#8D5524",
+      "cabelo": {
+        "cor": "#141414",
+        "estilo": "black"
+      },
+      "roupa": "#F77F00",
+      "roupa2": "#FFFFFF",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "coelho",
+      "nome": "Nuvem",
+      "cor": "#FFFFFF",
+      "cor2": "#FFC0CB"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "-12Hz"
+    }
+  },
+  "post": {
+    "titulo": "Carro, ônibus e avião em INGLÊS com o Caio e a Nuvem 🚗",
+    "descricao": "Aprenda os meios de transporte em inglês: car, bus, bike, plane e boat! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#transportes"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Nuvem! E esse é o meu amigo Caio!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Caio!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai passear e aprender os meios de transporte em inglês. Vamos? Presta atenção e repete comigo, tá bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🚗",
+      "quantidade": 1,
+      "en": "car",
+      "pt": "carro",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Vrum, vrum! Ele leva a família passear!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Car!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: car!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🚌",
+      "quantidade": 1,
+      "en": "bus",
+      "pt": "ônibus",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Esse é grandão e leva muita gente!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bus!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: bus!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🚲",
+      "quantidade": 1,
+      "en": "bike",
+      "pt": "bicicleta",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Pedala, pedala! Que divertido!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bike!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: bike!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "✈️",
+      "quantidade": 1,
+      "en": "plane",
+      "pt": "avião",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ele voa lá no alto, entre as nuvens!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Plane!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: plane!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "⛵",
+      "quantidade": 1,
+      "en": "boat",
+      "pt": "barco",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ele balança em cima da água!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Boat!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: boat!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Car, bus, bike, plane, boat!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "desafio": true,
+      "imagem": "✈️",
+      "en": "plane",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz avião em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Plane!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Avião é plane! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual transporte o seu filho mais gosta. Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

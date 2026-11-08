@@ -1,0 +1,130 @@
+{
+  "slug": "d042-fewer-less",
+  "episodio": 242,
+  "formato": "dica",
+  "titulo": "Fewer vs Less",
+  "tema": "Fewer or less?",
+  "post": {
+    "titulo": "Fewer vs Less: the easy way to choose",
+    "descricao": "Fewer vs less: use fewer with things you can count, and less with things you can't count: fewer people, less water.\n🔄 less people → ✅ fewer people",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "less people?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Less people, or fewer people? Many speakers say less, but there is a careful rule.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "FEWER = count\nLESS = can't count",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Use fewer for things you can count: fewer cars, fewer people.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Use less for things you cannot count: less water, less time.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "1, 2, 3 → fewer"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "fewer people",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You can count people, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "There are fewer people today.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "count → fewer"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "There are fewer people today.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "less water",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: you cannot count water.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "I drink less water now.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "no count → less"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "There are ___\nchairs.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You can count chairs. Which one is careful English? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "less",
+        "fewer"
+      ]
+    }
+  ]
+}

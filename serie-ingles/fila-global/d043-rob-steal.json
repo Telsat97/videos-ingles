@@ -1,0 +1,130 @@
+{
+  "slug": "d043-rob-steal",
+  "episodio": 243,
+  "formato": "dica",
+  "titulo": "Rob vs Steal",
+  "tema": "Rob or steal?",
+  "post": {
+    "titulo": "Rob vs Steal: which one takes the thing?",
+    "descricao": "Rob vs steal: you steal a thing, and you rob a person or a place. Someone stole my phone.\n❌ Someone robbed my phone. ✅ Someone stole my phone.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Someone robbed\nmy phone.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Someone robbed my phone. Hmm. Which word is wrong?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "STEAL + thing\nROB + person",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You steal a thing: a phone, a bike, a bag.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "You rob a person or a place: a bank, a shop.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "steal a phone"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Someone stole\nmy phone.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The phone is the thing, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Someone stole my phone.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "steal + thing"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Someone stole my phone.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "They robbed\na bank.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: a bank is a place, so use rob.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "They robbed a bank.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "rob + place"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "A thief ___\nmy bag.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The bag is a thing. Which verb fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "robbed",
+        "stole"
+      ]
+    }
+  ]
+}

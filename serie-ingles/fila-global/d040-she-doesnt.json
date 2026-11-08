@@ -1,0 +1,130 @@
+{
+  "slug": "d040-she-doesnt",
+  "episodio": 240,
+  "formato": "dica",
+  "titulo": "She doesn't",
+  "tema": "She don't or doesn't?",
+  "post": {
+    "titulo": "She doesn't or she don't? Quick fix",
+    "descricao": "She doesn't or she don't? With he, she and it, use doesn't: She doesn't like tea.\n❌ She don't like tea. ✅ She doesn't like tea.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "She don't\nlike tea.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "She don't like tea. Is this correct? Listen to the rule.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "he · she · it\n= doesn't",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "With he, she and it, use doesn't.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "With I, you, we and they, use don't.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "he/she/it → doesn't"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "She doesn't\nlike tea.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "She is one person, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "She doesn't like tea.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "she → doesn't"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "She doesn't like tea.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "They don't\nlike tea.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: with more than one person, use don't.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "They don't like tea.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "they → don't"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "He ___ work\non Sunday.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Look at the subject: he. Which one fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "don't",
+        "doesn't"
+      ]
+    }
+  ]
+}

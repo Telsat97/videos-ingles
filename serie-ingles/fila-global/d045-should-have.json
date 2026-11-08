@@ -1,0 +1,130 @@
+{
+  "slug": "d045-should-have",
+  "episodio": 245,
+  "formato": "dica",
+  "titulo": "Should have",
+  "tema": "Should of?",
+  "post": {
+    "titulo": "Should have or should of? Write it right",
+    "descricao": "Should have, not should of: after should, could and would, use have. I should have called you.\n❌ I should of called you. ✅ I should have called you.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I should of\ncalled you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "I should of called you. Many people write this. Is it right?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "should have\ncould have",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Should've sounds like should of, but we write have.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Use have after should, could and would.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "should + have"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I should have\ncalled you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So write:"
+        },
+        {
+          "voz": "en",
+          "texto": "I should have called you.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "should've = should have"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I should have called you.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "could have\nwould have",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: it works the same with could and would.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "I could have helped you.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "could + have"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "We could ___\nwon.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "After could, which word do we write? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "of",
+        "have"
+      ]
+    }
+  ]
+}

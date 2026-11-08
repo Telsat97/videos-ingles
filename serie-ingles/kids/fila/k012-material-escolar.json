@@ -1,0 +1,275 @@
+{
+  "slug": "k012-material-escolar",
+  "episodio": 412,
+  "formato": "kids",
+  "titulo": "Material escolar em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Enzo",
+      "tipo": "menino",
+      "pele": "#FFDBAC",
+      "cabelo": {
+        "cor": "#8B4513",
+        "estilo": "cacheado"
+      },
+      "roupa": "#E63946",
+      "roupa2": "#A8DADC",
+      "olhos": "#3A6EA5"
+    },
+    "animal": {
+      "tipo": "urso",
+      "nome": "Mel",
+      "cor": "#8B5A2B",
+      "cor2": "#F5DEB3"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-FranciscaNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "-12Hz"
+    }
+  },
+  "post": {
+    "titulo": "Material escolar em INGLÊS com o Enzo e a Mel ✏️",
+    "descricao": "Aprenda o material escolar em inglês: book, pencil, bag, crayon e ruler! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#escola"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Mel! E esse é o meu amigo Enzo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Enzo!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai abrir a mochila e aprender o material escolar em inglês. Vamos? Presta atenção e repete comigo, tá bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "📚",
+      "quantidade": 1,
+      "en": "book",
+      "pt": "livro",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Cheio de histórias para ler!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Book!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: book!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "✏️",
+      "quantidade": 1,
+      "en": "pencil",
+      "pt": "lápis",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Serve para escrever e desenhar!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Pencil!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: pencil!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "🎒",
+      "quantidade": 1,
+      "en": "bag",
+      "pt": "mochila",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela carrega tudo para a escola!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bag!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: bag!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "🖍️",
+      "quantidade": 1,
+      "en": "crayon",
+      "pt": "giz de cera",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Para colorir desenhos lindos!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Crayon!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: crayon!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "📏",
+      "quantidade": 1,
+      "en": "ruler",
+      "pt": "régua",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Para fazer linhas bem retinhas!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Ruler!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: ruler!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Book, pencil, bag, crayon, ruler!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "desafio": true,
+      "imagem": "🎒",
+      "en": "bag",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz mochila em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bag!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Mochila é bag! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual é o material escolar favorito do seu filho. Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

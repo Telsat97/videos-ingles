@@ -1,0 +1,275 @@
+{
+  "slug": "k011-profissoes",
+  "episodio": 411,
+  "formato": "kids",
+  "titulo": "Profissões em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Yara",
+      "tipo": "menina",
+      "pele": "#6F4E37",
+      "cabelo": {
+        "cor": "#1B1B1B",
+        "estilo": "marias"
+      },
+      "roupa": "#2A9D8F",
+      "roupa2": "#F4A261",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "papagaio",
+      "nome": "Zeca",
+      "cor": "#2ECC71",
+      "cor2": "#F1C40F"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "post": {
+    "titulo": "Aprenda as profissões em INGLÊS com a Yara e o Zeca 👩‍🚒",
+    "descricao": "Aprenda as profissões em inglês: doctor, teacher, firefighter, chef e farmer! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#profissoes"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou o Zeca! E essa é a minha amiga Yara!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Yara!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai conhecer profissões em inglês. Vamos? Presta atenção e repete comigo, tá bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "👩‍⚕️",
+      "quantidade": 1,
+      "en": "doctor",
+      "pt": "médica",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela cuida de você quando você fica doentinho!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Doctor!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: doctor!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "👩‍🏫",
+      "quantidade": 1,
+      "en": "teacher",
+      "pt": "professora",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela ensina coisas novas na escola!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Teacher!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: teacher!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "👩‍🚒",
+      "quantidade": 1,
+      "en": "firefighter",
+      "pt": "bombeira",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela apaga o fogo e ajuda as pessoas!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Firefighter!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: firefighter!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "👩‍🍳",
+      "quantidade": 1,
+      "en": "chef",
+      "pt": "cozinheira",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela faz comidas gostosas!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Chef!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: chef!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "👩‍🌾",
+      "quantidade": 1,
+      "en": "farmer",
+      "pt": "agricultora",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela planta os alimentos que a gente come!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Farmer!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: farmer!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Doctor, teacher, firefighter, chef, farmer!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "desafio": true,
+      "imagem": "👩‍🏫",
+      "en": "teacher",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz professora em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Teacher!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Professora é teacher! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, perguntem ao seu filho o que ele quer ser quando crescer e contem nos comentários! Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

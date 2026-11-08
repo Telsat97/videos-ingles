@@ -1,0 +1,130 @@
+{
+  "slug": "d038-affect-effect",
+  "episodio": 238,
+  "formato": "dica",
+  "titulo": "Affect vs Effect",
+  "tema": "Affect or effect?",
+  "post": {
+    "titulo": "Affect vs Effect: the one-second trick",
+    "descricao": "Affect vs effect: affect is usually a verb, effect is usually a noun. The weather affects my mood.\n❌ The weather effects my mood. ✅ The weather affects my mood.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "The weather\neffects my mood.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Affect or effect? Look at this sentence. Which word is wrong?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "AFFECT = verb\nEFFECT = noun",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Affect is usually an action: it changes something.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Effect is usually a thing: the result. Think: A for Affect, A for Action.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "Affect = Action"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "The weather\naffects my mood.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The weather does an action, so we say:"
+        },
+        {
+          "voz": "en",
+          "texto": "The weather affects my mood.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "affect = action"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "The weather affects my mood.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "a big effect",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: here, effect is a thing.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "The rain had a big effect.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "effect = result"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "The noise will\n___ my sleep.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The sentence needs an action. Which word fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "affect",
+        "effect"
+      ]
+    }
+  ]
+}

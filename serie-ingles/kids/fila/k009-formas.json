@@ -1,0 +1,275 @@
+{
+  "slug": "k009-formas",
+  "episodio": 409,
+  "formato": "kids",
+  "titulo": "Formas em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Lia",
+      "tipo": "menina",
+      "pele": "#E0AC69",
+      "cabelo": {
+        "cor": "#2B1B10",
+        "estilo": "rabo"
+      },
+      "roupa": "#9B5DE5",
+      "roupa2": "#FEE440",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "cachorro",
+      "nome": "Biscoito",
+      "cor": "#C68E4E",
+      "cor2": "#F5E6CC"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "post": {
+    "titulo": "Aprenda as formas em INGLÊS com a Lia e o Biscoito ⭐",
+    "descricao": "Aprenda as formas em inglês: circle, square, triangle, star e heart! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#formas"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou o Biscoito! E essa é a minha amiga Lia!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Lia!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai descobrir as formas em inglês. Vamos? Presta atenção e repete comigo, tá bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "⭕",
+      "quantidade": 1,
+      "en": "circle",
+      "pt": "círculo",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Olha como é redondinho! Parece uma bola!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Circle!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: circle!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "🟦",
+      "quantidade": 1,
+      "en": "square",
+      "pt": "quadrado",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Quatro lados iguais! Parece uma janela!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Square!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: square!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "🔺",
+      "quantidade": 1,
+      "en": "triangle",
+      "pt": "triângulo",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Três pontinhas! Parece um chapéu de festa!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Triangle!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: triangle!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "⭐",
+      "quantidade": 1,
+      "en": "star",
+      "pt": "estrela",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Brilha, brilha! Ela enfeita o céu!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Star!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: star!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "imagem": "❤️",
+      "quantidade": 1,
+      "en": "heart",
+      "pt": "coração",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Um coração cheio de carinho!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Heart!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: heart!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Circle, square, triangle, star, heart!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "desafio": true,
+      "imagem": "⭐",
+      "en": "star",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz estrela em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Star!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Estrela é star! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "escola",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual forma o seu filho achou mais divertida. Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

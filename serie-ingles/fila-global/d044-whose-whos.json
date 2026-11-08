@@ -1,0 +1,130 @@
+{
+  "slug": "d044-whose-whos",
+  "episodio": 244,
+  "formato": "dica",
+  "titulo": "Whose vs Who's",
+  "tema": "Whose or who's?",
+  "post": {
+    "titulo": "Whose vs Who's: the 2-second test",
+    "descricao": "Whose vs who's: who's means who is, and whose shows who owns something. Whose bag is this?\n❌ Who's bag is this? ✅ Whose bag is this?",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Who's bag\nis this?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Who's bag is this? Look closely. Something is wrong.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "who's = who is\nwhose = owner",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Who's is short for who is.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Whose asks about an owner: whose bag, whose phone.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "who is? → who's"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Whose bag\nis this?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "We ask about the owner, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "Whose bag is this?",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "owner → whose"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Whose bag is this?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Who's late?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: here you can say who is.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "Who's late today?",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "who's = who is"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "___ phone\nis this?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You want to know the owner. Which one fits? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "Who's",
+        "Whose"
+      ]
+    }
+  ]
+}

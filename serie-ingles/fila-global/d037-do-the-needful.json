@@ -1,0 +1,130 @@
+{
+  "slug": "d037-do-the-needful",
+  "episodio": 237,
+  "formato": "dica",
+  "titulo": "Do the needful",
+  "tema": "Do the needful?",
+  "post": {
+    "titulo": "Do the needful? A clearer email phrase",
+    "descricao": "Do the needful? In global emails, a clearer phrase is: Could you please take care of this?\n🔄 Please do the needful. → ✅ Could you please take care of this?",
+    "hashtags": [
+      "#businessenglish",
+      "#learnenglish",
+      "#englishemail",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "Please do\nthe needful.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "You may see this in emails from South Asia. It is not wrong there. In other countries, it can sound old-fashioned.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "say what you need",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "For a global email, be clear and polite.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Say exactly what you want, and add please.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "clear + polite"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Could you please\ntake care of this?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "A clearer way for a global email:"
+        },
+        {
+          "voz": "en",
+          "texto": "Could you please take care of this?",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "clear + polite"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Could you please take care of this?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "Please send\nthe file.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: even better, name the task.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "Could you please send me the file?",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "name the task"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "Which email is\nmore clear?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which one tells the reader exactly what to do? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "Please do the needful.",
+        "Please send me the file."
+      ]
+    }
+  ]
+}
