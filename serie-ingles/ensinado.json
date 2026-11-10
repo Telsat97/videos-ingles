@@ -629,6 +629,15 @@
       "ensina": [
         "Bring your friend\nto my party!"
       ]
+    },
+    {
+      "slug": "d031-say-no-politely",
+      "episodio": 231,
+      "titulo": "Say no politely",
+      "temas": [],
+      "ensina": [
+        "Thanks, but\nI'll pass."
+      ]
     }
   ]
 }
