@@ -1,0 +1,275 @@
+{
+  "slug": "k013-casa",
+  "episodio": 413,
+  "formato": "kids",
+  "titulo": "A casa em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Gael",
+      "tipo": "menino",
+      "pele": "#8D5524",
+      "cabelo": {
+        "cor": "#1B1B1B",
+        "estilo": "black"
+      },
+      "roupa": "#2A9D8F",
+      "roupa2": "#F4A261",
+      "olhos": "#2B1B10"
+    },
+    "animal": {
+      "tipo": "gato",
+      "nome": "Fred",
+      "cor": "#E9A23B",
+      "cor2": "#FFF3D6"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-AntonioNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%",
+      "pitch": "-12Hz"
+    }
+  },
+  "post": {
+    "titulo": "Cama, porta, janela: a CASA em INGLÊS com o Gael e o Fred 🏠",
+    "descricao": "Aprenda a casa em inglês: bed, door, window, chair e lamp! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#casa"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou o Fred! E esse é o meu amigo Gael!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Gael!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai passear pela casa e aprender as coisas dela em inglês. Vamos? Presta atenção e repete comigo, tá bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "🛏️",
+      "quantidade": 1,
+      "en": "bed",
+      "pt": "cama",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Onde a gente dorme gostoso!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bed!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: bed!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "🚪",
+      "quantidade": 1,
+      "en": "door",
+      "pt": "porta",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "A gente abre para entrar!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Door!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: door!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "🪟",
+      "quantidade": 1,
+      "en": "window",
+      "pt": "janela",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Por ela entra a luz do sol!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Window!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: window!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "🪑",
+      "quantidade": 1,
+      "en": "chair",
+      "pt": "cadeira",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "A gente senta nela!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Chair!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: chair!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "imagem": "💡",
+      "quantidade": 1,
+      "en": "lamp",
+      "pt": "lâmpada",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Ela acende e clareia tudo!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Lamp!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: lamp!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Cama, porta, janela, cadeira, lâmpada!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "desafio": true,
+      "imagem": "🚪",
+      "en": "door",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz porta em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Door!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Porta é door! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "quarto",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual é o cantinho favorito da casa do seu filho. Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

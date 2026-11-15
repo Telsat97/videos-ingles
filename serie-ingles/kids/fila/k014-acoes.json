@@ -1,0 +1,274 @@
+{
+  "slug": "k014-acoes",
+  "episodio": 414,
+  "formato": "kids",
+  "titulo": "Ações em inglês",
+  "personagens": {
+    "crianca": {
+      "nome": "Zoe",
+      "tipo": "menina",
+      "pele": "#FFDBAC",
+      "cabelo": {
+        "cor": "#D4A017",
+        "estilo": "curto"
+      },
+      "roupa": "#9B5DE5",
+      "roupa2": "#FEE440",
+      "olhos": "#4C9F70"
+    },
+    "animal": {
+      "tipo": "sapo",
+      "nome": "Lila",
+      "cor": "#4CAF50",
+      "cor2": "#C8E6C9"
+    }
+  },
+  "vozes": {
+    "animal": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "rate": "+4%"
+    },
+    "crianca": {
+      "voz": "en-US-AnaNeural",
+      "rate": "-10%"
+    }
+  },
+  "post": {
+    "titulo": "Pular, correr, dançar: AÇÕES em INGLÊS com a Zoe e a Lila 💃",
+    "descricao": "Aprenda as ações em inglês: jump, run, clap, sit e dance! Animação para crianças, assista junto com seu filho!",
+    "hashtags": [
+      "#inglesparacriancas",
+      "#aprenderingles",
+      "#desenhoeducativo",
+      "#brincadeira"
+    ]
+  },
+  "cenas": [
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Oi, criançada! Eu sou a Lila! E essa é a minha amiga Zoe!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Hello! I'm Zoe!",
+          "mostra": "aceno"
+        },
+        {
+          "voz": "animal",
+          "texto": "Hoje a gente vai se mexer no jardim e aprender as ações em inglês. Vamos? Presta atenção e faz comigo, tá bom?"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🦘",
+      "quantidade": 1,
+      "en": "jump",
+      "pt": "pular",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Pula, pula, pula bem alto!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Jump!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: jump!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🏃",
+      "quantidade": 1,
+      "en": "run",
+      "pt": "correr",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Corre, corre, bem rápido!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Run!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: run!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "👏",
+      "quantidade": 1,
+      "en": "clap",
+      "pt": "bater palmas",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Plaft, plaft, plaft com as mãozinhas!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Clap!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: clap!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "🪑",
+      "quantidade": 1,
+      "en": "sit",
+      "pt": "sentar",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora é hora de descansar!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Sit!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: sit!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "imagem": "💃",
+      "quantidade": 1,
+      "en": "dance",
+      "pt": "dançar",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Mexe o corpinho no ritmo da música!",
+          "mostra": "objeto"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Dance!",
+          "mostra": "palavra"
+        },
+        {
+          "voz": "animal",
+          "texto": "Muito bem! Agora fala comigo, bem alto: dance!"
+        },
+        {
+          "pausa": 2.2,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "revisao": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Agora tudo junto! Bem alto! Escuta só:"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Pular, correr, bater palmas, sentar, dançar!",
+          "mostra": "todos"
+        },
+        {
+          "voz": "animal",
+          "texto": "Sua vez! Fala junto comigo!"
+        },
+        {
+          "pausa": 4.5,
+          "mostra": "repita"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "desafio": true,
+      "imagem": "🦘",
+      "en": "jump",
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Desafio! Como se diz pular em inglês? Pensa bem!",
+          "mostra": "quiz"
+        },
+        {
+          "pausa": 3.0,
+          "mostra": "contagem"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Jump!",
+          "mostra": "resposta"
+        },
+        {
+          "voz": "animal",
+          "texto": "Isso! Pular é jump! Parabéns!"
+        }
+      ]
+    },
+    {
+      "tipo": "kids",
+      "cenario": "jardim",
+      "encerramento": true,
+      "falas": [
+        {
+          "voz": "animal",
+          "texto": "Tchau, criançada! Papai e mamãe, contem nos comentários qual é a brincadeira favorita do seu filho. Até a próxima! Beijo!"
+        },
+        {
+          "voz": "crianca",
+          "texto": "Bye-bye!",
+          "mostra": "aceno"
+        }
+      ]
+    }
+  ]
+}

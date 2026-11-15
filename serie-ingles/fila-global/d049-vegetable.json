@@ -1,0 +1,144 @@
+{
+  "slug": "d049-vegetable",
+  "episodio": 249,
+  "formato": "dica",
+  "titulo": "Vegetable",
+  "tema": "Say vegetable in 3?",
+  "post": {
+    "titulo": "Vegetable pronunciation: say it in 3 parts",
+    "descricao": "Vegetable pronunciation: say it in three parts, VEJ-tuh-bul, and stress the first one.\nThe middle “e” and “a” sounds almost disappear.",
+    "hashtags": [
+      "#englishpronunciation",
+      "#learnenglish",
+      "#spokenenglish",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "ve-ge-ta-ble?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "How do you say vegetable? Many learners say four parts.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "In everyday English, three parts sound more natural.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "3 parts, not 4"
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "VEJ · tuh · bul",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Say it in three parts, and stress the first one.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "The middle sound almost disappears.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "VEJ-tuh-bul"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I eat a\nvegetable every day.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Listen:"
+        },
+        {
+          "voz": "en",
+          "texto": "Vegetable."
+        },
+        {
+          "voz": "en",
+          "texto": "I eat a vegetable every day.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "VEJ-tuh-bul"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I eat a vegetable every day.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "vegetables\n= VEJ-tuh-bulz",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: the plural keeps the same short sound.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "Vegetables.",
+          "mostra": "pequeno"
+        },
+        {
+          "voz": "narr",
+          "texto": "Just add a z sound at the end."
+        }
+      ],
+      "pequeno": "VEJ-tuh-bulz"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "vegetable:\nwhich part is strong?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which part do we stress? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "VEJ",
+        "TUH"
+      ]
+    }
+  ]
+}

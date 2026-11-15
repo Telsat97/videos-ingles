@@ -1,0 +1,130 @@
+{
+  "slug": "d048-good-well",
+  "episodio": 248,
+  "formato": "dica",
+  "titulo": "Good vs Well",
+  "tema": "Speak good?",
+  "post": {
+    "titulo": "Good vs well: say “speak English well”",
+    "descricao": "Good vs well: use well after a verb. ❌ I speak English good. ✅ I speak English well.\nGood describes a noun; well describes an action.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I speak\nEnglish good.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "I speak English good. Do you say it like this? Check it.",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "good = noun\nwell = verb",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Good describes a noun, like a good singer.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Well describes a verb, like sings well.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "well + action"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I speak\nEnglish well.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "The action is speak, so say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I speak English well.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "speak well"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I speak English well.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "a good singer\nsings well",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: the noun gets good. The action gets well.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "She is a good singer. She sings well.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "good + noun · well + verb"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "He plays\nthe piano ___.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Is the word about an action? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "good",
+        "well"
+      ]
+    }
+  ]
+}

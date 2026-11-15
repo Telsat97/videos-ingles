@@ -1,0 +1,130 @@
+{
+  "slug": "d047-advice-uncountable",
+  "episodio": 247,
+  "formato": "dica",
+  "titulo": "Advice, not advices",
+  "tema": "An advice?",
+  "post": {
+    "titulo": "Advice or advices? Say it the right way",
+    "descricao": "Advice is uncountable: say some advice or a piece of advice, never an advice.\n❌ Can you give me an advice? ✅ Can you give me some advice?",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "Can you give me\nan advice?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Can you give me an advice? Wait. Does this sound right?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "advice =\nno a, no s",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Advice is uncountable. We do not say an advice, or advices.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "Say some advice, or a piece of advice.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "some advice · a piece of advice"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "Can you give me\nsome advice?",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So ask:"
+        },
+        {
+          "voz": "en",
+          "texto": "Can you give me some advice?",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "some advice"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "Can you give me some advice?",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "a piece\nof advice",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: you can also count it with a piece of.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "Here is a piece of advice.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "a piece of advice"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "I need some ___.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which word is correct after some? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "advice",
+        "advices"
+      ]
+    }
+  ]
+}

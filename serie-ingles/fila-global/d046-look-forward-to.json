@@ -1,0 +1,130 @@
+{
+  "slug": "d046-look-forward-to",
+  "episodio": 246,
+  "formato": "dica",
+  "titulo": "Look forward to",
+  "tema": "Forward to meet?",
+  "post": {
+    "titulo": "Look forward to meeting you: not “to meet”",
+    "descricao": "Look forward to meeting you, not “to meet”: here “to” is a preposition, so use the -ing form.\n❌ I look forward to meet you. ✅ I look forward to meeting you.",
+    "hashtags": [
+      "#englishgrammar",
+      "#learnenglish",
+      "#commonmistakes",
+      "#esl"
+    ]
+  },
+  "vozes": {
+    "narr": {
+      "voz": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    "en": {
+      "voz": "en-US-AvaNeural",
+      "rate": "-8%"
+    }
+  },
+  "cenas": [
+    {
+      "tipo": "tela",
+      "visual": "erro",
+      "grande": "I look forward\nto meet you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "I look forward to meet you. Many learners say this. Is it right?",
+          "mostra": "grande"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "regra",
+      "grande": "look forward to\n+ -ing",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "In this phrase, to is a preposition, not part of a verb.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "narr",
+          "texto": "After a preposition, use the -ing form.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "to + verb-ing"
+    },
+    {
+      "tipo": "tela",
+      "visual": "certo",
+      "grande": "I look forward\nto meeting you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "So say:"
+        },
+        {
+          "voz": "en",
+          "texto": "I look forward to meeting you.",
+          "mostra": "grande"
+        }
+      ],
+      "pequeno": "to meeting"
+    },
+    {
+      "tipo": "tela",
+      "visual": "vez",
+      "grande": "Your turn!",
+      "falas": [
+        {
+          "voz": "en",
+          "texto": "I look forward to meeting you.",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 2.6,
+          "mostra": "suavez"
+        }
+      ]
+    },
+    {
+      "tipo": "tela",
+      "visual": "bonus",
+      "grande": "looking forward\nto hearing",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Bonus: it works in emails too.",
+          "mostra": "grande"
+        },
+        {
+          "voz": "en",
+          "texto": "I look forward to hearing from you.",
+          "mostra": "pequeno"
+        }
+      ],
+      "pequeno": "to hearing"
+    },
+    {
+      "tipo": "tela",
+      "visual": "quiz",
+      "grande": "We look forward\nto ___ you.",
+      "falas": [
+        {
+          "voz": "narr",
+          "texto": "Which form comes after to here? Comment A or B!",
+          "mostra": "grande"
+        },
+        {
+          "pausa": 1.2,
+          "mostra": "opcoes"
+        }
+      ],
+      "opcoes": [
+        "see",
+        "seeing"
+      ]
+    }
+  ]
+}
