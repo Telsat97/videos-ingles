@@ -1,16 +1,16 @@
 {
- "gerado": "2026-11-09",
+ "gerado": "2026-11-26",
  "videos": [
   {
    "video": "L2w1BIbwklI",
-   "views": 11669,
-   "estimatedMinutesWatched": 3648,
+   "views": 16851,
+   "estimatedMinutesWatched": 5377,
    "averageViewDuration": 43,
-   "averageViewPercentage": 70.55,
-   "subscribersGained": 3,
-   "likes": 35,
-   "comments": 0,
-   "shares": 15,
+   "averageViewPercentage": 71.75,
+   "subscribersGained": 6,
+   "likes": 51,
+   "comments": 1,
+   "shares": 19,
    "titulo": "Espelhar a tela do celular na central Multimídia do Fiat Pulse #som #espelhar",
    "roteiro": ""
   },
@@ -29,7 +29,7 @@
   },
   {
    "video": "TCKxBjabcxw",
-   "views": 1112,
+   "views": 1113,
    "estimatedMinutesWatched": 93,
    "averageViewDuration": 16,
    "averageViewPercentage": 48.83,
@@ -54,6 +54,32 @@
    "roteiro": "d015-lend-borrow"
   },
   {
+   "video": "slrv15GiB_I",
+   "views": 1042,
+   "estimatedMinutesWatched": 120,
+   "averageViewDuration": 13,
+   "averageViewPercentage": 38.69,
+   "subscribersGained": 0,
+   "likes": 4,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Then vs Than: the spelling trap",
+   "roteiro": "d029-then-than"
+  },
+  {
+   "video": "UWwXOFrePeQ",
+   "views": 1020,
+   "estimatedMinutesWatched": 93,
+   "averageViewDuration": 15,
+   "averageViewPercentage": 47.89,
+   "subscribersGained": 1,
+   "likes": 9,
+   "comments": 1,
+   "shares": 0,
+   "titulo": "Fun vs Funny: not the same thing",
+   "roteiro": "d026-fun-funny"
+  },
+  {
    "video": "uhkxTfo0f4A",
    "views": 1005,
    "estimatedMinutesWatched": 112,
@@ -68,8 +94,8 @@
   },
   {
    "video": "1xQAFMCEfV0",
-   "views": 896,
-   "estimatedMinutesWatched": 115,
+   "views": 901,
+   "estimatedMinutesWatched": 116,
    "averageViewDuration": 18,
    "averageViewPercentage": 46.69,
    "subscribersGained": 1,
@@ -91,19 +117,6 @@
    "shares": 0,
    "titulo": "Say vs Tell: the easy rule to remember",
    "roteiro": "d014-say-tell"
-  },
-  {
-   "video": "UWwXOFrePeQ",
-   "views": 866,
-   "estimatedMinutesWatched": 78,
-   "averageViewDuration": 15,
-   "averageViewPercentage": 48.43,
-   "subscribersGained": 1,
-   "likes": 8,
-   "comments": 1,
-   "shares": 0,
-   "titulo": "Fun vs Funny: not the same thing",
-   "roteiro": "d026-fun-funny"
   },
   {
    "video": "klChyOVxaKk",
@@ -145,11 +158,24 @@
    "roteiro": "d016-people-are"
   },
   {
+   "video": "2JFxjz0L3pE",
+   "views": 517,
+   "estimatedMinutesWatched": 47,
+   "averageViewDuration": 12,
+   "averageViewPercentage": 31.72,
+   "subscribersGained": 0,
+   "likes": 4,
+   "comments": 1,
+   "shares": 0,
+   "titulo": "Speak vs Talk: which one is right?",
+   "roteiro": "d028-speak-talk"
+  },
+  {
    "video": "2CaX1HXNXIY",
-   "views": 467,
+   "views": 470,
    "estimatedMinutesWatched": 51,
    "averageViewDuration": 19,
-   "averageViewPercentage": 53.13,
+   "averageViewPercentage": 53.33,
    "subscribersGained": 0,
    "likes": 5,
    "comments": 0,
@@ -159,10 +185,10 @@
   },
   {
    "video": "Wvnv5nJxjPE",
-   "views": 382,
+   "views": 385,
    "estimatedMinutesWatched": 59,
-   "averageViewDuration": 25,
-   "averageViewPercentage": 53.89000000000001,
+   "averageViewDuration": 26,
+   "averageViewPercentage": 54.18999999999999,
    "subscribersGained": 3,
    "likes": 9,
    "comments": 0,
@@ -185,10 +211,10 @@
   },
   {
    "video": "fNaf7WAxqIw",
-   "views": 351,
+   "views": 353,
    "estimatedMinutesWatched": 37,
    "averageViewDuration": 20,
-   "averageViewPercentage": 55.54,
+   "averageViewPercentage": 55.010000000000005,
    "subscribersGained": 1,
    "likes": 4,
    "comments": 1,
@@ -198,16 +224,29 @@
   },
   {
    "video": "-9fYEq0YBQc",
-   "views": 309,
-   "estimatedMinutesWatched": 43,
+   "views": 332,
+   "estimatedMinutesWatched": 47,
    "averageViewDuration": 21,
-   "averageViewPercentage": 62.6,
+   "averageViewPercentage": 63.33,
    "subscribersGained": 1,
-   "likes": 7,
+   "likes": 10,
    "comments": 0,
    "shares": 0,
    "titulo": "I am agree or I agree? Quick fix",
    "roteiro": "d025-i-agree"
+  },
+  {
+   "video": "1cnv5abG4dM",
+   "views": 221,
+   "estimatedMinutesWatched": 23,
+   "averageViewDuration": 23,
+   "averageViewPercentage": 68.19,
+   "subscribersGained": 0,
+   "likes": 3,
+   "comments": 1,
+   "shares": 0,
+   "titulo": "Bring vs Take: it depends where you are",
+   "roteiro": "d030-bring-take"
   },
   {
    "video": "oJZw0avoXBs",
@@ -236,11 +275,24 @@
    "roteiro": "d012-make-do"
   },
   {
+   "video": "NCo_SiOsUxw",
+   "views": 203,
+   "estimatedMinutesWatched": 16,
+   "averageViewDuration": 20,
+   "averageViewPercentage": 55.71,
+   "subscribersGained": 0,
+   "likes": 4,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Few vs A few: one tiny word, big change",
+   "roteiro": "d027-few-a-few"
+  },
+  {
    "video": "TJXaTda3ya8",
-   "views": 192,
-   "estimatedMinutesWatched": 205,
-   "averageViewDuration": 227,
-   "averageViewPercentage": 17.01,
+   "views": 196,
+   "estimatedMinutesWatched": 206,
+   "averageViewDuration": 213,
+   "averageViewPercentage": 15.93,
    "subscribersGained": 2,
    "likes": 0,
    "comments": 0,
@@ -250,7 +302,7 @@
   },
   {
    "video": "F-0zvhewmhM",
-   "views": 190,
+   "views": 191,
    "estimatedMinutesWatched": 18,
    "averageViewDuration": 16,
    "averageViewPercentage": 44.25,
@@ -262,21 +314,8 @@
    "roteiro": "d023-remember-remind"
   },
   {
-   "video": "NCo_SiOsUxw",
-   "views": 182,
-   "estimatedMinutesWatched": 14,
-   "averageViewDuration": 20,
-   "averageViewPercentage": 58.040000000000006,
-   "subscribersGained": 0,
-   "likes": 3,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Few vs A few: one tiny word, big change",
-   "roteiro": "d027-few-a-few"
-  },
-  {
    "video": "E4ZajsMKfQI",
-   "views": 169,
+   "views": 168,
    "estimatedMinutesWatched": 20,
    "averageViewDuration": 21,
    "averageViewPercentage": 55.09,
@@ -289,10 +328,10 @@
   },
   {
    "video": "o9i0UJ_RHlY",
-   "views": 155,
+   "views": 156,
    "estimatedMinutesWatched": 15,
    "averageViewDuration": 20,
-   "averageViewPercentage": 63.16,
+   "averageViewPercentage": 63.24999999999999,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -301,11 +340,24 @@
    "roteiro": "d011-depend-on"
   },
   {
+   "video": "uTBY5LLdDB8",
+   "views": 155,
+   "estimatedMinutesWatched": 22,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 60.6,
+   "subscribersGained": 0,
+   "likes": 6,
+   "comments": 1,
+   "shares": 0,
+   "titulo": "Say no politely in English: easy phrases",
+   "roteiro": "d031-say-no-politely"
+  },
+  {
    "video": "iTogExVhU_A",
-   "views": 147,
+   "views": 149,
    "estimatedMinutesWatched": 16,
-   "averageViewDuration": 18,
-   "averageViewPercentage": 57.02,
+   "averageViewDuration": 19,
+   "averageViewPercentage": 58.01,
    "subscribersGained": 1,
    "likes": 3,
    "comments": 1,
@@ -315,10 +367,10 @@
   },
   {
    "video": "u3lMHoKrlp8",
-   "views": 128,
-   "estimatedMinutesWatched": 73,
-   "averageViewDuration": 78,
-   "averageViewPercentage": 45.17,
+   "views": 129,
+   "estimatedMinutesWatched": 76,
+   "averageViewDuration": 79,
+   "averageViewPercentage": 46.15,
    "subscribersGained": 0,
    "likes": 4,
    "comments": 0,
@@ -341,10 +393,10 @@
   },
   {
    "video": "IRQJtcGvej4",
-   "views": 93,
+   "views": 94,
    "estimatedMinutesWatched": 10,
-   "averageViewDuration": 13,
-   "averageViewPercentage": 41.06,
+   "averageViewDuration": 14,
+   "averageViewPercentage": 41.34,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -354,10 +406,10 @@
   },
   {
    "video": "eTMKzClrjdk",
-   "views": 91,
-   "estimatedMinutesWatched": 12,
-   "averageViewDuration": 26,
-   "averageViewPercentage": 62.72,
+   "views": 94,
+   "estimatedMinutesWatched": 13,
+   "averageViewDuration": 25,
+   "averageViewPercentage": 61.55,
    "subscribersGained": 1,
    "likes": 3,
    "comments": 0,
@@ -377,6 +429,19 @@
    "shares": 1,
    "titulo": "Never say “discuss about” in English",
    "roteiro": "d003-discuss-it"
+  },
+  {
+   "video": "uj7VAnCfO-w",
+   "views": 47,
+   "estimatedMinutesWatched": 18,
+   "averageViewDuration": 70,
+   "averageViewPercentage": 72.59,
+   "subscribersGained": 1,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Açaí congelado nunca mais! Venda com qualidade. #acaì #loja #trafego #cremoso",
+   "roteiro": ""
   },
   {
    "video": "oGDM9IhIJCw",
@@ -431,8 +496,21 @@
    "roteiro": "ep003-frases-aeroporto"
   },
   {
+   "video": "-OvNXJYXVGw",
+   "views": 28,
+   "estimatedMinutesWatched": 4,
+   "averageViewDuration": 20,
+   "averageViewPercentage": 39.01,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "Receita Federal e agora ? Rifas! #rifa #sorteios #receitafederal",
+   "roteiro": ""
+  },
+  {
    "video": "McWXlfvmbwo",
-   "views": 27,
+   "views": 28,
    "estimatedMinutesWatched": 5,
    "averageViewDuration": 28,
    "averageViewPercentage": 15.93,
@@ -444,8 +522,21 @@
    "roteiro": "ep002-falsos-amigos"
   },
   {
+   "video": "nXP3BQhSBhA",
+   "views": 27,
+   "estimatedMinutesWatched": 1,
+   "averageViewDuration": 7,
+   "averageViewPercentage": 101.98,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "titulo": "O NOVO Milkshake do Bobs, e aí já Experimentou?",
+   "roteiro": ""
+  },
+  {
    "video": "p68u-1ZW0GU",
-   "views": 23,
+   "views": 24,
    "estimatedMinutesWatched": 3,
    "averageViewDuration": 26,
    "averageViewPercentage": 3.11,
@@ -457,37 +548,11 @@
    "roteiro": ""
   },
   {
-   "video": "uj7VAnCfO-w",
-   "views": 23,
-   "estimatedMinutesWatched": 7,
-   "averageViewDuration": 54,
-   "averageViewPercentage": 56.02,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Açaí congelado nunca mais! Venda com qualidade. #acaì #loja #trafego #cremoso",
-   "roteiro": ""
-  },
-  {
-   "video": "nXP3BQhSBhA",
-   "views": 22,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 7,
-   "averageViewPercentage": 101.75,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "O NOVO Milkshake do Bobs, e aí já Experimentou?",
-   "roteiro": ""
-  },
-  {
    "video": "sUjc3lMr8RI",
-   "views": 18,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 14,
-   "averageViewPercentage": 24.02,
+   "views": 22,
+   "estimatedMinutesWatched": 3,
+   "averageViewDuration": 19,
+   "averageViewPercentage": 31.81,
    "subscribersGained": 0,
    "likes": -1,
    "comments": 0,
@@ -497,7 +562,7 @@
   },
   {
    "video": "BZPNx3qC_mE",
-   "views": 15,
+   "views": 17,
    "estimatedMinutesWatched": 1,
    "averageViewDuration": 23,
    "averageViewPercentage": 166.45,
@@ -509,24 +574,24 @@
    "roteiro": ""
   },
   {
-   "video": "-OvNXJYXVGw",
-   "views": 11,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 20,
-   "averageViewPercentage": 38.87,
+   "video": "JHyp-6Kkyx0",
+   "views": 15,
+   "estimatedMinutesWatched": 32,
+   "averageViewDuration": 193,
+   "averageViewPercentage": 12.33,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
-   "shares": 0,
-   "titulo": "Receita Federal e agora ? Rifas! #rifa #sorteios #receitafederal",
+   "shares": 2,
+   "titulo": "20 Common English Mistakes (and How to Fix Them) | English Lesson A2-B1 | Ep. 2",
    "roteiro": ""
   },
   {
    "video": "AD7NFMhukC8",
-   "views": 9,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 9,
-   "averageViewPercentage": 15.57,
+   "views": 14,
+   "estimatedMinutesWatched": 2,
+   "averageViewDuration": 14,
+   "averageViewPercentage": 23.05,
    "subscribersGained": 0,
    "likes": 1,
    "comments": 0,
@@ -549,7 +614,7 @@
   },
   {
    "video": "n8Ym-pyiHvM",
-   "views": 5,
+   "views": 7,
    "estimatedMinutesWatched": 0,
    "averageViewDuration": 23,
    "averageViewPercentage": 17.56,
@@ -561,37 +626,11 @@
    "roteiro": ""
   },
   {
-   "video": "46UWcr_v1B0",
-   "views": 4,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 14,
-   "averageViewPercentage": 94.67,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "A sua casa ainda vem minha coroa, vou estourar ainda #mae #sonhos #metas #mindset",
-   "roteiro": ""
-  },
-  {
-   "video": "1GrwUUPjPeU",
-   "views": 4,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 0,
-   "averageViewPercentage": 0,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "😱 SUPORTE para usar na ACADEMIA🤯 #suporte #impressão3d #fusion360",
-   "roteiro": ""
-  },
-  {
    "video": "oD3r_0_EJ1E",
-   "views": 3,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 43,
-   "averageViewPercentage": 24.16,
+   "views": 5,
+   "estimatedMinutesWatched": 3,
+   "averageViewDuration": 55,
+   "averageViewPercentage": 30.740000000000002,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -600,64 +639,25 @@
    "roteiro": ""
   },
   {
-   "video": "mVTd38Re70s",
-   "views": 3,
-   "estimatedMinutesWatched": 1,
-   "averageViewDuration": 28,
-   "averageViewPercentage": 28.800000000000004,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Aprenda rápido - CLT em busca da Evolução     #netflix #ingles #listening #shadowing",
-   "roteiro": ""
-  },
-  {
-   "video": "luxZLToQ0Ss",
-   "views": 3,
+   "video": "0ZSJVIYLJ9g",
+   "views": 4,
    "estimatedMinutesWatched": 0,
-   "averageViewDuration": 0,
-   "averageViewPercentage": 0,
+   "averageViewDuration": 8,
+   "averageViewPercentage": 14.04,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
-   "titulo": "Um Apocalipse diferente de tudo que imaginamos!  #filmes #series #tv #online #gratis",
-   "roteiro": ""
-  },
-  {
-   "video": "haEpG_p0vpg",
-   "views": 2,
-   "estimatedMinutesWatched": 3,
-   "averageViewDuration": 92,
-   "averageViewPercentage": 52.18000000000001,
-   "subscribersGained": 0,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Estou sobrevivendo! Panela elétrica de arroz - morar sozinho - Onde tudo começa na nossa vida",
-   "roteiro": ""
-  },
-  {
-   "video": "e1c33YMGfkU",
-   "views": 2,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 26,
-   "averageViewPercentage": 97.04,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "titulo": "Bebida quente nunca mais",
+   "titulo": "Farmácia! Acertando estoque na prática 🫡",
    "roteiro": ""
   }
  ],
  "dias": [
   {
    "day": "2026-10-01",
-   "views": 298,
+   "views": 300,
    "subscribersGained": 0,
-   "estimatedMinutesWatched": 89
+   "estimatedMinutesWatched": 90
   },
   {
    "day": "2026-10-02",
@@ -705,7 +705,7 @@
    "day": "2026-10-09",
    "views": 286,
    "subscribersGained": 0,
-   "estimatedMinutesWatched": 87
+   "estimatedMinutesWatched": 88
   },
   {
    "day": "2026-10-10",
@@ -877,9 +877,111 @@
   },
   {
    "day": "2026-11-07",
-   "views": 1419,
+   "views": 1412,
    "subscribersGained": 1,
-   "estimatedMinutesWatched": 245
+   "estimatedMinutesWatched": 244
+  },
+  {
+   "day": "2026-11-08",
+   "views": 1790,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 278
+  },
+  {
+   "day": "2026-11-09",
+   "views": 601,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 142
+  },
+  {
+   "day": "2026-11-10",
+   "views": 623,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 235
+  },
+  {
+   "day": "2026-11-11",
+   "views": 382,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 87
+  },
+  {
+   "day": "2026-11-12",
+   "views": 292,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 80
+  },
+  {
+   "day": "2026-11-13",
+   "views": 314,
+   "subscribersGained": 1,
+   "estimatedMinutesWatched": 93
+  },
+  {
+   "day": "2026-11-14",
+   "views": 366,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 111
+  },
+  {
+   "day": "2026-11-15",
+   "views": 286,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 86
+  },
+  {
+   "day": "2026-11-16",
+   "views": 253,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 73
+  },
+  {
+   "day": "2026-11-17",
+   "views": 317,
+   "subscribersGained": 1,
+   "estimatedMinutesWatched": 99
+  },
+  {
+   "day": "2026-11-18",
+   "views": 306,
+   "subscribersGained": 1,
+   "estimatedMinutesWatched": 86
+  },
+  {
+   "day": "2026-11-19",
+   "views": 303,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 113
+  },
+  {
+   "day": "2026-11-20",
+   "views": 416,
+   "subscribersGained": 1,
+   "estimatedMinutesWatched": 147
+  },
+  {
+   "day": "2026-11-21",
+   "views": 322,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 90
+  },
+  {
+   "day": "2026-11-22",
+   "views": 310,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 88
+  },
+  {
+   "day": "2026-11-23",
+   "views": 240,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 99
+  },
+  {
+   "day": "2026-11-24",
+   "views": 311,
+   "subscribersGained": 0,
+   "estimatedMinutesWatched": 109
   }
  ]
 }
