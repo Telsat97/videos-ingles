@@ -9,13 +9,17 @@ import {momento, type Cena, type Episodio as Ep, type Fala} from './tipos';
 // diferente a cada tela (quebra de padrão a cada 2-3 s), zoom de impacto na entrada, legenda grande em
 // blocos de até 4 palavras e um quiz sem resposta no fim (puxa o replay). Ver serie-ingles/PLANO-DO-TIME.md.
 
+// Teste de capa quente (aprovado pelo dono em 10/nov/2026, avaliar no Raio-X depois de 1 semana): o YouTube escolhe
+// sozinho o quadro de capa dos Shorts, e os 5 com capa laranja ("Your turn!") tiveram 787-1.200 views contra mediana
+// ~200 dos de fundo escuro. Todas as telas ficam quentes e vivas, ainda com cor diferente a cada tela.
+// Paleta escura anterior: erro #2B0E14, certo #0E3B2A, regra #13224A, bonus #3B1F66, quiz #101826.
 const PALETA: Record<NonNullable<Cena['visual']>, {fundo: string; texto: string; destaque: string; selo: string}> = {
-  erro: {fundo: '#2B0E14', texto: '#FFFFFF', destaque: '#FF4D5E', selo: '❌'},
-  certo: {fundo: '#0E3B2A', texto: '#FFFFFF', destaque: '#38E39A', selo: '✅'},
-  regra: {fundo: '#13224A', texto: '#FFFFFF', destaque: COR.amarelo, selo: '💡'},
+  erro: {fundo: '#F59200', texto: '#FFFFFF', destaque: '#FFFFFF', selo: '❌'},
+  certo: {fundo: '#F07A1A', texto: '#FFFFFF', destaque: '#FFF3B0', selo: '✅'},
+  regra: {fundo: '#E8456B', texto: '#FFFFFF', destaque: COR.amarelo, selo: '💡'},
   vez: {fundo: COR.coral, texto: '#FFFFFF', destaque: COR.amarelo, selo: '🎤'},
-  bonus: {fundo: '#3B1F66', texto: '#FFFFFF', destaque: '#FFB4F0', selo: '🎁'},
-  quiz: {fundo: '#101826', texto: '#FFFFFF', destaque: COR.amarelo, selo: '🤔'},
+  bonus: {fundo: '#D9480F', texto: '#FFFFFF', destaque: '#FFE3F7', selo: '🎁'},
+  quiz: {fundo: '#B3245F', texto: '#FFFFFF', destaque: COR.amarelo, selo: '🤔'},
 };
 
 const SFX: Record<NonNullable<Cena['visual']>, string> = {erro: 'erro', certo: 'ding', regra: 'pop', vez: 'pop', bonus: 'whoosh', quiz: 'tick'};
